@@ -1,5 +1,5 @@
 html {
-    background-color: darkslategray;
+    background-color: rgb(186, 222, 231);
 }
 
 .page {
@@ -12,7 +12,7 @@ html {
   background-color: transparent;
   outline: none;
   border: none;
-  color: #00C9C9;
+  color: rgb(10, 51, 51);
   font-family: 'Lato', sans-serif;
   font-size: 35px;
   font-weight: bolder;
@@ -35,7 +35,7 @@ html {
 
 #menu-item a {
   text-decoration: none;
-  color: #00C9C9;
+  color: rgb(10, 51, 51);
 }
 
 .menu {
@@ -48,27 +48,28 @@ html {
   font-size: 20px;
 }
 
-.main-container {
-    flex-direction: column;
+.main-container{
+  margin-top: 30px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
-.title {
-    display: table;
-    margin: auto;
+.column{
+  float: left;
+  height: 300px; 
 }
 
-.buttons {
-    margin: 4% auto;
-    width: 100%;
-    display: inline-block;
-    flex-direction: row;
-    text-align: center;
+.left {
+  width: 30%;
 }
 
-#title {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    font-size: 70px;
-    color: #00C9C9;
-    text-align: center;
+.right {
+  width: 70%;
 }
+
+.main-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
