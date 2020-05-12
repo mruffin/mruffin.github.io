@@ -1,75 +1,75 @@
 html {
-    background-color: rgb(186, 222, 231);
+  background-color: rgb(186, 222, 231);
 }
 
 .page {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+display: flex;
+flex-direction: column;
+width: 100%;
 }
 
 .header {
-  background-color: transparent;
-  outline: none;
-  border: none;
-  color: rgb(10, 51, 51);
-  font-family: 'Lato', sans-serif;
-  font-size: 35px;
-  font-weight: bolder;
+background-color: transparent;
+outline: none;
+border: none;
+color: rgb(10, 51, 51);
+font-family: 'Lato', sans-serif;
+font-size: 35px;
+font-weight: bolder;
 }
 
 #header {
-  margin: auto;
+margin: auto;
 }
 
 #menu-item {
-  margin: auto;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 47px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+margin: auto;
+font-family: 'Lato', sans-serif;
+font-weight: bold;
+font-size: 20px;
+line-height: 47px;
+display: flex;
+align-items: center;
+text-align: center;
 }
 
 #menu-item a {
-  text-decoration: none;
-  color: rgb(10, 51, 51);
+text-decoration: none;
+color: rgb(10, 51, 51);
 }
 
 .menu {
-  width: 100%;
-  margin: 1% auto;
-  height: 70px;
-  display: flex;
-  flex-direction: row;
-  font-family: 'Playfair Display', serif;
-  font-size: 20px;
+width: 100%;
+margin: 1% auto;
+height: 70px;
+display: flex;
+flex-direction: row;
+font-family: 'Playfair Display', serif;
+font-size: 20px;
 }
 
 .main-container{
-  margin-top: 30px;
-  margin-left: 250px;
-  margin-right: 250px;
+margin-top: 30px;
+margin-left: 250px;
+margin-right: 250px;
 }
 
 .column{
-  float: left;
-  height: 300px; 
+float: left;
+height: 300px; 
 }
 
 .left {
-  width: 30%;
+width: 30%;
 }
 
 .right {
-  width: 70%;
+width: 70%;
 }
 
 .main-container:after {
-  content: "";
-  display: table;
-  clear: both;
+content: "";
+display: table;
+clear: both;
 }
 
