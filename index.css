@@ -1,11 +1,39 @@
 html {
-  background-color: rgb(186, 222, 231);
+  background-color: rgb(173, 227, 233);
 }
 
 .page {
 display: flex;
 flex-direction: column;
 width: 100%;
+}
+
+.dropshadowimg { 
+  width:200px;
+  box-shadow: 5px 5px 5px #999; 
+}
+
+.info {
+  font-family: 'Palatino', 'URW'; 
+  font-weight: 100;
+}
+
+.bio {
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 100;
+}
+
+#quote {
+  margin-top: 20px;
+  font-family: Apple Chancery, cursive;
+  text-align: center;
+}
+
+.contact-info {
+  margin-top: 20px;
+  font-family: 'Palatino', 'URW'; 
+
 }
 
 ul {
@@ -20,7 +48,6 @@ ul {
   height: 50px;
 }
 
-
 li {
   float: right;
 }
@@ -31,7 +58,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Palatino', 'URW'; 
   font-size: 17px;
   font-weight: bolder;  
 }
@@ -43,7 +70,7 @@ li b {
   padding-top: 10px;
   margin-left: 150px;
   text-decoration: none;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Palatino', 'URW'; 
   font-size: 30px;
   font-weight: bolder;  
 }
@@ -64,6 +91,13 @@ margin-left: 250px;
 margin-right: 250px;
 }
 
+.sections-container{
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
 .column{
 float: left;
 height: 300px; 
@@ -83,3 +117,26 @@ display: table;
 clear: both;
 }
 
+#about-me {
+  font-family: 'Palatino', 'URW';
+  font-weight: 100;
+
+}
+
+#education {
+  font-family: 'Palatino', 'URW';
+  font-weight: 100;
+
+}
+
+#publications {
+  font-family: 'Palatino', 'URW';
+  font-weight: 100;
+
+}
+
+#research {
+  font-family: 'Palatino', 'URW';
+  font-weight: 100;
+
+}
