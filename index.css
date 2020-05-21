@@ -1,5 +1,17 @@
 html {
+  background-color: rgba(255, 253, 253, 0.966);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   background-color: rgb(173, 227, 233);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 50px;
 }
 
 .page {
@@ -16,6 +28,8 @@ width: 100%;
 .info {
   font-family: 'Palatino', 'URW'; 
   font-weight: 100;
+  line-height: 18px;
+
 }
 
 .bio {
@@ -34,18 +48,6 @@ width: 100%;
   margin-top: 20px;
   font-family: 'Palatino', 'URW'; 
 
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(253, 253, 253);
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  height: 50px;
 }
 
 li {
@@ -76,12 +78,12 @@ li b {
 }
 
 li a:hover {
-  background-color:   rgb(253, 253, 253);
+  background-color:   rgb(173, 227, 233);
   color: rgb(82, 118, 143);
 }
 
 li b:hover {
-  background-color:   rgb(253, 253, 253);
+  background-color:   rgb(173, 227, 233);
   color: rgb(82, 118, 143);
 }
 
@@ -92,7 +94,7 @@ margin-right: 250px;
 }
 
 .sections-container{
-  margin-top: 300px;
+  margin-top: 200px;
   margin-left: 200px;
   margin-right: 200px;
 }
@@ -138,5 +140,6 @@ clear: both;
 #research {
   font-family: 'Palatino', 'URW';
   font-weight: 100;
+  line-height: 20px;
 
 }
