@@ -10,7 +10,7 @@ html {
 
 }
 
-ul {
+ul.menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -50,6 +50,16 @@ li a:hover {
   color: rgb(82, 118, 143);
 }
 
+
+ul.research-list {
+  list-style-type: square;
+  text-align: left;
+}
+
+li.research-list {
+  text-align: left;
+
+}
 
 .page {
 display: flex;
@@ -141,6 +151,14 @@ clear: both;
 #research {
   font-family: 'Palatino', 'URW';
   font-weight: 100;
-  line-height: 20px;
+  text-align: justify;
+  
+
+}
+
+#honors {
+  font-family: 'Palatino', 'URW';
+  font-weight: 100;
+  text-align: left;
 
 }
