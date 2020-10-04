@@ -92,6 +92,10 @@ width: 100%;
   opacity: .75;
 }
 
+#photos {
+  text-align: center;
+}
+
 .contact-info {
   margin-top: 20px;
   font-family: 'Palatino', 'URW'; 
