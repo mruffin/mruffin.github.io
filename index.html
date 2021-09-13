@@ -1,143 +1,166 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
   <title>Margie Ruffin</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.5.2/flatly/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#303d4e;
+      border-color: #303d4e;
+    }
+    #myNavbar{
+      float:right;
+    }
+    h3{
+      color:#4d9586;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      /*height: 450px;*/
+      height:100%;
+
+      padding-top:50px;
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    #socialMedia {
+      padding-top: 10px;
+    }
+    .info{
+      margin: 10px 0px  10px;
+      display:block;
+    }
+    .contact_info{
+      padding-top:10px;
+    }
+    .contact_info_header{
+      font-family:Helvetica Neue;
+      font-weight:bold;
+    }
+
+    .artifact{
+      color:green;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: transparent;
+      color: black;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    /*@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }*/
+
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    }
+
+    @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1140px;
+    }
+    }
+
+    .active, .nav-btn:hover {
+      background-color:#4d9586;
+      color:#4d9586;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+    }
+
+  </style>
+  
 </head>
 <body>
 
- <!-- Responsive navbar -->
- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#home">Margie Ruffin</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarColor01">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about-me">About Me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#education">Education</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#publications">Publications</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#honors">Honors and Awards</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#research">Research Experience</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Ruffin CV-Grad.pdf" name="CV" target="_blank">CV</a>
-      </li>
-      <!--<li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Separated link</a>
-        </div>
-      </li> -->
-    </ul>
-    <!--<form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>-->
-  </div>
-</nav>
- 
-  
-<div class="container" style="margin-top: 20px; margin-bottom: 50px;" >
-  <div id="home">
-    <div class="row">
-      <div class="col-sm-3">
-        <div class="dropshadowimg">
-          <img src="2WEL19-116.jpg" alt="Headshot of Margie Ruffin"  title="Headshot of Margie Ruffin" width="210" height="267" style="box-shadow: 5px 5px 5px #999;" >
-        </div>
-
-        <div class="info">
-            <p><strong>Margie Ruffin</strong>
-                <br>Ph.D. Student
-                <br>Computer Science
-                <br>UIUC</p>
-        </div>
-      
-        <div class="contact-info">
-            <div class="contact_info_header">CONTACT INFO</div>
-            <div style="border:1px solid #e3e3e3;"></div>
-
-            <div class="contact_info_item">
-                <p style="font-family: 'Palatino', 'URW'">Email: mruffin2@illinios.edu</p>
-            </div>
-        </div>
-
-        <div class="social-media">
-            <a href="https://github.com/mruffin" target="_blank"> <img src="github-icon.png" alt="github logo" width="25" height="25" ></a>
-            <a href="https://www.linkedin.com/in/margie-ruffin-sc2020/" target="_blank"> <img src="linkedin-icon.png" alt="linkedin logo" width="25" height="25"></a>
-            <a href="mailto: mruffin2@illinois.edu" target="_blank"> <img src="email-icon.png" alt="email logo" width="25" height="25" ></a>
-
-        </div>
-    </div>
-
-
-      <div class="col-sm-9">
-        <div class="bio">
-          <p style="text-align: center;">Margie Ruffin is an alumna of Spelman College in Atlanta, GA, 
-              where she earned her Bachelor of Science in Computer Science. She was born and raised in Fort Worth, 
-              Texas by a loving family. Over the course of her four years at Spelman she developed a passion for educational
-              technology and seeing others around her protected and succeeding. That is why following her time at Spelman, she 
-              will be transitioning into a full time Ph.D. program in Computer Science at the University of Illinois at Urbana-Champaign, 
-              where her focus will be Security and Privacy.
-          </p>
-        </div>
-
-        <div id="quote"> 
-          <blockquote class="blockquote text-center">
-            <p class="mb-0" style="font-family: Apple Chancery, cursive;">Success is never owned; it is only rented – and the rent is due every day.</p>
-            <footer class="blockquote-footer">Rory Vaden <cite title="Source Title"></cite></footer>
-          </blockquote>
-        </div>
-
-        <div id="photos" style="text-align: center;" >
-          <!-- <img src="presentation2.png" alt="Margie Ruffin" width="210" height="267" title="Margie presenting at conference"> -->
-            <img src="presentation4.jpeg" alt="Margie Ruffin" width="270" height="267" title="Margie presenting at conference">
-            <img src="presentation5.jpeg" alt="Margie Ruffin" width="210" height="267" title="Margie presenting at conference">
-        </div>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <h3 style="color: #fff;">Margie Ruffin</h3>
       </div>
-
-      <!--<div class="col-sm-4">
-        <h3>Column 3</h3>        
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-      </div>-->
-
+  
+  
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <!-- <li><a href="#about-me">About Me</a></li> -->
+         
+          <li><a href="#education">Education</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#experience">Research Experience</a></li>
+          <li><a href="#honors">Honors and Awards</a></li>
+          <li><a href="Ruffin CV-Grad.pdf" name="CV" target="_blank">CV</a></li>
+          <!-- <li><a href="demo.html">Demo</a></li> -->
+        </ul>
+  
+      </div>
     </div>
-  </div>
-</div>
+  </nav>
 
-<!--<div class="jumbotron text-center">
-
-</div>-->
-<div class="container">
-  <div class="col-sm-12">
-
-    <hr>
-    <section id="about-me">
-      <h3> About Me</h3>
-
+<<<<<<< HEAD
       <p>I am a first-year Ph.D. student in the <a href="https://cs.illinois.edu/" target="_blank">Department of Computer Science</a> 
           at <a href="https://illinois.edu/" target="_blank"> University of Illinois at Urbana-Champaign (UIUC) </a>. I am co-advised by Professors
           Gang Wang & Kirill Levchenko.
@@ -178,15 +201,23 @@
     
     <section id ="honors">
       <h3>Honors and Awards</h3>
+=======
+  <div class="container" style="margin-top: 20px; margin-bottom: 50px;" >
+    <div class="container-fluid text-center">    
+        <div class="row content text-left">
+>>>>>>> 6091204ff803392bcb92ce4453fda44f38d177e8
 
-      <ul>
-        <li>Alfred P. Sloan Scholar |  <i>2020 – 2025</i>  </li>
-        <li>Grainger College of Engineering SURGE Fellowship | <i>2020 – 2025</i></li>
-        <li>UIUC Graduate College Fellowship | <i>2020 – 2025</i></li>
-        <li>College Dean’s List |<i>2017 – 2020</i></li>
-        <li>Spelman College Research Day, 1st place |<i>2019</i> </li>
-        <li>Upsilon Pi Epsilon Honor Society Inductee | <i>2019</i></li>
+            <div class="col-sm-3 sidenav">
+                <img src="2WEL19-116.jpg" alt="Headshot of Margie Ruffin"  title="Headshot of Margie Ruffin" width="210" height="267" style="box-shadow: 5px 5px 5px #999;">
+                
+                <div class="info">
+                <strong>Margie Ruffin</strong>
+                <br>Ph.D. Student
+                <br>Computer Science
+                <br>UIUC
+                </div>
         
+<<<<<<< HEAD
       </ul>
     </section>
     <hr>
@@ -241,32 +272,127 @@
                 <li class ="research-list" style="float: left; margin-bottom: 19px;"> Created five different conversation paths that related anywhere from the topic of computer science to life at Spelman College as a student.</li>
             </ul>
         </p>
+=======
+>>>>>>> 6091204ff803392bcb92ce4453fda44f38d177e8
         
-    </section>
-  
+                <div class="contact_info">
+                    <div class="contact_info_header">CONTACT INFO</div>
+                        <div style="border:1px solid #e3e3e3;"></div>
+        
+                            <div class="contact_info_item">
+                                <p style="font-family: 'Palatino', 'URW'">Email: mruffin2@illinios.edu</p>
+            
+                                <div class="social-media">
+                                    <a href="https://github.com/mruffin" target="_blank"> <img src="github-icon.png" alt="github logo" width="25" height="25" ></a>
+                                    <a href="https://www.linkedin.com/in/margie-ruffin-sc2020/" target="_blank"> <img src="linkedin-icon.png" alt="linkedin logo" width="25" height="25"></a>
+                                    <a href="mailto: mruffin2@illinois.edu" target="_blank"> <img src="email-icon.png" alt="email logo" width="25" height="25" ></a>
+                        
+                                </div>
+                        
+                            </div>
+        
+                        </div>
+            </div>
+        
+            <div class="col-sm-9 text-left"> 
+                <!-- <section id="about-me"> -->
+                <section>
+                <h3>About Me</h3>
+        
+                <p>I am a second-year Ph.D. student in the <a href="https://cs.illinois.edu/" target="_blank">Department of Computer Science</a> 
+                    at <a href="https://illinois.edu/" target="_blank"> University of Illinois at Urbana-Champaign (UIUC) </a>. I am co-advised by Professors
+                    Gang Wang & Kirill Levchenko.</p>
+            
+                    <p>My primary research interests are Network Security and Data Privacy, and its intersection areas with Human Computer Interaction.</p>
+                </section>
+                <hr>
 
-    <!--<section id="honors" style="float: left;" >
+                <section id="education">
+                    <h3>Education</h3>
+            
+                    <p><b>University of Illinois at Urbana-Champaign</b>, 06/2020 - Present
+                    <br>Ph.D. in Computer Science</p>
+            
+                    <p><b>Spelman College</b>, 08/2016 - 05/2020
+                    <br>B.S. Computer Science</p>
+                </section>
+                <hr>
+        
+                <section id="publications">
+                <h3>Publications</h3>
 
-      <h3>Honors and Awards</h3>
-      <p>
-          <pre style="font-family: 'Palatino', 'URW'">Alfred P. Sloan Scholar                                                                         <em>2020 – 2025</em></pre>
-          <pre style="font-family: 'Palatino', 'URW'">Grainger College of Engineering SURGE Fellow                            <em>2020 – 2025</em></pre>						    
-          <pre style="font-family: 'Palatino', 'URW'">UIUC Graduate College Fellowship                                                  <em>2020 – 2025</em></pre>				    
-          <pre style="font-family: 'Palatino', 'URW'">Spelman College Dean’s List                                                               <em>2017 – 2020</em></pre>				    
-          <pre style="font-family: 'Palatino', 'URW'">Spelman College Research Day, 1st place                                                     <em>2019</em></pre>							    
-          <pre style="font-family: 'Palatino', 'URW'">Upsilon Pi Epsilon Honor Society Inductee                                                 <em>2019</em></pre>							  
-  
-      </p>
-    </section>
-    <hr>-->
+                    <p>Nias, J., Hampton, L., Sampson,P. and <strong>Ruffin, M.</strong> 2020. To Appear. <strong>Decolonizing Technologies for Preserving Cultural and Societal Diversity.</strong>
+                    CHI 2020 Extended Abstracts, April 25 - 30, 2020, Honolulu, HI, USA.
+                    <br><a href="#" target="_blank">PDF</a>
+                    </p>
 
+                    <p> <strong>Margie Ruﬃn</strong>, Jaye Nias, Kayla Taylor, Gabrielle Singleton, and Amber Sylvain. 2020. <strong>Character Development 
+                    to Facilitate Retention in a Storytelling Robot.</strong> In 2020 ACM Southeast Conference (ACMSE 2020), April 2–4, 
+                    2020, Tampa, FL, USA. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/3374135.3385315 
+                    <br> <a href="Character Development to Facilitate Retention in a Storytelling Robot.pdf" target="_blank">PDF</a>
+                    </p>
 
+                    <p> Jaye Nias and <strong>Margie Ruffin</strong>. 2020. <strong>CultureBot: A Culturally Relevant Humanoid Robotic Dialogue Agent</strong>. In 2020 ACM 
+                    Southeast Conference (ACMSE 2020), April 2–4, 2020, Tampa, FL, USA. ACM, New York, NY, USA, 4 pages. 
+                    https://doi.org/10.1145/3374135.3385306 
+                    <br> <a href="CultureBot- A Culturally Relevant Humanoid Robotic Dialouge Agent.pdf" target="_blank">PDF</a>
+                    </p>
+        
+                </section>
+                <hr>
+        
+                <section id="experience">
+                <h3>Research Experience</h3>
+        
+                <p>
+                    <strong> University of Illinois at Urbana-Champaign </strong> | <em>Advisors Gang Wang & Kirill Levchenko --  Champaign, IL – Research Assistant </em> | June 2020 – Present
+                </p>   
+    
+                <p> 
+                  <strong> Lawrence Livermore National Lab </strong> | <em>Advisor Brian Kelley --  Livermore, CA – Graduate Researcher </em> | June 2020 – August 2021
+                </p>
+    
+                <p> 
+                    <strong> Georgia Tech Research Institute </strong> | <em>Advisors Michael Brown and Brian Schultz --  Atlanta, GA – Student Researcher </em> | October 2019 – May 2020
+                </p>
+    
+                <p> 
+                    <strong>Spelman College</strong> | <em>Advisor Dr. Raquel Hill -- Atlanta, GA - Student Researcher</em> | September 2019 – May 2020
+                </p>
+    
+                <p>
+                    <strong>Spelman College</strong> | <em>Advisor Dr. Jaye Nias -- Atlanta, GA - SpelBots Team Research Leader</em> | January 2019 – May 2020
+                </p>
+    
+                <p>  
+                    <strong>Spelman College</strong> | <em>Advisor Dr. Jaye Nias -- Atlanta, GA - Clair Booth Luce Research Fellow</em> | September 2018 – May 2020
+                </p>
+                </section>
+                <hr>
+        
+                <section id="honors">
+                <h3>Honors and Awards</h3>
+                <ul>
+                    <li>Alfred P. Sloan Scholar |  <i>2020 – 2025</i>  </li>
+                    <li>Grainger College of Engineering SURGE Fellowship | <i>2020 – 2025</i></li>
+                    <li>UIUC Graduate College Fellowship | <i>2020 – 2025</i></li>
+                    <li>Magna Cum Laude, Spelman College | <i>2020</i></li>
+                    <li>Phi Beta Kappa, Spelman College  |<i>2017 – 2020</i></li>
+                    <li>Dean’s List, Spelman College |<i>2017 – 2020</i></li>
+                    <li>Spelman College Research Day, 1st place |<i>2019</i> </li>
+                    <li>Upsilon Pi Epsilon Honor Society Inductee | <i>2019</i></li>
+                    
+                </ul>
+                </section>
+            </div>
+    
+        </div>
+        <hr>
+        <footer class="container-fluid text-center">
+        <p>Last Update: 09/13/2021</p>
+        </footer>
+    </div>
   </div>
-
-
-</div>
-
-
 
 </body>
 </html>
