@@ -1,0 +1,163 @@
+                <table id="data" style="width:70%; margin-bottom: 45px;">
+                  <col width="50">
+                  <col width="50">
+                  <tr>
+                    <th>Category</th>
+                    <th>Link to Document</th>
+                  </tr>
+
+                  <tr>
+                    <td>Homework Help</td>
+                    <td><a href="https://www.coursehero.com/file/26547749/Document1pdf/" target="_blank">Document1.pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Homework Help</td>
+                    <td><a href="https://www.coursehero.com/file/13395213/Visualization-Rhetoric/" target="_blank">Visualization Rhetoric</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Homework Help</td>
+                    <td><a href="https://www.coursehero.com/file/13395212/MUSE/" target="_blank">MUSE</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Homework Help</td>
+                    <td><a href="https://www.coursehero.com/file/13395210/The-Eyes-Have-It/" target="_blank">The_Eyes_Have_It</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Homework Help</td>
+                    <td><a href="https://www.coursehero.com/file/19982433/CS361-hw3/" target="_blank">CS361_hw3</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Homework Help</td>
+                    <td><a href="https://www.coursehero.com/file/53545667/HW9pdf/" target="_blank">HW9.pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Homework Help</td>
+                    <td><a href="https://www.coursehero.com/collection/53545626/HW8-1pdf/" target="_blank">HW8 (1).pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Homework Help</td>
+                    <td><a href="https://www.coursehero.com/file/53545620/HW6pdf/" target="_blank">HW6.pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Homework Help</td>
+                    <td><a href="https://www.coursehero.com/file/53545618/CS361-HW1pdf/" target="_blank">CS361 HW1.pdf</a></td>
+                  </tr>
+
+                  <!-- Notes Section-->
+
+                  <tr>
+                    <td>Notes</td>
+                    <td><a href="https://www.coursehero.com/file/13395206/Textbook/" target="_blank">Textbook</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Notes</td>
+                    <td><a href="https://www.coursehero.com/file/19982453/Lecture1/" target="_blank">Lecture1</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Notes</td>
+                    <td><a href="https://www.coursehero.com/file/51651662/combinepdfpdf/" target="_blank">combinepdf.pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Notes</td>
+                    <td><a href="https://www.coursehero.com/file/92249771/Formula-Notespdf/" target="_blank">Formula Notes.pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Notes</td>
+                    <td><a href="https://www.coursehero.com/file/87510016/12AP-Literary-Terms-Review-2020docx/" target="_blank">12AP Literary Terms Review 2020.docx</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Notes</td>
+                    <td><a href="https://www.coursehero.com/file/22561457/hw1/" target="_blank">hw1</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Notes</td>
+                    <td><a href="https://www.coursehero.com/file/37987464/L02pdf/" target="_blank">L02.pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Notes</td>
+                    <td><a href="https://www.coursehero.com/file/37932758/L04pdf/" target="_blank">L04.pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Notes</td>
+                    <td><a href="https://www.coursehero.com/file/37987477/L03pdf/" target="_blank">L03.pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Notes</td>
+                    <td><a href="https://www.coursehero.com/file/37987474/L05pdf/" target="_blank">L05.pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Notes</td>
+                    <td><a href="https://www.coursehero.com/file/37987467/L01pdf/" target="_blank">L01.pdf</a></td>
+                  </tr>
+
+                  <!-- Test Prep-->
+
+                  <tr>
+                    <td>Test Prep</td>
+                    <td><a href="https://www.coursehero.com/file/37987554/CS-361-Sample-MT2-Solutionspdf/" target="_blank">CS_361_Sample_MT2_Solutions.pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Test Prep</td>
+                    <td><a href="https://www.coursehero.com/file/37987529/CS-361-Sample-MT1-Solutionspdf/" target="_blank">CS_361_Sample_MT1_Solutions.pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Test Prep</td>
+                    <td><a href="https://www.coursehero.com/file/37987462/CS-361-Sample-Final-Solutionspdf/" target="_blank">CS_361_Sample_Final_Solutions.pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Test Prep</td>
+                    <td><a href="https://www.coursehero.com/file/37932809/CS-361-Sample-MT1pdf/" target="_blank">CS_361_Sample_MT1.pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Test Prep</td>
+                    <td><a href="https://www.coursehero.com/file/37932699/CS-361-Sample-MT2pdf/" target="_blank">CS_361_Sample_MT2.pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Test Prep</td>
+                    <td><a href="https://www.coursehero.com/file/37932486/CS-361-Sample-Finalpdf/" target="_blank">CS_361_Sample_Final.pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Test Prep</td>
+                    <td><a href="https://www.coursehero.com/file/87510788/CS361-Midterm1-Sp21-Coverpdf/" target="_blank">CS361_Midterm1_Sp21_Cover.pdf</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Test Prep</td>
+                    <td><a href="https://www.coursehero.com/file/13395207/burke-chi2014-relationships-final-mb/" target="_blank">burke_chi2014_relationships-final-mb</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Test Prep</td>
+                    <td><a href="https://www.coursehero.com/file/19982429/hw2-final/" target="_blank">hw2-final</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Test Prep</td>
+                    <td><a href="https://www.coursehero.com/file/24795444/Textbookpdf/" target="_blank">Textbook.pdf</a></td>
+                  </tr>
+
+                </table>
