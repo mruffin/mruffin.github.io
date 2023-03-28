@@ -316,6 +316,39 @@
     </div>
   </div>
   
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-analytics.js";
+    import { getDatabase } from "firebase/database";
+    import { getStorgae, ref } from "firebase/storage";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDDdwbVRr6Ol_N8bACevEpyBnKOavQaCO4",
+      authDomain: "gradwebsite-11c91.firebaseapp.com",
+      projectId: "gradwebsite-11c91",
+      storageBucket: "gradwebsite-11c91.appspot.com",
+      messagingSenderId: "191826243810",
+      appId: "1:191826243810:web:aa07ee059caf3c9517eebb",
+      measurementId: "G-N87KXKZ0EB",
+      databaseURL: "https://gradwebsite-11c91-default-rtdb.firebaseio.com/"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    // Get a reference to the storage service, which is used to create references in your storage bucket
+    const storage = getStorage();
+
+    // Create a storage reference from our storage service
+    const storageRef = ref(storage);
+
+
+  </script>
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('#data').after('<div id="nav"></div>');
-    var rowsShown = 20;
+    var rowsShown = 10;
     var rowsTotal = $('#data tbody tr').length;
     var numPages = rowsTotal/rowsShown;
     for(i = 0;i < numPages;i++) {

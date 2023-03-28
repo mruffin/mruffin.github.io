@@ -77,6 +77,10 @@
       color: black;
       padding: 15px;
     }
+
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:99; }
+    .hover_img a:hover span { display:block; }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
     /*@media screen and (max-width: 767px) {
@@ -144,17 +148,16 @@
 <body>
 
     <table id="data" style="width: 100%; margin-bottom: 45px;">
-        <col width="33">
-        <col width="33">
-        <col width="33">
+
         <!--<tr>
         <th>Category</th>
         <th>Link to Document</th>
         </tr>-->
 
         <tr>
-        <td>
-            <!--Image-->
+        <td> <!--https://firebasestorage.googleapis.com/v0/b/{gs://gradwebsite-11c91.appspot.com}/o/images%2{UofI/Computer Science/Assessment/CS125-Section12-SP14-SOLUTION.png}-->
+            <img src="https://firebasestorage.googleapis.com/v0/b/gradwebsite-11c91.appspot.com/o/UofI%2FComputer%20Science%2FAssessment%2FCS125-Section12-SP14-SOLUTION.png?alt=media&token=99b15282-6111-4ffd-9e7d-e6b1753517f8" alt=""  title="" width="360" height="162" style="align-items: center;">
+            <br>
             <a href="https://www.coursehero.com/file/26547749/Document1pdf/" target="_blank">Document1.pdf</a>
             <br>
             Homework Help
@@ -162,7 +165,9 @@
         </td>
 
         <td>
-            <!--Image-->
+            <div class="hover_img">
+                <a href="#">CH Preview<span><img src="https://firebasestorage.googleapis.com/v0/b/gradwebsite-11c91.appspot.com/o/UofI%2FComputer%20Science%2FAssessment%2FCS125-Section12-SP14-SOLUTION.png?alt=media&token=99b15282-6111-4ffd-9e7d-e6b1753517f8" alt="image" width="720" height="324" /></span></a>
+           </div>
             <a href="https://www.coursehero.com/file/13395213/Visualization-Rhetoric/" target="_blank">Visualization Rhetoric</a>
             <br>
             Homework Help
@@ -700,7 +705,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/collection/168343770/1CS361-HW3pdf/" target="_blank">1.CS361 - HW3.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -709,7 +714,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/collection/168343769/1CS361-HW2pdf/" target="_blank">1.CS361 - HW2.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -717,14 +722,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/168343734/1CS361-HW1pdf/" target="_blank">1.CS361 - HW1.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/169548279/CS361-FA22-Lec12-prepdf/" target="_blank">CS361_FA22_Lec12_pre.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -733,7 +738,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/171686091/24pdf/" target="_blank">24.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -741,14 +746,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/171686090/1pdf/" target="_blank">1.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/171685712/25pdf/" target="_blank">25.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -757,7 +762,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/171685709/21pdf/" target="_blank">21.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -765,14 +770,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/171685707/15pdf/" target="_blank">15.pdf/a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/171685515/28pdf/" target="_blank">28.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -781,7 +786,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/171684882/19pdf/" target="_blank">19.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -789,14 +794,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/171684842/22pdf/" target="_blank">22.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/171684768/20pdf/" target="_blank">20.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -805,7 +810,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/171684746/26pdf/" target="_blank">26.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -813,14 +818,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/171684692/16pdf/" target="_blank">16.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/171684637/14pdf/" target="_blank">14.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -829,7 +834,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/171684636/23pdf/" target="_blank">23.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -837,14 +842,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/171684585/18pdf/" target="_blank">18.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/171684571/17pdf/" target="_blank">17.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -853,7 +858,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/133410580/very-coolpdf/" target="_blank">very cool.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -861,14 +866,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/133409783/test-tomorrow-2pdf/" target=_blank>test tomorrow_2.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/133409566/test-tomorrowpdf/" target="_blank">test tomorrow.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -877,7 +882,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/133408355/test-tomorrowpdf/" target="_blank">test_tomorrow.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -885,14 +890,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/133404198/teacherupload6pdf/" target="_blank">teacherupload6.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/133403365/teacherupload9pdf/" target="_blank">teacherupload9.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -901,7 +906,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/133401975/teacherupload5pdf/" target="_blank">teacherupload5.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -909,14 +914,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/133401750/teacherupload7pdf/" target="_blank">teacherupload7.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/133399723/teacherupload2pdf/" target="_blank">teacherupload2.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -925,7 +930,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/141052480/CS361-Midterm1-practice3pdf/" target="_blank">CS361_Midterm1_practice3.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -933,14 +938,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/133399473/teacherupload1pdf/" target="_blank">teacherupload1.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/134986592/cs361-hw3pdf/" target="_blank">cs361_hw3.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -949,7 +954,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/134986466/cs361-hw1-7pdf/" target="_blank">cs361_hw1 (7).pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -957,14 +962,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/134986159/cs361-hw4pdf/" target="_blank">cs361_hw4.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/134985961/cs361-hw5-1pdf/" target="_blank">cs361_hw5 (1).pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -973,7 +978,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/134770408/CS361-HW7docx/" target="_blank">CS361_HW7.docx</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -981,14 +986,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/134770323/CS361-HW9docx/" target="_blank">CS361_HW9.docx</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/134770183/CS361-HW7pdf/" target="_blank">CS361_HW7.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -997,7 +1002,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/134770039/CS361-HW9pdf/" target="_blank">CS361_HW9.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1005,14 +1010,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/142323096/cs361-hw8pdf/" target="_blank">cs361_hw8.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/142323026/cs361-h27pdf/" target="_blank">cs361_h27.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1021,7 +1026,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/140503391/Exam-Wrapper-for-Exam-1-Spring-2022docx/" target="_blank">Exam Wrapper for Exam 1 Spring 2022.docx</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1029,14 +1034,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/142322772/cs361-hw9pdf/" target="_blank">cs361_hw9.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/140498048/Grading-Assignment-4-Rubricpdf/" target="_blank">Grading Assignment 4 Rubric.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1045,7 +1050,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/140497909/Team-Assignment-3-Rubricpdf/" target="_blank">Team_Assignment_3_Rubric.pdf/a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1053,14 +1058,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/137546333/CS361-Midterm1-Sp22-general-sol-correctedpdf/" target="_blank">CS361_Midterm1_Sp22_general_sol_corrected.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/139445458/HW8pdf/" target="_blank">HW8.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1070,7 +1075,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/139444929/hw5pdf/" target="_blank">hw5.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1078,14 +1083,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/139444928/HW7pdf/" target="_blank">HW7.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/139444498/HW6pdf/" target="_blank">HW6.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1095,7 +1100,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172660295/CS361-FA22-Lec5-prepdf/" target="_blank">CS361_FA22_Lec5_pre.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1103,14 +1108,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172660195/l4pdf/" target="_blank">l4.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172660048/l2pdf/" target="_blank">l2.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1120,7 +1125,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172659969/L1pdf/" target="_blank">L1.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1128,14 +1133,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172659911/0022242920971195pdf/" target="_blank">0022242920971195.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172659743/CS361-FA22-Lec11-prepdf/" target="_blank">CS361_FA22_Lec11_pre.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1145,7 +1150,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172659340/Copy-of-HW4-indexing-Apdf/" target="_blank">Copy of HW4 indexing A.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1153,14 +1158,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172341129/CS361-sp22-Lec17-postpdf/" target="_blank">CS361_sp22_Lec17_post.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172339483/CS361-sp22-Lec25-postpdf/" target="_blank">CS361_sp22_Lec25_post.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1170,7 +1175,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172338213/CS361-sp22-Lec18-postpdf/" target="_blank">CS361_sp22_Lec18_post.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1178,14 +1183,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172337962/CS361-sp22-Lec19-postpdf/" target="_blank">CS361_sp22_Lec19_post.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172337766/CS361-sp22-Lec22-postpdf/" target="_blank">CS361_sp22_Lec22_post.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1195,7 +1200,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172337518/CS361-sp22-Lec23-postpdf/" target="_blank">CS361_sp22_Lec23_post.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1203,14 +1208,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172337340/CS361-sp22-Lec26-post-1pdf/" target="_blank">CS361_sp22_Lec26_post (1).pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172337282/CS361-sp22-Lec27-postpdf/" target="_blank">CS361_sp22_Lec27_post.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1220,7 +1225,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172336192/CS361-sp22-Lec21-postpdf/" target="_blank">CS361_sp22_Lec21_post.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1228,14 +1233,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/139444305/HW3pdf/" target="_blank">HW3.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/139444090/HW4pdf/" target="_blank">HW4.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1245,7 +1250,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/139443335/HW2pdf/" target="_blank">HW2.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1253,14 +1258,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/139359196/hw1pdf/" target="_blank">hw1.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/173393339/CS361-fa21-Lec8-postpdf/" target="_blank">CS361_fa21_Lec8_post.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1270,7 +1275,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/126462283/CS361-Hw5pdf/" target="_blank">CS361_Hw5.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1278,14 +1283,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/153828804/5-CONDITIONALpdf/" target="_blank">5 CONDITIONAL.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/153828803/13-NORMAL-DISTRIBUTIONpdf/" target="_blank">13 NORMAL DISTRIBUTION.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1295,7 +1300,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/153828802/11-DENSITY-FCNpdf/" target="_blank">11 DENSITY FCN.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1303,14 +1308,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/153828801/6-PARTITION-INDEPENDENCEpdf/" target="_blank">6 PARTITION INDEPENDENCE.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/153828800/8-RANDOM-VARIABLEpdf/" target="_blank">8 RANDOM VARIABLE.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1320,7 +1325,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/153828799/4-PROBABILITYpdf/" target="_blank">4 PROBABILITY.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1328,14 +1333,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/153828798/1-DATA-TYPESpdf/" target="_blank">1 DATA TYPES.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/153826066/2-MEAN-STDpdf/" target="_blank">2 MEAN STD.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1345,7 +1350,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/153826032/3-CORRELATIONpdf/" target="_blank">3 CORRELATION.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1353,14 +1358,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/153826026/9-EX-AND-VARXpdf/" target="_blank">9 E[X] AND VAR[X].pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/153825972/14-SAMPLE-POPULATIONpdf/" target="_blank">14 SAMPLE _ POPULATION.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1370,7 +1375,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/153825870/10-PROPERTIES-OF-EXpdf/" target="_blank">10 PROPERTIES OF E[X].pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1378,14 +1383,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/143558955/CS361HW9pdf/" target="_blank">CS361HW9.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/143558927/CS361HW10pdf/" target="_blank">CS361HW10.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1395,7 +1400,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/143557871/Suyash-HW-8pdf/" target="_blank">Suyash HW 8.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1403,14 +1408,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/143557360/Suyash-HW-5pdf/" target="_blank">Suyash HW 5.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/143538096/Suyash-HW-4pdf/" target="_blank">Suyash HW 4.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1420,7 +1425,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/143537645/Suyash-HW-3pdf/" target="_blank">Suyash HW 3.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1428,14 +1433,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/143537095/Suyash-HW-2pdf/" target="_blank">Suyash HW 2.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/143532104/Suyash-HW-1pdf/" target="_blank">Suyash HW 1.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1445,7 +1450,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/173050117/159-6-LM-smoothingpptx/" target="_blank">159-6-LM_smoothing.pptx</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1453,14 +1458,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/173049292/Untitled-document-1pdf/" target="_blank">Untitled document (1).pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/173049186/Untitled-documentpdf/" target="_blank">Untitled document.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1470,7 +1475,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/173040835/HW2pdf/" target="_blank">HW2.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1478,14 +1483,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/173040528/hW5pdf/" target="_blank">hW5.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/173040485/HW0-pdfpdf/" target="_blank">HW0_pdf.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1494,7 +1499,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/173040270/HW6pdf/" target="_blank">HW6.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1502,14 +1507,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/144418964/Homework-9pdf/" target="_blank">Homework 9.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/144418399/HW8docx/" target="_blank">HW8.docx</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1518,7 +1523,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/144418390/HW10docx/" target="_blank">HW10.docx</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1526,14 +1531,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/144418335/HW3docx/" target="_blank">HW3.docx</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/131247717/cs361-hw1pdf/" target="_blank">cs361 hw1.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1542,7 +1547,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/131216086/CS-361-HW-1pdf/" target="_blank">CS_361_HW_1.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1550,14 +1555,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/131216055/CS-361-HW-3pdf/" target="_blank">CS_361_HW_3.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/131215965/CS-361-DIS-1pdf/" target="_blank">CS_361_DIS_1.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1566,7 +1571,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/131215944/CS-361-HW-2pdf/" target="_blank">CS_361_HW_2.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1574,14 +1579,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172666331/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2018-07-21-105941-1png/" target="_blank">Â±èÂπïÂø´ÁÖß 2018-07-21 10.59.41 (1).png</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/172666089/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2018-07-21-110215png/" target="_blank">Â±èÂπïÂø´ÁÖß 2018-07-21 11.02.15.png</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1590,7 +1595,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/144418283/HW5docx/" target="_blank">HW5.docx</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1598,14 +1603,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/144418198/HW6docx/" target="_blank">HW6.docx</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/144418192/HW7docx/" target="_blank">HW7.docx</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1614,7 +1619,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/144418183/cs361-hw1docx/" target="_blank">cs361 hw1.docx</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1622,14 +1627,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/144417973/HW4docx/" target="_blank">HW4.docx</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/144417825/cs361-HW2docx/" target="_blank">cs361 HW2.docx</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1638,7 +1643,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/153828810/12-DISTRIBUTIONSpdf/" target="_blank">12 DISTRIBUTIONS.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1646,14 +1651,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/127477147/HW2-pdfpdf/" target="_blank">HW2_pdf.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/127476634/HW1-pdf-1pdf/" target="_blank">HW1_pdf-1.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1662,7 +1667,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/127476574/HWSubmissionGuidelineExamplepdf/" target="_blank">HWSubmissionGuidelineExample.pdfx</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1670,14 +1675,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/132528572/q1png/" target="_blank">q1.png</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/175619139/CS-361-HW-8docx/" target="_blank">CS 361 HW 8.docx</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1686,7 +1691,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/150354611/CS-361-Final-Notespdf/" target="_blank">CS_361_Final_Notes.pdf</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1694,14 +1699,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/149116729/CS361-sp21-Overview-Lec1-postpdf/" target="_blank">CS361_sp21_Overview_Lec1_post.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/149115325/work29-karahaliospdf/" target="_blank">work29-karahalios.pdf</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
 
@@ -1710,7 +1715,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/164094476/Screen-Shot-2021-11-16-at-105224png/" target="_blank">Screen Shot 2021-11-16 at 10.52.24.png</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1718,14 +1723,14 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/164091361/Snells-Law-Labdocx/" target="_blank">Snells Law Lab.docx</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
     
             <td>
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/164091199/FizikIAdocx/" target="_blank">FizikIA.docx</a>
                 <br>
-                Unkwn
+                Unknown
             </td>
         </tr>
         <tr>
@@ -1733,7 +1738,7 @@
                 <!--Image-->
                 <a href="https://www.coursehero.com/file/164090840/PhysicsIAxlsx/" target="_blank">PhysicsIA.xlsx</a>
                 <br>
-                Unkwn
+                Unknown
     
             </td>
     
@@ -1757,6 +1762,42 @@
 
 
     </table>
+
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-analytics.js";
+        import { getDatabase } from "firebase/database";
+        import { getStorgae, ref } from "firebase/storage";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDDdwbVRr6Ol_N8bACevEpyBnKOavQaCO4",
+          authDomain: "gradwebsite-11c91.firebaseapp.com",
+          projectId: "gradwebsite-11c91",
+          storageBucket: "gradwebsite-11c91.appspot.com",
+          messagingSenderId: "191826243810",
+          appId: "1:191826243810:web:aa07ee059caf3c9517eebb",
+          measurementId: "G-N87KXKZ0EB",
+          databaseURL: "https://gradwebsite-11c91-default-rtdb.firebaseio.com/"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+        // Get a reference to the storage service, which is used to create references in your storage bucket
+        const storage = getStorage();
+    
+        // Create a storage reference from our storage service
+        const storageRef = ref(storage);
+    
+    
+      </script>
+
 
 </body>
 </html>
