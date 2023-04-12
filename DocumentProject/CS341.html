@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +9,8 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../js/doctable.js"></script>
 
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */ 
@@ -45,6 +45,16 @@
       height:100%;
 
       padding-top:50px;
+    }
+
+    .iconRow {
+    display: flex;
+    }
+
+    .iconColumn {
+      display: flex;
+      flex: 50%;
+
     }
     
     /* Set gray background color and 100% height */
@@ -138,6 +148,11 @@
         background-color: #fff;
     }
 
+
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:99; }
+    .hover_img a:hover span { display:block; left: -150px; }
+
   </style>
   
 </head>
@@ -227,53 +242,7 @@
                       </ul> </td> 
                   </tr>
 
-                 <!-- <tr>
-                    <td>
-                      Hongye Liu
-                      <ul>
-                        <li>Spring 2021</li>
-                        <li>Exam Solutions</li>
-                      </ul></td>
-                    <td>CS 361</td>
-                    <td><a href="https://drive.google.com/file/d/1AL6UncRV6F8O2VMshLTpb0qAPOn0grtW/view?usp=sharing" target="_blank">Midterm 1</a> </td> 
-                  </tr>
-
-                  <tr>
-                    <td>
-                      Hongye Liu
-                      <ul>
-                        <li>Fall 2022</li>
-                        <li>Lab Solutions</li>
-                      </ul></td>
-                    <td>CS 361</td>
-                    <td><a href="https://drive.google.com/file/d/1YFy5cicof7QalTb0dVQVv7OSGCxvI0gq/view?usp=sharing" target="_blank">Neural Networks Lab</a> </td> 
-                  </tr>
-
-                  <tr>
-                    <td>
-                      Nickvash Kani
-                      <ul>
-                        <li>Fall 2022</li>
-                        <li>Lab Solutions</li>
-                      </ul></td>
-                    <td>CS 374</td>
-                    <td><a href="https://drive.google.com/file/d/1eFTYi-t8iyF9xLiLtBB2wDRzlC7EMrpG/view?usp=sharing" target="_blank">Lab DFAs - Solutions</a> </td> 
-                  </tr>
-
-                  <tr>
-                    <td>
-                      Elsa L Gunter
-                      <ul>
-                        <li>Fall 2019</li>
-                        <li>Lab Solutions</li>
-                      </ul></td>
-                    <td>CS 421</td>
-                    <td><a href="https://drive.google.com/file/d/10OcGOgayDxpuqovJ2mDAu_5y1fUI1Uv1/view?usp=sharing" target="_blank">MP 6 Solution</a> </td> 
-                  </tr>
-                -->
-
-
-
+                 
                 </table>
 
                 <div class="container">
@@ -289,8 +258,10 @@
                     </div>
                   </div>
                 </div>
-
               </div>
+
+              
+
 
             </div>
 
@@ -304,6 +275,40 @@
         </footer>
     </div>
   </div>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-analytics.js";
+    import { getDatabase } from "firebase/database";
+    import { getStorgae, ref } from "firebase/storage";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDDdwbVRr6Ol_N8bACevEpyBnKOavQaCO4",
+      authDomain: "gradwebsite-11c91.firebaseapp.com",
+      projectId: "gradwebsite-11c91",
+      storageBucket: "gradwebsite-11c91.appspot.com",
+      messagingSenderId: "191826243810",
+      appId: "1:191826243810:web:aa07ee059caf3c9517eebb",
+      measurementId: "G-N87KXKZ0EB",
+      databaseURL: "https://gradwebsite-11c91-default-rtdb.firebaseio.com/"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    // Get a reference to the storage service, which is used to create references in your storage bucket
+    const storage = getStorage();
+
+    // Create a storage reference from our storage service
+    const storageRef = ref(storage);
+
+
+  </script>
 
 </body>
 </html>
