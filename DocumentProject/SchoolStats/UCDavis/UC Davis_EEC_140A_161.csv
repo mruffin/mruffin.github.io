@@ -1,0 +1,16 @@
+name,val
+course_140A_total_cnt,221
+not_course_140A_total_cnt,3357
+course_140A_type_Homework Help_cnt,84
+course_140A_type_Test prep_cnt,62
+course_140A_type_Notes_cnt,39
+course_140A_type_Unknown_cnt,24
+course_140A_type_Lecture Slides_cnt,12
+course_161_total_cnt,186
+not_course_161_total_cnt,3392
+course_161_type_Homework Help_cnt,86
+course_161_type_Unknown_cnt,58
+course_161_type_Test prep_cnt,30
+course_161_type_Notes_cnt,8
+course_161_type_Assignment_cnt,3
+course_161_type_Assessment_cnt,1

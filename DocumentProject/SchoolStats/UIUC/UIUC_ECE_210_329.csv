@@ -1,0 +1,17 @@
+name,val
+course_210_total_cnt,507
+not_course_210_total_cnt,8780
+course_210_type_Unknown_cnt,272
+course_210_type_Test prep_cnt,147
+course_210_type_Notes_cnt,50
+course_210_type_Lab_cnt,31
+course_210_type_Assignment_cnt,3
+course_210_type_Assessment_cnt,3
+course_210_type_Essay_cnt,1
+course_329_total_cnt,658
+not_course_329_total_cnt,8629
+course_329_type_Notes_cnt,355
+course_329_type_Test prep_cnt,151
+course_329_type_Unknown_cnt,144
+course_329_type_Lab_cnt,4
+course_329_type_Essay_cnt,4

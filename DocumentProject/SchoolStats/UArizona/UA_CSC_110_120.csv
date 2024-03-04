@@ -1,0 +1,16 @@
+name,val
+course_110_total_cnt,1042
+not_course_110_total_cnt,2932
+course_110_type_Unknown_cnt,873
+course_110_type_Notes_cnt,61
+course_110_type_Homework Help_cnt,47
+course_110_type_Test prep_cnt,34
+course_110_type_Lab_cnt,26
+course_110_type_Essay_cnt,1
+course_120_total_cnt,504
+not_course_120_total_cnt,3470
+course_120_type_Unknown_cnt,449
+course_120_type_Homework Help_cnt,24
+course_120_type_Notes_cnt,17
+course_120_type_Test prep_cnt,13
+course_120_type_Lab_cnt,1

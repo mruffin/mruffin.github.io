@@ -1,0 +1,18 @@
+name,val
+course_125_total_cnt,375
+not_course_125_total_cnt,1149
+course_125_type_Unknown_cnt,304
+course_125_type_Homework Help_cnt,33
+course_125_type_Notes_cnt,14
+course_125_type_Assignment_cnt,11
+course_125_type_Lab_cnt,7
+course_125_type_Test prep_cnt,6
+course_301_total_cnt,230
+not_course_301_total_cnt,1294
+course_301_type_Unknown_cnt,104
+course_301_type_Test prep_cnt,45
+course_301_type_Notes_cnt,39
+course_301_type_Homework Help_cnt,36
+course_301_type_Lab_cnt,4
+course_301_type_Syllabus_cnt,1
+course_301_type_Essay_cnt,1

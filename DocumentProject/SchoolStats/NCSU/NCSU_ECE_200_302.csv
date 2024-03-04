@@ -1,0 +1,14 @@
+name,val
+course_200_total_cnt,348
+not_course_200_total_cnt,6896
+course_200_type_Notes_cnt,138
+course_200_type_Test prep_cnt,86
+course_200_type_Unknown_cnt,82
+course_200_type_Lab_cnt,40
+course_200_type_Essay_cnt,2
+course_302_total_cnt,326
+not_course_302_total_cnt,6918
+course_302_type_Notes_cnt,123
+course_302_type_Unknown_cnt,108
+course_302_type_Test prep_cnt,82
+course_302_type_Lab_cnt,13

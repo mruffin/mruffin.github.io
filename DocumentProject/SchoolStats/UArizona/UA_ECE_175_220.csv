@@ -1,0 +1,13 @@
+name,val
+course_175_total_cnt,433
+not_course_175_total_cnt,3615
+course_175_type_Unknown_cnt,283
+course_175_type_Notes_cnt,108
+course_175_type_Lab_cnt,22
+course_175_type_Test prep_cnt,20
+course_220_total_cnt,170
+not_course_220_total_cnt,3878
+course_220_type_Notes_cnt,75
+course_220_type_Unknown_cnt,54
+course_220_type_Test prep_cnt,28
+course_220_type_Lab_cnt,13

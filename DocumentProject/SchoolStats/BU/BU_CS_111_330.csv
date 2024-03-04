@@ -1,0 +1,13 @@
+name,val
+course_111_total_cnt,645
+not_course_111_total_cnt,5254
+course_111_type_Homework Help_cnt,286
+course_111_type_Unknown_cnt,256
+course_111_type_Lab_cnt,63
+course_111_type_Notes_cnt,40
+course_330_total_cnt,419
+not_course_330_total_cnt,5480
+course_330_type_Unknown_cnt,251
+course_330_type_Homework Help_cnt,119
+course_330_type_Lab_cnt,43
+course_330_type_Notes_cnt,6

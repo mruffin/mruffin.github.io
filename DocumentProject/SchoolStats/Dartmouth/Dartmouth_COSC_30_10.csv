@@ -1,0 +1,14 @@
+name,val
+course_30_total_cnt,166
+not_course_30_total_cnt,1918
+course_30_type_Homework Help_cnt,76
+course_30_type_Unknown_cnt,49
+course_30_type_Notes_cnt,34
+course_30_type_Test prep_cnt,6
+course_30_type_Assignment_cnt,1
+course_10_total_cnt,85
+not_course_10_total_cnt,1999
+course_10_type_Unknown_cnt,67
+course_10_type_Notes_cnt,8
+course_10_type_Test prep_cnt,7
+course_10_type_Homework Help_cnt,3

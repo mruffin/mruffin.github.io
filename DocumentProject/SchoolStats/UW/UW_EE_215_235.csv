@@ -1,0 +1,16 @@
+name,val
+course_215_total_cnt,611
+not_course_215_total_cnt,4428
+course_215_type_Notes_cnt,244
+course_215_type_Unknown_cnt,165
+course_215_type_Homework Help_cnt,93
+course_215_type_Test prep_cnt,74
+course_215_type_Lab_cnt,34
+course_215_type_Assessment_cnt,1
+course_235_total_cnt,431
+not_course_235_total_cnt,4608
+course_235_type_Homework Help_cnt,136
+course_235_type_Unknown_cnt,110
+course_235_type_Notes_cnt,107
+course_235_type_Test prep_cnt,45
+course_235_type_Lab_cnt,33
