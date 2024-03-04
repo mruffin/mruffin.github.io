@@ -1,0 +1,20 @@
+name,val
+course_110_total_cnt,1141
+not_course_110_total_cnt,7641
+course_110_type_Lab_cnt,563
+course_110_type_Notes_cnt,317
+course_110_type_Test prep_cnt,178
+course_110_type_Unknown_cnt,67
+course_110_type_Essay_cnt,8
+course_110_type_Assignment_cnt,7
+course_110_type_Assessment_cnt,1
+course_205_total_cnt,738
+not_course_205_total_cnt,8044
+course_205_type_Notes_cnt,406
+course_205_type_Test prep_cnt,122
+course_205_type_Unknown_cnt,116
+course_205_type_Lab_cnt,74
+course_205_type_Essay_cnt,12
+course_205_type_Assessment_cnt,6
+course_205_type_Assignment_cnt,1
+course_205_type_Lecture Slides_cnt,1
