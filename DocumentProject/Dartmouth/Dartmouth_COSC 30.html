@@ -1,0 +1,1860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
+  <title>Margie Ruffin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../../js/doctable.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#303d4e;
+      border-color: #303d4e;
+    }
+    #myNavbar{
+      float:right;
+    }
+    h1{
+      color:#4d9586;
+    }
+    h2{
+      color:#4d9586;
+    }
+    h3{
+      color:#4d9586;
+    }
+
+    table, th, td {
+    border:1px solid black;
+    margin: 0 auto;
+    padding-left: 15px;
+    } 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      /*height: 450px;*/
+      height:100%;
+
+      padding-top:50px;
+    }
+
+    .iconRow {
+    display: flex;
+    }
+
+    .iconColumn {
+      display: flex;
+      flex: 50%;
+
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    #socialMedia {
+      padding-top: 10px;
+    }
+    .info{
+      margin: 10px 0px  10px;
+      display:block;
+    }
+    .contact_info{
+      padding-top:10px;
+    }
+    .contact_info_header{
+      font-family:Helvetica Neue;
+      font-weight:bold;
+    }
+
+    .artifact{
+      color:green;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: transparent;
+      color: black;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    /*@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }*/
+
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    }
+
+    @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1140px;
+    }
+    }
+
+    .active, .nav-btn:hover {
+      background-color:#4d9586;
+      color:#4d9586;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+    }
+
+
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:99; }
+    .hover_img a:hover span { display:block; left: -150px; }
+
+  </style>
+  
+</head>
+<body> <div class="container" style="margin-bottom: 25px;" >
+    <div class="container-fluid text-center">    
+        <div class="row content text-left">
+
+          <section>
+            <div class="doc_project">
+              <div class="project_table" style="margin-top: 10px;">
+
+                <div class="container">
+                  <div class="row" style="text-align:center;">
+                    <h1 style="text-align: center; margin-bottom:15px"> Course Hero breakdown for Dartmouth COSC 30 </h2>
+                    <img src="../SchoolStats/Dartmouth/Dartmouth_COSC_30_course_docs.png" alt="Total EE/CS Docs on Course Hero" title="Total Number of EE/CS Documents on Course Hero" width="500" height="300" style="margin-left: auto; margin-right: auto; margin-bottom: 5px; display: block;" >
+                    <p> <strong>Figure 1:</strong> This figure shows the breakdown of document type for documents specific to the Dartmouth COSC 30 course on Course Hero.</p>
+
+                    <hr>
+                    <h3 style="text-align: center; margin-bottom:15px; margin-top:15px;"><strong> <a href="https://www.google.com" target="_blank">⇢ CLICK HERE TO TAKE THE SURVEY! ⇠</a> </strong></h3>
+                    <hr>
+                  </div>
+                </div>
+
+              </div><h2 style="text-align: center;"> Additional Documents for COSC 30 on Course Hero </h2>
+                <p style="text-align: center; margin-top: 30px; margin-bottom: 30px;"> Below is a table of additional "locked" documents for COSC 30 on Course Hero. 
+                  Click on the name of the document to be taken to the Course Hero page hosting the document.</p> <table id="data_table" style="width: 100%; margin-bottom: 45px;">
+                  <col width="33.33%">
+                  <col width="33.34%">
+                  <col width="33.33%"><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/111566549/ps3pdf/" target="_blank">ps3.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/17/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/111566118/ps7pdf/" target="_blank">ps7.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/17/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/111564868/ps6pdf/" target="_blank">ps6.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/17/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/111564306/ps4pdf/" target="_blank">ps4.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/17/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/111563979/ps5pdf/" target="_blank">ps5.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/17/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/111562342/ps8pdf/" target="_blank">ps8.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/17/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/102321833/lec20pdf/" target="_blank">lec20.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/4/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/102321643/lec29pdf/" target="_blank">lec29.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/4/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/102320785/lec23pdf/" target="_blank">lec23.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/4/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/102320775/lec24pdf/" target="_blank">lec24.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/4/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/102320653/lec27pdf/" target="_blank">lec27.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/4/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/102320531/lec28pdf/" target="_blank">lec28.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/4/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/102320466/lec22pdf/" target="_blank">lec22.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/4/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/102320441/lec21pdf/" target="_blank">lec21.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/4/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/102320422/lec26pdf/" target="_blank">lec26.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/4/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/102320336/lec25pdf/" target="_blank">lec25.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/4/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/98010604/lec17pdf/" target="_blank">lec17.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/21/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/98010556/lec16pdf/" target="_blank">lec16.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/21/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/98010547/lec14pdf/" target="_blank">lec14.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/21/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/98010545/lec15pdf/" target="_blank">lec15.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/21/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/98010425/lec4pdf/" target="_blank">lec4.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/21/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/98010374/lec5pdf/" target="_blank">lec5.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/21/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/98010362/lec18pdf/" target="_blank">lec18.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/21/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/98010284/lec13pdf/" target="_blank">lec13.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/21/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/98010190/lec9pdf/" target="_blank">lec9.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/21/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/98010138/lec12pdf/" target="_blank">lec12.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/21/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/98010133/lec11pdf/" target="_blank">lec11.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/21/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/98010105/lec6pdf/" target="_blank">lec6.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/21/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/98010076/lec10pdf/" target="_blank">lec10.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/21/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/98010058/lec8pdf/" target="_blank">lec8.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/21/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/98010033/lec7pdf/" target="_blank">lec7.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/21/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/98010003/lec3pdf/" target="_blank">lec3.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/21/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/83659364/drill-13pdf/" target="_blank">drill_13.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/9/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/83659311/code0pdf/" target="_blank">code0.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/9/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/83659290/hw1pdf/" target="_blank">hw1.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/9/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/83659034/advanced-ps1-1pdf/" target="_blank">advanced-ps1 (1).pdf</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/9/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/83658821/ugp-3pdf/" target="_blank">ugp_3.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/9/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/83658789/ugp-2pdf/" target="_blank">ugp_2.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/9/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/83658416/ugp-1-1pdf/" target="_blank">ugp_1 (1).pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/9/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/72480571/drill-9-solutionspdf/" target="_blank">drill_9-solutions.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/5/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/72480452/drill-7-solutionspdf/" target="_blank">drill_7-solutions.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/5/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/72480450/drill-2-solutionspdf/" target="_blank">drill_2-solutions.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/5/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/72480443/drill-10-solutionspdf/" target="_blank">drill_10-solutions.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/5/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/72480351/drill-5-solutionspdf/" target="_blank">drill_5-solutions.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/5/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/72480338/drill-6-solutionspdf/" target="_blank">drill_6-solutions.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/5/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/72480305/drill-3-solutionspdf/" target="_blank">drill_3-solutions.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/5/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/72480184/drill-4-solutionspdf/" target="_blank">drill_4-solutions.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/5/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/72480178/drill-8-solutionspdf/" target="_blank">drill_8-solutions.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/5/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/72480035/drill-1-solutionspdf/" target="_blank">drill_1-solutions.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/5/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954833/18matchingpdf/" target="_blank">18matching.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954825/16treespdf/" target="_blank">16trees.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954815/09inductionpdf/" target="_blank">09induction.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954770/08countingpdf/" target="_blank">08counting.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954752/03uncountpdf/" target="_blank">03uncount.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954742/01setsfuncspdf/" target="_blank">01setsfuncs.pdf</a>
+                        <br>
+                        Total Views: 31
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954732/02funccountpdf/" target="_blank">02funccount.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954704/13randvarpdf/" target="_blank">13randvar.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954694/12condprobpdf/" target="_blank">12condprob.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954685/10binompdf/" target="_blank">10binom.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954682/04modularpdf/" target="_blank">04modular.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954667/17digraphpdf/" target="_blank">17digraph.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954665/15graph-basicspdf/" target="_blank">15graph-basics.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954664/07rsapdf/" target="_blank">07rsa.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52953556/11probpdf/" target="_blank">11prob.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52953555/14vardistpdf/" target="_blank">14vardist.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963767/15digraphmatchingpdf/" target="_blank">15digraphmatching.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963688/17colorplanarpdf/" target="_blank">17colorplanar.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963677/03logicpdf/" target="_blank">03logic.pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963676/08probpdf/" target="_blank">08prob.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963674/18fivecolorpdf/" target="_blank">18fivecolor.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963673/14trees-supppdf/" target="_blank">14trees-supp.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963665/07inductionpdf/" target="_blank">07induction.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963664/02functionspdf/" target="_blank">02functions.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963663/14treespdf/" target="_blank">14trees.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963662/05sumproductpdf/" target="_blank">05sumproduct.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963660/06binompdf/" target="_blank">06binom.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963659/09condprobpdf/" target="_blank">09condprob.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963658/10randvarpdf/" target="_blank">10randvar.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963656/01setspdf/" target="_blank">01sets.pdf</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963654/04proofspdf/" target="_blank">04proofs.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963653/12deviationspdf/" target="_blank">12deviations.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963651/13graphspdf/" target="_blank">13graphs.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963647/11distrvariancepdf/" target="_blank">11distrvariance.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963645/diffdefspdf/" target="_blank">diffdefs.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/20489857/midterm2-practice-2/" target="_blank">midterm2-practice-2</a>
+                        <br>
+                        Total Views: 43
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2/27/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/20489621/midterm1-practice/" target="_blank">midterm1-practice</a>
+                        <br>
+                        Total Views: 129
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2/27/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/14358676/hw7-sol/" target="_blank">hw7-sol</a>
+                        <br>
+                        Total Views: 330
+                        <br>
+                        Assignment
+                        <br>
+                        Uploaded: 5/18/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/10821196/Midterm-1-Exam-Solutions/" target="_blank">Midterm 1 Exam &amp; Solutions</a>
+                        <br>
+                        Total Views: 569
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2/25/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/10821195/Midterm-Exam-2-Study-Guide-Practice-Problems/" target="_blank">Midterm Exam 2 Study Guide: Practice Problems</a>
+                        <br>
+                        Total Views: 147
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2/25/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/10821194/Midterm-2-Exam-Solutions/" target="_blank">Midterm 2 Exam &amp; Solutions</a>
+                        <br>
+                        Total Views: 207
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2/25/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/10821193/Midterm-2-Practice-Problems-Solutions/" target="_blank">Midterm 2 Practice Problems Solutions</a>
+                        <br>
+                        Total Views: 175
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2/25/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/53120924/hw3-solutionspdf/" target="_blank">hw3-solutions.pdf</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/11/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/53120920/hw4-solutionspdf/" target="_blank">hw4-solutions.pdf</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/11/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/53120914/hw5-solutionspdf/" target="_blank">hw5-solutions.pdf</a>
+                        <br>
+                        Total Views: 40
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/11/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/53120907/hw1-solutionspdf/" target="_blank">hw1-solutions.pdf</a>
+                        <br>
+                        Total Views: 24
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/11/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/53120905/hw8-solutionspdf/" target="_blank">hw8-solutions.pdf</a>
+                        <br>
+                        Total Views: 61
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/11/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/53120903/hw6-solutionspdf/" target="_blank">hw6-solutions.pdf</a>
+                        <br>
+                        Total Views: 132
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/11/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/53120902/hw2-solutionspdf/" target="_blank">hw2-solutions.pdf</a>
+                        <br>
+                        Total Views: 34
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/11/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/53120901/hw7-solutionspdf/" target="_blank">hw7-solutions.pdf</a>
+                        <br>
+                        Total Views: 32
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/11/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954714/CS-30-pset16-solpdf/" target="_blank">CS 30 - pset16-sol.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954697/pset06-probpdf/" target="_blank">pset06-prob.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954680/CS-30-pset15-solpdf/" target="_blank">CS 30 - pset15-sol.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954676/CS-30-pset14-solpdf/" target="_blank">CS 30 - pset14-sol.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954663/pset02pdf/" target="_blank">pset02.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954657/CS-30-pset08-solpdf/" target="_blank">CS 30 - pset08-sol.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954620/CS-30-pset17-solpdf/" target="_blank">CS 30 - pset17-sol.pdf</a>
+                        <br>
+                        Total Views: 57
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954612/pset07-probpdf/" target="_blank">pset07-prob.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954599/pset05-probpdf/" target="_blank">pset05-prob.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954590/pset01pdf/" target="_blank">pset01.pdf</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954585/CS-30-pset12-solpdf/" target="_blank">CS 30 - pset12-sol.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954579/CS-30-pset13-solpdf/" target="_blank">CS 30 - pset13-sol.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954572/pset01-solpdf/" target="_blank">pset01-sol.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954568/CS-30-pset11-prob-1pdf/" target="_blank">CS 30 - pset11-prob-1.pdf</a>
+                        <br>
+                        Total Views: 125
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954559/CS-30-pset10-prob-1pdf/" target="_blank">CS 30 - pset10-prob-1.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954556/CS-30-pset14-probpdf/" target="_blank">CS 30 - pset14-prob.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954552/CS-30-pset05-solpdf/" target="_blank">CS 30 - pset05-sol.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954548/CS-30-pset15-probpdf/" target="_blank">CS 30 - pset15-prob.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954543/pset04pdf/" target="_blank">pset04.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954535/CS-30-pset03-solpdf/" target="_blank">CS 30 - pset03-sol.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954531/CS-30-pset17-probpdf/" target="_blank">CS 30 - pset17-prob.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954515/CS-30-pset12-probpdf/" target="_blank">CS 30 - pset12-prob.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954512/pset08-probpdf/" target="_blank">pset08-prob.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954504/pset09-probpdf/" target="_blank">pset09-prob.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954498/CS-30-pset16-prob-1pdf/" target="_blank">CS 30 - pset16-prob-1.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954497/pset03pdf/" target="_blank">pset03.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954492/pset02-1pdf/" target="_blank">pset02-1.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954488/CS-30-pset13-probpdf/" target="_blank">CS 30 - pset13-prob.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954478/CS-30-pset18-probpdf/" target="_blank">CS 30 - pset18-prob.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954475/CS-30-pset10-solpdf/" target="_blank">CS 30 - pset10-sol.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954459/CS-30-pset02-solpdf/" target="_blank">CS 30 - pset02-sol.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954458/CS-30-pset04-solpdf/" target="_blank">CS 30 - pset04-sol.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954449/CS-30-pset09-solpdf/" target="_blank">CS 30 - pset09-sol.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52954448/CS-30-pset06-solpdf/" target="_blank">CS 30 - pset06-sol.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/52953465/CS-30-pset18-solpdf/" target="_blank">CS 30 - pset18-sol.pdf</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52953462/CS-30-pset07-solpdf/" target="_blank">CS 30 - pset07-sol.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52953460/pset07-demopdf/" target="_blank">pset07-demo.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/7/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963666/hw4pdf/" target="_blank">hw4.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963657/hw1pdf/" target="_blank">hw1.pdf</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963655/hw5pdf/" target="_blank">hw5.pdf</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963652/hw6pdf/" target="_blank">hw6.pdf</a>
+                        <br>
+                        Total Views: 47
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963649/hw3pdf/" target="_blank">hw3.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963648/hw2pdf/" target="_blank">hw2.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963646/hw7pdf/" target="_blank">hw7.pdf</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27963643/hw8pdf/" target="_blank">hw8.pdf</a>
+                        <br>
+                        Total Views: 52
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/27/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/14358681/hw6-sol/" target="_blank">hw6-sol</a>
+                        <br>
+                        Total Views: 114
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 5/18/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12737808/hw7-sol/" target="_blank">hw7-sol</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/21/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12737807/hw5-sol/" target="_blank">hw5-sol</a>
+                        <br>
+                        Total Views: 59
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/21/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12737806/hw4-sol/" target="_blank">hw4-sol</a>
+                        <br>
+                        Total Views: 51
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/21/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12737805/hw2-sol/" target="_blank">hw2-sol</a>
+                        <br>
+                        Total Views: 83
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/21/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12737804/hw6-sol/" target="_blank">hw6-sol</a>
+                        <br>
+                        Total Views: 56
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/21/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12737803/hw3-sol/" target="_blank">hw3-sol</a>
+                        <br>
+                        Total Views: 58
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/21/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12737802/hw1-sol/" target="_blank">hw1-sol</a>
+                        <br>
+                        Total Views: 42
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/21/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12737801/hw7-sol/" target="_blank">hw7-sol</a>
+                        <br>
+                        Total Views: 47
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/21/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12737800/hw8-sol/" target="_blank">hw8-sol</a>
+                        <br>
+                        Total Views: 44
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/21/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/10821206/Homework-1/" target="_blank">Homework 1</a>
+                        <br>
+                        Total Views: 153
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/25/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/10821205/Homework-4/" target="_blank">Homework 4</a>
+                        <br>
+                        Total Views: 81
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/25/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/10821204/Homework-4-Solutions/" target="_blank">Homework 4 Solutions</a>
+                        <br>
+                        Total Views: 186
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/25/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/10821203/Homework-1-Solutions/" target="_blank">Homework 1 Solutions</a>
+                        <br>
+                        Total Views: 528
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/25/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/10821202/Homework-3-Solutions/" target="_blank">Homework 3 Solutions</a>
+                        <br>
+                        Total Views: 152
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/25/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/10821201/Homework-2/" target="_blank">Homework 2</a>
+                        <br>
+                        Total Views: 107
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/25/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/10821200/Homework-2-Solutions/" target="_blank">Homework 2 Solutions</a>
+                        <br>
+                        Total Views: 145
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/25/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/10821199/Homework-3/" target="_blank">Homework 3</a>
+                        <br>
+                        Total Views: 78
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/25/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/10821198/Homework-5/" target="_blank">Homework 5</a>
+                        <br>
+                        Total Views: 63
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/25/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/10821197/Homework-5-Solutions/" target="_blank">Homework 5 Solutions</a>
+                        <br>
+                        Total Views: 385
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/25/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/10821192/Homework-6/" target="_blank">Homework 6</a>
+                        <br>
+                        Total Views: 96
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/25/15
+                    </td>
+                  </tr><tr><td>
+                        <a href="https://www.coursehero.com/file/10821191/Homework-6-Solutions/" target="_blank">Homework 6 Solutions</a>
+                        <br>
+                        Total Views: 756
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/25/15
+                    </td><td>
+                        <a href="https://www.coursehero.com/file/10821190/Homework-7/" target="_blank">Homework 7</a>
+                        <br>
+                        Total Views: 227
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/25/15
+                    </td></tr> </table></div>
+
+          </section>
+
+    
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

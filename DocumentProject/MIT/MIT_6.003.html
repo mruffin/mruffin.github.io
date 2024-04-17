@@ -1,0 +1,1740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
+  <title>Margie Ruffin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../../js/doctable.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#303d4e;
+      border-color: #303d4e;
+    }
+    #myNavbar{
+      float:right;
+    }
+    h1{
+      color:#4d9586;
+    }
+    h2{
+      color:#4d9586;
+    }
+    h3{
+      color:#4d9586;
+    }
+
+    table, th, td {
+    border:1px solid black;
+    margin: 0 auto;
+    padding-left: 15px;
+    } 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      /*height: 450px;*/
+      height:100%;
+
+      padding-top:50px;
+    }
+
+    .iconRow {
+    display: flex;
+    }
+
+    .iconColumn {
+      display: flex;
+      flex: 50%;
+
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    #socialMedia {
+      padding-top: 10px;
+    }
+    .info{
+      margin: 10px 0px  10px;
+      display:block;
+    }
+    .contact_info{
+      padding-top:10px;
+    }
+    .contact_info_header{
+      font-family:Helvetica Neue;
+      font-weight:bold;
+    }
+
+    .artifact{
+      color:green;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: transparent;
+      color: black;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    /*@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }*/
+
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    }
+
+    @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1140px;
+    }
+    }
+
+    .active, .nav-btn:hover {
+      background-color:#4d9586;
+      color:#4d9586;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+    }
+
+
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:99; }
+    .hover_img a:hover span { display:block; left: -150px; }
+
+  </style>
+  
+</head>
+<body> <div class="container" style="margin-bottom: 25px;" >
+    <div class="container-fluid text-center">    
+        <div class="row content text-left">
+
+          <section>
+            <div class="doc_project">
+              <div class="project_table" style="margin-top: 10px;">
+
+                <div class="container">
+                  <div class="row" style="text-align:center;">
+                    <h1 style="text-align: center; margin-bottom:15px"> Course Hero breakdown for MIT 6.003 </h2>
+                    <img src="../SchoolStats/MIT/MIT_EECS_6.003_course_docs.png" alt="Total EE/CS Docs on Course Hero" title="Total Number of EE/CS Documents on Course Hero" width="500" height="300" style="margin-left: auto; margin-right: auto; margin-bottom: 5px; display: block;" >
+                    <p> <strong>Figure 1:</strong> This figure shows the breakdown of document type for documents specific to the MIT 6.003 course on Course Hero.</p>
+
+                    <hr>
+                    <h3 style="text-align: center; margin-bottom:15px; margin-top:15px;"><strong> <a href="https://www.google.com" target="_blank">⇢ CLICK HERE TO TAKE THE SURVEY! ⇠</a> </strong></h3>
+                    <hr>
+                  </div>
+                </div>
+
+              </div><h2 style="text-align: center;"> Additional Documents for 6.003 on Course Hero </h2>
+                <p style="text-align: center; margin-top: 30px; margin-bottom: 30px;"> Below is a table of additional "locked" documents for 6.003 on Course Hero. 
+                  Click on the name of the document to be taken to the Course Hero page hosting the document.</p> <table id="data_table" style="width: 100%; margin-bottom: 45px;">
+                  <col width="33.33%">
+                  <col width="33.34%">
+                  <col width="33.33%"><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368483/lec07-handout-6up/" target="_blank">lec07-handout-6up</a>
+                        <br>
+                        Total Views: 520
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/216630607/pset01-answerspdf/" target="_blank">pset01-answers.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/31/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/216630558/pset04-answerspdf/" target="_blank">pset04-answers.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/31/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/60959082/Lec01-AV261-Intro-signals-and-systemsppt/" target="_blank">Lec01 AV261 Intro signals and systems.ppt</a>
+                        <br>
+                        Total Views: 44
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6626062/MIT6-003S10-assn01/" target="_blank">MIT6_003S10_assn01</a>
+                        <br>
+                        Total Views: 119
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/14/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368510/lec21/" target="_blank">lec21</a>
+                        <br>
+                        Total Views: 105
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357581/hmwk-11-solutions/" target="_blank">hmwk 11 solutions</a>
+                        <br>
+                        Total Views: 64
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368484/lec08/" target="_blank">lec08</a>
+                        <br>
+                        Total Views: 77
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/216630553/pset07-answerspdf/" target="_blank">pset07-answers.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/31/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368466/hw1/" target="_blank">hw1</a>
+                        <br>
+                        Total Views: 55
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6626065/MIT6-003S10-assn04/" target="_blank">MIT6_003S10_assn04</a>
+                        <br>
+                        Total Views: 45
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/14/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357569/hmwk-5-solutions/" target="_blank">hmwk 5 solutions</a>
+                        <br>
+                        Total Views: 32
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6626063/MIT6-003S10-assn02/" target="_blank">MIT6_003S10_assn02</a>
+                        <br>
+                        Total Views: 37
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/14/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357562/hmwk-1-solutions/" target="_blank">hmwk 1 solutions</a>
+                        <br>
+                        Total Views: 31
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368507/lec19-handout-6up/" target="_blank">lec19-handout-6up</a>
+                        <br>
+                        Total Views: 37
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368460/hw8/" target="_blank">hw8</a>
+                        <br>
+                        Total Views: 37
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/18519448/6003-FT16-Rec16-Outline-00/" target="_blank">6.003_FT16_Rec16_Outline-00</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/22/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/216631438/pset10-answerspdf/" target="_blank">pset10-answers.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/31/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368451/lec02/" target="_blank">lec02</a>
+                        <br>
+                        Total Views: 36
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6626070/MIT6-003S10-assn09/" target="_blank">MIT6_003S10_assn09</a>
+                        <br>
+                        Total Views: 35
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/14/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357579/hmwk-10-solutions/" target="_blank">hmwk 10 solutions</a>
+                        <br>
+                        Total Views: 29
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357566/hmwk-3-solutions/" target="_blank">hmwk 3 solutions</a>
+                        <br>
+                        Total Views: 29
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368453/lec01/" target="_blank">lec01</a>
+                        <br>
+                        Total Views: 34
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357564/hmwk-2-solutions/" target="_blank">hmwk 2 solutions</a>
+                        <br>
+                        Total Views: 27
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368470/final/" target="_blank">final</a>
+                        <br>
+                        Total Views: 32
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6626068/MIT6-003S10-assn07/" target="_blank">MIT6_003S10_assn07</a>
+                        <br>
+                        Total Views: 31
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/14/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357577/hmwk-9-solutions/" target="_blank">hmwk 9 solutions</a>
+                        <br>
+                        Total Views: 26
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368516/q1/" target="_blank">q1</a>
+                        <br>
+                        Total Views: 31
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357560/final-exam-practice-solutions/" target="_blank">final exam practice solutions</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357575/hmwk-8-solutions/" target="_blank">hmwk 8 solutions</a>
+                        <br>
+                        Total Views: 24
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368448/lec03-handout-6up/" target="_blank">lec03-handout-6up</a>
+                        <br>
+                        Total Views: 29
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357567/hmwk-4-solutions/" target="_blank">hmwk 4 solutions</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/60958820/Lec11-AV261-Continuous-time-convolutionppt/" target="_blank">Lec11 AV261 Continuous time convolution.ppt</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368511/lec21-handout-6up/" target="_blank">lec21-handout-6up</a>
+                        <br>
+                        Total Views: 26
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368482/lec07/" target="_blank">lec07</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368461/hw6/" target="_blank">hw6</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368458/hw9/" target="_blank">hw9</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368450/lec03/" target="_blank">lec03</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6626064/MIT6-003S10-assn03/" target="_blank">MIT6_003S10_assn03</a>
+                        <br>
+                        Total Views: 24
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/14/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357584/hmwk-13-solutions/" target="_blank">hmwk 13 solutions</a>
+                        <br>
+                        Total Views: 19
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368518/q2/" target="_blank">q2</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368502/lec17/" target="_blank">lec17</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368476/chap1/" target="_blank">chap1</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368465/hw3/" target="_blank">hw3</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368464/hw5/" target="_blank">hw5</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6626072/MIT6-003S10-assn11/" target="_blank">MIT6_003S10_assn11</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/14/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6626066/MIT6-003S10-assn05/" target="_blank">MIT6_003S10_assn05</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/14/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368512/lec22/" target="_blank">lec22</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368463/hw4/" target="_blank">hw4</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368462/hw7/" target="_blank">hw7</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368457/hw12/" target="_blank">hw12</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357586/quiz-1-practice-solutions/" target="_blank">quiz 1 practice solutions</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357573/hmwk-7-solutions/" target="_blank">hmwk 7 solutions</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368509/lec20-handout-6up/" target="_blank">lec20-handout-6up</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357571/hmwk-6-solutions/" target="_blank">hmwk 6 solutions</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6626074/MIT6-003S10-assn13/" target="_blank">MIT6_003S10_assn13</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/14/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368500/lec16/" target="_blank">lec16</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357585/hmwk-14-solutions/" target="_blank">hmwk 14 solutions</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357583/hmwk-12-solutions/" target="_blank">hmwk 12 solutions</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368523/review-6003-2009/" target="_blank">review_6.003_2009</a>
+                        <br>
+                        Total Views: 19
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368513/lec22-handout-6up/" target="_blank">lec22-handout-6up</a>
+                        <br>
+                        Total Views: 19
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368454/lec01-handout-6up/" target="_blank">lec01-handout-6up</a>
+                        <br>
+                        Total Views: 19
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368449/lec04/" target="_blank">lec04</a>
+                        <br>
+                        Total Views: 19
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368520/q3/" target="_blank">q3</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368459/hw10/" target="_blank">hw10</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/18519459/Rec01/" target="_blank">Rec01</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/22/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368496/lec14/" target="_blank">lec14</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368488/lec10/" target="_blank">lec10</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368485/lec08-handout-6up/" target="_blank">lec08-handout-6up</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368524/studyGuide/" target="_blank">studyGuide</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368517/q1hist/" target="_blank">q1hist</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368514/lec23/" target="_blank">lec23</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368503/lec17-handout-6up/" target="_blank">lec17-handout-6up</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368447/lec04-handout-6up/" target="_blank">lec04-handout-6up</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6626073/MIT6-003S10-assn12/" target="_blank">MIT6_003S10_assn12</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/14/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368498/lec15/" target="_blank">lec15</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368471/chap6/" target="_blank">chap6</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368455/hw13/" target="_blank">hw13</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/18519455/Rec09/" target="_blank">Rec09</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/22/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/18519449/6003-FT16-Rec11-Outline/" target="_blank">6.003_FT16_Rec11_Outline</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/22/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/60959154/Lec09-AV261-Intro-LTI-systems-and-convolutionppt/" target="_blank">Lec09 AV261 Intro LTI systems and convolution.ppt</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368504/lec18/" target="_blank">lec18</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368501/lec16-handout-6up/" target="_blank">lec16-handout-6up</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368493/lec12-handout-6up/" target="_blank">lec12-handout-6up</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368477/chap2/" target="_blank">chap2</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368475/chap3/" target="_blank">chap3</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368467/hw2/" target="_blank">hw2</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6626071/MIT6-003S10-assn10/" target="_blank">MIT6_003S10_assn10</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/14/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6626069/MIT6-003S10-assn08/" target="_blank">MIT6_003S10_assn08</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/14/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6626067/MIT6-003S10-assn06/" target="_blank">MIT6_003S10_assn06</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/14/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/18519463/Tutorial5/" target="_blank">Tutorial+5</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/22/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368515/lec23-handout-6up/" target="_blank">lec23-handout-6up</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368489/lec10-handout-6up/" target="_blank">lec10-handout-6up</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368469/final-review/" target="_blank">final-review</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368468/final-6003-2005/" target="_blank">final_6.003_2005</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368492/lec12/" target="_blank">lec12</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368474/chap5/" target="_blank">chap5</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368506/lec19/" target="_blank">lec19</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368505/lec18-handout-6up/" target="_blank">lec18-handout-6up</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368499/lec15-handout-6up/" target="_blank">lec15-handout-6up</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368497/lec14-handout-6up/" target="_blank">lec14-handout-6up</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368495/lec13-handout-6up/" target="_blank">lec13-handout-6up</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368491/lec11-handout-6up/" target="_blank">lec11-handout-6up</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368490/lec11/" target="_blank">lec11</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368487/lec09-handout-6up/" target="_blank">lec09-handout-6up</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368478/lec05/" target="_blank">lec05</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368472/chap7/" target="_blank">chap7</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368452/lec02-handout-6up/" target="_blank">lec02-handout-6up</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8357587/quiz-2-practice-solutions/" target="_blank">quiz 2 practice solutions</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/31/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368494/lec13/" target="_blank">lec13</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368522/q4hist/" target="_blank">q4hist</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368486/lec09/" target="_blank">lec09</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368456/hw11/" target="_blank">hw11</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/60959170/Lec03-AV261-Representing-signals-and-systemsppt/" target="_blank">Lec03 AV261 Representing signals and systems.ppt</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/60958848/Lec12-AV261-Flip-and-slide-convolutionppt/" target="_blank">Lec12 AV261 Flip and slide convolution.ppt</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/60958829/Lec04-AV261-Even-odd-signalsppt/" target="_blank">Lec04 AV261 Even odd signals.ppt</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/60946093/Lecture-3pptx/" target="_blank">Lecture 3.pptx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368481/lec06-handout-6up/" target="_blank">lec06-handout-6up</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/18519445/6003-FT16-Rec19-Outline-00/" target="_blank">6.003_FT16_Rec19_Outline-00</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/22/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368519/q2hist/" target="_blank">q2hist</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368480/lec06/" target="_blank">lec06</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368473/chap4/" target="_blank">chap4</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368521/q3hist/" target="_blank">q3hist</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368508/lec20/" target="_blank">lec20</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/60959084/Lec10-AV261-Discrete-time-convolutionppt/" target="_blank">Lec10 AV261 Discrete time convolution.ppt</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/60958844/Lec05-AV261-Complex-periodic-signalsppt/" target="_blank">Lec05 AV261 Complex periodic signals.ppt</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948675/Lecture-7pptx/" target="_blank">Lecture 7.pptx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948631/Lecture-15pptx/" target="_blank">Lecture 15.pptx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948330/Lecture-22pptx/" target="_blank">Lecture 22.pptx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6368479/lec05-handout-6up/" target="_blank">lec05-handout-6up</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/24/11
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/60959157/Lec07-AV261-System-Properties-1pptx/" target="_blank">Lec07 AV261 System Properties 1.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/60958837/Lec14-AV261-Properties-of-convolutionppt/" target="_blank">Lec14 AV261 Properties of convolution.ppt</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/60958818/Lec06-AV261-Unit-and-Step-signalsppt/" target="_blank">Lec06 AV261 Unit and Step signals.ppt</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/60958816/Lec03-AV261-Basic-signals-operationsppt/" target="_blank">Lec03 AV261 Basic signals operations.ppt</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/60958801/Lec08-AV261-System-Properties-2ppt/" target="_blank">Lec08 AV261 System Properties 2.ppt</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/60949336/Lecture-21pptx/" target="_blank">Lecture 21.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948680/Lecture-4pptx/" target="_blank">Lecture 4.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948656/Lecture-17pptx/" target="_blank">Lecture 17.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948655/Lecture-28pptx/" target="_blank">Lecture 28.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948644/Lecture-20pptx/" target="_blank">Lecture 20.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948642/FS-LTI-Syspptx/" target="_blank">FS &amp; LTI Sys.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948630/Lecture-18pptx/" target="_blank">Lecture 18.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948624/Lecture-16pptx/" target="_blank">Lecture 16.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948622/Lecture-5pptx/" target="_blank">Lecture 5.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948621/Lecture-10pptx/" target="_blank">Lecture 10.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948614/Lecture-8pptx/" target="_blank">Lecture 8.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948581/Lecture-27pptx/" target="_blank">Lecture 27.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948544/Lecture-26pptx/" target="_blank">Lecture 26.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948543/Lecture-9pptx/" target="_blank">Lecture 9.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948519/Lecture-6pptx/" target="_blank">Lecture 6.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948516/Lecture-13pptx/" target="_blank">Lecture 13.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/60948117/Lec34-AV261-Reconstruction-of-sampled-signalsppt/" target="_blank">Lec34 AV261 Reconstruction of sampled signals.ppt</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/60946403/Lecture-19ppt/" target="_blank">Lecture 19.ppt</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/20
+                    </td>
+                  </tr><tr><td>
+                        <a href="https://www.coursehero.com/file/60946081/Lecture-14pptx/" target="_blank">Lecture 14.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        nan
+                        <br>
+                        Uploaded: 4/30/20
+                    </td><td>
+                        <a href="https://www.coursehero.com/file/60945722/Lecture-12pptx/" target="_blank">Lecture 12.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        nan
+                        <br>
+                        Uploaded: 4/30/20
+                    </td></tr> </table></div>
+
+          </section>
+
+    
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

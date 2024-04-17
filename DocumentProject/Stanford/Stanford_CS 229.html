@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
+  <title>Margie Ruffin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../../js/doctable.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#303d4e;
+      border-color: #303d4e;
+    }
+    #myNavbar{
+      float:right;
+    }
+    h1{
+      color:#4d9586;
+    }
+    h2{
+      color:#4d9586;
+    }
+    h3{
+      color:#4d9586;
+    }
+
+    table, th, td {
+    border:1px solid black;
+    margin: 0 auto;
+    padding-left: 15px;
+    } 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      /*height: 450px;*/
+      height:100%;
+
+      padding-top:50px;
+    }
+
+    .iconRow {
+    display: flex;
+    }
+
+    .iconColumn {
+      display: flex;
+      flex: 50%;
+
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    #socialMedia {
+      padding-top: 10px;
+    }
+    .info{
+      margin: 10px 0px  10px;
+      display:block;
+    }
+    .contact_info{
+      padding-top:10px;
+    }
+    .contact_info_header{
+      font-family:Helvetica Neue;
+      font-weight:bold;
+    }
+
+    .artifact{
+      color:green;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: transparent;
+      color: black;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    /*@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }*/
+
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    }
+
+    @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1140px;
+    }
+    }
+
+    .active, .nav-btn:hover {
+      background-color:#4d9586;
+      color:#4d9586;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+    }
+
+
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:99; }
+    .hover_img a:hover span { display:block; left: -150px; }
+
+  </style>
+  
+</head>
+<body> <div class="container" style="margin-bottom: 25px;" >
+    <div class="container-fluid text-center">    
+        <div class="row content text-left">
+
+          <section>
+            <div class="doc_project">
+              <div class="project_table" style="margin-top: 10px;">
+
+                <div class="container">
+                  <div class="row" style="text-align:center;">
+                    <h1 style="text-align: center; margin-bottom:15px"> Course Hero breakdown for Stanford CS 229 </h2>
+                    <img src="../SchoolStats/Stanford/Stanford_CS_229_course_docs.png" alt="Total EE/CS Docs on Course Hero" title="Total Number of EE/CS Documents on Course Hero" width="500" height="300" style="margin-left: auto; margin-right: auto; margin-bottom: 5px; display: block;" >
+                    <p> <strong>Figure 1:</strong> This figure shows the breakdown of document type for documents specific to the Stanford CS 229 course on Course Hero.</p>
+
+                    <hr>
+                    <h3 style="text-align: center; margin-bottom:15px; margin-top:15px;"><strong> <a href="https://www.google.com" target="_blank">⇢ CLICK HERE TO TAKE THE SURVEY! ⇠</a> </strong></h3>
+                    <hr>
+                  </div>
+                </div>
+
+              </div><h2 style="text-align: center;"> Additional Documents for CS 229 on Course Hero </h2>
+                <p style="text-align: center; margin-top: 30px; margin-bottom: 30px;"> Below is a table of additional "locked" documents for CS 229 on Course Hero. 
+                  Click on the name of the document to be taken to the Course Hero page hosting the document.</p> <table id="data_table" style="width: 100%; margin-bottom: 45px;">
+                  <col width="33.33%">
+                  <col width="33.34%">
+                  <col width="33.33%"><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/215458866/ps3pdf/" target="_blank">ps3.pdf</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/20/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/50251342/posonlypy/" target="_blank">posonly.py</a>
+                        <br>
+                        Total Views: 221
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 11/12/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/50252074/poissonpy/" target="_blank">poisson.py</a>
+                        <br>
+                        Total Views: 214
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 11/12/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/89667054/p01e-gdapy/" target="_blank">p01e_gda.py</a>
+                        <br>
+                        Total Views: 109
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/21/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/42953233/test-ps2py/" target="_blank">test_ps2.py</a>
+                        <br>
+                        Total Views: 121
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 7/1/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/199140501/h2pdf/" target="_blank">h2.pdf</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/13/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/176580092/ps0pdf/" target="_blank">ps0.pdf</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/7/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/172570741/ps0pdf/" target="_blank">ps0.pdf</a>
+                        <br>
+                        Total Views: 19
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/18/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/160019036/perceptronpy/" target="_blank">perceptron.py</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/25/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714190/MachineLearning-Lecture03/" target="_blank">MachineLearning-Lecture03</a>
+                        <br>
+                        Total Views: 110
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/11374085/MachineLearning-Lecture16/" target="_blank">MachineLearning-Lecture16</a>
+                        <br>
+                        Total Views: 86
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/10/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11374089/MachineLearning-Lecture19/" target="_blank">MachineLearning-Lecture19</a>
+                        <br>
+                        Total Views: 84
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/10/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/160731650/hw2-2dpdf/" target="_blank">hw2_2d.pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/1/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/199140491/h1pdf/" target="_blank">h1.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/13/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/71834936/2015-all-lecture-notespdf/" target="_blank">2015_all_lecture_notes.pdf</a>
+                        <br>
+                        Total Views: 28
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/29/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/11374087/MachineLearning-Lecture17/" target="_blank">MachineLearning-Lecture17</a>
+                        <br>
+                        Total Views: 73
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/10/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/11374086/MachineLearning-Lecture14/" target="_blank">MachineLearning-Lecture14</a>
+                        <br>
+                        Total Views: 64
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/10/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/195579172/210407567pdf/" target="_blank">2104.07567.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/17/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/42953269/test-ps3py/" target="_blank">test_ps3.py</a>
+                        <br>
+                        Total Views: 33
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 7/1/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714201/MachineLearning-Lecture14/" target="_blank">MachineLearning-Lecture14</a>
+                        <br>
+                        Total Views: 69
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/195579039/221013966pdf/" target="_blank">2210.13966.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/17/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/11374088/MachineLearning-Lecture18/" target="_blank">MachineLearning-Lecture18</a>
+                        <br>
+                        Total Views: 52
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/10/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/50953139/test-maybecc/" target="_blank">test_maybe.cc</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/22/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714198/MachineLearning-Lecture11/" target="_blank">MachineLearning-Lecture11</a>
+                        <br>
+                        Total Views: 63
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714193/MachineLearning-Lecture06/" target="_blank">MachineLearning-Lecture06</a>
+                        <br>
+                        Total Views: 56
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/11374081/MachineLearning-Lecture07/" target="_blank">MachineLearning-Lecture07</a>
+                        <br>
+                        Total Views: 44
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/10/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714195/MachineLearning-Lecture08/" target="_blank">MachineLearning-Lecture08</a>
+                        <br>
+                        Total Views: 53
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/160731649/hw3-1apdf/" target="_blank">hw3_1a.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/1/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/146269089/hw1-2b-coding-create-polyJPG/" target="_blank">hw1_2b_coding_create_poly.JPG</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714187/MachineLearning-Lecture19/" target="_blank">MachineLearning-Lecture19</a>
+                        <br>
+                        Total Views: 47
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/11374082/MachineLearning-Lecture12/" target="_blank">MachineLearning-Lecture12</a>
+                        <br>
+                        Total Views: 36
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/10/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/11374090/MachineLearning-Lecture20/" target="_blank">MachineLearning-Lecture20</a>
+                        <br>
+                        Total Views: 35
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/10/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714200/MachineLearning-Lecture13/" target="_blank">MachineLearning-Lecture13</a>
+                        <br>
+                        Total Views: 43
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714192/MachineLearning-Lecture05/" target="_blank">MachineLearning-Lecture05</a>
+                        <br>
+                        Total Views: 43
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/71788353/nature-ecs-machine-learningpdf/" target="_blank">nature-ecs-machine-learning.pdf</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/28/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/146269114/hw1-2b-coding-predictJPG/" target="_blank">hw1_2b_coding_predict.JPG</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/146269095/hw1-3dJPG/" target="_blank">hw1_3d.JPG</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/146269093/hw1-3cJPG/" target="_blank">hw1_3c.JPG</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714196/MachineLearning-Lecture09/" target="_blank">MachineLearning-Lecture09</a>
+                        <br>
+                        Total Views: 41
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714191/MachineLearning-Lecture04/" target="_blank">MachineLearning-Lecture04</a>
+                        <br>
+                        Total Views: 41
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714188/MachineLearning-Lecture20/" target="_blank">MachineLearning-Lecture20</a>
+                        <br>
+                        Total Views: 41
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11374084/MachineLearning-Lecture15/" target="_blank">MachineLearning-Lecture15</a>
+                        <br>
+                        Total Views: 33
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/10/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/11374079/MachineLearning-Lecture05/" target="_blank">MachineLearning-Lecture05</a>
+                        <br>
+                        Total Views: 33
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/10/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/11374078/MachineLearning-Lecture03/" target="_blank">MachineLearning-Lecture03</a>
+                        <br>
+                        Total Views: 33
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/10/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/160019021/spampy/" target="_blank">spam.py</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/25/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714199/MachineLearning-Lecture12/" target="_blank">MachineLearning-Lecture12</a>
+                        <br>
+                        Total Views: 38
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/146277000/hw1-2d-coding-run-expJPG/" target="_blank">hw1_2d_coding_run_exp.JPG</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/146269115/hw1-3bJPG/" target="_blank">hw1_3b.JPG</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/146269094/hw1-2b-coding-fitJPG/" target="_blank">hw1_2b_coding_fit.JPG</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/17779422/Midterm-Review-Kian/" target="_blank">Midterm_Review_Kian</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/15/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11374080/MachineLearning-Lecture06/" target="_blank">MachineLearning-Lecture06</a>
+                        <br>
+                        Total Views: 27
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/10/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/9801253/MachineLearning-Lecture18/" target="_blank">MachineLearning-Lecture18</a>
+                        <br>
+                        Total Views: 33
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714204/MachineLearning-Lecture17/" target="_blank">MachineLearning-Lecture17</a>
+                        <br>
+                        Total Views: 33
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/42040469/paper2pdf/" target="_blank">paper2.pdf</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Essay
+                        <br>
+                        Uploaded: 6/5/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/146269092/hw1-2d-coding-create-sinJPG/" target="_blank">hw1_2d_coding_create_sin.JPG</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/16314379/Syllabus/" target="_blank">Syllabus</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/25/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11374083/MachineLearning-Lecture13/" target="_blank">MachineLearning-Lecture13</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/10/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/160018948/stabilitypy/" target="_blank">stability.py</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/25/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714189/MachineLearning-Lecture02/" target="_blank">MachineLearning-Lecture02</a>
+                        <br>
+                        Total Views: 27
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714180/gp-demo/" target="_blank">gp_demo</a>
+                        <br>
+                        Total Views: 27
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/60035801/cs229-livenotes-lecture3pdf/" target="_blank">cs229-livenotes-lecture3.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/19/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/146540025/hw2-newton-fitPNG/" target="_blank">hw2_newton_fit.PNG</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/5/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/24538385/183-reportpdf/" target="_blank">183_report.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 8/20/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714194/MachineLearning-Lecture07/" target="_blank">MachineLearning-Lecture07</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211652736/IMG-5484jpeg/" target="_blank">IMG_5484.jpeg</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/11/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211652703/IMG-5477jpeg/" target="_blank">IMG_5477.jpeg</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/11/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211652698/IMG-5479jpeg/" target="_blank">IMG_5479.jpeg</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/11/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/195579768/34421883445922pdf/" target="_blank">3442188.3445922.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/17/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/68333407/clustering1py/" target="_blank">clustering1.py</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/18/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/68333323/knapsackpy/" target="_blank">knapsack.py</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/18/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/68333264/dijkstrapy/" target="_blank">dijkstra.py</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/18/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714205/emacs/" target="_blank">emacs</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12637675/logistic-grad-ascent/" target="_blank">logistic_grad_ascent</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/11/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/24538388/238-posterpdf/" target="_blank">238_poster.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 8/20/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/210196551/IMG-4913jpeg/" target="_blank">IMG_4913.jpeg</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/18/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/60034825/cs229-livenotes-lecture4pdf/" target="_blank">cs229-livenotes-lecture4.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/19/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8780580/mgtobj/" target="_blank">mgtobj</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/3/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8780579/riskret/" target="_blank">risk&amp;ret</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/3/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/68333411/heapspy/" target="_blank">heaps.py</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/18/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/68333262/2-sumpy/" target="_blank">2-sum.py</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/18/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/42040091/HowABillBecomesALawpdf/" target="_blank">HowABillBecomesALaw.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Essay
+                        <br>
+                        Uploaded: 6/5/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/146299373/hw2-1eJPG/" target="_blank">hw2_1e.JPG</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/11508130/Gus-Liu-Reaction-Paper-4/" target="_blank">Gus Liu Reaction Paper 4</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Essay
+                        <br>
+                        Uploaded: 11/12/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/9975566/L14-rebinning-slides/" target="_blank">L14_rebinning_slides</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/21/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714202/MachineLearning-Lecture15/" target="_blank">MachineLearning-Lecture15</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/11508143/Research-Paper-Outline/" target="_blank">Research Paper Outline</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/12/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/42040364/ElectronicDevicesSalesPredictionUsingSocialMediaSentimentAnalysispdf/" target="_blank">ElectronicDevicesSalesPredictionUsingSocialMediaSentimentAnalysis.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Essay
+                        <br>
+                        Uploaded: 6/5/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/42040265/HapticClassificationAndFaultySensorCompensationForARoboticHandpdf/" target="_blank">HapticClassificationAndFaultySensorCompensationForARoboticHand.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Essay
+                        <br>
+                        Uploaded: 6/5/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/42040260/StochasticEVChargingdocxpdf/" target="_blank">StochasticEVCharging.docx.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Essay
+                        <br>
+                        Uploaded: 6/5/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/42040241/paper3pdf/" target="_blank">paper3.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Essay
+                        <br>
+                        Uploaded: 6/5/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12637676/matlab-session/" target="_blank">matlab_session</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/11/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714184/logistic-grad-ascent/" target="_blank">logistic_grad_ascent</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/69363886/2015-2016-Scheduledocx/" target="_blank">2015-2016 Schedule.docx</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/1/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/50953340/test-eithercc/" target="_blank">test_either.cc</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/22/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/68333230/basic-sortpy/" target="_blank">basic_sort.py</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/18/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714182/sigmoid/" target="_blank">sigmoid</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714179/sample-gp-prior/" target="_blank">sample_gp_prior</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/42040068/OptionPricePredictionpdf/" target="_blank">OptionPricePrediction.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Essay
+                        <br>
+                        Uploaded: 6/5/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/42040008/iDecRealTimeEyeStateClassificationViaWebCampdf/" target="_blank">iDecRealTimeEyeStateClassificationViaWebCam.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Essay
+                        <br>
+                        Uploaded: 6/5/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714181/compute-kernel-matrix/" target="_blank">compute_kernel_matrix</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/11508140/Research-2-Minute-Presentation/" target="_blank">Research 2 Minute Presentation</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Essay
+                        <br>
+                        Uploaded: 11/12/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714183/matlab-session/" target="_blank">matlab_session</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/42040222/DistinguishingOpinionFromNewspdf/" target="_blank">DistinguishingOpinionFromNews.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Essay
+                        <br>
+                        Uploaded: 6/5/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/42040160/EarthquakeWaveformPredictionpdf/" target="_blank">EarthquakeWaveformPrediction.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Essay
+                        <br>
+                        Uploaded: 6/5/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/42039918/IdentifyingExternalVulnerabilitypdf/" target="_blank">IdentifyingExternalVulnerability.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Essay
+                        <br>
+                        Uploaded: 6/5/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12501511/php-coding/" target="_blank">php coding</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/28/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7714185/skasivajhula-README/" target="_blank">skasivajhula_README</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/7/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/9975553/L2-1D-Sampling/" target="_blank">L2_1D_Sampling</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/21/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/9975555/L4-Gridding-and-Density/" target="_blank">L4_Gridding_and_Density</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/21/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/217467296/ps0-templatepdf/" target="_blank">ps0_template.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/7/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/216348251/main-notespdf/" target="_blank">main_notes.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/28/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211652737/IMG-5478jpeg/" target="_blank">IMG_5478.jpeg</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/11/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211652700/IMG-5476jpeg/" target="_blank">IMG_5476.jpeg</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/11/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211652699/IMG-5482jpeg/" target="_blank">IMG_5482.jpeg</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/11/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211652696/IMG-5483jpeg/" target="_blank">IMG_5483.jpeg</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/11/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211652693/IMG-5481jpeg/" target="_blank">IMG_5481.jpeg</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/11/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211652689/IMG-5480jpeg/" target="_blank">IMG_5480.jpeg</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/11/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211652146/IMG-5485jpeg/" target="_blank">IMG_5485.jpeg</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/11/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/210195080/IMG-4911jpeg/" target="_blank">IMG_4911.jpeg</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/18/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/210195044/IMG-4912jpeg/" target="_blank">IMG_4912.jpeg</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/18/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/210195014/IMG-4910jpeg/" target="_blank">IMG_4910.jpeg</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/18/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/210195013/IMG-4914jpeg/" target="_blank">IMG_4914.jpeg</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/18/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/210194943/IMG-4915jpeg/" target="_blank">IMG_4915.jpeg</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/18/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/210194939/IMG-4909jpeg/" target="_blank">IMG_4909.jpeg</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/18/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/210194903/IMG-4908jpeg/" target="_blank">IMG_4908.jpeg</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/18/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/195579086/200911462pdf/" target="_blank">2009.11462.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/17/23
+                    </td>
+                  </tr><tr><td>
+                        <a href="https://www.coursehero.com/file/195579042/190508836pdf/" target="_blank">1905.08836.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        nan
+                        <br>
+                        Uploaded: 3/17/23
+                    </td><td>
+                        <a href="https://www.coursehero.com/file/192285530/CS229-Intropptx/" target="_blank">CS229-Intro.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        nan
+                        <br>
+                        Uploaded: 2/21/23
+                    </td></tr> </table></div>
+
+          </section>
+
+    
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

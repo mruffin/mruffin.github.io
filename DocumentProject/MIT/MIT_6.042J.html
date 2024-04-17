@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
+  <title>Margie Ruffin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../../js/doctable.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#303d4e;
+      border-color: #303d4e;
+    }
+    #myNavbar{
+      float:right;
+    }
+    h1{
+      color:#4d9586;
+    }
+    h2{
+      color:#4d9586;
+    }
+    h3{
+      color:#4d9586;
+    }
+
+    table, th, td {
+    border:1px solid black;
+    margin: 0 auto;
+    padding-left: 15px;
+    } 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      /*height: 450px;*/
+      height:100%;
+
+      padding-top:50px;
+    }
+
+    .iconRow {
+    display: flex;
+    }
+
+    .iconColumn {
+      display: flex;
+      flex: 50%;
+
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    #socialMedia {
+      padding-top: 10px;
+    }
+    .info{
+      margin: 10px 0px  10px;
+      display:block;
+    }
+    .contact_info{
+      padding-top:10px;
+    }
+    .contact_info_header{
+      font-family:Helvetica Neue;
+      font-weight:bold;
+    }
+
+    .artifact{
+      color:green;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: transparent;
+      color: black;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    /*@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }*/
+
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    }
+
+    @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1140px;
+    }
+    }
+
+    .active, .nav-btn:hover {
+      background-color:#4d9586;
+      color:#4d9586;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+    }
+
+
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:99; }
+    .hover_img a:hover span { display:block; left: -150px; }
+
+  </style>
+  
+</head>
+<body> <div class="container" style="margin-bottom: 25px;" >
+    <div class="container-fluid text-center">    
+        <div class="row content text-left">
+
+          <section>
+            <div class="doc_project">
+              <div class="project_table" style="margin-top: 10px;">
+
+                <div class="container">
+                  <div class="row" style="text-align:center;">
+                    <h1 style="text-align: center; margin-bottom:15px"> Course Hero breakdown for MIT 6.042J </h2>
+                    <img src="../SchoolStats/MIT/MIT_6._042J_course_docs.png" alt="Total EE/CS Docs on Course Hero" title="Total Number of EE/CS Documents on Course Hero" width="500" height="300" style="margin-left: auto; margin-right: auto; margin-bottom: 5px; display: block;" >
+                    <p> <strong>Figure 1:</strong> This figure shows the breakdown of document type for documents specific to the MIT 6.042J course on Course Hero.</p>
+
+                    <hr>
+                    <h3 style="text-align: center; margin-bottom:15px; margin-top:15px;"><strong> <a href="https://www.google.com" target="_blank">⇢ CLICK HERE TO TAKE THE SURVEY! ⇠</a> </strong></h3>
+                    <hr>
+                  </div>
+                </div>
+
+              </div><h2 style="text-align: center;"> Additional Documents for 6.042J on Course Hero </h2>
+                <p style="text-align: center; margin-top: 30px; margin-bottom: 30px;"> Below is a table of additional "locked" documents for 6.042J on Course Hero. 
+                  Click on the name of the document to be taken to the Course Hero page hosting the document.</p> <table id="data_table" style="width: 100%; margin-bottom: 45px;">
+                  <col width="33.33%">
+                  <col width="33.34%">
+                  <col width="33.33%"><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12731668/MIT6-042JS10-notes/" target="_blank">MIT6_042JS10_notes</a>
+                        <br>
+                        Total Views: 1531
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707992/MIT6-042JS10-chap09/" target="_blank">MIT6_042JS10_chap09</a>
+                        <br>
+                        Total Views: 668
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12731656/MIT6-042JS10-chap10/" target="_blank">MIT6_042JS10_chap10</a>
+                        <br>
+                        Total Views: 378
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/212364009/pset01-solspdf/" target="_blank">pset01-sols.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/19/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12731454/MIT6-042JS10-chap13/" target="_blank">MIT6_042JS10_chap13</a>
+                        <br>
+                        Total Views: 231
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/225851295/pset02-probspdf/" target="_blank">pset02-probs.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/20/24
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/225851197/pset05-probspdf/" target="_blank">pset05-probs.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/20/24
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/225851171/pset10-probspdf/" target="_blank">pset10-probs.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/20/24
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/225851140/pset07-probspdf/" target="_blank">pset07-probs.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/20/24
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/225851012/pset08-probspdf/" target="_blank">pset08-probs.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/20/24
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707994/MIT6-042JS10-chap15/" target="_blank">MIT6_042JS10_chap15</a>
+                        <br>
+                        Total Views: 168
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707989/MIT6-042JS10-chap02/" target="_blank">MIT6_042JS10_chap02</a>
+                        <br>
+                        Total Views: 138
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/40349428/ps2-solpdf/" target="_blank">ps2_sol.pdf</a>
+                        <br>
+                        Total Views: 81
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/17/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707982/MIT6-042JS10-assn04/" target="_blank">MIT6_042JS10_assn04</a>
+                        <br>
+                        Total Views: 135
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707981/MIT6-042JS10-assn02/" target="_blank">MIT6_042JS10_assn02</a>
+                        <br>
+                        Total Views: 135
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/33167320/rec2-solutionpdf/" target="_blank">rec2_solution.pdf</a>
+                        <br>
+                        Total Views: 80
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/15/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12731657/MIT6-042JS10-chap19/" target="_blank">MIT6_042JS10_chap19</a>
+                        <br>
+                        Total Views: 109
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12731658/MIT6-042JS10-final/" target="_blank">MIT6_042JS10_final</a>
+                        <br>
+                        Total Views: 106
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707990/MIT6-042JS10-chap06/" target="_blank">MIT6_042JS10_chap06</a>
+                        <br>
+                        Total Views: 82
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/18265830/ps4/" target="_blank">ps4</a>
+                        <br>
+                        Total Views: 68
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/2/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707993/MIT6-042JS10-chap11/" target="_blank">MIT6_042JS10_chap11</a>
+                        <br>
+                        Total Views: 74
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12731452/MIT6-042JS10-chap04/" target="_blank">MIT6_042JS10_chap04</a>
+                        <br>
+                        Total Views: 66
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12731655/MIT6-042JS10-chap12/" target="_blank">MIT6_042JS10_chap12</a>
+                        <br>
+                        Total Views: 64
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707980/MIT6-042JS10-assn01/" target="_blank">MIT6_042JS10_assn01</a>
+                        <br>
+                        Total Views: 64
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/40349451/ps4-solpdf/" target="_blank">ps4_sol.pdf</a>
+                        <br>
+                        Total Views: 37
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/17/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/17198181/pset4s/" target="_blank">pset4s</a>
+                        <br>
+                        Total Views: 55
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/23/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/40349414/ps1-solpdf/" target="_blank">ps1_sol.pdf</a>
+                        <br>
+                        Total Views: 36
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/17/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12731659/MIT6-042JS10-chap21/" target="_blank">MIT6_042JS10_chap21</a>
+                        <br>
+                        Total Views: 50
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/174770791/mid2-review-solspdf/" target="_blank">mid2-review-sols.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/29/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/17198268/final/" target="_blank">final</a>
+                        <br>
+                        Total Views: 37
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/23/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/17198574/quiz1-solutions/" target="_blank">quiz1_solutions</a>
+                        <br>
+                        Total Views: 36
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/23/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33167331/rec1-solutionspdf/" target="_blank">rec1_solutions.pdf</a>
+                        <br>
+                        Total Views: 26
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 9/15/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707983/MIT6-042JS10-assn05/" target="_blank">MIT6_042JS10_assn05</a>
+                        <br>
+                        Total Views: 39
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/17199359/pset1s/" target="_blank">pset1s</a>
+                        <br>
+                        Total Views: 35
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/23/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/212364132/lecture-notes-07-recurrencespdf/" target="_blank">lecture-notes-07_recurrences.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/19/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12731451/MIT6-042JS10-assn12/" target="_blank">MIT6_042JS10_assn12</a>
+                        <br>
+                        Total Views: 36
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707985/MIT6-042JS10-assn06/" target="_blank">MIT6_042JS10_assn06</a>
+                        <br>
+                        Total Views: 36
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707991/MIT6-042JS10-chap07/" target="_blank">MIT6_042JS10_chap07</a>
+                        <br>
+                        Total Views: 34
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/17199021/pset5s/" target="_blank">pset5s</a>
+                        <br>
+                        Total Views: 30
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/23/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707984/MIT6-042JS10-assn07/" target="_blank">MIT6_042JS10_assn07</a>
+                        <br>
+                        Total Views: 33
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/17199401/quiz2-solutions/" target="_blank">quiz2_solutions</a>
+                        <br>
+                        Total Views: 29
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/23/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12731660/MIT6-042JS10-quiz01-sol/" target="_blank">MIT6_042JS10_quiz01_sol</a>
+                        <br>
+                        Total Views: 32
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/74844138/rec14-solspdf/" target="_blank">rec14-sols.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/30/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/17197104/pset3s/" target="_blank">pset3s</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/23/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707987/MIT6-042JS10-assn10/" target="_blank">MIT6_042JS10_assn10</a>
+                        <br>
+                        Total Views: 26
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707986/MIT6-042JS10-assn08/" target="_blank">MIT6_042JS10_assn08</a>
+                        <br>
+                        Total Views: 26
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707978/MIT6-042JF10-rec02-sol/" target="_blank">MIT6_042JF10_rec02_sol</a>
+                        <br>
+                        Total Views: 26
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35641091/Problem-Set-2-1pdf/" target="_blank">Problem_Set_2 (1).pdf</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 9/24/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35641132/rec3-solutionspdf/" target="_blank">rec3_solutions.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 9/24/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33167315/rec3-solutionspdf/" target="_blank">rec3_solutions.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 9/15/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/17199337/pset6s/" target="_blank">pset6s</a>
+                        <br>
+                        Total Views: 19
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/23/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707977/MIT6-042JF10-mating/" target="_blank">MIT6_042JF10_mating</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/40349439/ps3-solpdf/" target="_blank">ps3_sol.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/17/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/174770790/final-review-solspdf/" target="_blank">final-review-sols.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/29/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/174770653/final-review-probspdf/" target="_blank">final-review-probs.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/29/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33167332/rec6-solutionspdf/" target="_blank">rec6_solutions.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 9/15/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/212364203/lecture-notes-19-conditional-prob-bayespdf/" target="_blank">lecture-notes-19_conditional_prob_bayes.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/19/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/212364190/state-machinespdf/" target="_blank">state-machines.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/19/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/212364169/rec06-solspdf/" target="_blank">rec06-sols.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/19/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/212364081/rec01-sols-1pdf/" target="_blank">rec01-sols (1).pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/19/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12731453/MIT6-042JS10-chap08/" target="_blank">MIT6_042JS10_chap08</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/18265833/PSET3Problems/" target="_blank">PSET3Problems</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/2/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/40349481/ps11-solpdf/" target="_blank">ps11_sol.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/17/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/102556705/A-Conceptual-Introduction-to-Hamiltonian-Monte-Carlopdf/" target="_blank">A Conceptual Introduction to Hamiltonian Monte Carlo.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/7/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12731450/MIT6-042JS10-assn03/" target="_blank">MIT6_042JS10_assn03</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/40349446/ps6-solpdf/" target="_blank">ps6_sol.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/17/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/40349427/ps5-solpdf/" target="_blank">ps5_sol.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/17/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/40349425/ps8-solpdf/" target="_blank">ps8_sol.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/17/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/74844006/rec11-solspdf/" target="_blank">rec11-sols.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/30/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/33167336/rec5-solutionpdf/" target="_blank">rec5_solution.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/15/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707988/MIT6-042JS10-assn11/" target="_blank">MIT6_042JS10_assn11</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/102556634/An-Asymptotically-Zero-Variance-Gradient-Estimator-for-Variational-Inferencepdf/" target="_blank">An Asymptotically Zero-Variance Gradient Estimator for Variational Inference.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/7/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/174770736/mid1-reviewpdf/" target="_blank">mid1-review.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/29/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/174770432/mid1-review-solspdf/" target="_blank">mid1-review-sols.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/29/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707997/MIT6-042JS10-quiz04-sol/" target="_blank">MIT6_042JS10_quiz04_sol</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/40349434/ps10-solpdf/" target="_blank">ps10_sol.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/17/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/39254049/rec11-solution-1pdf/" target="_blank">rec11_solution (1).pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/18/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/40349412/ps9-solpdf/" target="_blank">ps9_sol.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/17/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12731661/MIT6-042JS10-quiz01/" target="_blank">MIT6_042JS10_quiz01</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/71597605/ps10pdf/" target="_blank">ps10.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/26/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/33167316/rec7-solpdf/" target="_blank">rec7_sol.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/15/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25219336/Summary-Sheet-for-Midterm-1pdf/" target="_blank">Summary Sheet for Midterm 1.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Assessment
+                        <br>
+                        Uploaded: 9/22/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12731663/MIT6-042JS10-quiz02/" target="_blank">MIT6_042JS10_quiz02</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/40349464/ps12-solpdf/" target="_blank">ps12_sol.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/17/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/81646139/course-informationpdf/" target="_blank">course-information.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/21/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/74844324/practice-quiz1-solspdf/" target="_blank">practice-quiz1-sols.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/30/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/71597595/ps2pdf/" target="_blank">ps2.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/26/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/71597587/ps3pdf/" target="_blank">ps3.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/26/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/71597469/ps1pdf/" target="_blank">ps1.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/26/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/120677636/Cheat-Sheet-3pdf/" target="_blank">Cheat Sheet 3.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/3/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12731664/MIT6-042JS10-quiz04/" target="_blank">MIT6_042JS10_quiz04</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707995/MIT6-042JS10-quiz03-sol/" target="_blank">MIT6_042JS10_quiz03_sol</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707979/MIT6-042JF10-rec03/" target="_blank">MIT6_042JF10_rec03</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/102552761/floydpdf/" target="_blank">floyd.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/7/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/174770658/midterm2-probspdf/" target="_blank">midterm2-probs.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/29/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12707996/MIT6-042JS10-quiz03/" target="_blank">MIT6_042JS10_quiz03</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/71597603/ps4pdf/" target="_blank">ps4.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/26/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12731662/MIT6-042JS10-quiz02-sol/" target="_blank">MIT6_042JS10_quiz02_sol</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/18/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/102554850/3D-Convolutional-Neural-Networks-for-Cross-Audio-Visual-Matching-Recognitionpdf/" target="_blank">3D Convolutional Neural Networks for Cross Audio-Visual Matching Recognition.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/7/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/33167329/rec10-solutionspdf/" target="_blank">rec10_solutions.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 9/15/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33167322/rec4-solutionspdf/" target="_blank">rec4_solutions.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 9/15/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/71597676/ps9pdf/" target="_blank">ps9.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/26/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/71597641/ps5pdf/" target="_blank">ps5.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/26/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/71597580/ps7pdf/" target="_blank">ps7.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/26/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35641090/Problem-Set3pdf/" target="_blank">Problem_Set3.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 9/24/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/33167334/rec9-solpdf/" target="_blank">rec9_sol.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/15/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33167321/rec8-solutionspdf/" target="_blank">rec8_solutions.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 9/15/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/225851208/pset06-probspdf/" target="_blank">pset06-probs.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/20/24
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/225851205/pset03-probspdf/" target="_blank">pset03-probs.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/20/24
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/225851056/pset09-probspdf/" target="_blank">pset09-probs.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/20/24
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/225850839/pset04-probspdf/" target="_blank">pset04-probs.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/20/24
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/225189675/042-crib-sheetpdf/" target="_blank">042 crib sheet.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/12/24
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/225189507/6042-Pset-9-t3l-pdf/" target="_blank">6.042 Pset 9 t3l .pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/12/24
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/212364154/rec02-sols-1pdf/" target="_blank">rec02-sols (1).pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/19/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/212364087/rec03-solspdf/" target="_blank">rec03-sols.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/19/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/198401654/rec-review-quiz1-solspdf/" target="_blank">rec-review-quiz1-sols.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/7/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/198401576/practice-quiz2-solspdf/" target="_blank">practice-quiz2-sols.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/7/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/120677635/Cheat-Sheet-2pdf/" target="_blank">Cheat Sheet 2.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/3/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/102553065/Xilinx-AWS-EC2-F1-Virtual-Developer-Lab-06052018pdf/" target="_blank">Xilinx AWS EC2 F1 Virtual Developer Lab 06052018.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/7/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/71597637/ps8pdf/" target="_blank">ps8.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/26/20
+                    </td>
+                  </tr> </table></div>
+
+          </section>
+
+    
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

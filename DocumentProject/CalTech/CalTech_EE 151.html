@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
+  <title>Margie Ruffin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../../js/doctable.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#303d4e;
+      border-color: #303d4e;
+    }
+    #myNavbar{
+      float:right;
+    }
+    h1{
+      color:#4d9586;
+    }
+    h2{
+      color:#4d9586;
+    }
+    h3{
+      color:#4d9586;
+    }
+
+    table, th, td {
+    border:1px solid black;
+    margin: 0 auto;
+    padding-left: 15px;
+    } 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      /*height: 450px;*/
+      height:100%;
+
+      padding-top:50px;
+    }
+
+    .iconRow {
+    display: flex;
+    }
+
+    .iconColumn {
+      display: flex;
+      flex: 50%;
+
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    #socialMedia {
+      padding-top: 10px;
+    }
+    .info{
+      margin: 10px 0px  10px;
+      display:block;
+    }
+    .contact_info{
+      padding-top:10px;
+    }
+    .contact_info_header{
+      font-family:Helvetica Neue;
+      font-weight:bold;
+    }
+
+    .artifact{
+      color:green;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: transparent;
+      color: black;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    /*@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }*/
+
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    }
+
+    @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1140px;
+    }
+    }
+
+    .active, .nav-btn:hover {
+      background-color:#4d9586;
+      color:#4d9586;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+    }
+
+
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:99; }
+    .hover_img a:hover span { display:block; left: -150px; }
+
+  </style>
+  
+</head>
+<body> <div class="container" style="margin-bottom: 25px;" >
+    <div class="container-fluid text-center">    
+        <div class="row content text-left">
+
+          <section>
+            <div class="doc_project">
+              <div class="project_table" style="margin-top: 10px;">
+
+                <div class="container">
+                  <div class="row" style="text-align:center;">
+                    <h1 style="text-align: center; margin-bottom:15px"> Course Hero breakdown for CalTech EE 151 </h2>
+                    <img src="../SchoolStats/CalTech/Caltech_EE_151_course_docs.png" alt="Total EE/CS Docs on Course Hero" title="Total Number of EE/CS Documents on Course Hero" width="500" height="300" style="margin-left: auto; margin-right: auto; margin-bottom: 5px; display: block;" >
+                    <p> <strong>Figure 1:</strong> This figure shows the breakdown of document type for documents specific to the CalTech EE 151 course on Course Hero.</p>
+
+                    <hr>
+                    <h3 style="text-align: center; margin-bottom:15px; margin-top:15px;"><strong> <a href="https://www.google.com" target="_blank">⇢ CLICK HERE TO TAKE THE SURVEY! ⇠</a> </strong></h3>
+                    <hr>
+                  </div>
+                </div>
+
+              </div><h2 style="text-align: center;"> Additional Documents for EE 151 on Course Hero </h2>
+                <p style="text-align: center; margin-top: 30px; margin-bottom: 30px;"> Below is a table of additional "locked" documents for EE 151 on Course Hero. 
+                  Click on the name of the document to be taken to the Course Hero page hosting the document.</p> <table id="data_table" style="width: 100%; margin-bottom: 45px;">
+                  <col width="33.33%">
+                  <col width="33.34%">
+                  <col width="33.33%"><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7122/EE-151-Electromagnetic-Engineering-Syllabus/" target="_blank">EE 151 Electromagnetic Engineering Syllabus</a>
+                        <br>
+                        Total Views: 693
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/4/08
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7123/Notes/" target="_blank">Notes</a>
+                        <br>
+                        Total Views: 602
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/4/08
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7129/homework3/" target="_blank">homework3</a>
+                        <br>
+                        Total Views: 143
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/4/08
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7133/homework7/" target="_blank">homework7</a>
+                        <br>
+                        Total Views: 127
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/4/08
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7128/homework2/" target="_blank">homework2</a>
+                        <br>
+                        Total Views: 120
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/4/08
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7131/homework5/" target="_blank">homework5</a>
+                        <br>
+                        Total Views: 114
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/4/08
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7130/homework4/" target="_blank">homework4</a>
+                        <br>
+                        Total Views: 80
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/4/08
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7126/Quizzes-1-3/" target="_blank">Quizzes 1-3</a>
+                        <br>
+                        Total Views: 74
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/4/08
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7124/Quiz-4-solutions/" target="_blank">Quiz 4 solutions</a>
+                        <br>
+                        Total Views: 66
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/4/08
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7132/homework6/" target="_blank">homework6</a>
+                        <br>
+                        Total Views: 64
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/4/08
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7125/Reading-Materials-on-Diffractions/" target="_blank">Reading Materials on Diffractions</a>
+                        <br>
+                        Total Views: 37
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/4/08
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/23812873/course-info/" target="_blank">course_info</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/29/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/23812898/lecture-notes-11-14/" target="_blank">lecture_notes_11_14</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 6/29/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/23812862/lecture-notes-11-16-1/" target="_blank">lecture_notes_11_16_1</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 6/29/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/86777512/EE-151-lecture1pdf/" target="_blank">EE_151_lecture1.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/23812884/2005Oct20notes/" target="_blank">2005Oct20notes</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 6/29/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/23812859/finalreview/" target="_blank">finalreview</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/29/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/86779020/EE-151-lecture2pdf/" target="_blank">EE_151_lecture2.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/86778209/EE-151-lecture17pdf/" target="_blank">EE_151_lecture17.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/86778161/EE-151-lecture3pdf/" target="_blank">EE_151_lecture3.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/86777899/EE-151-lecture4pdf/" target="_blank">EE_151_lecture4.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/86777661/EE-151-lecture8pdf/" target="_blank">EE_151_lecture8.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/86777472/EE-151-lecture14pdf/" target="_blank">EE_151_lecture14.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/86777052/EE-151-lecture9pdf/" target="_blank">EE_151_lecture9.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/23812863/2005Nov03notes/" target="_blank">2005Nov03notes</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 6/29/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/86778941/EE-151-lecture13pdf/" target="_blank">EE_151_lecture13.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/86778006/EE-151-lecture5pdf/" target="_blank">EE_151_lecture5.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/86777796/EE-151-lecture11pdf/" target="_blank">EE_151_lecture11.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/86777768/EE-151-lecture10pdf/" target="_blank">EE_151_lecture10.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/86777665/EE-151-lecture15pdf/" target="_blank">EE_151_lecture15.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/86777614/EE-151-lecture6pdf/" target="_blank">EE_151_lecture6.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/86777498/EE-151-lecture12pdf/" target="_blank">EE_151_lecture12.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/86777457/EE-151-lecture7pdf/" target="_blank">EE_151_lecture7.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td>
+                  </tr><tr><td>
+                        <a href="https://www.coursehero.com/file/86777007/EE-151-lecture16pdf/" target="_blank">EE_151_lecture16.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/2/21
+                    </td><td>
+                        <a href="https://www.coursehero.com/file/75127685/EE4718-design-prj-descrptn-2016pdf/" target="_blank">EE_151_lecture12.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/3/20
+                    </td></tr> </table></div>
+
+          </section>
+
+    
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
+  <title>Margie Ruffin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../../js/doctable.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#303d4e;
+      border-color: #303d4e;
+    }
+    #myNavbar{
+      float:right;
+    }
+    h1{
+      color:#4d9586;
+    }
+    h2{
+      color:#4d9586;
+    }
+    h3{
+      color:#4d9586;
+    }
+
+    table, th, td {
+    border:1px solid black;
+    margin: 0 auto;
+    padding-left: 15px;
+    } 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      /*height: 450px;*/
+      height:100%;
+
+      padding-top:50px;
+    }
+
+    .iconRow {
+    display: flex;
+    }
+
+    .iconColumn {
+      display: flex;
+      flex: 50%;
+
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    #socialMedia {
+      padding-top: 10px;
+    }
+    .info{
+      margin: 10px 0px  10px;
+      display:block;
+    }
+    .contact_info{
+      padding-top:10px;
+    }
+    .contact_info_header{
+      font-family:Helvetica Neue;
+      font-weight:bold;
+    }
+
+    .artifact{
+      color:green;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: transparent;
+      color: black;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    /*@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }*/
+
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    }
+
+    @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1140px;
+    }
+    }
+
+    .active, .nav-btn:hover {
+      background-color:#4d9586;
+      color:#4d9586;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+    }
+
+
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:99; }
+    .hover_img a:hover span { display:block; left: -150px; }
+
+  </style>
+  
+</head>
+<body> <div class="container" style="margin-bottom: 25px;" >
+    <div class="container-fluid text-center">    
+        <div class="row content text-left">
+
+          <section>
+            <div class="doc_project">
+              <div class="project_table" style="margin-top: 10px;">
+
+                <div class="container">
+                  <div class="row" style="text-align:center;">
+                    <h1 style="text-align: center; margin-bottom:15px"> Course Hero breakdown for U Utah ECE 2280 </h2>
+                    <img src="../SchoolStats/UUtah/UofU_ECE_2280_course_docs.png" alt="Total EE/CS Docs on Course Hero" title="Total Number of EE/CS Documents on Course Hero" width="500" height="300" style="margin-left: auto; margin-right: auto; margin-bottom: 5px; display: block;" >
+                    <p> <strong>Figure 1:</strong> This figure shows the breakdown of document type for documents specific to the U Utah ECE 2280 course on Course Hero.</p>
+
+                    <hr>
+                    <h3 style="text-align: center; margin-bottom:15px; margin-top:15px;"><strong> <a href="https://www.google.com" target="_blank">⇢ CLICK HERE TO TAKE THE SURVEY! ⇠</a> </strong></h3>
+                    <hr>
+                  </div>
+                </div>
+
+              </div><h2 style="text-align: center;"> Additional Documents for ECE 2280 on Course Hero </h2>
+                <p style="text-align: center; margin-top: 30px; margin-bottom: 30px;"> Below is a table of additional "locked" documents for ECE 2280 on Course Hero. 
+                  Click on the name of the document to be taken to the Course Hero page hosting the document.</p> <table id="data_table" style="width: 100%; margin-bottom: 45px;">
+                  <col width="33.33%">
+                  <col width="33.34%">
+                  <col width="33.33%"><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/39296414/Midterm-2-Solutionpdf/" target="_blank">Midterm-2-Solution.pdf</a>
+                        <br>
+                        Total Views: 94
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 3/23/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448533/PowerSupplyProject/" target="_blank">PowerSupplyProject</a>
+                        <br>
+                        Total Views: 121
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/21777528/HW-4-Solution/" target="_blank">HW-4-Solution</a>
+                        <br>
+                        Total Views: 98
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448524/Project2-BJTAmplifier/" target="_blank">Project2_BJTAmplifier</a>
+                        <br>
+                        Total Views: 97
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/21777516/HW5-Solution/" target="_blank">HW5-Solution</a>
+                        <br>
+                        Total Views: 79
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/52291443/HW-01-mergedpdf/" target="_blank">HW-01-merged.pdf</a>
+                        <br>
+                        Total Views: 46
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/12/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/21777482/HW1/" target="_blank">HW1</a>
+                        <br>
+                        Total Views: 72
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448615/Lab-1/" target="_blank">Lab-1</a>
+                        <br>
+                        Total Views: 73
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/21777501/HW-8/" target="_blank">HW-8</a>
+                        <br>
+                        Total Views: 67
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448566/Lab3BJT/" target="_blank">Lab3BJT</a>
+                        <br>
+                        Total Views: 62
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/51659457/Midterm-1-Solutionpdf/" target="_blank">Midterm-1 Solution.pdf</a>
+                        <br>
+                        Total Views: 36
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 12/4/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/21777486/HW3/" target="_blank">HW3</a>
+                        <br>
+                        Total Views: 57
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/33281417/Midterm-1-Solutionpdf/" target="_blank">Midterm-1-Solution.pdf</a>
+                        <br>
+                        Total Views: 45
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/18/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/21777532/HW-6-Solution/" target="_blank">HW-6-Solution</a>
+                        <br>
+                        Total Views: 49
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/21777497/HW-6/" target="_blank">HW-6</a>
+                        <br>
+                        Total Views: 47
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448573/Lab4/" target="_blank">Lab4</a>
+                        <br>
+                        Total Views: 48
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/51658533/Lab-1-Hand-Outpdf/" target="_blank">Lab-1-Hand-Out.pdf</a>
+                        <br>
+                        Total Views: 27
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/4/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/21777543/HW3-Solution/" target="_blank">HW3-Solution</a>
+                        <br>
+                        Total Views: 42
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/21777548/HW-7-Solution/" target="_blank">HW-7-Solution</a>
+                        <br>
+                        Total Views: 41
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/39296262/Midterm-1-Solutionpdf/" target="_blank">Midterm-1-Solution.pdf</a>
+                        <br>
+                        Total Views: 29
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 3/23/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448536/Project3-MosFetAmplfiier/" target="_blank">Project3_MosFetAmplfiier</a>
+                        <br>
+                        Total Views: 41
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/21777494/HW1-solution/" target="_blank">HW1_solution</a>
+                        <br>
+                        Total Views: 38
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/21777509/HW5/" target="_blank">HW5</a>
+                        <br>
+                        Total Views: 37
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/50276140/HW-03pdf/" target="_blank">HW-03.pdf</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/12/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409626/Exam3-Solutionpdf/" target="_blank">Exam3_Solution.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448587/Lab2Diode-Speaker-Circuit/" target="_blank">Lab2Diode_Speaker_Circuit</a>
+                        <br>
+                        Total Views: 34
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/21777503/HW-4/" target="_blank">HW-4</a>
+                        <br>
+                        Total Views: 31
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/39302606/Lecture-1pdf/" target="_blank">Lecture-1.pdf</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/23/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/143410742/Exam2-Solutionpdf/" target="_blank">Exam2_Solution.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/50569077/Midterm-2-Solutionpdf/" target="_blank">Midterm-2-Solution.pdf</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/17/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/181082282/HW3-Solutionpdf/" target="_blank">HW3-Solution.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/29/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/51659234/Midterm-2-solutionpdf/" target="_blank">Midterm-2-solution.pdf</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 12/4/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/21777555/HW-2-Solution/" target="_blank">HW-2-Solution</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/51658443/HW9pdf/" target="_blank">HW9.pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/4/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/28654690/Transistorspdf/" target="_blank">Transistors.pdf</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/23/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/50276571/HW-01pdf/" target="_blank">HW-01.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/12/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409515/Exam1-Solutionpdf/" target="_blank">Exam1_Solution.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/181082488/HW-1-solutionpdf/" target="_blank">HW-1-solution.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/29/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/21777480/HW-2/" target="_blank">HW-2</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448540/Lab5OpAmps/" target="_blank">Lab5OpAmps</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409758/HW2sol08pdf/" target="_blank">HW2sol08.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409624/HW9sol07pdf/" target="_blank">HW9sol07.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/52291396/HW-02-mergedpdf/" target="_blank">HW-02-merged.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/12/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/21777493/HW-7/" target="_blank">HW-7</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/143410555/HW6sol07pdf/" target="_blank">HW6sol07.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/143410128/SCAN-MosFetpdf/" target="_blank">SCAN_MosFet.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409915/SCAN-Diodepdf/" target="_blank">SCAN_Diode.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409725/SCAN-Amplifierspdf/" target="_blank">SCAN_Amplifiers.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409619/HW1sol08pdf/" target="_blank">HW1sol08.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409555/HW5sol09pdf/" target="_blank">HW5sol09.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409554/HW5sol08pdf/" target="_blank">HW5sol08.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409551/HW4sol07pdf/" target="_blank">HW4sol07.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/181082709/HW-8-Solutionpdf/" target="_blank">HW-8-Solution.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/29/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/28654669/PNP-notes-1pdf/" target="_blank">PNP notes 1.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/23/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448678/Lecture-10/" target="_blank">Lecture-10</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/143410311/SCAN-Zenerpdf/" target="_blank">SCAN_Zener.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409883/Exam1-ReviewAnswersONLYpdf/" target="_blank">Exam1_ReviewAnswersONLY.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409878/Exam3-ReviewAnswerspdf/" target="_blank">Exam3_ReviewAnswers.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409799/HW8sol08pdf/" target="_blank">HW8sol08.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409757/HW1sol09pdf/" target="_blank">HW1sol09.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409675/HW4sol09pdf/" target="_blank">HW4sol09.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409636/HW4sol08pdf/" target="_blank">HW4sol08.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409617/HW7sol07pdf/" target="_blank">HW7sol07.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409558/HW7sol09pdf/" target="_blank">HW7sol09.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409550/HW3-08pdf/" target="_blank">HW3_08.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409503/HW1-09pdf/" target="_blank">HW1_09.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448570/Lecture-15/" target="_blank">Lecture-15</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/181082542/HW-7-Solutionpdf/" target="_blank">HW-7-Solution.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/29/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/181082409/HW-6-Solutionpdf/" target="_blank">HW-6-Solution.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/29/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/181082248/HW-4-Solutionpdf/" target="_blank">HW-4-Solution.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/29/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/50276143/HW-4pdf/" target="_blank">HW-4.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/12/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/28654673/Print-Out-Circuit-Helppdf/" target="_blank">Print Out Circuit Help.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/23/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/28654666/PNP-notes-2pdf/" target="_blank">PNP notes 2.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/23/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448662/Lecture-2/" target="_blank">Lecture-2</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448579/Lecture-5/" target="_blank">Lecture-5</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448571/Lecture-9/" target="_blank">Lecture-9</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448569/Lecture-18/" target="_blank">Lecture-18</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/143410683/SCAN-BJTpdf/" target="_blank">SCAN_BJT.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409775/HW7sol08pdf/" target="_blank">HW7sol08.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409772/SCAN-PMOSpdf/" target="_blank">SCAN_PMOS.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409759/HW8sol07pdf/" target="_blank">HW8sol07.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409749/HW3sol07pdf/" target="_blank">HW3sol07.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409733/HW9sol09pdf/" target="_blank">HW9sol09.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409713/SCAN-BodePlotspdf/" target="_blank">SCAN_BodePlots.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409686/HW2sol09pdf/" target="_blank">HW2sol09.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409676/HW5sol07pdf/" target="_blank">HW5sol07.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409584/HW2sol07pdf/" target="_blank">HW2sol07.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409547/HW2-08pdf/" target="_blank">HW2_08.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409524/Diode-Examplespdf/" target="_blank">Diode_Examples.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409514/HW1sol07pdf/" target="_blank">HW1sol07.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/51658445/HW4pdf/" target="_blank">HW4.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/4/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448666/Lecture-4/" target="_blank">Lecture-4</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448595/Lecture-3/" target="_blank">Lecture-3</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448576/Lecture-17/" target="_blank">Lecture-17</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/19448560/Lecture-16/" target="_blank">Lecture-16</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409700/HW8sol09pdf/" target="_blank">HW8sol09.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409688/HW3sol08pdf/" target="_blank">HW3sol08.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409687/HW6sol08pdf/" target="_blank">HW6sol08.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/143409568/HW3sol09pdf/" target="_blank">HW3sol09.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/20/22
+                    </td>
+                  </tr> </table></div>
+
+          </section>
+
+    
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

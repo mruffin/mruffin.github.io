@@ -1,0 +1,3000 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
+  <title>Margie Ruffin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../../js/doctable.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#303d4e;
+      border-color: #303d4e;
+    }
+    #myNavbar{
+      float:right;
+    }
+    h1{
+      color:#4d9586;
+    }
+    h2{
+      color:#4d9586;
+    }
+    h3{
+      color:#4d9586;
+    }
+
+    table, th, td {
+    border:1px solid black;
+    margin: 0 auto;
+    padding-left: 15px;
+    } 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      /*height: 450px;*/
+      height:100%;
+
+      padding-top:50px;
+    }
+
+    .iconRow {
+    display: flex;
+    }
+
+    .iconColumn {
+      display: flex;
+      flex: 50%;
+
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    #socialMedia {
+      padding-top: 10px;
+    }
+    .info{
+      margin: 10px 0px  10px;
+      display:block;
+    }
+    .contact_info{
+      padding-top:10px;
+    }
+    .contact_info_header{
+      font-family:Helvetica Neue;
+      font-weight:bold;
+    }
+
+    .artifact{
+      color:green;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: transparent;
+      color: black;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    /*@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }*/
+
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    }
+
+    @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1140px;
+    }
+    }
+
+    .active, .nav-btn:hover {
+      background-color:#4d9586;
+      color:#4d9586;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+    }
+
+
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:99; }
+    .hover_img a:hover span { display:block; left: -150px; }
+
+  </style>
+  
+</head>
+<body> <div class="container" style="margin-bottom: 25px;" >
+    <div class="container-fluid text-center">    
+        <div class="row content text-left">
+
+          <section>
+            <div class="doc_project">
+              <div class="project_table" style="margin-top: 10px;">
+
+                <div class="container">
+                  <div class="row" style="text-align:center;">
+                    <h1 style="text-align: center; margin-bottom:15px"> Course Hero breakdown for UT CS 303E </h2>
+                    <img src="../SchoolStats/UT/UT Austin_CS_303E_course_docs.png" alt="Total EE/CS Docs on Course Hero" title="Total Number of EE/CS Documents on Course Hero" width="500" height="300" style="margin-left: auto; margin-right: auto; margin-bottom: 5px; display: block;" >
+                    <p> <strong>Figure 1:</strong> This figure shows the breakdown of document type for documents specific to the UT CS 303E course on Course Hero.</p>
+
+                    <hr>
+                    <h3 style="text-align: center; margin-bottom:15px; margin-top:15px;"><strong> <a href="https://www.google.com" target="_blank">⇢ CLICK HERE TO TAKE THE SURVEY! ⇠</a> </strong></h3>
+                    <hr>
+                  </div>
+                </div>
+
+              </div><h2 style="text-align: center;"> Additional Documents for CS 303E on Course Hero </h2>
+                <p style="text-align: center; margin-top: 30px; margin-bottom: 30px;"> Below is a table of additional "locked" documents for CS 303E on Course Hero. 
+                  Click on the name of the document to be taken to the Course Hero page hosting the document.</p> <table id="data_table" style="width: 100%; margin-bottom: 45px;">
+                  <col width="33.33%">
+                  <col width="33.34%">
+                  <col width="33.33%"><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588830/CS303E-Midterm-1-Solutions/" target="_blank">[CS303E] Midterm #1 (Solutions)</a>
+                        <br>
+                        Total Views: 943
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/171629835/MockExam1-1pdf/" target="_blank">MockExam1 (1).pdf</a>
+                        <br>
+                        Total Views: 95
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/13/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588831/CS303E-Midterm-2-Solutions/" target="_blank">[CS303E] Midterm #2 (Solutions)</a>
+                        <br>
+                        Total Views: 725
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/16475885/CS-303E-Quiz-1/" target="_blank">CS 303E - Quiz 1</a>
+                        <br>
+                        Total Views: 272
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 10/2/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588832/CS303E-Midterm-3-Solutions/" target="_blank">[CS303E] Midterm #3 (Solutions)</a>
+                        <br>
+                        Total Views: 345
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/141173004/Project3pypy/" target="_blank">Project3.py.py</a>
+                        <br>
+                        Total Views: 58
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/141169530/Project2pypy/" target="_blank">Project2.py.py</a>
+                        <br>
+                        Total Views: 57
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251454/Recursion-HW/" target="_blank">Recursion HW</a>
+                        <br>
+                        Total Views: 217
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588855/CS303E-Syllabus/" target="_blank">[CS303E] Syllabus</a>
+                        <br>
+                        Total Views: 263
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/135225596/Project3-2py/" target="_blank">Project3 (2).py</a>
+                        <br>
+                        Total Views: 47
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/12/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/135224753/Project2py/" target="_blank">Project2.py</a>
+                        <br>
+                        Total Views: 39
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/12/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251434/Benford/" target="_blank">Benford</a>
+                        <br>
+                        Total Views: 155
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251452/recursion1-ah/" target="_blank">recursion1 ah</a>
+                        <br>
+                        Total Views: 149
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/141169731/Benfordpypy/" target="_blank">Benford.py.py</a>
+                        <br>
+                        Total Views: 35
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588856/CS-313E-Syllabus/" target="_blank">[CS 313E] Syllabus</a>
+                        <br>
+                        Total Views: 194
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8853298/cs303e-Getting-Started-with-Python/" target="_blank">cs303e Getting Started with Python</a>
+                        <br>
+                        Total Views: 146
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/14/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/135224847/MyStringFunctionspy/" target="_blank">MyStringFunctions.py</a>
+                        <br>
+                        Total Views: 28
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/12/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588857/CS313E-Final-Exam-Study-Guide/" target="_blank">[CS313E] Final Exam Study Guide</a>
+                        <br>
+                        Total Views: 151
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25962732/syllabushtml/" target="_blank">syllabus.html</a>
+                        <br>
+                        Total Views: 87
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/20/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/28856057/CS303E-Midterm-1-Solutionspdf/" target="_blank">[CS303E] Midterm #1 (Solutions).pdf</a>
+                        <br>
+                        Total Views: 75
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 3/2/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/33995149/Exam-practice2Freal-questionsdocx/" target="_blank">Exam practice%2Freal questions.docx</a>
+                        <br>
+                        Total Views: 64
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 10/7/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251455/recursion1/" target="_blank">recursion1</a>
+                        <br>
+                        Total Views: 89
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251448/ISBN/" target="_blank">ISBN</a>
+                        <br>
+                        Total Views: 83
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251435/CalculatePI/" target="_blank">CalculatePI</a>
+                        <br>
+                        Total Views: 83
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/141183859/Quiz5Dpy/" target="_blank">Quiz5D.py</a>
+                        <br>
+                        Total Views: 19
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/147711661/hw5py/" target="_blank">hw5.py</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/11/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251444/DNA/" target="_blank">DNA</a>
+                        <br>
+                        Total Views: 75
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/135224706/Studentpy/" target="_blank">Student.py</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/12/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/135224336/RecursiveFunctionspy/" target="_blank">RecursiveFunctions.py</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/12/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251445/GuessingGame/" target="_blank">GuessingGame</a>
+                        <br>
+                        Total Views: 73
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588862/slides3-turtle/" target="_blank">slides3-turtle</a>
+                        <br>
+                        Total Views: 96
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251441/Deal/" target="_blank">Deal</a>
+                        <br>
+                        Total Views: 69
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/31308279/CS303e-TextbasedGame-finalVersionpdf/" target="_blank">CS303e_TextbasedGame_finalVersion.pdf</a>
+                        <br>
+                        Total Views: 46
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 5/31/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/141183788/Exam1Mockpy/" target="_blank">Exam1Mock.py</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/135225221/MinMaxpy/" target="_blank">MinMax.py</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/12/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251449/Hailstone/" target="_blank">Hailstone</a>
+                        <br>
+                        Total Views: 60
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/141173980/MyStringFunctionspy/" target="_blank">MyStringFunctions.py</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588854/CS303E-Sample-Programs/" target="_blank">[CS303E] Sample Programs</a>
+                        <br>
+                        Total Views: 80
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/22534225/wwwcsutexasedu-mitra-csSpring2017-cs303-notes-Test2/" target="_blank">www.cs.utexas.edu__mitra_csSpring2017_cs303_notes_Test.2</a>
+                        <br>
+                        Total Views: 46
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/2/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/164313916/RecursiveFunctionspy/" target="_blank">RecursiveFunctions.py</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/2/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251437/CreditCard/" target="_blank">CreditCard</a>
+                        <br>
+                        Total Views: 53
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6984452/Strings-11/" target="_blank">Strings-11</a>
+                        <br>
+                        Total Views: 76
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 6/26/12
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251438/Cipher/" target="_blank">Cipher</a>
+                        <br>
+                        Total Views: 51
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/141170137/turtlespy/" target="_blank">turtles.py</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/24062413/PracticeTest4withkeydocx/" target="_blank">Practice.Test.4.withkey.docx</a>
+                        <br>
+                        Total Views: 40
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 7/17/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/164301138/FindPrimeFactorspy/" target="_blank">FindPrimeFactors.py</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/2/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588861/slides2-basic-python/" target="_blank">slides2-basic-python</a>
+                        <br>
+                        Total Views: 64
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588875/Quiz-02/" target="_blank">Quiz 02</a>
+                        <br>
+                        Total Views: 63
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588863/slides4-classes/" target="_blank">slides4-classes</a>
+                        <br>
+                        Total Views: 62
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/22259618/Study-Guide-for-Test-2/" target="_blank">Study Guide for Test 2</a>
+                        <br>
+                        Total Views: 37
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 4/24/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/141173089/Studentpypy/" target="_blank">Student.py.py</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/16185451/Quiz1/" target="_blank">Quiz1</a>
+                        <br>
+                        Total Views: 39
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/19/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/34421883/Study-Guide-for-CS-303E-Test-2-on-08-Nov-2017/" target="_blank">Study Guide for CS 303E Test 2 on 08 Nov 2017</a>
+                        <br>
+                        Total Views: 33
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/11/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588874/Quiz-01/" target="_blank">Quiz 01</a>
+                        <br>
+                        Total Views: 57
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/22259628/Study-Guide-for-Test-1/" target="_blank">Study Guide for Test 1</a>
+                        <br>
+                        Total Views: 35
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 4/24/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/160763/Test-2-study-sheet/" target="_blank">Test 2 study sheet</a>
+                        <br>
+                        Total Views: 77
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/27/08
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/191224161/MyStringFunctionspy/" target="_blank">MyStringFunctions.py</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/13/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/141173458/project1py/" target="_blank">project1.py</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/22556606/ReviewTest3py/" target="_blank">ReviewTest3.py</a>
+                        <br>
+                        Total Views: 32
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/3/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/28471465/Benfordpy/" target="_blank">Benford.py</a>
+                        <br>
+                        Total Views: 28
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2/13/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/178175028/Payrollpy/" target="_blank">Payroll.py</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/14/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/135225239/Quiz1Dpy/" target="_blank">Quiz1D.py</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/12/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/134187919/Spiralpy/" target="_blank">Spiral.py</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/7/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/9456950/Basic-Input-Output/" target="_blank">Basic Input _ Output</a>
+                        <br>
+                        Total Views: 44
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/31/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588873/slides12-quicksort/" target="_blank">slides12-quicksort</a>
+                        <br>
+                        Total Views: 49
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/29971061/Exam1TopicListwdocx/" target="_blank">Exam1TopicListw.docx</a>
+                        <br>
+                        Total Views: 26
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 4/8/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/22534189/wwwcsutexasedu-mitra-csSpring2017-cs303-notes-Test3/" target="_blank">www.cs.utexas.edu__mitra_csSpring2017_cs303_notes_Test.3</a>
+                        <br>
+                        Total Views: 29
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/2/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/141169832/Quiz1Cpy/" target="_blank">Quiz1C.py</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588876/Quiz-03/" target="_blank">Quiz 03</a>
+                        <br>
+                        Total Views: 44
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588868/slides7-lists/" target="_blank">slides7-lists</a>
+                        <br>
+                        Total Views: 44
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251447/Initals/" target="_blank">Initals</a>
+                        <br>
+                        Total Views: 32
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/191258950/CS330E-Fraij-pdf/" target="_blank">CS330E, Fraij .pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/13/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/191224151/Studentpy/" target="_blank">Student.py</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/13/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/141184598/Quiz2Dpy/" target="_blank">Quiz2D.py</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8853299/cs303e-history-of-computing/" target="_blank">cs303e history of computing</a>
+                        <br>
+                        Total Views: 35
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/14/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/166384520/codelab1py/" target="_blank">codelab1.py</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588864/slides5-adt/" target="_blank">slides5-adt</a>
+                        <br>
+                        Total Views: 37
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251439/Day/" target="_blank">Day</a>
+                        <br>
+                        Total Views: 27
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7466776/Deal/" target="_blank">Deal</a>
+                        <br>
+                        Total Views: 37
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/30/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588867/slides6-queues/" target="_blank">slides6-queues</a>
+                        <br>
+                        Total Views: 36
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/31308236/CS303e-Assignment2wFinaldocx/" target="_blank">CS303e_Assignment2wFinal.docx</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 5/31/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/23191701/xyBalancepy/" target="_blank">xyBalance.py</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 5/3/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/135226859/Quiz0py/" target="_blank">Quiz0.py</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/12/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/28471476/DNApy/" target="_blank">DNA.py</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2/13/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251458/WordSearch/" target="_blank">WordSearch</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/191223634/Pointpy/" target="_blank">Point.py</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/13/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6984451/Recursion-15/" target="_blank">Recursion-15</a>
+                        <br>
+                        Total Views: 31
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 6/26/12
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/28471474/EasterSundaypy/" target="_blank">EasterSunday.py</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2/13/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/215045609/Zellerpy/" target="_blank">Zeller.py</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/17/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/215045564/MinMaxpy/" target="_blank">MinMax.py</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/17/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/33414727/Practice-Problems-Listspptx/" target="_blank">Practice Problems Lists.pptx</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/22/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/135225742/SeychellesFlagpy/" target="_blank">SeychellesFlag.py</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/12/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588872/slides11-hashing/" target="_blank">slides11-hashing</a>
+                        <br>
+                        Total Views: 27
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588869/slides8-recursion/" target="_blank">slides8-recursion</a>
+                        <br>
+                        Total Views: 27
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588866/slides5-trees/" target="_blank">slides5-trees</a>
+                        <br>
+                        Total Views: 27
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/23191700/canBalancepy/" target="_blank">canBalance.py</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 5/3/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/50060587/test2py/" target="_blank">test2.py</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/9/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/178159958/FindPrimeFactorspy/" target="_blank">FindPrimeFactors.py</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/14/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588859/slides0-elements/" target="_blank">slides0-elements</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/22534236/wwwcsutexasedu-mitra-csSpring2017-cs303-notes-Lect19Apr/" target="_blank">www.cs.utexas.edu__mitra_csSpring2017_cs303_notes_Lect19Apr</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/2/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/212270741/Group-3-Codelab-6py/" target="_blank">Group_3_Codelab_6.py</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/18/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6984447/History/" target="_blank">History</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 6/26/12
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251443/EasterSunday/" target="_blank">EasterSunday</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/141183704/Quiz0py/" target="_blank">Quiz0.py</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/141170081/hw10py/" target="_blank">hw10.py</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25929955/EasterSundaypy/" target="_blank">EasterSunday.py</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/19/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/29971100/Exam2TopicListwdocx/" target="_blank">Exam2TopicListw.docx</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 4/8/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/28471472/Spiralpy/" target="_blank">Spiral.py</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2/13/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/28471464/Dealpy/" target="_blank">Deal.py</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2/13/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/191224164/PuertoRicoFlagpy/" target="_blank">PuertoRicoFlag.py</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/13/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6984448/Lists-13/" target="_blank">Lists-13</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 6/26/12
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6984444/Doing/" target="_blank">Doing</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 6/26/12
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/210360262/slides2-variables-nuppdf/" target="_blank">slides2-variables-nup.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/22/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251459/WordSearch2/" target="_blank">WordSearch2</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13251456/Tian/" target="_blank">Tian</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/1/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/32957792/Day01pdf/" target="_blank">Day01.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/8/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588877/350Ksyllabus/" target="_blank">350Ksyllabus</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588871/slides10-trees/" target="_blank">slides10-trees</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588845/13-Nested-loops/" target="_blank">13 Nested loops</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588833/01-Intro/" target="_blank">01 Intro</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/22534248/wwwcsutexasedu-mitra-csSpring2017-cs303-notes-Lect28Apr/" target="_blank">www.cs.utexas.edu__mitra_csSpring2017_cs303_notes_Lect28Apr</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/2/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588837/05-Datatypes-input/" target="_blank">05 Datatypes input</a>
+                        <br>
+                        Total Views: 19
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6984449/Loops-8/" target="_blank">Loops-8</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 6/26/12
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6984443/Conditionals/" target="_blank">Conditionals</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 6/26/12
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33414686/Exam3TopicListpdf/" target="_blank">Exam3TopicList.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/22/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/50061122/26py/" target="_blank">2.6.py</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/9/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/50060098/21py/" target="_blank">2.1.py</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/9/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/22534243/wwwcsutexasedu-mitra-csSpring2017-cs303-notes-Lect26Apr/" target="_blank">www.cs.utexas.edu__mitra_csSpring2017_cs303_notes_Lect26Apr</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/2/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/34421885/Character-Set-in-Python/" target="_blank">Character Set in Python</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/11/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/26106254/DNApypdf/" target="_blank">DNA.py.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/26/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/141170107/SeychellesFlagpypy/" target="_blank">SeychellesFlag.py.py</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/25878144/Mathfunctionspy/" target="_blank">Mathfunctions.py</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/17/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588853/22-Graphics/" target="_blank">22 Graphics</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33957517/Presentation-2pptx/" target="_blank">Presentation 2.pptx</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/22/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6984442/Computer/" target="_blank">Computer</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 6/26/12
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588858/ElementsFlyer/" target="_blank">ElementsFlyer</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/166384607/duggi-srihith-hw1py/" target="_blank">duggi_srihith_hw1.py</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/22534247/wwwcsutexasedu-mitra-csSpring2017-cs303-notes-Lect17Apr/" target="_blank">www.cs.utexas.edu__mitra_csSpring2017_cs303_notes_Lect17Apr</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/2/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35173880/unit2tex/" target="_blank">unit2.tex</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Lecture Slides
+                        <br>
+                        Uploaded: 11/3/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588860/slides1-intro/" target="_blank">slides1-intro</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/25878410/computedistancepy/" target="_blank">computedistance.py</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/17/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/6984446/Functions-9/" target="_blank">Functions-9</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 6/26/12
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/6984445/Files-12/" target="_blank">Files-12</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 6/26/12
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/50060097/28py/" target="_blank">2.8.py</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/9/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35554854/Examples-of-copying-lists/" target="_blank">Examples of copying lists</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/16/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13509065/sum-divisorspy/" target="_blank">sum_divisors.py</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/23/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13509061/emirppy/" target="_blank">emirp.py</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/23/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/10576744/2-Algorithms-II/" target="_blank">2 - Algorithms II</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/17/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/32957817/Day02pdf/" target="_blank">Day02.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/8/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588870/slides9-efficiency/" target="_blank">slides9-efficiency</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588843/11-Strings/" target="_blank">11 Strings</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588834/02-Python-tour/" target="_blank">02 Python tour</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/197677247/617pdf/" target="_blank">6.17.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/1/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/141360955/feb-2py/" target="_blank">feb 2.py</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/141173775/DaysInMonthpypy/" target="_blank">DaysInMonth.py.py</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/141173380/Easter-Sundaypypy/" target="_blank">Easter Sunday.py.py</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/23191705/CreditCardpy/" target="_blank">CreditCard.py</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 5/3/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/134187233/ISBNpy/" target="_blank">ISBN.py</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/7/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588852/21-Beyond-lists/" target="_blank">21 Beyond lists</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588850/18-Lists/" target="_blank">18 Lists</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588841/09-Loops-and-simple-functions/" target="_blank">09 Loops and simple functions</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/34421884/Literal/" target="_blank">Literal</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/11/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/191224163/bstpy/" target="_blank">bst.py</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/13/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/191224159/WordleAssistantpy/" target="_blank">WordleAssistant.py</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/13/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/191224158/validStringpy/" target="_blank">validString.py</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/13/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/191224152/max-earningspy/" target="_blank">max_earnings.py</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/13/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/25929939/Daypy/" target="_blank">Day.py</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/19/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/6984450/Operators/" target="_blank">Operators</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 6/26/12
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25878328/computedistancegraphicspy/" target="_blank">computedistancegraphics.py</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/17/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/25878134/guessbirthdaypy/" target="_blank">guessbirthday.py</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/17/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/25878057/ComputeLoanpy/" target="_blank">ComputeLoan.py</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/17/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/23191662/BinarySearchpy/" target="_blank">BinarySearch.py</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 5/3/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/28286075/217py/" target="_blank">2.17.py</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588865/slides5-queues/" target="_blank">slides5-queues</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588846/14-Functions-with-return-values/" target="_blank">14 Functions with return values</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588840/08-More-while-examples/" target="_blank">08 More while examples</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/26004321/Day-2py/" target="_blank">Day-2.py</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/22/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25929962/Goldbachpy/" target="_blank">Goldbach.py</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/19/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/25878018/printcomputationpy/" target="_blank">printcomputation.py</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/17/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/37734456/numberspy/" target="_blank">numbers.py</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 12/3/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13509063/rev-numpy/" target="_blank">rev_num.py</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/23/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33417600/SortAlgorithmspptx/" target="_blank">SortAlgorithms.pptx</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/22/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/32957824/Day03pdf/" target="_blank">Day03.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/8/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/22259547/March-Lecture-Notes/" target="_blank">March Lecture Notes</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/24/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588851/19-Lists-string-methods/" target="_blank">19 Lists string methods</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588847/15-More-functions/" target="_blank">15 More functions</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/169293199/Copy-of-126-Quadric-Surfacespdf/" target="_blank">Copy of 12.6 Quadric Surfaces.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/29/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/166384600/codelab2py/" target="_blank">codelab2.py</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588844/12-More-strings/" target="_blank">12 More strings</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588838/06-Decisions-and-more-output/" target="_blank">06 Decisions and more output</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588835/03-Computers-and-algorithms/" target="_blank">03 Computers and algorithms</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/26004320/EasterSundaypy/" target="_blank">EasterSunday.py</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/22/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25878158/computeanglespy/" target="_blank">computeangles.py</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/17/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/22589780/CreditCardpy/" target="_blank">CreditCard.py</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 5/4/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/22259546/April-14-Lecture-Notes/" target="_blank">April 14 Lecture Notes</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/24/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/37734453/areapy/" target="_blank">area.py</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/3/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33417631/PythonDictionariespptx/" target="_blank">PythonDictionaries.pptx</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/22/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588849/17-More-fileIO/" target="_blank">17 More fileIO</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588848/16-FileIO/" target="_blank">16 FileIO</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588842/10-More-functions/" target="_blank">10 More functions</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588839/07-Logical-ops-and-loop/" target="_blank">07 Logical ops and loop</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7588836/04-Output-variables-ops/" target="_blank">04 Output variables ops</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/27/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/142333496/county-covid-datatxt/" target="_blank">county-covid-data.txt</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/14/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/134201145/Logopy/" target="_blank">Logo.py</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/7/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25878223/computeexpressionpy/" target="_blank">computeexpression.py</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/17/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/25878172/welcomewiththreemessagespy/" target="_blank">welcomewiththreemessages.py</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/17/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/23191704/mirrorEndpy/" target="_blank">mirrorEnd.py</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 5/3/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/23191690/TargetinFilepy/" target="_blank">TargetinFile.py</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 5/3/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/22259548/April-3-5-Lecture-Notes/" target="_blank">April 3-5 Lecture Notes</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/24/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/44107277/Elements-Course-Substitution-Form-4pdf/" target="_blank">Elements Course Substitution Form_4.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/29/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/33957572/Screen-Shot-2018-03-26-at-24431-PMpng/" target="_blank">Screen Shot 2018-03-26 at 2.44.31 PM.png</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/22/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33957562/Screen-Shot-2018-03-26-at-24439-PMpng/" target="_blank">Screen Shot 2018-03-26 at 2.44.39 PM.png</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/22/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/33414713/PracticeProblemsIfpptx/" target="_blank">PracticeProblemsIf.pptx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/22/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/33414701/PythonPracticeProblems-Variablespptx/" target="_blank">PythonPracticeProblems_Variables.pptx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/22/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33417639/TryExcept-Slidespptx/" target="_blank">Try...Except_Slides.pptx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/22/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/25878347/displaytimepy/" target="_blank">displaytime.py</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/17/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25878295/computechangepy/" target="_blank">computechange.py</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/17/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/25878253/olympicringspy/" target="_blank">olympicrings.py</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/17/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/25878243/filenamepy/" target="_blank">filename.py</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/17/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25878106/ComputeAreaWithConsoleInputpy/" target="_blank">ComputeAreaWithConsoleInput.py</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/17/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/25807941/MathFunctionspy/" target="_blank">MathFunctions.py</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/10/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/22259530/February-6-Lecture-Notes/" target="_blank">February 6 Lecture Notes</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/24/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/50060094/22py/" target="_blank">2.2.py</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/9/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/37734461/Lab-4-2xlsx/" target="_blank">Lab 4 (2).xlsx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/3/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/37734455/epy/" target="_blank">e.py</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 12/3/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/33417605/GuessDataStructurepptx/" target="_blank">GuessDataStructure.pptx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/22/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/25878155/xmastreepy/" target="_blank">xmastree.py</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/17/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/22259528/February-8-Lecture-Notes/" target="_blank">February 8 Lecture Notes</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/24/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/217389214/HandPartialpy/" target="_blank">HandPartial.py</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/6/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/217033530/slides13-turtles-nuppdf/" target="_blank">slides13-turtles-nup.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/3/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/217033403/slides12-recursionpdf/" target="_blank">slides12-recursion.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/3/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/217033251/slides7-objects-classes-nuppdf/" target="_blank">slides7-objects-classes-nup.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/3/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/217033208/slides4-selections-nuppdf/" target="_blank">slides4-selections-nup.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/3/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/217033043/slides11b-tuples-sets-dictionariespdf/" target="_blank">slides11b-tuples-sets-dictionaries.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/3/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/217032907/slides2-variablespdf/" target="_blank">slides2-variables.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/3/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/217032774/slides1-pythonpdf/" target="_blank">slides1-python.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/3/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/217032524/slides8-strings-nuppdf/" target="_blank">slides8-strings-nup.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/3/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/217032467/slides3-functions-strings-objects-nuppdf/" target="_blank">slides3-functions-strings-objects-nup.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/3/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/217032320/slides6-functions-nuppdf/" target="_blank">slides6-functions-nup.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/3/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/217032294/slides5-loops-nuppdf/" target="_blank">slides5-loops-nup.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/3/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/217031910/slides9-lists-nuppdf/" target="_blank">slides9-lists-nup.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/3/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/217031800/slides10-more-on-lists-nuppdf/" target="_blank">slides10-more-on-lists-nup.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/3/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/216733477/hw5-3-2-3png/" target="_blank">hw5_3_2_3.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/31/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/215045597/MyStringFunctionspy/" target="_blank">MyStringFunctions.py</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/17/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/215045075/Project1py/" target="_blank">Project1.py</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/17/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/215045038/Studentpy/" target="_blank">Student.py</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/17/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/215044952/Handicappy/" target="_blank">Handicap.py</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/17/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/215044913/FunctionExamplespy/" target="_blank">FunctionExamples.py</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/17/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/188485765/slides6-filespdf/" target="_blank">slides6-files.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/24/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/188485048/slides13-sorting-and-searchingpdf/" target="_blank">slides13-sorting_and_searching.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/24/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/188484987/slides8-lists-of-listspdf/" target="_blank">slides8-lists_of_lists.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/24/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/188484876/slides1-pythonpdf/" target="_blank">slides1-python.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/24/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/188484836/slides7-listspdf/" target="_blank">slides7-lists.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/24/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/188484599/slides5-functionspdf/" target="_blank">slides5-functions.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/24/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/188484464/slides2-variablespdf/" target="_blank">slides2-variables.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/24/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/188483995/slides3-selectionspdf/" target="_blank">slides3-selections.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/24/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/178198992/EasterSundaypy/" target="_blank">EasterSunday.py</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/14/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/168496974/72221-quiz-solutionpdf/" target="_blank">7.22.21 quiz solution.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/25/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/168483794/622-quizPNG/" target="_blank">6.22 quiz.PNG</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/25/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/213898264/JE-8pdf/" target="_blank">JE #8.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/6/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/213788110/slides10-more-on-lists-nuppdf/" target="_blank">slides10-more-on-lists-nup.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/4/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/135227105/EasterSundaypy/" target="_blank">EasterSunday.py</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/12/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/212270573/Exam-3-Practicepdf/" target="_blank">Exam 3 Practice.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/18/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/212269041/hw5-mergedpdf/" target="_blank">hw5_merged.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/18/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/212267806/probelm2pdf/" target="_blank">probelm2.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/18/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/212267251/Problem4pdf/" target="_blank">Problem4.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/18/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/210360271/slides1-python-nuppdf/" target="_blank">slides1-python-nup.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/22/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/210360001/cs-303epdf/" target="_blank">cs 303e.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 8/22/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/198006841/Cruz-Miranda-hw5py/" target="_blank">Cruz_Miranda_hw5.py</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/4/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/197677352/112pdf/" target="_blank">1.12.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/1/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/197677254/810pdf/" target="_blank">8.10.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/1/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/197677223/725pdf/" target="_blank">7.25.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/1/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/197677218/910pdf/" target="_blank">9.10.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/1/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/197677216/319pdf/" target="_blank">3.19.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/1/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/197677155/622pdf/" target="_blank">6.22.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/1/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/197677125/219pdf/" target="_blank">2.19.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/1/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/197676686/522pdf/" target="_blank">5.22.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/1/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/197675845/120pdf/" target="_blank">1.20.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/1/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/191148444/Week-1-Notes-CS-303E-What-is-Pythondocx/" target="_blank">Week 1 Notes - CS 303E - What is Python.docx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/12/23
+                    </td>
+                  </tr><tr><td>
+                        <a href="https://www.coursehero.com/file/191148277/Week-2-Notes-CS-303E-Simple-Pythondocx/" target="_blank">Week 2 Notes - CS 303E - Simple Python.docx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        nan
+                        <br>
+                        Uploaded: 2/12/23
+                    </td><td>
+                        <a href="https://www.coursehero.com/file/28286161/27py/" target="_blank">2.7.py</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2/6/18
+                    </td></tr> </table></div>
+
+          </section>
+
+    
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

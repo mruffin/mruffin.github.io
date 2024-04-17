@@ -1,0 +1,3554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
+  <title>Margie Ruffin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../../js/doctable.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#303d4e;
+      border-color: #303d4e;
+    }
+    #myNavbar{
+      float:right;
+    }
+    h1{
+      color:#4d9586;
+    }
+    h2{
+      color:#4d9586;
+    }
+    h3{
+      color:#4d9586;
+    }
+
+    table, th, td {
+    border:1px solid black;
+    margin: 0 auto;
+    padding-left: 15px;
+    } 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      /*height: 450px;*/
+      height:100%;
+
+      padding-top:50px;
+    }
+
+    .iconRow {
+    display: flex;
+    }
+
+    .iconColumn {
+      display: flex;
+      flex: 50%;
+
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    #socialMedia {
+      padding-top: 10px;
+    }
+    .info{
+      margin: 10px 0px  10px;
+      display:block;
+    }
+    .contact_info{
+      padding-top:10px;
+    }
+    .contact_info_header{
+      font-family:Helvetica Neue;
+      font-weight:bold;
+    }
+
+    .artifact{
+      color:green;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: transparent;
+      color: black;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    /*@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }*/
+
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    }
+
+    @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1140px;
+    }
+    }
+
+    .active, .nav-btn:hover {
+      background-color:#4d9586;
+      color:#4d9586;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+    }
+
+
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:99; }
+    .hover_img a:hover span { display:block; left: -150px; }
+
+  </style>
+  
+</head>
+<body> <div class="container" style="margin-bottom: 25px;" >
+    <div class="container-fluid text-center">    
+        <div class="row content text-left">
+
+          <section>
+            <div class="doc_project">
+              <div class="project_table" style="margin-top: 10px;">
+
+                <div class="container">
+                  <div class="row" style="text-align:center;">
+                    <h1 style="text-align: center; margin-bottom:15px"> Course Hero breakdown for Stony Brook CSE 214 </h2>
+                    <img src="../SchoolStats/StonyBrook/StonyBrook_CSE_214_course_docs.png" alt="Total EE/CS Docs on Course Hero" title="Total Number of EE/CS Documents on Course Hero" width="500" height="300" style="margin-left: auto; margin-right: auto; margin-bottom: 5px; display: block;" >
+                    <p> <strong>Figure 1:</strong> This figure shows the breakdown of document type for documents specific to the Stony Brook CSE 214 course on Course Hero.</p>
+
+                    <hr>
+                    <h3 style="text-align: center; margin-bottom:15px; margin-top:15px;"><strong> <a href="https://www.google.com" target="_blank">⇢ CLICK HERE TO TAKE THE SURVEY! ⇠</a> </strong></h3>
+                    <hr>
+                  </div>
+                </div>
+
+              </div><h2 style="text-align: center;"> Additional Documents for CSE 214 on Course Hero </h2>
+                <p style="text-align: center; margin-top: 30px; margin-bottom: 30px;"> Below is a table of additional "locked" documents for CSE 214 on Course Hero. 
+                  Click on the name of the document to be taken to the Course Hero page hosting the document.</p> <table id="data_table" style="width: 100%; margin-bottom: 45px;">
+                  <col width="33.33%">
+                  <col width="33.34%">
+                  <col width="33.33%"><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211931050/CSE214-Fall2023-HW1pdf/" target="_blank">CSE214-Fall2023-HW1.pdf</a>
+                        <br>
+                        Total Views: 44
+                        <br>
+                        Assessment
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/9246784/CSE-214-Study-Sheet/" target="_blank">CSE 214 Study Sheet</a>
+                        <br>
+                        Total Views: 782
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/22/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/25590123/PracticeMidTerm1-Solutionpdf/" target="_blank">PracticeMidTerm1_Solution.pdf</a>
+                        <br>
+                        Total Views: 506
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 10/8/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/29446765/CSE214-Sample-Finalpdf/" target="_blank">CSE214_Sample_Final.pdf</a>
+                        <br>
+                        Total Views: 332
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 3/21/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/70079806/midterm1pdf/" target="_blank">midterm1.pdf</a>
+                        <br>
+                        Total Views: 168
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 10/9/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11645049/Midterm-Exam-2/" target="_blank">Midterm Exam 2</a>
+                        <br>
+                        Total Views: 365
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 6/20/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13204088/final/" target="_blank">final</a>
+                        <br>
+                        Total Views: 327
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 1/26/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/45887265/recitation12-Sorting-Fall-2015pdf/" target="_blank">recitation12 Sorting Fall 2015.pdf</a>
+                        <br>
+                        Total Views: 165
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/8/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13349298/midterm1practicehtm/" target="_blank">midterm1practice.htm</a>
+                        <br>
+                        Total Views: 218
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2/10/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/126735720/Midterm-1-Key-CSE-214pdf/" target="_blank">Midterm 1 Key_CSE 214.pdf</a>
+                        <br>
+                        Total Views: 52
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/29007716/PracticeMidterm1-Solutionpdf/" target="_blank">PracticeMidterm1_Solution.pdf</a>
+                        <br>
+                        Total Views: 111
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 3/7/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/28421652/Practice-Exam-1pdf/" target="_blank">Practice Exam 1.pdf</a>
+                        <br>
+                        Total Views: 96
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2/14/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/38539186/CSE21403-Syllabus-S19pdf/" target="_blank">CSE214.03-Syllabus-S19.pdf</a>
+                        <br>
+                        Total Views: 79
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/3/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/71424424/midterm1-1pdf/" target="_blank">midterm1 (1).pdf</a>
+                        <br>
+                        Total Views: 53
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/24/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12629906/lecture-01/" target="_blank">lecture-01</a>
+                        <br>
+                        Total Views: 124
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/10/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/16062210/CSE214-F15-Midterm/" target="_blank">CSE214_F15_Midterm</a>
+                        <br>
+                        Total Views: 111
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/13/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12551409/CSE214-Exam-Practice-Questions-Part-2/" target="_blank">CSE214 Exam Practice Questions - Part 2</a>
+                        <br>
+                        Total Views: 111
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/2/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/183814431/Exercise24-01java/" target="_blank">Exercise24_01.java</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/12/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180567895/CSE214-Fall2022-HW3pdf/" target="_blank">CSE214_Fall2022_HW3.pdf</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Assessment
+                        <br>
+                        Uploaded: 11/26/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12551408/CSE214-Exam-Practice-Answer-Part-1/" target="_blank">CSE214 Exam Practice Answer- Part 1</a>
+                        <br>
+                        Total Views: 93
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/2/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/18160864/cse214-syllabus/" target="_blank">cse214-syllabus</a>
+                        <br>
+                        Total Views: 78
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/3/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/10731458/Sorting-Algorithms/" target="_blank">Sorting Algorithms</a>
+                        <br>
+                        Total Views: 93
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/11/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/80553298/CSE-214-Fall-2020-Binary-Treespdf/" target="_blank">CSE 214 Fall 2020 Binary Trees.pdf</a>
+                        <br>
+                        Total Views: 29
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/120467468/midterm1pdf/" target="_blank">midterm1.pdf</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/2/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27042945/CSE214-Midterm-2-Solutionpdf/" target="_blank">CSE214 Midterm 2 - Solution.pdf</a>
+                        <br>
+                        Total Views: 58
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 12/4/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/17960023/CSE214-Exam-Practice-Questions-Part-1/" target="_blank">CSE214 Exam Practice Questions - Part 1</a>
+                        <br>
+                        Total Views: 65
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/23/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12528665/CSE214-Exam-Practice-Questions-Part-1/" target="_blank">CSE214 Exam Practice Questions - Part 1</a>
+                        <br>
+                        Total Views: 70
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 10/31/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12551410/CSE214-Exam-Practice-Answer-Part-2/" target="_blank">CSE214 Exam Practice Answer- Part 2</a>
+                        <br>
+                        Total Views: 68
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/2/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/183806051/ch33pdf/" target="_blank">ch33.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/12/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/36495793/midterm2ansdoc/" target="_blank">midterm2ans.doc</a>
+                        <br>
+                        Total Views: 42
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 12/15/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/171428200/CSE214-Fall2022-HW2pdfpdf/" target="_blank">CSE214_Fall2022_HW2.pdf.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/12/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/127915723/CSE-214-Final-Study-Guidepdf/" target="_blank">CSE 214 Final Study Guide.pdf</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/30/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/29446358/CSE214-Sample-Final-Solutionpdf/" target="_blank">CSE214_Sample_Final_Solution.pdf</a>
+                        <br>
+                        Total Views: 44
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 3/21/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/80553552/midterm2doc/" target="_blank">midterm2.doc</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/126734991/Syllabus-CSE-214pdf/" target="_blank">Syllabus_CSE 214.pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/48838559/midterm2doc/" target="_blank">midterm2.doc</a>
+                        <br>
+                        Total Views: 31
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 10/20/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/15211289/Quiz-I-answers/" target="_blank">Quiz-I-answers</a>
+                        <br>
+                        Total Views: 51
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 8/8/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/24235956/ItemInfoNodejava/" target="_blank">ItemInfoNode.java</a>
+                        <br>
+                        Total Views: 41
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/27/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13658131/0000midterm-1-practice/" target="_blank">0000.midterm-1-practice</a>
+                        <br>
+                        Total Views: 45
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 3/7/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/17375804/CSE214-Midterm-2-Practice/" target="_blank">CSE214 Midterm 2 - Practice</a>
+                        <br>
+                        Total Views: 41
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/2/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/132048329/CSE214-Homework-5html/" target="_blank">CSE214 Homework 5.html</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/82979350/hw2pdf/" target="_blank">hw2.pdf</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/3/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/171344517/Playlistjava/" target="_blank">Playlist.java</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/11/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/171344332/ItemInfojava/" target="_blank">ItemInfo.java</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/11/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/132032228/CSE214-Homework-3html/" target="_blank">CSE214 Homework 3.html</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/80553393/finaldoc/" target="_blank">final.doc</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/183814227/Exercise24-03java/" target="_blank">Exercise24_03.java</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/12/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/29446408/CSE214-Final-Review-1pdf/" target="_blank">CSE214_Final_Review_1.pdf</a>
+                        <br>
+                        Total Views: 29
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/21/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/201458591/Folderjava/" target="_blank">Folder.java</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/201458546/Mailboxjava/" target="_blank">Mailbox.java</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/114198113/CSE-214-Homework-2-Fall-2021docx/" target="_blank">CSE 214 Homework 2 - Fall 2021.docx</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/31/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13349299/midterm2practiceanshtm/" target="_blank">midterm2practiceans.htm</a>
+                        <br>
+                        Total Views: 34
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2/10/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/193303089/data-structures-CSE-214pdf/" target="_blank">data structures CSE 214.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/28/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13349296/midterm1practiceanshtm/" target="_blank">midterm1practiceans.htm</a>
+                        <br>
+                        Total Views: 30
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2/10/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/24773456/CSE214-Midterm-2-Practice-Solutionpdf/" target="_blank">CSE214 Midterm 2 - Practice Solution.pdf</a>
+                        <br>
+                        Total Views: 24
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/4/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/74855449/hw3pdf/" target="_blank">hw3.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/30/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/139487212/VehicleQueuejava/" target="_blank">VehicleQueue.java</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/31/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/104746585/C44FF3FD-2C0C-4533-8D77-9FD6EE2E020Ejpeg/" target="_blank">C44FF3FD-2C0C-4533-8D77-9FD6EE2E020E.jpeg</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/2/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/171344317/SongRecordjava/" target="_blank">SongRecord.java</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/11/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/71425260/CSE214-2017sample-midterm1pdf/" target="_blank">CSE214 2017sample midterm1.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/24/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/39704852/Sample-Final-Solutionpdf/" target="_blank">Sample Final Solution.pdf</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 4/1/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27042940/CSE214-Midterm-2-Practicepdf/" target="_blank">CSE214 Midterm 2 - Practice.pdf</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 12/4/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/41144070/https-webarchiveorg-web-20170531125555-http-www3csstonybrookedu-cse214-recitations-recitat/" target="_blank">https___web.archive.org_web_20170531125555_http___www3.cs.stonybrook.edu_~cse214_recitations_recitat</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 5/7/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/10731459/Stacks/" target="_blank">Stacks</a>
+                        <br>
+                        Total Views: 30
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/11/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/24773446/CSE214-Exam-Practice-Questions-Part-1-Solutionpdf/" target="_blank">CSE214 Exam Practice Questions - Part 1 Solution.pdf</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/4/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/144619295/CRecitation-9pdf/" target="_blank">CRecitation 9.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/25/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/139483214/MainCjava/" target="_blank">MainC.java</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/31/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13349297/midterm2practicehtm/" target="_blank">midterm2practice.htm</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2/10/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/158977313/recitation1docx/" target="_blank">recitation1.docx</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/17/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/115338309/Recitation-4docx/" target="_blank">Recitation 4.docx</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/6/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/115338248/Recitation-1pdf/" target="_blank">Recitation 1.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/6/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/131609203/hw24pdf/" target="_blank">hw2(4).pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/21/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/207243195/hw7html/" target="_blank">hw7.html</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/29/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12935034/recitation-12/" target="_blank">recitation-12</a>
+                        <br>
+                        Total Views: 24
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/9/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/15211286/B-Trees/" target="_blank">B-Trees</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/8/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/41144076/https-webarchiveorg-web-20170531125523-http-www3csstonybrookedu-cse214-recitations-recitat/" target="_blank">https___web.archive.org_web_20170531125523_http___www3.cs.stonybrook.edu_~cse214_recitations_recitat</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 5/7/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/10882842/Binary-trees/" target="_blank">Binary trees</a>
+                        <br>
+                        Total Views: 26
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/11/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/171343991/ItemInfoNodejava/" target="_blank">ItemInfoNode.java</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/11/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/9246758/CSE214-M2-SPRING13/" target="_blank">CSE214 M2 SPRING13</a>
+                        <br>
+                        Total Views: 28
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/22/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/206404789/hw3html/" target="_blank">hw3.html</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/17/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/34370412/StackByArrayjava/" target="_blank">StackByArray.java</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/13/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12629902/Inheritance-and-Extended-Classes-in-Java/" target="_blank">Inheritance and Extended Classes in Java</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/10/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/139487214/Intersectionjava/" target="_blank">Intersection.java</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/31/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/10876577/Software-Development-and-Abstract-Data-Types/" target="_blank">Software Development and Abstract Data Types</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/11/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/41144072/https-webarchiveorg-web-20170531125505-http-www3csstonybrookedu-cse214-recitations-recitat/" target="_blank">https___web.archive.org_web_20170531125505_http___www3.cs.stonybrook.edu_~cse214_recitations_recitat</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 5/7/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/11274418/Linked-Lists/" target="_blank">Linked Lists</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/11/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/10731455/Data-Structures/" target="_blank">Data Structures</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/11/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/15211287/UniLinkedListjava/" target="_blank">UniLinkedList.java</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/8/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/126735161/Midterm-2-Key-CSE-214pdf/" target="_blank">Midterm 2 Key_CSE 214.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/126734580/Lecture-17-Mergesort-and-Quicksortpdf/" target="_blank">Lecture 17_Mergesort and Quicksort.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/201458419/Emailjava/" target="_blank">Email.java</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/80837803/CSE214-Extra-Credit-HWpdf/" target="_blank">CSE214_Extra_Credit_HW.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/13/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/80837711/CSE214-Homework4pdf/" target="_blank">CSE214_Homework4.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/13/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/41144090/https-webarchiveorg-web-20170531125515-http-www3csstonybrookedu-cse214-recitations-recitat/" target="_blank">https___web.archive.org_web_20170531125515_http___www3.cs.stonybrook.edu_~cse214_recitations_recitat</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 5/7/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27434090/CSE214-L08-IntrotoTreepdf/" target="_blank">CSE214_L08_IntrotoTree.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/24/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/18429678/CSE-214-Review-Session-1/" target="_blank">CSE 214 Review Session (1)</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/15/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/119806367/CSE-21430-Summer-II-2021-Recitation-52-Worksheetdocx/" target="_blank">CSE 214.30 Summer II 2021 - Recitation 5.2 Worksheet.docx</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/29/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/18160868/cse214review/" target="_blank">cse214review</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/3/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12935031/recitation-09/" target="_blank">recitation-09</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/9/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/172973418/CSE214-F22-Recitation6-Student-Version-1pdf/" target="_blank">CSE214 F22 Recitation6 Student Version (1).pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/172973092/recitation7Studentpdf/" target="_blank">recitation7Student.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/20/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/171344187/ItemListjava/" target="_blank">ItemList.java</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/11/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/171343691/DepartmentStorejava/" target="_blank">DepartmentStore.java</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/11/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/9665543/LaTeXParser1/" target="_blank">LaTeXParser(1)</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 4/22/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13658134/02Time-Complexity-and-the-O-notation/" target="_blank">02.Time Complexity and the O-notation</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/7/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/41454120/finalpptx/" target="_blank">final.pptx</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 5/15/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/139489818/DiameterComparatorjava/" target="_blank">DiameterComparator.java</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/31/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/139489817/ReferenceIDComparatorjava/" target="_blank">ReferenceIDComparator.java</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/31/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/139487461/Cargo-1java/" target="_blank">Cargo (1).java</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/31/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/139487209/Vehiclejava/" target="_blank">Vehicle.java</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/31/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12935023/recitation-01-with-solutions/" target="_blank">recitation-01-with-solutions</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/9/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/70079942/CSE-214-Fall-2020-Linked-listspdf/" target="_blank">CSE 214 Fall 2020 Linked lists.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/9/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/194999724/hw1-1html/" target="_blank">hw1 (1).html</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/12/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/164745391/SinglyLinkedStackjava/" target="_blank">SinglyLinkedStack.java</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/5/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/164744019/Recitation-5-1docx/" target="_blank">Recitation 5-1.docx</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/5/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/82979458/CSE-214-Homework-1pdf/" target="_blank">CSE_214_Homework_1.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/3/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/10731454/Balanced-Trees/" target="_blank">Balanced Trees</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/11/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/132048234/CSE214-Homework-4html/" target="_blank">CSE214 Homework 4.html</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/100988073/Practice3-4pdf/" target="_blank">Practice3-4.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/16494516/03-Algorithm-Analysis-Introduction-4up/" target="_blank">03-Algorithm-Analysis-Introduction-4up</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/3/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/190308975/Baseballpdf/" target="_blank">Baseball.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/6/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/34370432/HanoiTowerjava/" target="_blank">HanoiTower.java</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/13/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12935032/recitation-10/" target="_blank">recitation-10</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/9/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/39163747/CSE-214-unit-2-notespdf/" target="_blank">CSE 214 unit 2 notes.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/19/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/93574216/Midterm-2-Study-Guidedocx/" target="_blank">Midterm 2 Study Guide.docx</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/17/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/70079944/CSE-214-Fall-2020-Stackspdf/" target="_blank">CSE 214 Fall 2020 Stacks.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/9/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/36856102/PrepaidCardTestjava/" target="_blank">PrepaidCardTest.java</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 1/12/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/82979388/Graphspdf/" target="_blank">Graphs.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/3/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/41144082/https-webarchiveorg-web-20170531125658-http-www3csstonybrookedu-cse214-recitations-recitat/" target="_blank">https___web.archive.org_web_20170531125658_http___www3.cs.stonybrook.edu_~cse214_recitations_recitat</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 5/7/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/10731457/Search-Algorithms-And-Data-Tables/" target="_blank">Search Algorithms And Data Tables</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/11/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33597206/01-Java-Reviewpdf/" target="_blank">01-Java-Review.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/26/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/80837696/Homework3pdf/" target="_blank">Homework3.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/13/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/183804439/Exercise30-1Clientjava/" target="_blank">Exercise30_1Client.java</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/12/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/183624143/recitation0pdf/" target="_blank">recitation0.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/11/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12935027/recitation-05-queues-and-inheritance/" target="_blank">recitation-05-queues-and-inheritance</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/9/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180782598/Screenshot-33png/" target="_blank">Screenshot (33).png</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/180782593/Screenshot-34png/" target="_blank">Screenshot (34).png</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12629901/lecture-07/" target="_blank">lecture-07</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/10/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/36495798/Linked-List-Sheet-PDFpdf/" target="_blank">Linked List Sheet PDF.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/15/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/24235946/Temperaturesjava/" target="_blank">Temperatures.java</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/27/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/28421634/Midterm-2-Practicepdf/" target="_blank">Midterm 2 - Practice.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2/14/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/16494491/05-ADTs-Arrays-Linked-Lists-4up/" target="_blank">05-ADTs-Arrays-Linked-Lists-4up</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/3/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/207350274/CSE21402Homework2pdf/" target="_blank">CSE214.02Homework2.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/1/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/207350146/CSE214Midterm2Practicepdf/" target="_blank">CSE214Midterm2Practice.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/1/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/15211285/OrderedDoublePairjava/" target="_blank">OrderedDoublePair.java</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/8/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/41144074/https-webarchiveorg-web-20170531125527-http-www3csstonybrookedu-cse214-recitations-recitat/" target="_blank">https___web.archive.org_web_20170531125527_http___www3.cs.stonybrook.edu_~cse214_recitations_recitat</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 5/7/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/171344092/PlaylistOperationsjava/" target="_blank">PlaylistOperations.java</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/11/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/126734472/Lecture-19-Sequential-and-Binary-Searchpdf/" target="_blank">Lecture 19_Sequential and Binary Search.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/126733511/Lecture-3-Data-Structures-and-Programmingpdf/" target="_blank">Lecture 3_Data Structures and Programming.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/126733355/Lecture-2-Software-Engineering-and-Top-Down-Designpdf/" target="_blank">Lecture 2_Software Engineering and Top-Down Design.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/39163745/CSE-214-unit-1-notespdf/" target="_blank">CSE 214 unit 1 notes.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/19/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/164751790/CSE214Listjava/" target="_blank">CSE214List.java</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/5/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/164745616/CSE214Stackjava/" target="_blank">CSE214Stack.java</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/5/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/82979340/Homework-3-Treespdf/" target="_blank">Homework_3__Trees.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/3/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/119806689/CSE-21430-Summer-II-2021-Recitation-7-Worksheetdocx/" target="_blank">CSE 214.30 Summer II 2021 - Recitation 7 Worksheet.docx</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/29/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/119806652/CSE-21430-Summer-II-2021-Recitation-7-Student-Worksheetdocx/" target="_blank">CSE 214.30 Summer II 2021 - Recitation 7 Student Worksheet.docx</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/29/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/119805894/CSE-21430-Summer-II-2021-Recitation-5-Worksheet-2docx/" target="_blank">CSE 214.30 Summer II 2021 - Recitation 5 Worksheet (2).docx</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/29/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/10876576/Queues/" target="_blank">Queues</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/11/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/15213779/Point2Djava/" target="_blank">Point2D.java</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 8/8/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/80553303/CSE-214-Fall-2020-Hash-Tablespdf/" target="_blank">CSE 214 Fall 2020 Hash Tables.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/80553169/CSE-214-Fall-2020-Heaps-B-Trees-Red-Black-Treespdf/" target="_blank">CSE 214 Fall 2020 Heaps, B-Trees, Red-Black Trees.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27434147/CSE214-L09-BTpdf/" target="_blank">CSE214_L09_BT.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/24/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27434094/CSE214-L05-Stackpdf/" target="_blank">CSE214_L05_Stack.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/24/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/115338283/Recitation-2pdf/" target="_blank">Recitation 2.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/6/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/115338282/Recitation-5docx/" target="_blank">Recitation 5.docx</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/6/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/41144092/https-webarchiveorg-web-20170531125538-http-www3csstonybrookedu-cse214-recitations-recitat/" target="_blank">https___web.archive.org_web_20170531125538_http___www3.cs.stonybrook.edu_~cse214_recitations_recitat</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 5/7/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/74855438/hw2pdf/" target="_blank">hw2.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/30/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/10884728/Introduction-to-Graphs/" target="_blank">Introduction to Graphs</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/11/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/70079900/CSE-214-Fall-2020-Queuespdf/" target="_blank">CSE 214 Fall 2020 Queues.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/9/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27434091/CSE214-L07-Recursionpdf/" target="_blank">CSE214_L07_Recursion.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/24/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27434089/CSE214-L06-Queuepdf/" target="_blank">CSE214_L06_Queue.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/24/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/45887859/CSE-214-Spring-2016-Recitation-8-CROPPEDpdf/" target="_blank">CSE 214 Spring 2016 Recitation 8 CROPPED.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/8/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12935033/recitation-11/" target="_blank">recitation-11</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/9/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12935029/recitation-07-binarytrees/" target="_blank">recitation-07-binarytrees</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/9/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12935026/recitation-04-generics/" target="_blank">recitation-04-generics</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/9/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/17341852/08-Maps/" target="_blank">08-Maps</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/1/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/16494495/04-Asymptotic-Analysis-4up/" target="_blank">04-Asymptotic-Analysis-4up</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/3/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/93574223/R12docx/" target="_blank">R12.docx</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/17/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/139489821/ApporachDateComparatorjava/" target="_blank">ApporachDateComparator.java</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/31/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13658133/07Queues-linked-list-implementation/" target="_blank">07.Queues_linked-list implementation</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/7/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13658132/06Queues-array-based-implementation/" target="_blank">06.Queues_array-based implementation</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/7/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/82979443/Homework-4-Hashing-Sortingpdf/" target="_blank">Homework_4__Hashing_Sorting.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/3/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/82979398/Sortingpdf/" target="_blank">Sorting.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/3/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/19626205/test-driven-development/" target="_blank">test-driven-development</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2/7/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/132048440/hw14htm/" target="_blank">hw1(4).htm</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/132048205/hw64html/" target="_blank">hw6(4).html</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/80553454/CSE-214-Fall-2020-More-on-Binary-Treespdf/" target="_blank">CSE 214 Fall 2020 More on Binary Trees.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12935025/recitation-03-classes-and-keywords/" target="_blank">recitation-03-classes_and_keywords</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/9/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/26346660/recitation-091pdf/" target="_blank">recitation-09(1).pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/5/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/126734278/Lecture-1-Data-Structures-and-Programmingpdf/" target="_blank">Lecture 1_Data Structures and Programming.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/24775841/p2docx/" target="_blank">p2.docx</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/4/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/121933700/AMS-HW1pdf/" target="_blank">AMS HW1.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/121933433/Documentation-of-Disability-2019docx/" target="_blank">Documentation of Disability 2019.docx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/121933155/AMspdf/" target="_blank">AMs.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/119806552/CSE-21430-Summer-II-2021-Recitation-52-Student-Worksheetdocx/" target="_blank">CSE 214.30 Summer II 2021 - Recitation 5.2 Student Worksheet.docx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/29/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/119805738/CSE-21430-Summer-II-2021-Recitation-72-Worksheetdocx/" target="_blank">CSE 214.30 Summer II 2021 - Recitation 7.2 Worksheet.docx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/29/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/119805646/CSE-21430-Summer-II-2021-Recitation-6-Student-Worksheetdocx/" target="_blank">CSE 214.30 Summer II 2021 - Recitation 6 Student Worksheet.docx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/29/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/119805602/CSE-21430-Summer-II-2021-Recitation-5-Student-Worksheetdocx/" target="_blank">CSE 214.30 Summer II 2021 - Recitation 5 Student Worksheet.docx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/29/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/119030322/binary-searchpng/" target="_blank">binary search.png</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/24/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/119030308/binary-tree-inorderpng/" target="_blank">binary tree inorder.png</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/24/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/115338305/CSE-214-Fall-2021-Recitation-6docx/" target="_blank">CSE 214 Fall 2021 Recitation 6.docx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/6/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/115338224/Recitation-3docx/" target="_blank">Recitation 3.docx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/6/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/115338124/CSE-214-Recitation-7docx/" target="_blank">CSE 214 Recitation 7.docx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/6/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12629905/lecture-02/" target="_blank">lecture-02</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/10/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12629903/Queues/" target="_blank">Queues</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/10/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/41144064/https-webarchiveorg-web-20170531125641-http-www3csstonybrookedu-cse214-recitations-recitat/" target="_blank">https___web.archive.org_web_20170531125641_http___www3.cs.stonybrook.edu_~cse214_recitations_recitat</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 5/7/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/183804596/Exercise15-29java/" target="_blank">Exercise15_29.java</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/12/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/183804444/Exercise30-1Serverjava/" target="_blank">Exercise30_1Server.java</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/12/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/16452495/Lecture-7/" target="_blank">Lecture 7</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/1/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/16062213/01-Java-Review/" target="_blank">01-Java-Review</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/13/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180782595/Screenshot-32png/" target="_blank">Screenshot (32).png</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/37093387/Linked-List-Sheet-Fall-2018-PDFpdf/" target="_blank">Linked_List_Sheet_Fall_2018_PDF.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/22/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/36495855/unit1pdf/" target="_blank">unit1.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 12/15/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/36495783/unit2pdf/" target="_blank">unit2.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 12/15/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12935035/recitation-13/" target="_blank">recitation-13</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/9/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/172973770/Recitation-5-Student-Versionpdf/" target="_blank">Recitation 5 Student Version.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12629904/lecture-03contd-from-02/" target="_blank">lecture-03(contd-from-02)</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/10/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/16494534/01-Java-Review-4up/" target="_blank">01-Java-Review-4up</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/3/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/16494524/02-Generics-4up/" target="_blank">02-Generics-4up</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/3/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/45886607/Recitation-Material-1-Fall-2016pdf/" target="_blank">Recitation Material 1 Fall 2016.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/8/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/45887778/recitation4-Fall-2016pdf/" target="_blank">recitation4 Fall 2016.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 9/8/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11274419/unit2/" target="_blank">unit2</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/4/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/82979331/Homework-6-Graphs-extra-creditpdf/" target="_blank">Homework_6__Graphs_extra_credit.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/3/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/10731456/Recursion/" target="_blank">Recursion</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/11/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/80553331/CSE-214-Fall-2020-Sortingpdf/" target="_blank">CSE 214 Fall 2020 Sorting.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/80553156/CSE-214-Fall-2020-Graphspdf/" target="_blank">CSE 214 Fall 2020 Graphs.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/41454105/Midterm-2-Review-Sessionpptx/" target="_blank">Midterm 2 Review Session.pptx</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/15/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/24775788/end-revdocx/" target="_blank">end rev.docx</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/4/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/39163753/CSE-214-unit-3-notes-1pdf/" target="_blank">CSE 214 unit 3 notes (1).pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/19/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/39163748/CSE-214-unit-3-notespdf/" target="_blank">CSE 214 unit 3 notes.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/19/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/70079831/CSE-214-Fall-2020-Order-of-Complexitypdf/" target="_blank">CSE 214 Fall 2020 Order of Complexity.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/9/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/36495795/Recitation-0-Juan-ANSWERS1docx/" target="_blank">Recitation 0_Juan ANSWERS(1).docx</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/15/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/17341876/10-Recursion/" target="_blank">10-Recursion</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/1/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/17341843/08-Maps-4up/" target="_blank">08-Maps-4up</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/1/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/16494530/00-JUnit-4up/" target="_blank">00-JUnit-4up</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/3/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/144619889/CRecitation-10pdf/" target="_blank">CRecitation 10.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/25/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/144617791/CRecitation-11pdf/" target="_blank">CRecitation 11.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/25/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/139489850/module-infojava/" target="_blank">module-info.java</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/31/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/139489819/MissDistanceComparatorjava/" target="_blank">MissDistanceComparator.java</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/31/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/139487546/NeoDatabasejava/" target="_blank">NeoDatabase.java</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/31/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/139487218/BooleanSourcejava/" target="_blank">BooleanSource.java</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/31/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12935024/recitation-02-stacks/" target="_blank">recitation-02-stacks</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/9/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27434101/CSE214-L11-BalancedTree-BTREEpdf/" target="_blank">CSE214_L11_BalancedTree_BTREE.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/24/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/126736596/Lecture-15-Asymptoticspdf/" target="_blank">Lecture 15_Asymptotics.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/126734424/Lecture-18-Priority-Queues-and-Heapsortpdf/" target="_blank">Lecture 18_Priority Queues and Heapsort.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/126733444/Lecture-4-Pointers-and-Dynamic-Memory-Allocationpdf/" target="_blank">Lecture 4_Pointers and Dynamic Memory Allocation.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/121933740/Untitled-document-5pdf/" target="_blank">Untitled document-5.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/45887814/recitation3-Fall-2016pdf/" target="_blank">recitation3 Fall 2016.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/8/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/45887772/recitation10-Spring-2016pdf/" target="_blank">recitation10 Spring 2016.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/8/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/45887459/recitation12-Graphs-Fall-2016pdf/" target="_blank">recitation12 Graphs Fall 2016.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/8/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/119806502/CSE-21430-Summer-II-2021-Recitation-72-Student-Worksheetdocx/" target="_blank">CSE 214.30 Summer II 2021 - Recitation 7.2 Student Worksheet.docx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/29/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/119806125/CSE-21430-Summer-II-2021-Recitation-6-Worksheetdocx/" target="_blank">CSE 214.30 Summer II 2021 - Recitation 6 Worksheet.docx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/29/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/119030360/breadth-first-searchpng/" target="_blank">breadth first search.png</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/24/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/115338392/kuesympv6pl61vpdf/" target="_blank">kuesympv6pl61v.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/6/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/41144068/https-webarchiveorg-web-20170531125459-http-www3csstonybrookedu-cse214-recitations-recitat/" target="_blank">https___web.archive.org_web_20170531125459_http___www3.cs.stonybrook.edu_~cse214_recitations_recitat</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/7/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/16453235/Lecture-2/" target="_blank">Lecture 2</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 10/1/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12935030/recitation-08/" target="_blank">recitation-08</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/9/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/82979341/Midterm-2-reviewpdf/" target="_blank">Midterm_2_review.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/3/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/80837700/Homework2pdf/" target="_blank">Homework2.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/13/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/80553462/CSE-214-Rec-12-Fall-2020pdf/" target="_blank">CSE 214 Rec 12 Fall 2020.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/80553327/CSE-214-Fall-2020-Recursionpdf/" target="_blank">CSE 214 Fall 2020 Recursion.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25350061/L01-Complexitydocx/" target="_blank">L01_Complexity.docx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/29/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/72040748/CSE214-Selfbalancing-treespdf/" target="_blank">CSE214__Selfbalancing_trees.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/31/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12935028/recitation-06-recursion/" target="_blank">recitation-06-recursion</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/9/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/45888413/recitation12-Sorting-Spring-2015pdf/" target="_blank">recitation12 Sorting Spring 2015.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/8/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/45887834/recitation2-Fall-2016pdf/" target="_blank">recitation2 Fall 2016.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/8/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/39165701/CSE-214-unit-3-notes-2pdf/" target="_blank">CSE 214 unit 3 notes (2).pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/19/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/24775787/Enumsdocx/" target="_blank">Enums.docx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/4/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/213764847/Balanced-Trees-B-Tree-72/" target="_blank">Balanced Trees B-Tree 7.2</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/4/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/213764842/Quiz1Solutionspdf/" target="_blank">Quiz1Solutions.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/4/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/213764735/Lecture52-Recursion-part-2pdf/" target="_blank">Lecture5.2 Recursion part 2.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/4/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/213764580/Lecture31-Stackspdf/" target="_blank">Lecture3.1 Stacks.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/4/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/213759133/bae-cover-1pdf/" target="_blank">bae cover (1).pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/4/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211639561/06-Lists1ppt/" target="_blank">06-Lists1.ppt</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/11/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/207243191/hw5html/" target="_blank">hw5.html</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/29/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/207243170/hw6html/" target="_blank">hw6.html</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/29/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/207243071/hw1keyhtml/" target="_blank">hw1key.html</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/29/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/139487220/BooleanSourcejava/" target="_blank">BooleanSource.java</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/31/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/132048391/hw24htm/" target="_blank">hw2(4).htm</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/132031670/hw72html/" target="_blank">hw7(2).html</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/128258145/Lecture-11pdf/" target="_blank">Lecture 1.1.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/2/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/126735233/Lecture-22-Tree-Structurespdf/" target="_blank">Lecture 22_Tree Structures.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/126735149/Lecture-27-Graphspdf/" target="_blank">Lecture 27_Graphs.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/126735138/Lecture-23-Random-Search-Treespdf/" target="_blank">Lecture 23_Random Search Trees.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/126735087/Lecture-24-AVL-Treespdf/" target="_blank">Lecture 24_AVL Trees.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/126735057/Lecture-21-Hashingpdf/" target="_blank">Lecture 21_Hashing.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/126735042/Lecture-25-Red-Black-Treespdf/" target="_blank">Lecture 25_Red-Black Trees.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/126735029/Lecture-26-Splay-Treespdf/" target="_blank">Lecture 26_Splay Trees.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/126734723/Lecture-13-Object-Oriented-Programmingpdf/" target="_blank">Lecture 13_Object-Oriented Programming.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/126734658/Lecture-12-Abstraction-and-Modulespdf/" target="_blank">Lecture 12_Abstraction and Modules.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/126734623/Lecture-11-Applications-of-Recursionpdf/" target="_blank">Lecture 11_Applications of Recursion.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/126734489/Lecture-14-Simulationspdf/" target="_blank">Lecture 14_Simulations.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/126734459/Lecture-16-Introduction-to-Sortingpdf/" target="_blank">Lecture 16_Introduction to Sorting.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/126734457/Lecture-20-Arrays-and-Access-Formulaspdf/" target="_blank">Lecture 20_Arrays and Access Formulas.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/126733615/Lecture-10-Recursion-and-Backtrackingpdf/" target="_blank">Lecture 10_Recursion and Backtracking.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/126733523/Lecture-5-Linked-Stacks-and-Queuespdf/" target="_blank">Lecture 5_Linked Stacks and Queues.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/126733484/Lecture-7-List-Insertion-and-Deletionpdf/" target="_blank">Lecture 7_List Insertion and Deletion.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/126733426/Lecture-9-Recursive-and-Doubly-Linked-Listspdf/" target="_blank">Lecture 9_Recursive and Doubly Linked Lists.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/126733416/Lecture-8-Doing-the-Shufflepdf/" target="_blank">Lecture 8_Doing the Shuffle.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/126733373/Lecture-6-Building-the-Calculatorpdf/" target="_blank">Lecture 6_Building the Calculator.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/121935748/113451177pdf/" target="_blank">113451177.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/121935701/113451177-2pdf/" target="_blank">113451177-2.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/121935563/Screen-Shot-2021-11-01-at-63930-PMpng/" target="_blank">Screen Shot 2021-11-01 at 6.39.30 PM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/121935553/Screen-Shot-2021-11-12-at-62609-AMpng/" target="_blank">Screen Shot 2021-11-12 at 6.26.09 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/121935552/Screen-Shot-2021-11-12-at-62525-AMpng/" target="_blank">Screen Shot 2021-11-12 at 6.25.25 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/121933715/Untitled-document-7pdf/" target="_blank">Untitled document-7.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/121933203/Untitled-document-6pdf/" target="_blank">Untitled document-6.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/119030346/Heappng/" target="_blank">Heap.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/24/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/119030326/Big-O-for-data-structurespng/" target="_blank">Big O for data structures.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/24/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/119030321/depth-first-searchpng/" target="_blank">depth first search.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/24/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/119030309/treespng/" target="_blank">trees.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/24/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/119030306/tree-set-depthpng/" target="_blank">tree set depth.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/24/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/115338594/Recitation-8-Binary-Heapsdocx/" target="_blank">Recitation 8 - Binary Heaps.docx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/6/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/201457480/Lab14-2java/" target="_blank">Lab14_2.java</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/30/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/82979356/Graphs-2pdf/" target="_blank">Graphs_2.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/3/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/82979332/Homework-5-Graphspdf/" target="_blank">Homework_5__Graphs.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/3/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/80837725/CSE214-HW5pdf/" target="_blank">CSE214_HW5.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/13/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/80837664/Homework-1pdf/" target="_blank">Homework_1.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/13/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/195000047/CSE-214-TB-OutlPinepdf/" target="_blank">CSE 214 TB OutlPine.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/12/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/72040155/cse214-linked-listspdf/" target="_blank">cse214_linked_lists.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/31/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/183804464/Exercise32-2java/" target="_blank">Exercise32_2.java</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/12/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180782594/Screenshot-30png/" target="_blank">Screenshot (30).png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/180782592/Screenshot-37png/" target="_blank">Screenshot (37).png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/180782591/Screenshot-29png/" target="_blank">Screenshot (29).png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180782590/Screenshot-31png/" target="_blank">Screenshot (31).png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/180782587/Screenshot-39png/" target="_blank">Screenshot (39).png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/180782585/Screenshot-41png/" target="_blank">Screenshot (41).png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180781552/Screenshot-35png/" target="_blank">Screenshot (35).png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/174969650/CSE214-Recitation-5-1pdf/" target="_blank">CSE214 - Recitation 5 (1).pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/30/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/172973582/recitation10-Studentpdf/" target="_blank">recitation10 (Student).pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/172973049/Recitation-4-Student-Version-1pdf/" target="_blank">Recitation 4 Student Version (1).pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/171343583/FullPlaylistExceptionjava/" target="_blank">FullPlaylistException.java</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/11/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/171174565/900b862c-b81d-4a54-ba3f-de8f262dbc5bJPG/" target="_blank">900b862c-b81d-4a54-ba3f-de8f262dbc5b.JPG</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/11/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/169578811/recitation4pdf/" target="_blank">recitation4.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/1/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/169578678/recitation3pdf/" target="_blank">recitation3.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/1/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/45887900/recitation9-Fall-2016-CROPPEDpdf/" target="_blank">recitation9 Fall 2016 CROPPED.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/8/19
+                    </td>
+                  </tr> </table></div>
+
+          </section>
+
+    
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,4380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
+  <title>Margie Ruffin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../../js/doctable.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#303d4e;
+      border-color: #303d4e;
+    }
+    #myNavbar{
+      float:right;
+    }
+    h1{
+      color:#4d9586;
+    }
+    h2{
+      color:#4d9586;
+    }
+    h3{
+      color:#4d9586;
+    }
+
+    table, th, td {
+    border:1px solid black;
+    margin: 0 auto;
+    padding-left: 15px;
+    } 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      /*height: 450px;*/
+      height:100%;
+
+      padding-top:50px;
+    }
+
+    .iconRow {
+    display: flex;
+    }
+
+    .iconColumn {
+      display: flex;
+      flex: 50%;
+
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    #socialMedia {
+      padding-top: 10px;
+    }
+    .info{
+      margin: 10px 0px  10px;
+      display:block;
+    }
+    .contact_info{
+      padding-top:10px;
+    }
+    .contact_info_header{
+      font-family:Helvetica Neue;
+      font-weight:bold;
+    }
+
+    .artifact{
+      color:green;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: transparent;
+      color: black;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    /*@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }*/
+
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    }
+
+    @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1140px;
+    }
+    }
+
+    .active, .nav-btn:hover {
+      background-color:#4d9586;
+      color:#4d9586;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+    }
+
+
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:99; }
+    .hover_img a:hover span { display:block; left: -150px; }
+
+  </style>
+  
+</head>
+<body> <div class="container" style="margin-bottom: 25px;" >
+    <div class="container-fluid text-center">    
+        <div class="row content text-left">
+
+          <section>
+            <div class="doc_project">
+              <div class="project_table" style="margin-top: 10px;">
+
+                <div class="container">
+                  <div class="row" style="text-align:center;">
+                    <h1 style="text-align: center; margin-bottom:15px"> Course Hero breakdown for BU CS 330 </h2>
+                    <img src="../SchoolStats/BU/BU_CS_330_course_docs.png" alt="Total EE/CS Docs on Course Hero" title="Total Number of EE/CS Documents on Course Hero" width="500" height="300" style="margin-left: auto; margin-right: auto; margin-bottom: 5px; display: block;" >
+                    <p> <strong>Figure 1:</strong> This figure shows the breakdown of document type for documents specific to the BU CS 330 course on Course Hero.</p>
+
+                    <hr>
+                    <h3 style="text-align: center; margin-bottom:15px; margin-top:15px;"><strong> <a href="https://www.google.com" target="_blank">⇢ CLICK HERE TO TAKE THE SURVEY! ⇠</a> </strong></h3>
+                    <hr>
+                  </div>
+                </div>
+
+              </div><h2 style="text-align: center;"> Additional Documents for CS 330 on Course Hero </h2>
+                <p style="text-align: center; margin-top: 30px; margin-bottom: 30px;"> Below is a table of additional "locked" documents for CS 330 on Course Hero. 
+                  Click on the name of the document to be taken to the Course Hero page hosting the document.</p> <table id="data_table" style="width: 100%; margin-bottom: 45px;">
+                  <col width="33.33%">
+                  <col width="33.34%">
+                  <col width="33.33%"><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/50950206/lab13-solutionspdf/" target="_blank">lab13__solutions.pdf</a>
+                        <br>
+                        Total Views: 932
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/22/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/29795954/CS330-assignment-3docx/" target="_blank">CS330 assignment 3.docx</a>
+                        <br>
+                        Total Views: 598
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/1/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27447430/hw3pdf/" target="_blank">hw3.pdf</a>
+                        <br>
+                        Total Views: 359
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/26/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/30194548/hw4-solpdf/" target="_blank">hw4_sol.pdf</a>
+                        <br>
+                        Total Views: 319
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/16/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/30194539/hw1-solpdf/" target="_blank">hw1_sol.pdf</a>
+                        <br>
+                        Total Views: 287
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/16/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/20570634/cs330-hw3-solution/" target="_blank">cs330 hw3 solution</a>
+                        <br>
+                        Total Views: 303
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 3/1/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13993822/hw3/" target="_blank">hw3</a>
+                        <br>
+                        Total Views: 292
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/13/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13993826/hw1-sols/" target="_blank">hw1_sols</a>
+                        <br>
+                        Total Views: 221
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/13/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/136965662/CS330-S22-lab06-solspdf/" target="_blank">CS330_S22_lab06_sols.pdf</a>
+                        <br>
+                        Total Views: 52
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12699560/hw04/" target="_blank">hw04</a>
+                        <br>
+                        Total Views: 207
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/17/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/30195187/hw3-solpdf/" target="_blank">hw3_sol.pdf</a>
+                        <br>
+                        Total Views: 131
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/16/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/20570635/cs330-hw02/" target="_blank">cs330 hw02</a>
+                        <br>
+                        Total Views: 155
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 3/1/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12699564/hw07/" target="_blank">hw07</a>
+                        <br>
+                        Total Views: 175
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/17/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/184567108/CS330-F22-midterm-both-solspdf/" target="_blank">CS330_F22_midterm_both_sols.pdf</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/16/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12699561/hw05/" target="_blank">hw05</a>
+                        <br>
+                        Total Views: 162
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/17/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35543766/lab2solpdf/" target="_blank">lab2sol.pdf</a>
+                        <br>
+                        Total Views: 102
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/19745669/hw2/" target="_blank">hw2</a>
+                        <br>
+                        Total Views: 134
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/10/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/184376238/CS330-final-cheat-sheetdocx/" target="_blank">CS330 final cheat sheet.docx</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/15/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/201369424/Screen-Shot-2023-04-29-at-13814-PMpng/" target="_blank">Screen Shot 2023-04-29 at 1.38.14 PM.png</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/29/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27447432/hw5pdf/" target="_blank">hw5.pdf</a>
+                        <br>
+                        Total Views: 106
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/26/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851045/lab13-solpdf/" target="_blank">lab13_sol.pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12699562/hw06/" target="_blank">hw06</a>
+                        <br>
+                        Total Views: 121
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/17/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/129137102/CS330-S22-01-20-intro-pseudo-GS-B1pdf/" target="_blank">CS330_S22_01_20_intro_pseudo_GS_B1.pdf</a>
+                        <br>
+                        Total Views: 30
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/7/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/34875348/hw2-solpdf/" target="_blank">hw2_sol.pdf</a>
+                        <br>
+                        Total Views: 77
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/28/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/14001739/01/" target="_blank">1</a>
+                        <br>
+                        Total Views: 107
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/14/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/28501523/cs330-hw4pdf/" target="_blank">cs330_hw4.pdf</a>
+                        <br>
+                        Total Views: 80
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/18/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/48551104/CS330-Hw4-1pdf/" target="_blank">CS330_Hw4 (1).pdf</a>
+                        <br>
+                        Total Views: 58
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/15/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12699557/hw01/" target="_blank">hw01</a>
+                        <br>
+                        Total Views: 109
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/17/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13993827/hw1/" target="_blank">hw1</a>
+                        <br>
+                        Total Views: 101
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/13/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27447433/hw4pdf/" target="_blank">hw4.pdf</a>
+                        <br>
+                        Total Views: 79
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/26/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27447431/hw6pdf/" target="_blank">hw6.pdf</a>
+                        <br>
+                        Total Views: 79
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/26/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12699559/hw03/" target="_blank">hw03</a>
+                        <br>
+                        Total Views: 104
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/17/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/30194490/hw5-solutionspdf/" target="_blank">hw5_solutions.pdf</a>
+                        <br>
+                        Total Views: 70
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/16/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/19195722/lab1-sol/" target="_blank">lab1_sol</a>
+                        <br>
+                        Total Views: 80
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 1/25/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/14001741/03/" target="_blank">3</a>
+                        <br>
+                        Total Views: 87
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/14/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/34403433/CS330-hw1pdf/" target="_blank">CS330 hw1.pdf</a>
+                        <br>
+                        Total Views: 59
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/17/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/197851465/Screen-Shot-2023-04-02-at-14704-AMpng/" target="_blank">Screen Shot 2023-04-02 at 1.47.04 AM.png</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/3/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13993824/hw6/" target="_blank">hw6</a>
+                        <br>
+                        Total Views: 85
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/13/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/144204546/CS330-S22-final-review-problemspdf/" target="_blank">CS330_S22_final_review_problems.pdf</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/141756838/hw10pdf/" target="_blank">hw10.pdf</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/11/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/29795958/330-Assignment-2docx/" target="_blank">330 - Assignment 2.docx</a>
+                        <br>
+                        Total Views: 62
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/1/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851003/CS330-F22-hw8-solpdf/" target="_blank">CS330-F22-hw8-sol.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/50949873/hw3-solpdf/" target="_blank">hw3_sol.pdf</a>
+                        <br>
+                        Total Views: 42
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/22/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13993825/hw5/" target="_blank">hw5</a>
+                        <br>
+                        Total Views: 75
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/13/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/14001740/02/" target="_blank">2</a>
+                        <br>
+                        Total Views: 74
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/14/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13993831/lab6-solution/" target="_blank">lab6_solution</a>
+                        <br>
+                        Total Views: 72
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 4/13/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12699563/hw08/" target="_blank">hw08</a>
+                        <br>
+                        Total Views: 73
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/17/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13993828/lab4-solution/" target="_blank">lab4_solution</a>
+                        <br>
+                        Total Views: 69
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 4/13/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/136965446/CS330-S22-hw02-solpdf/" target="_blank">CS330_S22_hw02_sol.pdf</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33321546/Lab-2pdf/" target="_blank">Lab 2.pdf</a>
+                        <br>
+                        Total Views: 45
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 9/19/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13993823/hw4/" target="_blank">hw4</a>
+                        <br>
+                        Total Views: 65
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/13/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/146262125/CS330-F21-hw06pdf/" target="_blank">CS330-F21-hw06.pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12699565/hw09/" target="_blank">hw09</a>
+                        <br>
+                        Total Views: 67
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/17/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/36300419/Assignment-6pdf/" target="_blank">Assignment 6.pdf</a>
+                        <br>
+                        Total Views: 42
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/9/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35545687/hw5pdf/" target="_blank">hw5.pdf</a>
+                        <br>
+                        Total Views: 41
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/198642784/Screen-Shot-2023-04-09-at-54237-PMpng/" target="_blank">Screen Shot 2023-04-09 at 5.42.37 PM.png</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/36300972/Assignment-5pdf/" target="_blank">Assignment 5.pdf</a>
+                        <br>
+                        Total Views: 40
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/9/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/168561336/CS330-F22-hw3pdf/" target="_blank">CS330-F22-hw3.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/25/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12699558/hw02/" target="_blank">hw02</a>
+                        <br>
+                        Total Views: 62
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/17/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/184565900/CS-330-F22-Syllabuspdf/" target="_blank">CS 330 F22 Syllabus.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/16/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851128/CS330-F22-hw11-solpdf/" target="_blank">CS330-F22-hw11-sol.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/14001742/04/" target="_blank">4</a>
+                        <br>
+                        Total Views: 56
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/14/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/144480846/CS330-Homework-9pdf/" target="_blank">CS330_Homework_9.pdf</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/24/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12699352/cs330f15notes/" target="_blank">cs330f15notes</a>
+                        <br>
+                        Total Views: 57
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/17/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35543754/hw1pdf/" target="_blank">hw1.pdf</a>
+                        <br>
+                        Total Views: 36
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/30321139/hw3-codepdf/" target="_blank">hw3 code.pdf</a>
+                        <br>
+                        Total Views: 38
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/20/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27447429/hw7pdf/" target="_blank">hw7.pdf</a>
+                        <br>
+                        Total Views: 40
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/26/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/141756840/hw11pdf/" target="_blank">hw11.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/11/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/128775825/18061-Finalpdf/" target="_blank">18.061 Final.pdf</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/5/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/20570632/cs330-lab4-solution/" target="_blank">cs330 lab4 solution</a>
+                        <br>
+                        Total Views: 43
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 3/1/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/30321140/Hw3-write-uppdf/" target="_blank">Hw3 write-up.pdf</a>
+                        <br>
+                        Total Views: 36
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/20/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/20059908/Problem-Set-4/" target="_blank">Problem Set 4</a>
+                        <br>
+                        Total Views: 43
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/18/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/48550893/CS330-Hw2pdf/" target="_blank">CS330_Hw2.pdf</a>
+                        <br>
+                        Total Views: 26
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/15/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/144480622/CS330-Homework-3pdf/" target="_blank">CS330_Homework_3.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/24/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/50950070/hw1-solpdf/" target="_blank">hw1_sol.pdf</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/22/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/129136238/CS330-S22-hw03pdf/" target="_blank">CS330_S22_hw03.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/7/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/34875120/hw1-zerosumfasterpdf/" target="_blank">hw1_zerosumfaster.pdf</a>
+                        <br>
+                        Total Views: 30
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/28/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/20060363/Greedy-Algorithms-UCLA/" target="_blank">Greedy Algorithms - UCLA </a>
+                        <br>
+                        Total Views: 38
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/18/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27447428/hw2pdf/" target="_blank">hw2.pdf</a>
+                        <br>
+                        Total Views: 33
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/26/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/48551061/CS330-Hw3pdf/" target="_blank">CS330_Hw3.pdf</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/15/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/153499642/CS330-S22-lab10pdf/" target="_blank">CS330_S22_lab10.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/10/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/51285738/dijkstrapy/" target="_blank">dijkstra.py</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/27/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/136965479/CS330-S22-hw01-solpdf/" target="_blank">CS330_S22_hw01_sol.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/20/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/20060278/Problem-Set-8/" target="_blank">Problem Set 8</a>
+                        <br>
+                        Total Views: 35
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/18/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35545277/hw1-solpdf/" target="_blank">hw1_sol.pdf</a>
+                        <br>
+                        Total Views: 26
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/146262464/CS330-F21-hw05pdf/" target="_blank">CS330-F21-hw05.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/168763768/CS330-F22-hw2-programmingpdf/" target="_blank">CS330-F22-hw2-programming.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/26/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/20570633/cs330-lab5-sol/" target="_blank">cs330 lab5 sol</a>
+                        <br>
+                        Total Views: 34
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 3/1/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/20059973/Dijkstras-Algorithm-Demo/" target="_blank">Dijkstra's Algorithm Demo</a>
+                        <br>
+                        Total Views: 34
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/18/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/36296085/zerosumfastertxtpdf/" target="_blank">zerosumfaster.txt.pdf</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/9/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35545302/hw5tex/" target="_blank">hw5.tex</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/20060312/Problem-Set-1/" target="_blank">Problem Set 1</a>
+                        <br>
+                        Total Views: 33
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/18/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/51286050/breadth-first-searchpy/" target="_blank">breadth_first_search.py</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/27/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/50950027/hw2-solpdf/" target="_blank">hw2_sol.pdf</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/22/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/50950013/lab12solpdf/" target="_blank">lab12sol.pdf</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 11/22/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/30321141/HW2pdf/" target="_blank">HW2.pdf</a>
+                        <br>
+                        Total Views: 27
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/20/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/33321552/Homework-1pdf/" target="_blank">Homework 1.pdf</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 9/19/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/37689770/hw1pdf/" target="_blank">hw1.pdf</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/9/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/51286360/stable-matchingpy/" target="_blank">stable_matching.py</a>
+                        <br>
+                        Total Views: 19
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/27/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/50950052/lab11-solpdf/" target="_blank">lab11_sol.pdf</a>
+                        <br>
+                        Total Views: 19
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 11/22/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/36300415/Assignment-2pdf/" target="_blank">Assignment 2.pdf</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/9/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35545315/lab2tex/" target="_blank">lab2.tex</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/144478904/CS330-Homework-6pdf/" target="_blank">CS330_Homework_6.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/24/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/20059918/Problem-Set-6/" target="_blank">Problem Set 6</a>
+                        <br>
+                        Total Views: 30
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/18/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920033/CS330-S23-hw6tex/" target="_blank">CS330_S23_hw6.tex</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920002/CS330-S23-hw2tex/" target="_blank">CS330_S23_hw2.tex</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/51286578/interval-schedulingpy/" target="_blank">interval_scheduling.py</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/27/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851153/CS330-F22-hw9-solpdf/" target="_blank">CS330-F22-hw9-sol.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851135/CS330-F22-hw7-solpdf/" target="_blank">CS330-F22-hw7-sol.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851092/lab8-solpdf/" target="_blank">lab8_sol.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/34981854/lab3solpdf/" target="_blank">lab3sol.pdf</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/30/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/183043842/CS330-HW-1pdf/" target="_blank">CS330_HW_1.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/8/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/20060267/Problem-Set-3/" target="_blank">Problem Set 3</a>
+                        <br>
+                        Total Views: 28
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/18/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/28796466/hw3-anspdf/" target="_blank">hw3-ans.pdf</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/28/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/144480313/Lab-5-Solutionspdf/" target="_blank">Lab_5_Solutions.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/24/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/25386426/zerosumpy/" target="_blank">zerosum.py</a>
+                        <br>
+                        Total Views: 24
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 9/28/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/189746203/CS330-S23-hw2pdf/" target="_blank">CS330_S23_hw2.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/2/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/39692150/lab5solpdf/" target="_blank">lab5sol.pdf</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 4/1/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35545292/hw3tex/" target="_blank">hw3.tex</a>
+                        <br>
+                        Total Views: 19
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35543755/hw4pdf/" target="_blank">hw4.pdf</a>
+                        <br>
+                        Total Views: 19
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/201753731/CS330-S23-hw8pdf/" target="_blank">CS330_S23_hw8.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/2/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/136437198/CS330-S22-hw07pdf/" target="_blank">CS330_S22_hw07.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/17/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/51173992/hw-3-ALGOpdf/" target="_blank">hw 3 ALGO.pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/25/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/51173427/hw6-solpdf/" target="_blank">hw6_sol.pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/25/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/39691986/lab4-solutionspdf/" target="_blank">lab4_solutions.pdf</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/1/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/20060324/Problem-Set-2/" target="_blank">Problem Set 2</a>
+                        <br>
+                        Total Views: 24
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/18/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35545304/hw4-soltex/" target="_blank">hw4_sol.tex</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13608585/Lab5Sol/" target="_blank">Lab5Sol</a>
+                        <br>
+                        Total Views: 27
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 3/2/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/28796460/hw4-anspdf/" target="_blank">hw4-ans.pdf</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/28/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/51173531/hw7pdf/" target="_blank">hw7.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/25/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/50950024/Lab10-Solpdf/" target="_blank">Lab10_Sol.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 11/22/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/183043978/HW8pdf/" target="_blank">HW8.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/8/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/144481514/CS330-Homework-4pdf/" target="_blank">CS330_Homework_4.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/24/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/144204671/Lab-12Solutionspdf/" target="_blank">Lab_12Solutions.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/23/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/22309420/hw5/" target="_blank">hw5</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/25/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851154/CS330-F22-hw10-solpdf/" target="_blank">CS330-F22-hw10-sol.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851042/lab9-solpdf/" target="_blank">lab9_sol.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/195850944/CS330-F22-hw2-solpdf/" target="_blank">CS330-F22-hw2-sol.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/195850896/CS330-F22-hw5-solpdf/" target="_blank">CS330-F22-hw5-sol.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/139265364/hw2pdf/" target="_blank">hw2.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/30/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/139263425/hw5pdf/" target="_blank">hw5.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/30/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/136965668/CS330-S22-hw03-solspdf/" target="_blank">CS330_S22_hw03_sols.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/50950030/hw5-solutionspdf/" target="_blank">hw5_solutions.pdf</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/22/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13608583/04huffman/" target="_blank">04huffman</a>
+                        <br>
+                        Total Views: 24
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/2/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25699619/Assignment1pdf/" target="_blank">Assignment1.pdf</a>
+                        <br>
+                        Total Views: 19
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/12/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/132571924/CS330-S22-hw05pdf/" target="_blank">CS330_S22_hw05.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/26/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/129136407/CS330-S22-hw02pdf/" target="_blank">CS330_S22_hw02.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/7/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/153499795/CS330-S22-lab09pdf/" target="_blank">CS330_S22_lab09.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/10/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/19746461/hw1/" target="_blank">hw1</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/10/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/51173407/hw3pdf/" target="_blank">hw3.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/25/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/51173406/hw7-solspdf/" target="_blank">hw7_sols.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/25/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/168763930/CS330-F22-hw2pdf/" target="_blank">CS330-F22-hw2.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/26/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/168763706/CS330-F22-hw1-basicspdf/" target="_blank">CS330-F22-hw1-basics.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/26/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/37689763/hw2pdf/" target="_blank">hw2.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/9/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33321633/Lab-1-pdf/" target="_blank">Lab 1 .pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 9/19/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382436/Lab1-Solpdf/" target="_blank">Lab1_Sol.pdf</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27380030/330-problem-2pdf/" target="_blank">330-problem-2.pdf</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/18/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/25335739/hw01pdf/" target="_blank">hw01.pdf</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 9/28/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35545299/lab2soltex/" target="_blank">lab2sol.tex</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/39692181/lab8-solpdf/" target="_blank">lab8_sol.pdf</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 4/1/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/141757163/hw1pdf/" target="_blank">hw1.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/11/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382427/Lab9pdf/" target="_blank">Lab9.pdf</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/51286414/topological-orderingpy/" target="_blank">topological_ordering.py</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/27/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/34875279/hw1-zerosumsortpdf/" target="_blank">hw1_zerosumsort.pdf</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/28/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/183044512/HW5pdf/" target="_blank">HW5.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/8/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27380029/330-problem-3pdf/" target="_blank">330-problem-3.pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/18/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/201778775/Screen-Shot-2023-04-30-at-42816-PMpng/" target="_blank">Screen Shot 2023-04-30 at 4.28.16 PM.png</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/51286570/bellman-fordpy/" target="_blank">bellman_ford.py</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/27/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/20060713/Problem-Set-5/" target="_blank">Problem Set 5</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/18/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382437/Lab3Solpdf/" target="_blank">Lab3Sol.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382414/Lab8-Solpdf/" target="_blank">Lab8_Sol.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/39691994/lab3solpdf/" target="_blank">lab3sol.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 4/1/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/198642159/Screen-Shot-2023-04-08-at-32156-PMpng/" target="_blank">Screen Shot 2023-04-08 at 3.21.56 PM.png</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/198133456/CS330-S23-lab2pdf/" target="_blank">CS330_S23_lab2.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/5/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/146262677/CS330-F21-hw07pdf/" target="_blank">CS330-F21-hw07.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/146262327/CS330-F21-hw08pdf/" target="_blank">CS330-F21-hw08.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/144204962/CS330-S22-03-31-SS-KSpdf/" target="_blank">CS330_S22_03_31_SS_KS.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/20570631/cs330-lab6-sol/" target="_blank">cs330 lab6 sol</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 3/1/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/20570619/cs330-lab4/" target="_blank">cs330 lab4</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 3/1/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920062/CS330-S23-04-11-seq-alignpdf/" target="_blank">CS330_S23_04_11_seq_align.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920046/CS330-S23-hw3tex/" target="_blank">CS330_S23_hw3.tex</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920030/CS330-S23-LabXIII-solpdf/" target="_blank">CS330_S23_LabXIII_sol.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920004/CS330-S23-hw1tex/" target="_blank">CS330_S23_hw1.tex</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918481/CS330-S23-03-02-sp-dijkstrapdf/" target="_blank">CS330_S23_03_02_sp_dijkstra.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918333/CS330-S23-lab10pdf/" target="_blank">CS330_S23_lab10.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918217/CS330-S23-lab10-solspdf/" target="_blank">CS330_S23_lab10_sols.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/141756477/hw12pdf/" target="_blank">hw12.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/11/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851124/CS330-F22-hw1-basics-solpdf/" target="_blank">CS330-F22-hw1-basics-sol.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851100/CS330-F22-hw4-solpdf/" target="_blank">CS330-F22-hw4-sol.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851068/lab5-solpdf/" target="_blank">lab5_sol.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851007/lab11-solpdf/" target="_blank">lab11_sol.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/195850876/CS330-F22-hw3-solpdf/" target="_blank">CS330-F22-hw3-sol.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35545288/hw4tex/" target="_blank">hw4.tex</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35545285/hw3-soltex/" target="_blank">hw3_sol.tex</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/136965278/CS330-S22-hw04-solpdf/" target="_blank">CS330_S22_hw04_sol.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25699802/assignment2pdf/" target="_blank">assignment2.pdf</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/12/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/39692171/lab6-solutionspdf/" target="_blank">lab6_solutions.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/1/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/193218868/CS330-S23-02-07-DAGs-A1pdf/" target="_blank">CS330_S23_02_07_DAGs_A1.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/28/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/193218224/CS330-S23-01-19-intro-pseudo-A1pdf/" target="_blank">CS330_S23_01_19_intro_pseudo_A1.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/28/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382419/Lab7-Solpdf/" target="_blank">Lab7_Sol.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/128784386/plotter802py/" target="_blank">plotter802.py</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/5/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/51286357/minimum-spanning-treepy/" target="_blank">minimum_spanning_tree.py</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/27/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/51173878/hw-5-ALGOpdf/" target="_blank">hw 5 ALGO.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/25/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/34253035/hw3pdf/" target="_blank">hw3.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/11/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/39692175/lab7-solutionspdf/" target="_blank">lab7_solutions.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/1/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27380032/330-problem-4pdf/" target="_blank">330-problem-4.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/18/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/153499811/CS330-S22-lab12pdf/" target="_blank">CS330_S22_lab12.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 6/10/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/186016862/CS-330-syllabus-F2019pdf/" target="_blank">CS_330_syllabus_F2019.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/4/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/39692177/lab9-solutionspdf/" target="_blank">lab9_solutions.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 4/1/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/183044326/CS330-HW4pdf/" target="_blank">CS330 HW4.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/8/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/183044066/HW7pdf/" target="_blank">HW7.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/8/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/141757259/pa2-starterpy/" target="_blank">pa2_starter.py</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/11/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/136966751/CS330-S22-lab01-solspdf/" target="_blank">CS330_S22_lab01_sols.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/136966174/CS330-S22-lab04-solpdf/" target="_blank">CS330_S22_lab04_sol.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/36300434/Medicalization-assignmentpdf/" target="_blank">Medicalization assignment.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/9/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35545274/hw1tex/" target="_blank">hw1.tex</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35545296/lab3tex/" target="_blank">lab3.tex</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/132572394/CS330-S22-01-27-asymptotics-graphspdf/" target="_blank">CS330_S22_01_27_asymptotics_graphs.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/26/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/132571754/CS330-S22-02-10-DAGpdf/" target="_blank">CS330_S22_02_10_DAG.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/26/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/34205936/lab1solpdf/" target="_blank">lab1sol.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/13/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33321627/HW-Guidelinespdf/" target="_blank">HW Guidelines.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 9/19/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382426/Lab5-Solpdf/" target="_blank">Lab5_Sol.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382421/Lab11-Solpdf/" target="_blank">Lab11_Sol.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/129139508/CS330-S22-01-25-stable-matching-asymptotics-B1pdf/" target="_blank">CS330_S22_01_25_stable_matching_asymptotics_B1.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/7/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/51286083/karatsubapy/" target="_blank">karatsuba.py</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/27/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/51173643/hw5-solspdf/" target="_blank">hw5_sols.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/25/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/51173561/hw-5-ALGOdocx/" target="_blank">hw 5 ALGO.docx</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/25/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/30194330/Lab11-Solpdf/" target="_blank">Lab11_Sol.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 4/16/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/28816273/cs131rev-solutionspdf/" target="_blank">cs131rev_solutions.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 3/1/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/28816007/cs112-review-solpdf/" target="_blank">cs112_review_sol.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 3/1/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35545290/lab1soltex/" target="_blank">lab1sol.tex</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35545286/lab1tex/" target="_blank">lab1.tex</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382439/Lab10-Solpdf/" target="_blank">Lab10_Sol.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/201779286/Screen-Shot-2023-05-03-at-25801-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.58.01 AM.png</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/201778748/Screen-Shot-2023-04-30-at-102829-PMpng/" target="_blank">Screen Shot 2023-04-30 at 10.28.29 PM.png</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/201777946/Screen-Shot-2023-05-03-at-25625-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.56.25 AM.png</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/201777712/Screen-Shot-2023-05-03-at-24122-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.41.22 AM.png</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/201751816/CS330-S23-hw9pdf/" target="_blank">CS330_S23_hw9.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/2/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/201250339/Screen-Shot-2023-04-19-at-82527-PMpng/" target="_blank">Screen Shot 2023-04-19 at 8.25.27 PM.png</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/28/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/201249774/Screen-Shot-2023-04-22-at-100730-PMpng/" target="_blank">Screen Shot 2023-04-22 at 10.07.30 PM.png</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/28/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/28816255/cs112-reviewpdf/" target="_blank">cs112_review.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/1/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35543713/hw2pdf/" target="_blank">hw2.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382422/lab6-solutionspdf/" target="_blank">lab6_solutions.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382415/Moxie-SoftwareTM-Customer-Spaces-Channels-Customer-Clientpdf/" target="_blank">Moxie Software(TM) Customer Spaces Channels Customer Client.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/198642104/Screen-Shot-2023-04-08-at-32203-PMpng/" target="_blank">Screen Shot 2023-04-08 at 3.22.03 PM.png</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/9/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/198133387/CS330-S23-lab9-solpdf/" target="_blank">CS330_S23_lab9_sol.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/5/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/198132001/CS330-S23-lab3-solspdf/" target="_blank">CS330_S23_lab3_sols.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/5/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/144481266/Lab-1-Solutionspdf/" target="_blank">Lab_1_Solutions.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/24/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/144205357/CS330-S22-04-05-problems-seq-alignpdf/" target="_blank">CS330_S22_04_05_problems_seq_align.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/144205209/CS330-S22-04-07-seq-align-2pdf/" target="_blank">CS330_S22_04_07_seq_align_2.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/23/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/144204680/CS330-S22-03-15-MSTpdf/" target="_blank">CS330_S22_03_15_MST.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/23/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/141756619/grid-1txt/" target="_blank">grid_1.txt</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/11/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/141227333/hw1pdf/" target="_blank">hw1.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/8/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851101/Lab12-solpdf/" target="_blank">Lab12-sol.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851086/lab10-solpdf/" target="_blank">lab10_sol.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851051/lab3-solspdf/" target="_blank">lab3_sols.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851043/lab14-solpdf/" target="_blank">lab14_sol.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/195850898/CS330-F22-hw6-solpdf/" target="_blank">CS330-F22-hw6-sol.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/195850780/lab6-solspdf/" target="_blank">lab6_sols.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/195850746/lab4-solspdf/" target="_blank">lab4_sols.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/139262499/hw3pdf/" target="_blank">hw3.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/30/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/136965910/CS330-S22-lab03-solspdf/" target="_blank">CS330_S22_lab03_sols.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/20/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/136965449/CS330-S22-lab02-solpdf/" target="_blank">CS330_S22_lab02_sol.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/20/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/136965375/CS330-S22-lab05-solspdf/" target="_blank">CS330_S22_lab05_sols.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/20/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/195163967/CS330-S22-04-21-apps-reductions-B1pdf/" target="_blank">CS330_S22_04_21_apps_reductions_B1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/13/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/195162483/CS330-S22-04-28-NP-B1pdf/" target="_blank">CS330_S22_04_28_NP_B1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/13/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/195160518/CS330-S22-04-26-reductions-B1pdf/" target="_blank">CS330_S22_04_26_reductions_B1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/13/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/195156807/CS330-S22-03-03-Dijkstra2-MST-B1pdf/" target="_blank">CS330_S22_03_03_Dijkstra2_MST_B1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/13/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/193218933/CS330-S23-02-14-greedy-int-B1pdf/" target="_blank">CS330_S23_02_14_greedy_int_B1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/28/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/193218821/CS330-S23-02-02-BFS-cont-A1pdf/" target="_blank">CS330_S23_02_02_BFS_cont_A1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/28/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/193218325/CS330-S23-02-16-B1pdf/" target="_blank">CS330_S23_02_16_B1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/28/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/129136327/CS330-S22-hw01pdf/" target="_blank">CS330_S22_hw01.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/7/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/192198743/Screen-Shot-2023-02-20-at-12435-AMpng/" target="_blank">Screen Shot 2023-02-20 at 1.24.35 AM.png</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/20/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/128777344/1401-pset-2pdf/" target="_blank">14.01-pset-2.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/5/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35545276/hw2tex/" target="_blank">hw2.tex</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/34981898/lab3pdf/" target="_blank">lab3.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 10/30/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/183043971/HW2pdf/" target="_blank">HW2.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/8/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/183043749/HW9-1pdf/" target="_blank">HW9 (1).pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/8/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382412/Lab5pdf/" target="_blank">Lab5.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35545297/lab3soltex/" target="_blank">lab3sol.tex</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 11/15/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/20060332/asymptoticnotation/" target="_blank">asymptoticnotation</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/18/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/51173437/hw6pdf/" target="_blank">hw6.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/25/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382435/Lab4Solutionpdf/" target="_blank">Lab4Solution.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382425/Lab7pdf/" target="_blank">Lab7.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382423/Lab11pdf/" target="_blank">Lab11.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/146263674/CS330HW6pdf/" target="_blank">CS330HW6.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/144481709/Lab-8-Problemspdf/" target="_blank">Lab_8_Problems.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/24/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/144205376/CS330-S22-04-05-problems-seq-align-B1pdf/" target="_blank">CS330_S22_04_05_problems_seq_align_B1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/144205152/CS330-S22-03-29-DP-WISpdf/" target="_blank">CS330_S22_03_29_DP_WIS.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/23/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/142020578/6-4-annotatedpdf/" target="_blank">6-4-annotated.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/12/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/142020468/6-21-annotatedpdf/" target="_blank">6-21-annotated.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/12/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/142019869/5-28-annotatedpdf/" target="_blank">5-28-annotated.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/12/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/142019830/6-9-annotatedpdf/" target="_blank">6-9-annotated.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/12/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/141756658/hw6pdf/" target="_blank">hw6.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/11/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/139262120/hw1pdf/" target="_blank">hw1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/30/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/136436905/CS330-S22-03-01-Dijkstra-B1pdf/" target="_blank">CS330_S22_03_01_Dijkstra_B1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/17/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/132572368/CS330-S22-02-01-BFS-graph-dspdf/" target="_blank">CS330_S22_02_01_BFS_graph_ds.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/26/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382433/Lab1pdf/" target="_blank">Lab1.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382417/Lab4pdf/" target="_blank">Lab4.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27382413/lab6pdf/" target="_blank">lab6.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 12/19/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/128775983/4777-Article-Text-7816-1-10-20190708pdf/" target="_blank">4777-Article Text-7816-1-10-20190708.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/5/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/128775830/happy-accidentspy/" target="_blank">happy_accidents.py</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/5/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/51173649/hw4-solspdf/" target="_blank">hw4_sols.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/25/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/51173591/hw4-ALGOpdf/" target="_blank">hw4_ALGO.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/25/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/51173801/hw-3-ALGOdocx/" target="_blank">hw 3 ALGO.docx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/25/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/51173246/hw6pdf/" target="_blank">hw6.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/25/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/50950045/hw4pdf/" target="_blank">hw4.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/22/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/213579697/02-Introductionpdf/" target="_blank">02_Introduction.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 10/2/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920764/CS330-S23-03-16-midterm-review-handoutpdf/" target="_blank">CS330_S23_03_16_midterm_review_handout.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920113/CS330-S23-04-13-BFpdf/" target="_blank">CS330_S23_04_13_BF.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920088/CS330-S23-04-25-flow-appspdf/" target="_blank">CS330_S23_04_25_flow_apps.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920078/CS330-S23-04-18-network-flowpdf/" target="_blank">CS330_S23_04_18_network_flow.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920055/CS330-S23-lab5-solspdf/" target="_blank">CS330_S23_lab5_sols.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920048/CS330-S23-04-20-flow-MFMCpdf/" target="_blank">CS330_S23_04_20_flow_MFMC.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920043/CS330-S23-lab11-solspdf/" target="_blank">CS330_S23_lab11_sols.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920039/CS330-S23-lab6-solspdf/" target="_blank">CS330_S23_lab6_sols.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920029/CS330-S23-labXIIIpdf/" target="_blank">CS330_S23_labXIII.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920028/CS330-S23-hw8tex/" target="_blank">CS330_S23_hw8.tex</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920019/CS330-S23-labXIIpdf/" target="_blank">CS330_S23_labXII.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920013/CS330-S23-hw9tex/" target="_blank">CS330_S23_hw9.tex</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920007/CS330-S23-labXII-solspdf/" target="_blank">CS330_S23_labXII_sols.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920005/CS330-S23-hw4tex/" target="_blank">CS330_S23_hw4.tex</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920003/CS330-S23-hw5tex/" target="_blank">CS330_S23_hw5.tex</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211920001/CS330-S23-hw7tex/" target="_blank">CS330_S23_hw7.tex</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211919995/CS330-S23-hw6-central-vertexpng/" target="_blank">CS330_S23_hw6_central_vertex.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918581/CS330-S23-05-02-reviewpdf/" target="_blank">CS330_S23_05_02_review.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918572/CS330-S23-04-27-flow-apps-NPpdf/" target="_blank">CS330_S23_04_27_flow-apps_NP.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918530/CS330-S23-02-28-PQ-sppdf/" target="_blank">CS330_S23_02_28_PQ_sp.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918480/CS330-S23-03-23-mergesort-binarypdf/" target="_blank">CS330_S23_03_23_mergesort_binary.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918476/CS330-S23-lab9pdf/" target="_blank">CS330_S23_lab9.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918473/CS330-S23-03-28-DC-multiplicationpdf/" target="_blank">CS330_S23_03_28_DC_multiplication.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918462/CS330-S23-03-16-midterm-reviewpdf/" target="_blank">CS330_S23_03_16_midterm_review.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918456/CS330-S23-lab6pdf/" target="_blank">CS330_S23_lab6.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918453/CS330-S23-03-30-DP-WISpdf/" target="_blank">CS330_S23_03_30_DP_WIS.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918451/CS330-S23-02-16-int-part-PQpdf/" target="_blank">CS330_S23_02_16_int_part_PQ.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918446/CS330-S23-lab7pdf/" target="_blank">CS330_S23_lab7.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918407/CS330-S23-03-14-sp-dijkstra-2pdf/" target="_blank">CS330_S23_03_14_sp_dijkstra_2.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918390/CS330-S23-02-23-int-part-PQ-2pdf/" target="_blank">CS330_S23_02_23_int_part_PQ_2.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918387/CS330-S23-02-02-BFS-contpdf/" target="_blank">CS330_S23_02_02_BFS_cont.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918377/CS330-S23-04-04-DP-SS-Knapsackpdf/" target="_blank">CS330_S23_04_04_DP_SS_Knapsack.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/183049557/HW10-1pdf/" target="_blank">HW10 (1).pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/8/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/183049525/HW3pdf/" target="_blank">HW3.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/8/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/183043922/HW6pdf/" target="_blank">HW6.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/8/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/168763791/CS237-Lec05pdf/" target="_blank">CS237-Lec05.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/26/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/168763582/CS237-Lec06pdf/" target="_blank">CS237-Lec06.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/26/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/165497537/Pset-3-6042pdf/" target="_blank">Pset 3 6.042.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/9/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918369/CS330-S23-04-06-Knapsackpdf/" target="_blank">CS330_S23_04_06_Knapsack.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918345/CS330-S23-lab2-solspdf/" target="_blank">CS330_S23_lab2_sols.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918337/CS330-S23-lab8pdf/" target="_blank">CS330_S23_lab8.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918305/CS330-S23-lab5pdf/" target="_blank">CS330_S23_lab5.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918297/CS330-S23-lab3pdf/" target="_blank">CS330_S23_lab3.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918215/CS330-S23-lab7-solspdf/" target="_blank">CS330_S23_lab7_sols.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918212/CS330-S23-lab1-solspdf/" target="_blank">CS330_S23_lab1_sols.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918210/CS330-S23-lab8-solspdf/" target="_blank">CS330_S23_lab8_sols.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918206/CS330-S23-lab11pdf/" target="_blank">CS330_S23_lab11.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211918196/CS330-S23-lab4-solspdf/" target="_blank">CS330_S23_lab4_sols.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211917893/CS330-S23-hw7pdf/" target="_blank">CS330_S23_hw7.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211917868/CS330-S23-hw4pdf/" target="_blank">CS330_S23_hw4.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211917850/CS330-S23-hw3pdf/" target="_blank">CS330_S23_hw3.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211917842/CS330-S23-hw5pdf/" target="_blank">CS330_S23_hw5.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211917831/CS330-S23-hw6pdf/" target="_blank">CS330_S23_hw6.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211917830/CS330-S23-hw1pdf/" target="_blank">CS330_S23_hw1.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/14/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211843481/Screenshot-2023-09-13-at-64408-PMpng/" target="_blank">Screenshot 2023-09-13 at 6.44.08 PM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 9/13/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/144481862/Lab-7A-Problemspdf/" target="_blank">Lab_7A_Problems.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/24/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/144481654/Lab-1-Problemspdf/" target="_blank">Lab_1_Problems.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/24/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/144481255/Lab-5-Problemspdf/" target="_blank">Lab_5_Problems.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/24/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/144480528/Lab-7b-Notespdf/" target="_blank">Lab 7b - Notes.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/24/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/144479874/Lab-7b-Solutionspdf/" target="_blank">Lab_7b_Solutions.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/24/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/144205368/CS330-S22-03-24-DCpdf/" target="_blank">CS330_S22_03_24_DC.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/23/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/144205215/CS330-S22-03-17-MST2pdf/" target="_blank">CS330_S22_03_17_MST2.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/23/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/142021504/6-11-annotatedpdf/" target="_blank">6-11-annotated.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/12/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/142020438/6-16-annotatedpdf/" target="_blank">6-16-annotated.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/12/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/142019880/5-24-annotatedpdf/" target="_blank">5-24-annotated.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/12/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/142018869/6-7-annotatedpdf/" target="_blank">6-7-annotated.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/12/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/142018488/5-26-annotatedpdf/" target="_blank">5-26-annotated.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/12/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/141756765/grid-shortcut-4txt/" target="_blank">grid_shortcut_4.txt</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/11/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/136436627/CS330-S22-02-24-int-part-PQ-B1pdf/" target="_blank">CS330_S22_02_24_int_part_PQ_B1.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/17/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/132572849/CS330-S22-01-25-stable-matching-asymptoticspdf/" target="_blank">CS330_S22_01_25_stable_matching_asymptotics.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/26/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/132572315/CS330-S22-02-08-DFSpdf/" target="_blank">CS330_S22_02_08_DFS.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/26/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/132572200/CS330-S22-02-03-graph-ds-bipartitepdf/" target="_blank">CS330_S22_02_03_graph_ds_bipartite.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/26/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/132572186/CS330-S22-02-15-DAG2pdf/" target="_blank">CS330_S22_02_15_DAG2.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/26/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/132571998/CS330-S22-02-17-greedy-intpdf/" target="_blank">CS330_S22_02_17_greedy_int.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/26/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/208526495/CS330HW03pdf/" target="_blank">CS330HW03.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/19/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/208526493/CS330HW04pdf/" target="_blank">CS330HW04.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/19/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/201779211/Screen-Shot-2023-05-03-at-25830-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.58.30 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/201778818/Screen-Shot-2023-05-03-at-23616-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.36.16 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/201778808/Screen-Shot-2023-05-03-at-23622-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.36.22 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/201778798/Screen-Shot-2023-05-03-at-23630-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.36.30 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/201778590/Screen-Shot-2023-05-03-at-25915-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.59.15 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/201778563/Screen-Shot-2023-05-03-at-25819-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.58.19 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/201778533/Screen-Shot-2023-05-03-at-25909-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.59.09 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/201778513/Screen-Shot-2023-04-30-at-42820-PMpng/" target="_blank">Screen Shot 2023-04-30 at 4.28.20 PM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/201778336/Screen-Shot-2023-05-03-at-25827-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.58.27 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/201778303/Screen-Shot-2023-05-03-at-25807-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.58.07 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/201778277/Screen-Shot-2023-05-03-at-25823-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.58.23 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/201778255/Screen-Shot-2023-05-03-at-25811-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.58.11 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/201777989/Screen-Shot-2023-05-03-at-25632-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.56.32 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/201777984/Screen-Shot-2023-05-03-at-25629-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.56.29 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/201777699/Screen-Shot-2023-05-03-at-23627-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.36.27 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/201777670/Screen-Shot-2023-05-03-at-23620-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.36.20 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/201777600/Screen-Shot-2023-05-03-at-24111-AMpng/" target="_blank">Screen Shot 2023-05-03 at 2.41.11 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/3/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/201249280/Screen-Shot-2023-04-17-at-83529-PMpng/" target="_blank">Screen Shot 2023-04-17 at 8.35.29 PM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/28/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/199117117/Screen-Shot-2023-04-12-at-81555-PMpng/" target="_blank">Screen Shot 2023-04-12 at 8.15.55 PM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/12/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/198133998/CS330-S23-lab4pdf/" target="_blank">CS330_S23_lab4.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/5/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/197851766/Screen-Shot-2023-04-03-at-14831-AMpng/" target="_blank">Screen Shot 2023-04-03 at 1.48.31 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/3/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/197851751/Screen-Shot-2023-04-03-at-14827-AMpng/" target="_blank">Screen Shot 2023-04-03 at 1.48.27 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/3/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/197851682/Screen-Shot-2023-04-03-at-14822-AMpng/" target="_blank">Screen Shot 2023-04-03 at 1.48.22 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/3/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/197851296/Screen-Shot-2023-04-02-at-15448-AMpng/" target="_blank">Screen Shot 2023-04-02 at 1.54.48 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/3/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/195851072/lab7-solpdf/" target="_blank">lab7_sol.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/195850971/lab2-solspdf/" target="_blank">lab2_sols.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/19/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/195160045/CS330-S22-05-03-review-B1pdf/" target="_blank">CS330_S22_05_03_review_B1.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/13/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/193219068/CS330-S23-02-09-DAGs-2-B1pdf/" target="_blank">CS330_S23_02_09_DAGs_2_B1.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/28/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/193218993/CS330-S23-01-31-BFS-A1pdf/" target="_blank">CS330_S23_01_31_BFS_A1.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/28/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/193218987/CS330-S23-01-26-graph-ds-search-A1pdf/" target="_blank">CS330_S23_01_26_graph_ds_search_A1.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/28/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/193218829/CS330-S23-01-24-asymptotics-A1pdf/" target="_blank">CS330_S23_01_24_asymptotics_A1.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/28/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/192199591/Screen-Shot-2022-10-04-at-111759-PMpng/" target="_blank">Screen Shot 2022-10-04 at 11.17.59 PM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/20/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/192199493/Screen-Shot-2023-02-20-at-62013-PMpng/" target="_blank">Screen Shot 2023-02-20 at 6.20.13 PM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/20/23
+                    </td>
+                  </tr><tr><td>
+                        <a href="https://www.coursehero.com/file/192198659/Screen-Shot-2023-02-20-at-12659-AMpng/" target="_blank">Screen Shot 2023-02-20 at 1.26.59 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        nan
+                        <br>
+                        Uploaded: 2/20/23
+                    </td><td>
+                        <a href="https://www.coursehero.com/file/191121590/Screen-Shot-2023-02-06-at-122613-AMpng/" target="_blank">Screen Shot 2023-02-06 at 12.26.13 AM.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        nan
+                        <br>
+                        Uploaded: 2/12/23
+                    </td></tr> </table></div>
+
+          </section>
+
+    
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

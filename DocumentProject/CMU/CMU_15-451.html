@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
+  <title>Margie Ruffin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../../js/doctable.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#303d4e;
+      border-color: #303d4e;
+    }
+    #myNavbar{
+      float:right;
+    }
+    h1{
+      color:#4d9586;
+    }
+    h2{
+      color:#4d9586;
+    }
+    h3{
+      color:#4d9586;
+    }
+
+    table, th, td {
+    border:1px solid black;
+    margin: 0 auto;
+    padding-left: 15px;
+    } 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      /*height: 450px;*/
+      height:100%;
+
+      padding-top:50px;
+    }
+
+    .iconRow {
+    display: flex;
+    }
+
+    .iconColumn {
+      display: flex;
+      flex: 50%;
+
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    #socialMedia {
+      padding-top: 10px;
+    }
+    .info{
+      margin: 10px 0px  10px;
+      display:block;
+    }
+    .contact_info{
+      padding-top:10px;
+    }
+    .contact_info_header{
+      font-family:Helvetica Neue;
+      font-weight:bold;
+    }
+
+    .artifact{
+      color:green;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: transparent;
+      color: black;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    /*@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }*/
+
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    }
+
+    @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1140px;
+    }
+    }
+
+    .active, .nav-btn:hover {
+      background-color:#4d9586;
+      color:#4d9586;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+    }
+
+
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:99; }
+    .hover_img a:hover span { display:block; left: -150px; }
+
+  </style>
+  
+</head>
+<body> <div class="container" style="margin-bottom: 25px;" >
+    <div class="container-fluid text-center">    
+        <div class="row content text-left">
+
+          <section>
+            <div class="doc_project">
+              <div class="project_table" style="margin-top: 10px;">
+
+                <div class="container">
+                  <div class="row" style="text-align:center;">
+                    <h1 style="text-align: center; margin-bottom:15px"> Course Hero breakdown for CMU 15-451 </h2>
+                    <img src="../SchoolStats/CMU/CMU_15_451_course_docs.png" alt="Total EE/CS Docs on Course Hero" title="Total Number of EE/CS Documents on Course Hero" width="500" height="300" style="margin-left: auto; margin-right: auto; margin-bottom: 5px; display: block;" >
+                    <p> <strong>Figure 1:</strong> This figure shows the breakdown of document type for documents specific to the CMU 15-451 course on Course Hero.</p>
+
+                    <hr>
+                    <h3 style="text-align: center; margin-bottom:15px; margin-top:15px;"><strong> <a href="https://www.google.com" target="_blank">⇢ CLICK HERE TO TAKE THE SURVEY! ⇠</a> </strong></h3>
+                    <hr>
+                  </div>
+                </div>
+
+              </div><h2 style="text-align: center;"> Additional Documents for 15-451 on Course Hero </h2>
+                <p style="text-align: center; margin-top: 30px; margin-bottom: 30px;"> Below is a table of additional "locked" documents for 15-451 on Course Hero. 
+                  Click on the name of the document to be taken to the Course Hero page hosting the document.</p> <table id="data_table" style="width: 100%; margin-bottom: 45px;">
+                  <col width="33.33%">
+                  <col width="33.34%">
+                  <col width="33.33%"><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114480/sol6pdf/" target="_blank">sol6.pdf</a>
+                        <br>
+                        Total Views: 167
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35890842/451f11soln1pdf/" target="_blank">451f11soln1.pdf</a>
+                        <br>
+                        Total Views: 118
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/27/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114461/sol7pdf/" target="_blank">sol7.pdf</a>
+                        <br>
+                        Total Views: 120
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35890863/451f11soln4pdf/" target="_blank">451f11soln4.pdf</a>
+                        <br>
+                        Total Views: 71
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/27/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/9331650/Homework-2/" target="_blank">Homework 2</a>
+                        <br>
+                        Total Views: 132
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 5/5/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/183404849/22homework05pdf/" target="_blank">22homework05.pdf</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/10/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/56234182/hw5pdf/" target="_blank">hw5.pdf</a>
+                        <br>
+                        Total Views: 51
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/28/20
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/9358625/Homework-3/" target="_blank">Homework 3</a>
+                        <br>
+                        Total Views: 120
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 5/8/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/183311934/21homework01pdf/" target="_blank">21homework01.pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/9358624/Homework-5/" target="_blank">Homework 5</a>
+                        <br>
+                        Total Views: 112
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 5/8/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/183405165/22recitation06solpdf/" target="_blank">22recitation06sol.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/10/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35890732/451f11soln3pdf/" target="_blank">451f11soln3.pdf</a>
+                        <br>
+                        Total Views: 59
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/27/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624430/hw4pdf/" target="_blank">hw4.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/9358626/Homework-4/" target="_blank">Homework 4</a>
+                        <br>
+                        Total Views: 108
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 5/8/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/56234071/hw4pdf/" target="_blank">hw4.pdf</a>
+                        <br>
+                        Total Views: 35
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/28/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/183312250/21recitation06solpdf/" target="_blank">21recitation06sol.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35891188/h5pdf/" target="_blank">h5.pdf</a>
+                        <br>
+                        Total Views: 39
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/27/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/9358623/Homework-2/" target="_blank">Homework 2</a>
+                        <br>
+                        Total Views: 72
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 5/8/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/9331654/Homework-5/" target="_blank">Homework 5</a>
+                        <br>
+                        Total Views: 70
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 5/5/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/183405511/22homework02pdf/" target="_blank">22homework02.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/10/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114426/reci9pdf/" target="_blank">reci9.pdf</a>
+                        <br>
+                        Total Views: 38
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624316/hw1pdf/" target="_blank">hw1.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114439/reci9-solpdf/" target="_blank">reci9-sol.pdf</a>
+                        <br>
+                        Total Views: 36
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/9331653/Homework-4/" target="_blank">Homework 4</a>
+                        <br>
+                        Total Views: 53
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 5/5/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/9331649/Homework-6/" target="_blank">Homework 6</a>
+                        <br>
+                        Total Views: 52
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 5/5/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114470/pancakespdf/" target="_blank">pancakes.pdf</a>
+                        <br>
+                        Total Views: 34
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/183405221/22homework04pdf/" target="_blank">22homework04.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/10/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/183405169/22homework03pdf/" target="_blank">22homework03.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/10/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624485/hw7pdf/" target="_blank">hw7.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624324/hw8pdf/" target="_blank">hw8.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114459/reci10-solpdf/" target="_blank">reci10-sol.pdf</a>
+                        <br>
+                        Total Views: 31
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/9358622/Homework-1/" target="_blank">Homework 1</a>
+                        <br>
+                        Total Views: 45
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 5/8/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114441/reci8-solpdf/" target="_blank">reci8-sol.pdf</a>
+                        <br>
+                        Total Views: 29
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35891194/h7pdf/" target="_blank">h7.pdf</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/27/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27821186/reci1-solpdf/" target="_blank">reci1-sol.pdf</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/183404812/22recitation07solpdf/" target="_blank">22recitation07sol.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/10/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35890142/h2pdf/" target="_blank">h2.pdf</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/27/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/180623835/hw5pdf/" target="_blank">hw5.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/56234176/hw3pdf/" target="_blank">hw3.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/28/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/183404836/22recitation05solpdf/" target="_blank">22recitation05sol.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/10/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/9358627/Homework-6/" target="_blank">Homework 6</a>
+                        <br>
+                        Total Views: 31
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 5/8/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624325/hw6pdf/" target="_blank">hw6.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624307/hw2pdf/" target="_blank">hw2.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/9331652/Homework-1/" target="_blank">Homework 1</a>
+                        <br>
+                        Total Views: 30
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 5/5/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114460/reci7-solpdf/" target="_blank">reci7-sol.pdf</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114434/reci12-solpdf/" target="_blank">reci12-sol.pdf</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114443/reci13-solpdf/" target="_blank">reci13-sol.pdf</a>
+                        <br>
+                        Total Views: 19
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/36071429/rec0907pdf/" target="_blank">rec0907.pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 12/3/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35890238/h6pdf/" target="_blank">h6.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/27/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/183312550/21homework02pdf/" target="_blank">21homework02.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/183311872/21recitation01solpdf/" target="_blank">21recitation01sol.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624380/lec01-selectionpdf/" target="_blank">lec01-selection.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624115/lec16-lp2pdf/" target="_blank">lec16-lp2.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/180623809/hw3pdf/" target="_blank">hw3.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25531355/lec09-dp1pdf/" target="_blank">lec09-dp1.pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/30/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/200979763/lec12-flow2pdf/" target="_blank">lec12-flow2.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/26/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/9358628/Homework-7/" target="_blank">Homework 7</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 5/8/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114421/reci11-solpdf/" target="_blank">reci11-sol.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/24004596/lec21-convex-hullpdf/" target="_blank">lec21-convex-hull.pdf</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/13/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/56235278/hw2pdf/" target="_blank">hw2.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/28/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25531343/lec14-lp1pdf/" target="_blank">lec14-lp1.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/30/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35890223/h4pdf/" target="_blank">h4.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/27/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114418/reci7pdf/" target="_blank">reci7.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/24004580/lec27-polynomialspdf/" target="_blank">lec27-polynomials.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/183405501/22homework07pdf/" target="_blank">22homework07.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/10/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/183405298/22homework06pdf/" target="_blank">22homework06.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/10/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/183311997/21recitation07solpdf/" target="_blank">21recitation07sol.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/183311987/21recitation04solpdf/" target="_blank">21recitation04sol.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/183311913/21recitation02solpdf/" target="_blank">21recitation02sol.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/183311866/21homework03pdf/" target="_blank">21homework03.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/183311753/21recitation08solpdf/" target="_blank">21recitation08sol.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/180625354/lec11-flow1pdf/" target="_blank">lec11-flow1.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180625167/lec09-dp1pdf/" target="_blank">lec09-dp1.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624810/lec19-approxpdf/" target="_blank">lec19-approx.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624391/lec21-geometrypdf/" target="_blank">lec21-geometry.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624351/lec18-expertspdf/" target="_blank">lec18-experts.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624279/reci9pdf/" target="_blank">reci9.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624268/lec20-onlinepdf/" target="_blank">lec20-online.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624006/reci8pdf/" target="_blank">reci8.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114466/stablepdf/" target="_blank">stable.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/25531347/lec10-dp2pdf/" target="_blank">lec10-dp2.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/30/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25531342/lec24-convex-hullpdf/" target="_blank">lec24-convex-hull.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/30/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114442/reci8pdf/" target="_blank">reci8.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114424/reci10pdf/" target="_blank">reci10.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114419/reci11pdf/" target="_blank">reci11.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/56234190/hw6pdf/" target="_blank">hw6.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/28/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/56234032/hw1pdf/" target="_blank">hw1.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/28/20
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/200979982/lec11-flow1pdf/" target="_blank">lec11-flow1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/26/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/200979289/lec09-dp1pdf/" target="_blank">lec09-dp1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/26/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/200979217/lec10-dp2pdf/" target="_blank">lec10-dp2.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/26/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/200979098/lec02-lowerbounds-1pdf/" target="_blank">lec02-lowerbounds (1).pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/26/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/9331657/Lecture-Notes-2/" target="_blank">Lecture Notes 2</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/5/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114456/lambda-calculuspdf/" target="_blank">lambda_calculus.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/24114420/reci12pdf/" target="_blank">reci12.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 7/20/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/24004582/lec26-gradientpdf/" target="_blank">lec26-gradient.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/183311888/21homework04pdf/" target="_blank">21homework04.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 12/9/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624852/reci10-kunalpdf/" target="_blank">reci10-kunal.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624838/lec07-fingerprintingpdf/" target="_blank">lec07-fingerprinting.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624639/lec06-streamingpdf/" target="_blank">lec06-streaming.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624606/reci6pdf/" target="_blank">reci6.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624549/reci5pdf/" target="_blank">reci5.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624376/lec03-amortizedpdf/" target="_blank">lec03-amortized.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624306/lec12-flow2pdf/" target="_blank">lec12-flow2.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624295/reci7pdf/" target="_blank">reci7.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624271/lec02-lowerboundspdf/" target="_blank">lec02-lowerbounds.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624001/reci1pdf/" target="_blank">reci1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/180623526/reci2pdf/" target="_blank">reci2.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/25531346/lec04pdf/" target="_blank">lec04.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/30/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35901933/rec0831pdf/" target="_blank">rec0831.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/28/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27824756/lec2pptx/" target="_blank">lec2.pptx</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 1/23/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/25531338/lec02pdf/" target="_blank">lec02.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/30/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25531335/lec08pdf/" target="_blank">lec08.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 9/30/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/219458356/ss1png/" target="_blank">ss1.png</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/26/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/200979296/lec06-segtreespdf/" target="_blank">lec06-segtrees.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/26/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/200979231/lec04-splaypdf/" target="_blank">lec04-splay.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/26/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/200979230/lec05-hashingpdf/" target="_blank">lec05-hashing.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/26/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/200979222/lec07-streamingpdf/" target="_blank">lec07-streaming.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/26/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/200978318/lec01-selectionpdf/" target="_blank">lec01-selection.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/26/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624999/lec10-dp2pdf/" target="_blank">lec10-dp2.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624684/lec14-gamespdf/" target="_blank">lec14-games.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624535/lec17-lp3pdf/" target="_blank">lec17-lp3.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624531/lec13-flow3pdf/" target="_blank">lec13-flow3.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624504/lec15-lp1pdf/" target="_blank">lec15-lp1.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624402/reci3pdf/" target="_blank">reci3.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624378/lec05-hashingpdf/" target="_blank">lec05-hashing.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624287/lec08-segtreespdf/" target="_blank">lec08-segtrees.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624264/reci8-kunalpdf/" target="_blank">reci8-kunal.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/180624162/lec04-splaypdf/" target="_blank">lec04-splay.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/180623978/reci4pdf/" target="_blank">reci4.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/27/22
+                    </td>
+                  </tr> </table></div>
+
+          </section>
+
+    
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

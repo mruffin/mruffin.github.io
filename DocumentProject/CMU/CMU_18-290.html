@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
+  <title>Margie Ruffin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../../js/doctable.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#303d4e;
+      border-color: #303d4e;
+    }
+    #myNavbar{
+      float:right;
+    }
+    h1{
+      color:#4d9586;
+    }
+    h2{
+      color:#4d9586;
+    }
+    h3{
+      color:#4d9586;
+    }
+
+    table, th, td {
+    border:1px solid black;
+    margin: 0 auto;
+    padding-left: 15px;
+    } 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      /*height: 450px;*/
+      height:100%;
+
+      padding-top:50px;
+    }
+
+    .iconRow {
+    display: flex;
+    }
+
+    .iconColumn {
+      display: flex;
+      flex: 50%;
+
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    #socialMedia {
+      padding-top: 10px;
+    }
+    .info{
+      margin: 10px 0px  10px;
+      display:block;
+    }
+    .contact_info{
+      padding-top:10px;
+    }
+    .contact_info_header{
+      font-family:Helvetica Neue;
+      font-weight:bold;
+    }
+
+    .artifact{
+      color:green;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: transparent;
+      color: black;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    /*@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }*/
+
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    }
+
+    @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1140px;
+    }
+    }
+
+    .active, .nav-btn:hover {
+      background-color:#4d9586;
+      color:#4d9586;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+    }
+
+
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:99; }
+    .hover_img a:hover span { display:block; left: -150px; }
+
+  </style>
+  
+</head>
+<body> <div class="container" style="margin-bottom: 25px;" >
+    <div class="container-fluid text-center">    
+        <div class="row content text-left">
+
+          <section>
+            <div class="doc_project">
+              <div class="project_table" style="margin-top: 10px;">
+
+                <div class="container">
+                  <div class="row" style="text-align:center;">
+                    <h1 style="text-align: center; margin-bottom:15px"> Course Hero breakdown for CMU 18-290 </h2>
+                    <img src="../SchoolStats/CMU/CMU_18_290_course_docs.png" alt="Total EE/CS Docs on Course Hero" title="Total Number of EE/CS Documents on Course Hero" width="500" height="300" style="margin-left: auto; margin-right: auto; margin-bottom: 5px; display: block;" >
+                    <p> <strong>Figure 1:</strong> This figure shows the breakdown of document type for documents specific to the CMU 18-290 course on Course Hero.</p>
+
+                    <hr>
+                    <h3 style="text-align: center; margin-bottom:15px; margin-top:15px;"><strong> <a href="https://www.google.com" target="_blank">⇢ CLICK HERE TO TAKE THE SURVEY! ⇠</a> </strong></h3>
+                    <hr>
+                  </div>
+                </div>
+
+              </div><h2 style="text-align: center;"> Additional Documents for 18-290 on Course Hero </h2>
+                <p style="text-align: center; margin-top: 30px; margin-bottom: 30px;"> Below is a table of additional "locked" documents for 18-290 on Course Hero. 
+                  Click on the name of the document to be taken to the Course Hero page hosting the document.</p> <table id="data_table" style="width: 100%; margin-bottom: 45px;">
+                  <col width="33.33%">
+                  <col width="33.34%">
+                  <col width="33.33%"><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232051/f18-hw3-solutionspdf/" target="_blank">f18-hw3-solutions.pdf</a>
+                        <br>
+                        Total Views: 483
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040553/solnHW12/" target="_blank">solnHW12</a>
+                        <br>
+                        Total Views: 282
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/197482446/290-HW7-S23-Solutionspdf/" target="_blank">290_HW7_S23_Solutions.pdf</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/30/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040557/solnHW8/" target="_blank">solnHW8</a>
+                        <br>
+                        Total Views: 110
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8706377/Homework-7-Solution/" target="_blank">Homework 7 Solution</a>
+                        <br>
+                        Total Views: 71
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/24/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040558/solnHW4/" target="_blank">solnHW4</a>
+                        <br>
+                        Total Views: 62
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040554/solnHW11/" target="_blank">solnHW11</a>
+                        <br>
+                        Total Views: 58
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/197482434/290-HW2-S23-Solutions-1pdf/" target="_blank">290_HW2_S23_Solutions (1).pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/30/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040551/solnsHW7/" target="_blank">solnsHW7</a>
+                        <br>
+                        Total Views: 56
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8706379/Homework-10-Solution/" target="_blank">Homework 10 Solution</a>
+                        <br>
+                        Total Views: 51
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/24/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7871043/HW2/" target="_blank">HW2</a>
+                        <br>
+                        Total Views: 54
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/21/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232089/f18-midterm1-solutions-2pdf/" target="_blank">f18-midterm1-solutions-2.pdf</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8706387/Homework-3-Solution/" target="_blank">Homework 3 Solution</a>
+                        <br>
+                        Total Views: 47
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/24/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040555/solnHW10/" target="_blank">solnHW10</a>
+                        <br>
+                        Total Views: 49
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8706381/Midterm-1-Solution/" target="_blank">Midterm 1 Solution</a>
+                        <br>
+                        Total Views: 46
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/24/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040556/solnHW9/" target="_blank">solnHW9</a>
+                        <br>
+                        Total Views: 48
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232053/f18-hw6-solutions-2pdf/" target="_blank">f18-hw6-solutions-2.pdf</a>
+                        <br>
+                        Total Views: 24
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8706389/Final-Exam-Solution/" target="_blank">Final Exam Solution</a>
+                        <br>
+                        Total Views: 45
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/24/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/36077932/f18-hw9-solutions-2pdf/" target="_blank">f18-hw9-solutions-2.pdf</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/29/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232055/f18-hw1-solutionspdf/" target="_blank">f18-hw1-solutions.pdf</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8706383/Homework-5-Solution/" target="_blank">Homework 5 Solution</a>
+                        <br>
+                        Total Views: 41
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/24/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/36081110/f18-practice-midterm2-solutionspdf/" target="_blank">f18-practice-midterm2-solutions.pdf</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/29/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/36077849/f18-midterm2-solutionspdf/" target="_blank">f18-midterm2-solutions.pdf</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/29/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8706380/Midterm-2-Solution/" target="_blank">Midterm 2 Solution</a>
+                        <br>
+                        Total Views: 34
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/24/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/197482424/290-HW4-S23-Solutions-1pdf/" target="_blank">290_HW4_S23_Solutions (1).pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/30/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/197482396/290-HW6-S23-Solutionspdf/" target="_blank">290_HW6_S23_Solutions.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/30/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/197482365/290-HW1-solutions-1pdf/" target="_blank">290_HW1_solutions (1).pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/30/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232052/f18-hw7-solutionspdf/" target="_blank">f18-hw7-solutions.pdf</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8706388/Homework-4-Solution/" target="_blank">Homework 4 Solution</a>
+                        <br>
+                        Total Views: 32
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/24/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7871048/HW7/" target="_blank">HW7</a>
+                        <br>
+                        Total Views: 34
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/21/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7871044/HW3/" target="_blank">HW3</a>
+                        <br>
+                        Total Views: 34
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/21/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242198/lecture10-2pdf/" target="_blank">lecture10_2.pdf</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040565/S12-midterm1/" target="_blank">S12_midterm1</a>
+                        <br>
+                        Total Views: 31
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232113/f18-hw4-solutionspdf/" target="_blank">f18-hw4-solutions.pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8706378/Homework-9-Solution/" target="_blank">Homework 9 Solution</a>
+                        <br>
+                        Total Views: 28
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/24/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232054/f18-hw2-solutions-3pdf/" target="_blank">f18-hw2-solutions-3.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8706385/Final-Exam/" target="_blank">Final Exam</a>
+                        <br>
+                        Total Views: 24
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/24/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/36077905/f18-hw10-problemspdf/" target="_blank">f18-hw10-problems.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/29/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7871051/HW10/" target="_blank">HW10</a>
+                        <br>
+                        Total Views: 24
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/21/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8706386/Homework-2-Solution/" target="_blank">Homework 2 Solution</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/24/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/197482422/290-HW3-Soln-S23-1pdf/" target="_blank">290_HW3_Soln_S23 (1).pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/30/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/36077988/f18-hw1-problemspdf/" target="_blank">f18-hw1-problems.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/29/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8706382/Homework-6-Solution/" target="_blank">Homework 6 Solution</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/24/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8706376/Homework-8-Solution/" target="_blank">Homework 8 Solution</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/24/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040560/solnHW2/" target="_blank">solnHW2</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232099/f18-hw5-solutionspdf/" target="_blank">f18-hw5-solutions.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7871042/HW1/" target="_blank">HW1</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/21/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/36078142/f18-practice-midterm2pdf/" target="_blank">f18-practice-midterm2.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/29/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040561/solnHW1/" target="_blank">solnHW1</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242213/f18-quiz2-solutionpdf/" target="_blank">f18-quiz2-solution.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232032/f18-hw6-problems-2pdf/" target="_blank">f18-hw6-problems-2.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8706384/Homework-1-Solution/" target="_blank">Homework 1 Solution</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/24/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040567/S11-Midterm2-solutions/" target="_blank">S11_Midterm2-solutions</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040562/soln-s13exam2/" target="_blank">soln_s13exam2</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040559/solnHW3/" target="_blank">solnHW3</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7871046/HW5/" target="_blank">HW5</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/21/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040564/S12-Midterm2-solutions/" target="_blank">S12_Midterm2-solutions</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7871050/HW9/" target="_blank">HW9</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/21/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/36077956/f18-quiz8-solutionpdf/" target="_blank">f18-quiz8-solution.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/29/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040570/F11-Midterm2-solutions/" target="_blank">F11_Midterm2-solutions</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040568/HW6/" target="_blank">HW6</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242202/f18-quiz1-solutionpdf/" target="_blank">f18-quiz1-solution.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232059/f18-practice-midterm1-solutionspdf/" target="_blank">f18-practice-midterm1-solutions.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232046/f18-hw3-problemspdf/" target="_blank">f18-hw3-problems.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232035/f18-hw5-problemspdf/" target="_blank">f18-hw5-problems.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232034/f18-hw9-problems-2pdf/" target="_blank">f18-hw9-problems-2.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232030/f18-hw2-problemspdf/" target="_blank">f18-hw2-problems.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232025/f18-quiz4-solutionpdf/" target="_blank">f18-quiz4-solution.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/197482528/290-HW5-S23-Solutionspdf/" target="_blank">290_HW5_S23_Solutions.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/30/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040552/solnsHW5/" target="_blank">solnsHW5</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7871047/HW6/" target="_blank">HW6</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/21/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040563/S12-midterm2/" target="_blank">S12_midterm2</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242200/lecture4-1pdf/" target="_blank">lecture4_1.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242191/lecture10-3pdf/" target="_blank">lecture10_3.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232049/f18-hw8-solutionspdf/" target="_blank">f18-hw8-solutions.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7871049/HW8/" target="_blank">HW8</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/21/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242204/lecture9-2pdf/" target="_blank">lecture9_2.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232108/f18-hw4-problems-2pdf/" target="_blank">f18-hw4-problems-2.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232038/f18-hw8-problems-2pdf/" target="_blank">f18-hw8-problems-2.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232031/recitation7-2pdf/" target="_blank">recitation7_2.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/36077947/f18-quiz7-solutionpdf/" target="_blank">f18-quiz7-solution.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/29/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/36077907/f18-quiz9-solutionpdf/" target="_blank">f18-quiz9-solution.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/29/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242238/lecture8-2pdf/" target="_blank">lecture8_2.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242234/recitation6pdf/" target="_blank">recitation6.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242208/lecture8-1pdf/" target="_blank">lecture8_1.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242205/lecture5-1pdf/" target="_blank">lecture5_1.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242203/lecture2-1pdf/" target="_blank">lecture2_1.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232040/f18-hw7-problems-2pdf/" target="_blank">f18-hw7-problems-2.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232037/f18-practice-midterm1pdf/" target="_blank">f18-practice-midterm1.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8040566/S11-midterm2/" target="_blank">S11_midterm2</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 7/13/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7871045/HW4/" target="_blank">HW4</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/21/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242233/lecture3-2pdf/" target="_blank">lecture3_2.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242231/f18-quiz5-solutionpdf/" target="_blank">f18-quiz5-solution.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242228/lecture3-3pdf/" target="_blank">lecture3_3.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242226/f18-quiz6-solutionpdf/" target="_blank">f18-quiz6-solution.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242225/lecture5-2pdf/" target="_blank">lecture5_2.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242223/lecture3-1pdf/" target="_blank">lecture3_1.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242206/lecture2-2pdf/" target="_blank">lecture2_2.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242197/lecture9-1pdf/" target="_blank">lecture9_1.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242196/lecture4-2pdf/" target="_blank">lecture4_2.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/35232026/f18-quiz3-solutionpdf/" target="_blank">f18-quiz3-solution.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35242222/lecture4-3pdf/" target="_blank">lecture4_3.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td>
+                  </tr><tr><td>
+                        <a href="https://www.coursehero.com/file/35242220/lecture5-3pdf/" target="_blank">lecture5_3.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td><td>
+                        <a href="https://www.coursehero.com/file/35242207/lecture10-1pdf/" target="_blank">lecture10_1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/6/18
+                    </td></tr> </table></div>
+
+          </section>
+
+    
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

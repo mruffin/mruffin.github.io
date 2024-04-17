@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
+  <title>Margie Ruffin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../../js/doctable.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#303d4e;
+      border-color: #303d4e;
+    }
+    #myNavbar{
+      float:right;
+    }
+    h1{
+      color:#4d9586;
+    }
+    h2{
+      color:#4d9586;
+    }
+    h3{
+      color:#4d9586;
+    }
+
+    table, th, td {
+    border:1px solid black;
+    margin: 0 auto;
+    padding-left: 15px;
+    } 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      /*height: 450px;*/
+      height:100%;
+
+      padding-top:50px;
+    }
+
+    .iconRow {
+    display: flex;
+    }
+
+    .iconColumn {
+      display: flex;
+      flex: 50%;
+
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    #socialMedia {
+      padding-top: 10px;
+    }
+    .info{
+      margin: 10px 0px  10px;
+      display:block;
+    }
+    .contact_info{
+      padding-top:10px;
+    }
+    .contact_info_header{
+      font-family:Helvetica Neue;
+      font-weight:bold;
+    }
+
+    .artifact{
+      color:green;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: transparent;
+      color: black;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    /*@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }*/
+
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    }
+
+    @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1140px;
+    }
+    }
+
+    .active, .nav-btn:hover {
+      background-color:#4d9586;
+      color:#4d9586;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+    }
+
+
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:99; }
+    .hover_img a:hover span { display:block; left: -150px; }
+
+  </style>
+  
+</head>
+<body> <div class="container" style="margin-bottom: 25px;" >
+    <div class="container-fluid text-center">    
+        <div class="row content text-left">
+
+          <section>
+            <div class="doc_project">
+              <div class="project_table" style="margin-top: 10px;">
+
+                <div class="container">
+                  <div class="row" style="text-align:center;">
+                    <h1 style="text-align: center; margin-bottom:15px"> Course Hero breakdown for CalTech CS 21 </h2>
+                    <img src="../SchoolStats/CalTech/Caltech_CS_21_course_docs.png" alt="Total EE/CS Docs on Course Hero" title="Total Number of EE/CS Documents on Course Hero" width="500" height="300" style="margin-left: auto; margin-right: auto; margin-bottom: 5px; display: block;" >
+                    <p> <strong>Figure 1:</strong> This figure shows the breakdown of document type for documents specific to the CalTech CS 21 course on Course Hero.</p>
+
+                    <hr>
+                    <h3 style="text-align: center; margin-bottom:15px; margin-top:15px;"><strong> <a href="https://www.google.com" target="_blank">⇢ CLICK HERE TO TAKE THE SURVEY! ⇠</a> </strong></h3>
+                    <hr>
+                  </div>
+                </div>
+
+              </div><h2 style="text-align: center;"> Additional Documents for CS 21 on Course Hero </h2>
+                <p style="text-align: center; margin-top: 30px; margin-bottom: 30px;"> Below is a table of additional "locked" documents for CS 21 on Course Hero. 
+                  Click on the name of the document to be taken to the Course Hero page hosting the document.</p> <table id="data_table" style="width: 100%; margin-bottom: 45px;">
+                  <col width="33.33%">
+                  <col width="33.34%">
+                  <col width="33.33%"><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/40585020/syllabusandcollabtablepdf/" target="_blank">syllabusandcollabtable.pdf</a>
+                        <br>
+                        Total Views: 190
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/24/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575182/soln-finalpdf/" target="_blank">soln-final.pdf</a>
+                        <br>
+                        Total Views: 65
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575310/soln-midpdf/" target="_blank">soln-mid.pdf</a>
+                        <br>
+                        Total Views: 60
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575263/soln1pdf/" target="_blank">soln1.pdf</a>
+                        <br>
+                        Total Views: 60
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575239/midtermpdf/" target="_blank">midterm.pdf</a>
+                        <br>
+                        Total Views: 58
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575037/finalpdf/" target="_blank">final.pdf</a>
+                        <br>
+                        Total Views: 45
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575322/soln4pdf/" target="_blank">soln4.pdf</a>
+                        <br>
+                        Total Views: 39
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/28865760/ps2pdf/" target="_blank">ps2.pdf</a>
+                        <br>
+                        Total Views: 83
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/3/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575241/soln3pdf/" target="_blank">soln3.pdf</a>
+                        <br>
+                        Total Views: 34
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/28865759/ps5pdf/" target="_blank">ps5.pdf</a>
+                        <br>
+                        Total Views: 51
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/3/18
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/28865766/ps4pdf/" target="_blank">ps4.pdf</a>
+                        <br>
+                        Total Views: 48
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/3/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575238/syllabus20pdf/" target="_blank">syllabus20.pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/149984481/HW-4pdf/" target="_blank">HW 4.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/23/22
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575339/ps5pdf/" target="_blank">ps5.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/190946058/soln1pdf/" target="_blank">soln1.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/11/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575324/lec22pptx/" target="_blank">lec22.pptx</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575320/lec22pdf/" target="_blank">lec22.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575306/lec6pptx/" target="_blank">lec6.pptx</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575068/lec21pdf/" target="_blank">lec21.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575495/lec26pptx/" target="_blank">lec26.pptx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575454/lec17pptx/" target="_blank">lec17.pptx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575334/lec21pptx/" target="_blank">lec21.pptx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575326/lec14pptx/" target="_blank">lec14.pptx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575302/lec1pptx/" target="_blank">lec1.pptx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575168/lec19pdf/" target="_blank">lec19.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575161/lec2pptx/" target="_blank">lec2.pptx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575495/lec26pptx/" target="_blank">lec26.pptx</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575458/lec3pptx/" target="_blank">lec3.pptx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575338/lec9pdf/" target="_blank">lec9.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575319/lec24pptx/" target="_blank">lec24.pptx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575290/lec27pdf/" target="_blank">lec27.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575267/lec23pptx/" target="_blank">lec23.pptx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575262/lec15pdf/" target="_blank">lec15.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575260/lec20pdf/" target="_blank">lec20.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575186/lec18pptx/" target="_blank">lec18.pptx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575184/lec16pptx/" target="_blank">lec16.pptx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575120/lec18pdf/" target="_blank">lec18.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575119/lec25pdf/" target="_blank">lec25.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575096/lec5pptx/" target="_blank">lec5.pptx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575069/lec8pdf/" target="_blank">lec8.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575061/lec3pdf/" target="_blank">lec3.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575052/lec1pdf/" target="_blank">lec1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575458/lec3pptx/" target="_blank">lec3.pptx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13810926/lec20/" target="_blank">lec20</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/26/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575494/lec27pptx/" target="_blank">lec27.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575451/lec20pptx/" target="_blank">lec20.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575437/lec10pptx/" target="_blank">lec10.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575434/lec6pdf/" target="_blank">lec6.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575376/lec15pptx/" target="_blank">lec15.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575372/lec13pptx/" target="_blank">lec13.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575368/lec11pptx/" target="_blank">lec11.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575361/lec26pdf/" target="_blank">lec26.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575314/lec24pdf/" target="_blank">lec24.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575313/lec5pdf/" target="_blank">lec5.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575305/lec4pdf/" target="_blank">lec4.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575266/lec4pptx/" target="_blank">lec4.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575245/lec25pptx/" target="_blank">lec25.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575234/lec8pptx/" target="_blank">lec8.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575171/lec7pptx/" target="_blank">lec7.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575152/lec14pdf/" target="_blank">lec14.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575142/lec12pptx/" target="_blank">lec12.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575123/lec9pptx/" target="_blank">lec9.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575122/lec13pdf/" target="_blank">lec13.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575105/lec17pdf/" target="_blank">lec17.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575084/lec23pdf/" target="_blank">lec23.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575077/lec12pdf/" target="_blank">lec12.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575071/lec11pdf/" target="_blank">lec11.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575062/lec16pdf/" target="_blank">lec16.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575060/lec2pdf/" target="_blank">lec2.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575056/lec7pdf/" target="_blank">lec7.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575055/lec10pdf/" target="_blank">lec10.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/92575494/lec27pptx/" target="_blank">lec27.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 5/10/21
+                    </td>
+                  </tr> </table></div>
+
+          </section>
+
+    
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

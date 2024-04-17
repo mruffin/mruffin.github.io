@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
+  <title>Margie Ruffin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../../js/doctable.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#303d4e;
+      border-color: #303d4e;
+    }
+    #myNavbar{
+      float:right;
+    }
+    h1{
+      color:#4d9586;
+    }
+    h2{
+      color:#4d9586;
+    }
+    h3{
+      color:#4d9586;
+    }
+
+    table, th, td {
+    border:1px solid black;
+    margin: 0 auto;
+    padding-left: 15px;
+    } 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      /*height: 450px;*/
+      height:100%;
+
+      padding-top:50px;
+    }
+
+    .iconRow {
+    display: flex;
+    }
+
+    .iconColumn {
+      display: flex;
+      flex: 50%;
+
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    #socialMedia {
+      padding-top: 10px;
+    }
+    .info{
+      margin: 10px 0px  10px;
+      display:block;
+    }
+    .contact_info{
+      padding-top:10px;
+    }
+    .contact_info_header{
+      font-family:Helvetica Neue;
+      font-weight:bold;
+    }
+
+    .artifact{
+      color:green;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: transparent;
+      color: black;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    /*@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }*/
+
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    }
+
+    @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1140px;
+    }
+    }
+
+    .active, .nav-btn:hover {
+      background-color:#4d9586;
+      color:#4d9586;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+    }
+
+
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:99; }
+    .hover_img a:hover span { display:block; left: -150px; }
+
+  </style>
+  
+</head>
+<body> <div class="container" style="margin-bottom: 25px;" >
+    <div class="container-fluid text-center">    
+        <div class="row content text-left">
+
+          <section>
+            <div class="doc_project">
+              <div class="project_table" style="margin-top: 10px;">
+
+                <div class="container">
+                  <div class="row" style="text-align:center;">
+                    <h1 style="text-align: center; margin-bottom:15px"> Course Hero breakdown for Stanford EE 364A </h2>
+                    <img src="../SchoolStats/Stanford/Stanford_EE_364A_course_docs.png" alt="Total EE/CS Docs on Course Hero" title="Total Number of EE/CS Documents on Course Hero" width="500" height="300" style="margin-left: auto; margin-right: auto; margin-bottom: 5px; display: block;" >
+                    <p> <strong>Figure 1:</strong> This figure shows the breakdown of document type for documents specific to the Stanford EE 364A course on Course Hero.</p>
+
+                    <hr>
+                    <h3 style="text-align: center; margin-bottom:15px; margin-top:15px;"><strong> <a href="https://www.google.com" target="_blank">⇢ CLICK HERE TO TAKE THE SURVEY! ⇠</a> </strong></h3>
+                    <hr>
+                  </div>
+                </div>
+
+              </div><h2 style="text-align: center;"> Additional Documents for EE 364A on Course Hero </h2>
+                <p style="text-align: center; margin-top: 30px; margin-bottom: 30px;"> Below is a table of additional "locked" documents for EE 364A on Course Hero. 
+                  Click on the name of the document to be taken to the Course Hero page hosting the document.</p> <table id="data_table" style="width: 100%; margin-bottom: 45px;">
+                  <col width="33.33%">
+                  <col width="33.34%">
+                  <col width="33.33%"><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/199769382/final-2023-solpdf/" target="_blank">final_2023_sol.pdf</a>
+                        <br>
+                        Total Views: 64
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/17/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/37670788/midterm-18s-solpdf/" target="_blank">midterm_18s_sol.pdf</a>
+                        <br>
+                        Total Views: 353
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2/8/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/32134765/hw1solpdf/" target="_blank">hw1sol.pdf</a>
+                        <br>
+                        Total Views: 363
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 7/19/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881193/Aharon-Ben-Tal-Convex-Optimization/" target="_blank">Aharon Ben-Tal - Convex Optimization</a>
+                        <br>
+                        Total Views: 644
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/53454259/final-19-solpdf/" target="_blank">final_19_sol.pdf</a>
+                        <br>
+                        Total Views: 237
+                        <br>
+                        Assessment
+                        <br>
+                        Uploaded: 1/18/20
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/10423267/hw2sol/" target="_blank">hw2sol</a>
+                        <br>
+                        Total Views: 389
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/8/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/10423270/hw3sol/" target="_blank">hw3sol</a>
+                        <br>
+                        Total Views: 329
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/8/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/38321633/2019-hw5solpdf/" target="_blank">2019_hw5sol.pdf</a>
+                        <br>
+                        Total Views: 140
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/26/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/38321694/2019-hw4solpdf/" target="_blank">2019_hw4sol.pdf</a>
+                        <br>
+                        Total Views: 139
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/26/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498453/duality/" target="_blank">duality</a>
+                        <br>
+                        Total Views: 293
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/15219118/hw2sol/" target="_blank">hw2sol</a>
+                        <br>
+                        Total Views: 195
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 8/9/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/32134787/hw2solpdf/" target="_blank">hw2sol.pdf</a>
+                        <br>
+                        Total Views: 142
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 7/19/18
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/38903719/2019-hw6solpdf/" target="_blank">2019_hw6sol.pdf</a>
+                        <br>
+                        Total Views: 124
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 3/12/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/38321715/2019-hw3solpdf/" target="_blank">2019_hw3sol.pdf</a>
+                        <br>
+                        Total Views: 103
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/26/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/15219119/hw1sol/" target="_blank">hw1sol</a>
+                        <br>
+                        Total Views: 152
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 8/9/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/10423268/hw1sol/" target="_blank">hw1sol</a>
+                        <br>
+                        Total Views: 175
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 12/8/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/199769343/2023-hw8solpdf/" target="_blank">2023_hw8sol.pdf</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/17/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13375150/hw4sol/" target="_blank">hw4sol</a>
+                        <br>
+                        Total Views: 132
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/14/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/199770112/midterm23pdf/" target="_blank">midterm23.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/17/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/38903517/2019-hw8solpdf/" target="_blank">2019_hw8sol.pdf</a>
+                        <br>
+                        Total Views: 76
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 3/12/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/10782902/final/" target="_blank">final</a>
+                        <br>
+                        Total Views: 119
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/18/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/38321634/2019-hw1solpdf/" target="_blank">2019_hw1sol.pdf</a>
+                        <br>
+                        Total Views: 61
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/26/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/16776074/hw1sol/" target="_blank">hw1sol</a>
+                        <br>
+                        Total Views: 85
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/13/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/200434499/midterm-22-solpdf/" target="_blank">midterm_22_sol.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 4/22/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13375147/hw2sol/" target="_blank">hw2sol</a>
+                        <br>
+                        Total Views: 92
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/14/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/11792745/hw3sol/" target="_blank">hw3sol</a>
+                        <br>
+                        Total Views: 98
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 7/28/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/16775496/hw6/" target="_blank">hw6</a>
+                        <br>
+                        Total Views: 80
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/13/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/16776094/hw4sol-2/" target="_blank">hw4sol (2)</a>
+                        <br>
+                        Total Views: 77
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/13/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/38321676/2019-hw2solpdf/" target="_blank">2019_hw2sol.pdf</a>
+                        <br>
+                        Total Views: 50
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/26/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/16776180/hw1-1/" target="_blank">hw1 (1)</a>
+                        <br>
+                        Total Views: 73
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/13/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/38903720/2019-hw7solpdf/" target="_blank">2019_hw7sol.pdf</a>
+                        <br>
+                        Total Views: 49
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 3/12/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/16776198/hw3-1/" target="_blank">hw3 (1)</a>
+                        <br>
+                        Total Views: 68
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/13/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498455/examples/" target="_blank">examples</a>
+                        <br>
+                        Total Views: 88
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13827958/decision/" target="_blank">decision</a>
+                        <br>
+                        Total Views: 63
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/28/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/10782898/final/" target="_blank">final</a>
+                        <br>
+                        Total Views: 67
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/18/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498457/functions/" target="_blank">functions</a>
+                        <br>
+                        Total Views: 82
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498459/intro/" target="_blank">intro</a>
+                        <br>
+                        Total Views: 80
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881182/MIT6-079F09-final/" target="_blank">MIT6_079F09_final</a>
+                        <br>
+                        Total Views: 70
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881181/MIT6-079F09-midterm/" target="_blank">MIT6_079F09_midterm</a>
+                        <br>
+                        Total Views: 70
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/16776175/hw4-1/" target="_blank">hw4 (1)</a>
+                        <br>
+                        Total Views: 49
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/13/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498463/problems/" target="_blank">problems</a>
+                        <br>
+                        Total Views: 66
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881192/hw5sol/" target="_blank">hw5sol</a>
+                        <br>
+                        Total Views: 55
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8625159/review3/" target="_blank">review3</a>
+                        <br>
+                        Total Views: 53
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/4/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8625160/review2/" target="_blank">review2</a>
+                        <br>
+                        Total Views: 49
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/4/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881166/MIT6-079F09-lec05/" target="_blank">MIT6_079F09_lec05</a>
+                        <br>
+                        Total Views: 47
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/39473967/ConvexOptimizationHw5pdf/" target="_blank">ConvexOptimizationHw5.pdf</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 3/27/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/16775899/hw2-1/" target="_blank">hw2 (1)</a>
+                        <br>
+                        Total Views: 33
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 10/13/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8625157/review8/" target="_blank">review8</a>
+                        <br>
+                        Total Views: 44
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/4/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881172/MIT6-079F09-lec03/" target="_blank">MIT6_079F09_lec03</a>
+                        <br>
+                        Total Views: 41
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/37929596/EE364a-Course-Informationpdf/" target="_blank">EE364a_ Course Information.pdf</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/15/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8625163/review1/" target="_blank">review1</a>
+                        <br>
+                        Total Views: 39
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/4/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498451/chance-constr/" target="_blank">chance_constr</a>
+                        <br>
+                        Total Views: 40
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/14491287/cvx-tutorial/" target="_blank">cvx_tutorial</a>
+                        <br>
+                        Total Views: 28
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/31/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/39473957/ConvexOptimizationHw6pdf/" target="_blank">ConvexOptimizationHw6.pdf</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 3/27/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/39473956/ConvexOptimizationHw3pdf/" target="_blank">ConvexOptimizationHw3.pdf</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 3/27/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/39473959/ConvexOptimizationHw1pdf/" target="_blank">ConvexOptimizationHw1.pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 3/27/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/39473889/ConvexOptimizationHw4pdf/" target="_blank">ConvexOptimizationHw4.pdf</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 3/27/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13432272/hw1/" target="_blank">hw1</a>
+                        <br>
+                        Total Views: 24
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 2/19/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/39477983/ConvexOptimizationHw8pdf/" target="_blank">ConvexOptimizationHw8.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 3/27/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8625162/review6/" target="_blank">review6</a>
+                        <br>
+                        Total Views: 28
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/4/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8625161/review4/" target="_blank">review4</a>
+                        <br>
+                        Total Views: 28
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/4/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/17778803/stochastic-programming/" target="_blank">stochastic programming</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 11/15/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/14491275/convexjl-tutorial/" target="_blank">convexjl_tutorial</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 5/31/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498450/barrier/" target="_blank">barrier</a>
+                        <br>
+                        Total Views: 28
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/39473951/ConvexOptimizationHw7pdf/" target="_blank">ConvexOptimizationHw7.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 3/27/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881165/MIT6-079F09-lec01/" target="_blank">MIT6_079F09_lec01</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/39473953/ConvexOptimizationHw2pdf/" target="_blank">ConvexOptimizationHw2.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Homework Help
+                        <br>
+                        Uploaded: 3/27/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881186/MIT6-079F09-hw07/" target="_blank">MIT6_079F09_hw07</a>
+                        <br>
+                        Total Views: 19
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13827965/functions/" target="_blank">functions</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/28/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881190/MIT6-079F09-hw10-notes/" target="_blank">MIT6_079F09_hw10_notes</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8625164/review7/" target="_blank">review7</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/4/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498449/approx/" target="_blank">approx</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13432274/hw3/" target="_blank">hw3</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Assignment
+                        <br>
+                        Uploaded: 2/19/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881173/MIT6-079F09-lec13/" target="_blank">MIT6_079F09_lec13</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8625158/review5/" target="_blank">review5</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 1/4/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498466/stoch-prog/" target="_blank">stoch_prog</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498454/equality/" target="_blank">equality</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13671894/4-problems-annotated/" target="_blank">4_problems_annotated</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/8/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881178/MIT6-079F09-lec18/" target="_blank">MIT6_079F09_lec18</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881169/MIT6-079F09-lec06/" target="_blank">MIT6_079F09_lec06</a>
+                        <br>
+                        Total Views: 15
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881188/MIT6-079F09-hw10/" target="_blank">MIT6_079F09_hw10</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881191/MIT6-079F09-hw08/" target="_blank">MIT6_079F09_hw08</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881183/MIT6-079F09-hw03/" target="_blank">MIT6_079F09_hw03</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498462/num-lin-alg/" target="_blank">num-lin-alg</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498458/geom/" target="_blank">geom</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13671893/4-problems/" target="_blank">4_problems</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/8/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13432273/hw2/" target="_blank">hw2</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Assignment
+                        <br>
+                        Uploaded: 2/19/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881189/MIT6-079F09-hw09/" target="_blank">MIT6_079F09_hw09</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498464/sets/" target="_blank">sets</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498456/filters/" target="_blank">filters</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13671892/5-duality/" target="_blank">5_duality</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/8/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/82923555/No7pdf/" target="_blank">No.7.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/3/21
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/10840818/review3-single/" target="_blank">review3_single</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/25/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881174/MIT6-079F09-lec11/" target="_blank">MIT6_079F09_lec11</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881187/MIT6-079F09-hw06/" target="_blank">MIT6_079F09_hw06</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881164/MIT6-079F09-lec02/" target="_blank">MIT6_079F09_lec02</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498452/conclusions/" target="_blank">conclusions</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881180/MIT6-079F09-lec12/" target="_blank">MIT6_079F09_lec12</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498461/l1-slides/" target="_blank">l1_slides</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881179/MIT6-079F09-lec16/" target="_blank">MIT6_079F09_lec16</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/7498460/l1-ext-slides/" target="_blank">l1_ext_slides</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2/7/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13827967/conclusions/" target="_blank">conclusions</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/28/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13827966/barrier/" target="_blank">barrier</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/28/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13827964/sets/" target="_blank">sets</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 3/28/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881176/MIT6-079F09-lec15/" target="_blank">MIT6_079F09_lec15</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881175/MIT6-079F09-lec08/" target="_blank">MIT6_079F09_lec08</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881171/MIT6-079F09-lec09/" target="_blank">MIT6_079F09_lec09</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881170/MIT6-079F09-lec10/" target="_blank">MIT6_079F09_lec10</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/38868762/1-intropdf/" target="_blank">1_intro.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 3/11/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881177/MIT6-079F09-lec17/" target="_blank">MIT6_079F09_lec17</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/8881167/MIT6-079F09-lec07/" target="_blank">MIT6_079F09_lec07</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2/23/14
+                    </td>
+                  </tr> </table></div>
+
+          </section>
+
+    
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

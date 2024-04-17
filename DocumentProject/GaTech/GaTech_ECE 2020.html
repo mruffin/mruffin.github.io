@@ -1,0 +1,3210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
+  <title>Margie Ruffin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../../js/doctable.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#303d4e;
+      border-color: #303d4e;
+    }
+    #myNavbar{
+      float:right;
+    }
+    h1{
+      color:#4d9586;
+    }
+    h2{
+      color:#4d9586;
+    }
+    h3{
+      color:#4d9586;
+    }
+
+    table, th, td {
+    border:1px solid black;
+    margin: 0 auto;
+    padding-left: 15px;
+    } 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      /*height: 450px;*/
+      height:100%;
+
+      padding-top:50px;
+    }
+
+    .iconRow {
+    display: flex;
+    }
+
+    .iconColumn {
+      display: flex;
+      flex: 50%;
+
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    #socialMedia {
+      padding-top: 10px;
+    }
+    .info{
+      margin: 10px 0px  10px;
+      display:block;
+    }
+    .contact_info{
+      padding-top:10px;
+    }
+    .contact_info_header{
+      font-family:Helvetica Neue;
+      font-weight:bold;
+    }
+
+    .artifact{
+      color:green;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: transparent;
+      color: black;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    /*@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }*/
+
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    }
+
+    @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1140px;
+    }
+    }
+
+    .active, .nav-btn:hover {
+      background-color:#4d9586;
+      color:#4d9586;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+    }
+
+
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:99; }
+    .hover_img a:hover span { display:block; left: -150px; }
+
+  </style>
+  
+</head>
+<body> <div class="container" style="margin-bottom: 25px;" >
+    <div class="container-fluid text-center">    
+        <div class="row content text-left">
+
+          <section>
+            <div class="doc_project">
+              <div class="project_table" style="margin-top: 10px;">
+
+                <div class="container">
+                  <div class="row" style="text-align:center;">
+                    <h1 style="text-align: center; margin-bottom:15px"> Course Hero breakdown for GaTech ECE 2020 </h2>
+                    <img src="../SchoolStats/GaTech/GaTech_ECE_2020_course_docs.png" alt="Total EE/CS Docs on Course Hero" title="Total Number of EE/CS Documents on Course Hero" width="500" height="300" style="margin-left: auto; margin-right: auto; margin-bottom: 5px; display: block;" >
+                    <p> <strong>Figure 1:</strong> This figure shows the breakdown of document type for documents specific to the GaTech ECE 2020 course on Course Hero.</p>
+
+                    <hr>
+                    <h3 style="text-align: center; margin-bottom:15px; margin-top:15px;"><strong> <a href="https://www.google.com" target="_blank">⇢ CLICK HERE TO TAKE THE SURVEY! ⇠</a> </strong></h3>
+                    <hr>
+                  </div>
+                </div>
+
+              </div><h2 style="text-align: center;"> Additional Documents for ECE 2020 on Course Hero </h2>
+                <p style="text-align: center; margin-top: 30px; margin-bottom: 30px;"> Below is a table of additional "locked" documents for ECE 2020 on Course Hero. 
+                  Click on the name of the document to be taken to the Course Hero page hosting the document.</p> <table id="data_table" style="width: 100%; margin-bottom: 45px;">
+                  <col width="33.33%">
+                  <col width="33.34%">
+                  <col width="33.33%"><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/26565614/chapter-6pdf/" target="_blank">chapter_6.pdf</a>
+                        <br>
+                        Total Views: 1011
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/11/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12281468/All-previous-exams-from-Midterm-1-to-Final/" target="_blank">All previous exams- from Midterm 1 to Final</a>
+                        <br>
+                        Total Views: 612
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/10/8
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/49776498/ECE2020IE-Lab2-solnpdf/" target="_blank">ECE2020IE_Lab2_soln.pdf</a>
+                        <br>
+                        Total Views: 309
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2019/11/4
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/11446975/ECE2020-Lab2-FSM-Spring2015/" target="_blank">ECE2020_Lab2_FSM_Spring2015</a>
+                        <br>
+                        Total Views: 403
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2015/5/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/53896922/ECE2020-Lab2-Finite-State-Machinepdf/" target="_blank">ECE2020_Lab2_Finite_State_Machine.pdf</a>
+                        <br>
+                        Total Views: 166
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2020/1/27
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/25249851/ece-2020-syllabuspdf/" target="_blank">ece 2020 syllabus.pdf</a>
+                        <br>
+                        Total Views: 189
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/9/25
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/33084156/Syllabus-2020-IE2-2pdf/" target="_blank">Syllabus_2020_IE2 (2).pdf</a>
+                        <br>
+                        Total Views: 132
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2018/9/12
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/40334461/ECE2020IE-Lab2-1pdf/" target="_blank">ECE2020IE_Lab2 (1).pdf</a>
+                        <br>
+                        Total Views: 98
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2019/4/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/10674033/Digital-Logic-Lab-1/" target="_blank">Digital Logic (Lab 1)</a>
+                        <br>
+                        Total Views: 179
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2015/2/3
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/56828575/2020Sp20-HW5-2pdf/" target="_blank">2020Sp20_HW5 (2).pdf</a>
+                        <br>
+                        Total Views: 68
+                        <br>
+                        Assessment
+                        <br>
+                        Uploaded: 2020/3/8
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/192857936/ECE-2020-Final-Exam-4pdf/" target="_blank">ECE 2020 Final Exam-4.pdf</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/25
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11892589/LAB2-NEW-ECE2020-FSM/" target="_blank">LAB2_NEW_ECE2020-FSM</a>
+                        <br>
+                        Total Views: 140
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2015/8/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/11057833/Finite2BState2BMachines2BLab-A-with2BmyDAQ/" target="_blank">Finite%2BState%2BMachines%2BLab_A_with%2BmyDAQ</a>
+                        <br>
+                        Total Views: 119
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2015/3/26
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/14558929/ECE2020-Lab1-v3b/" target="_blank">ECE2020-Lab1-v3b</a>
+                        <br>
+                        Total Views: 102
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2016/6/7
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11057837/NOR-Gate-SN5402/" target="_blank">NOR Gate SN5402</a>
+                        <br>
+                        Total Views: 112
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/3/26
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/49776512/ECE2020IE-Lab1-Fall18pdf/" target="_blank">ECE2020IE_Lab1_Fall18.pdf</a>
+                        <br>
+                        Total Views: 54
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2019/11/4
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/9185068/fa12-ds-s2/" target="_blank">fa12-ds-s2</a>
+                        <br>
+                        Total Views: 123
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2014/4/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/20514364/ECE2020SampleFinal2015/" target="_blank">ECE+2020+Sample+Final+2015</a>
+                        <br>
+                        Total Views: 82
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/2/28
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/213012737/ECE2020-Lab2-Spring23pdf/" target="_blank">ECE2020_Lab2_Spring23.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/26
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/11057835/NOT-Gate-SN5404/" target="_blank">NOT Gate SN5404</a>
+                        <br>
+                        Total Views: 99
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/3/26
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12031215/Exam-1-Boolean-Transistor-Logic/" target="_blank">Exam 1- Boolean, Transistor Logic</a>
+                        <br>
+                        Total Views: 87
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/9/10
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/14560877/ECE2020-Lab0/" target="_blank">ECE2020-Lab0</a>
+                        <br>
+                        Total Views: 74
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2016/6/7
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/53016305/lab2pdf/" target="_blank">lab2.pdf</a>
+                        <br>
+                        Total Views: 39
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2020/1/8
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11446974/ECE2020-Lab1-Digital-Logic-Spring2015/" target="_blank">ECE2020_Lab1_Digital_Logic_Spring2015</a>
+                        <br>
+                        Total Views: 82
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2015/5/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/192857635/Digital-System-Design-Finalpdf/" target="_blank">Digital System Design Final.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/25
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/37672262/Exam3-Solutionspdf/" target="_blank">Exam3-Solutions.pdf</a>
+                        <br>
+                        Total Views: 44
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2019/2/8
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35056934/Lab-2-ECE-2020pdf/" target="_blank">Lab 2 ECE 2020.pdf</a>
+                        <br>
+                        Total Views: 45
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2018/10/30
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13591588/sample3/" target="_blank">sample3</a>
+                        <br>
+                        Total Views: 67
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/2/29
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/195301678/ECE2020-LAB-1pdf/" target="_blank">ECE2020 - LAB 1.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/3/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13687240/2020-lab-1/" target="_blank">2020 lab 1</a>
+                        <br>
+                        Total Views: 64
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2016/3/10
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/40334465/2020IE-PracticeTest3-1pdf/" target="_blank">2020IE_PracticeTest3 (1).pdf</a>
+                        <br>
+                        Total Views: 38
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2019/4/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/26523238/ECE2020Test2-Fall17pdf/" target="_blank">ECE2020+Test2+-+Fall17.pdf</a>
+                        <br>
+                        Total Views: 49
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/11/12
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/13591590/sample4/" target="_blank">sample4</a>
+                        <br>
+                        Total Views: 61
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/2/29
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/9185066/fa12-ds-e4/" target="_blank">fa12-ds-e4</a>
+                        <br>
+                        Total Views: 75
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2014/4/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/9185065/fa12-ds-e3/" target="_blank">fa12-ds-e3</a>
+                        <br>
+                        Total Views: 75
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2014/4/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/28725894/ECE2020-Lab1-Digital-Logicpdf/" target="_blank">ECE2020_Lab1_Digital_Logic.pdf</a>
+                        <br>
+                        Total Views: 45
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2018/2/26
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25695334/quiz1-solpdf/" target="_blank">quiz1_sol.pdf</a>
+                        <br>
+                        Total Views: 47
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/10/12
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13422260/Exam1-v2-1-ANSWERKEY/" target="_blank">Exam1_v2_1_ANSWERKEY</a>
+                        <br>
+                        Total Views: 56
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/2/18
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/193131981/Exam-3-Solutionspdf/" target="_blank">Exam_3_Solutions.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/27
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/9185067/fa12-ds-e2/" target="_blank">fa12-ds-e2</a>
+                        <br>
+                        Total Views: 67
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2014/4/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12281467/Rawchowdry-Sample-Problems-KMAPS-and-Final-Exam-Prep/" target="_blank">Rawchowdry Sample Problems- KMAPS and Final Exam Prep</a>
+                        <br>
+                        Total Views: 54
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/10/8
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/24062434/ECE-2020-Syllabuspdf/" target="_blank">ECE 2020 Syllabus.pdf</a>
+                        <br>
+                        Total Views: 42
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/7/17
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/33676692/Test4-solnpdf/" target="_blank">Test4_soln.pdf</a>
+                        <br>
+                        Total Views: 34
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2018/9/27
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/11892590/Lab0-setup-Intro/" target="_blank">Lab0_setup_Intro</a>
+                        <br>
+                        Total Views: 53
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2015/8/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11057834/Lab1-DigitalLogic/" target="_blank">Lab1-Digital+Logic</a>
+                        <br>
+                        Total Views: 55
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2015/3/26
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/86588321/sp21-alc-e1pdf/" target="_blank">sp21-alc-e1.pdf</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Assessment
+                        <br>
+                        Uploaded: 2021/3/31
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/14013555/1840-ECE-2020-Fall-2014-Test-3/" target="_blank">1840-ECE 2020 Fall 2014 Test 3</a>
+                        <br>
+                        Total Views: 48
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/4/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/9185071/fa12-ds-s1/" target="_blank">fa12-ds-s1</a>
+                        <br>
+                        Total Views: 59
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2014/4/15
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/33676685/Test3-solnpdf/" target="_blank">Test3_soln.pdf</a>
+                        <br>
+                        Total Views: 32
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2018/9/27
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/24062405/ECE2020Exam3pdf/" target="_blank">ECE+2020+Exam3.pdf</a>
+                        <br>
+                        Total Views: 38
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/7/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/39740454/2020IE1-Test2-solnpdf/" target="_blank">2020IE1_Test2_soln.pdf</a>
+                        <br>
+                        Total Views: 28
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2019/4/2
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/9185070/fa12-ds-s3/" target="_blank">fa12-ds-s3</a>
+                        <br>
+                        Total Views: 55
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2014/4/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/11974043/Test-1-Gate-Logic/" target="_blank">Test 1- Gate Logic</a>
+                        <br>
+                        Total Views: 47
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/8/31
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/33676690/Test2-solnpdf/" target="_blank">Test2_soln.pdf</a>
+                        <br>
+                        Total Views: 30
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2018/9/27
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/21497488/ece2020f-sp17-hw2/" target="_blank">ece2020f_sp17_hw2</a>
+                        <br>
+                        Total Views: 37
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/3/30
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/17378694/Lec3-boolean-kmap/" target="_blank">Lec3-boolean-kmap</a>
+                        <br>
+                        Total Views: 37
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2016/11/2
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/46902286/TEST3-SOLUTIONSpdf/" target="_blank">TEST3_SOLUTIONS.pdf</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2019/9/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/21036307/In-ClassLabInstructions/" target="_blank">In-Class+Lab+Instructions</a>
+                        <br>
+                        Total Views: 33
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2017/3/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/25695341/ECE2020Test1-Solutionpdf/" target="_blank">ECE2020+Test1+-+Solution.pdf</a>
+                        <br>
+                        Total Views: 30
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/10/12
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/170741305/PNG-imagepng/" target="_blank">PNG image.png</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/10/8
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/9185064/fa12-ds-e1/" target="_blank">fa12-ds-e1</a>
+                        <br>
+                        Total Views: 42
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2014/4/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/28079564/ECE2020IESyllabuspdf/" target="_blank">ECE2020IE+Syllabus.pdf</a>
+                        <br>
+                        Total Views: 25
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2018/2/2
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/193132057/ECE2020Solutions-Exam1pdf/" target="_blank">ECE2020Solutions_Exam1.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/27
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/26838604/ECE2020Lecture5pdf/" target="_blank">ECE2020+Lecture+5.pdf</a>
+                        <br>
+                        Total Views: 24
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/11/26
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12256860/All-exams-from-basic-circuits-to-flip-flops/" target="_blank">All exams - from basic circuits to flip flops</a>
+                        <br>
+                        Total Views: 30
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/10/4
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/21489102/ECE-2020-D-Lecture6-013117-v1/" target="_blank">ECE-2020-D_Lecture6_013117_v1</a>
+                        <br>
+                        Total Views: 24
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/3/30
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12281466/Raychowdry-Midterms-From-basic-gates-to-clock-cycles/" target="_blank">Raychowdry Midterms- From basic gates to clock cycles</a>
+                        <br>
+                        Total Views: 29
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/10/8
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/26838602/Lab-1-IE-Digital-Logic-revpdf/" target="_blank">Lab_1_IE_Digital_Logic_rev.pdf</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2017/11/26
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/164160532/Test1-Solutionpdf/" target="_blank">Test1 Solution.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/1
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/14013554/1841-ECE-2020-Fall-2014-Test-2/" target="_blank">1841-ECE 2020 Fall 2014 Test 2</a>
+                        <br>
+                        Total Views: 26
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/4/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/11974041/Test-3-Microcode-and-Mem-Systems/" target="_blank">Test 3- Microcode and Mem Systems</a>
+                        <br>
+                        Total Views: 28
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/8/31
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/197180731/Solutions-HW6pdf/" target="_blank">Solutions_HW6.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/3/28
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/11892591/Infoaboutece2020labexercisesandHW/" target="_blank">Info+about+ece2020+lab+exercises+and+HW</a>
+                        <br>
+                        Total Views: 27
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2015/8/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12369419/su14-ho-e2/" target="_blank">su14-ho-e2</a>
+                        <br>
+                        Total Views: 26
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/10/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11446976/Exam-2-Solutions/" target="_blank">Exam_2_Solutions</a>
+                        <br>
+                        Total Views: 27
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/5/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/11867124/Fall-2013-Final-Exam-with-Answers/" target="_blank">Fall 2013 Final Exam with Answers</a>
+                        <br>
+                        Total Views: 26
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/8/3
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/24062406/ECE2020Midterm1pdf/" target="_blank">ECE2020+Midterm1.pdf</a>
+                        <br>
+                        Total Views: 20
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/7/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/33011780/ECE2020-MockExam2pdf/" target="_blank">ECE+2020-Mock+Exam+2.pdf</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2018/9/10
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/14013551/Test-3-Solutions/" target="_blank">Test_3_Solutions</a>
+                        <br>
+                        Total Views: 23
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/4/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/18315741/Exam-2-Solutions-2020/" target="_blank">Exam-2-Solutions 2020</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/12/10
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/14052563/Exam2-Solutions/" target="_blank">Exam2_Solutions</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/4/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/26838521/ECE2020Lecture7pdf/" target="_blank">ECE2020+Lecture+7.pdf</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/11/26
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/23770408/Lab1/" target="_blank">Lab1</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2017/6/26
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/164160764/2020Fall19-HW1pdf/" target="_blank">2020Fall19_HW1.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/1
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/24807241/Final-Practice-Solutionspdf/" target="_blank">Final_Practice_Solutions.pdf</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/9/5
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/11867123/Fall-2013-Midterm-3-with-Answers/" target="_blank">Fall 2013 Midterm 3 with Answers</a>
+                        <br>
+                        Total Views: 22
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/8/3
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11867127/Fall-2013-Exam-1-with-Answers/" target="_blank">Fall 2013 Exam 1 with Answers</a>
+                        <br>
+                        Total Views: 21
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/8/3
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/213783166/HW-5pdf/" target="_blank">HW 5.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/10/4
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/23516614/Exam3-Take-Home-v2/" target="_blank">Exam3_Take_Home_v2</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/6/12
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/37672270/FinalExam-Solutionspdf/" target="_blank">FinalExam-Solutions.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2019/2/8
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/14013553/1843-ECE-2020-Fall-2014-Test-1/" target="_blank">1843-ECE 2020 Fall 2014 Test 1</a>
+                        <br>
+                        Total Views: 18
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/4/15
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/16109597/Lab-EC/" target="_blank">Lab EC</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2016/9/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/213008845/2020BSp23-HW5pdf/" target="_blank">2020BSp23_HW5.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/26
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/53897842/Exam2-2020-C-Fall-2019-SOLUTIONSpdf/" target="_blank">Exam2_2020_C_Fall_2019_SOLUTIONS.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2020/1/27
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33011861/ECE-2020-Exam2pdf/" target="_blank">ECE 2020 Exam2.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2018/9/10
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/33011679/ECE-2020-Sample-Problems-Exam1pdf/" target="_blank">ECE 2020 Sample Problems Exam1.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2018/9/10
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25021168/2020-exam-2-solutions-su17pdf/" target="_blank">2020 exam 2 solutions su17.pdf</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/9/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/14013552/1681-Raychowdhury-Exam2/" target="_blank">1681-Raychowdhury-Exam2</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/4/15
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/197181084/Final-Practice-Solutionpdf/" target="_blank">Final_Practice_Solution.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/3/28
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/196867232/Syllabus-2020B-Spring23pdf/" target="_blank">Syllabus_2020B_Spring23.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/3/26
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/13117644/Sample-final-solution/" target="_blank">Sample-final-solution</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/1/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/167296400/HW4pdf/" target="_blank">HW4.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/14052562/Exam1-Solutions-2020-C-Spring-2016/" target="_blank">Exam1_Solutions_2020_C_Spring_2016</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/4/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/39728370/ExampleStateMachines-solnpdf/" target="_blank">ExampleStateMachines_soln.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2019/4/2
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/46902532/TEST2-SOLUTIONSpdf/" target="_blank">TEST2_SOLUTIONS.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2019/9/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12031214/Exam-2-Combinational-and-Sequential-Logic/" target="_blank">Exam 2- Combinational and Sequential Logic</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/9/10
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/164160693/2020Fall19-HW5pdf/" target="_blank">2020Fall19_HW5.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/1
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11892596/Parts-Kit-Lists-2014-04-25-1/" target="_blank">Parts_Kit_Lists_2014-04-25 (1)</a>
+                        <br>
+                        Total Views: 17
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2015/8/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/192858005/Digital-System-Design-Hw-6pdf/" target="_blank">Digital System Design Hw 6.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/25
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/192857975/Digital-System-Design-Hw-1pdf/" target="_blank">Digital System Design Hw 1.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/25
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/192857904/final-exam-review-slidespdf/" target="_blank">final exam - review slides.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/25
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/192857658/Digital-Design-Hw-2pdf/" target="_blank">Digital Design Hw 2.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/25
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/192857645/Digital-System-Design-Set-4pdf/" target="_blank">Digital System Design Set 4.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/25
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/192857636/Digital-System-Design-Hw-5pdf/" target="_blank">Digital System Design Hw 5.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/25
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/26838116/ECE2020Lecture10pdf/" target="_blank">ECE2020+Lecture+10.pdf</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/11/26
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/31133674/Test3-Solutionspdf/" target="_blank">Test3_Solutions.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2018/5/22
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/190467751/ECE-2020-Test-1-Solutionpdf/" target="_blank">ECE 2020 Test 1 Solution.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/7
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/33011772/2020MockExamSolutionsSetOnepdf/" target="_blank">2020+Mock+Exam+Solutions+Set+One.pdf</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2018/9/10
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/18315706/MockExam2Solutions/" target="_blank">MockExam2Solutions</a>
+                        <br>
+                        Total Views: 13
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/12/10
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/10301816/sample3-p5/" target="_blank">sample3-p5</a>
+                        <br>
+                        Total Views: 16
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2014/11/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/13117640/Midterm-1-soln/" target="_blank">Midterm_1_soln</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/1/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/19320945/Test1-solutions-1/" target="_blank">Test1_solutions (1)</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/1/29
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35056988/ECE2020-HW6-P2pdf/" target="_blank">ECE2020_HW6_P2.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2018/10/30
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12318710/final-in-class-exam/" target="_blank">final in class exam</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/10/10
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/24062435/Quiz-1pdf/" target="_blank">Quiz 1.pdf</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/7/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11053889/quiz1/" target="_blank">quiz1</a>
+                        <br>
+                        Total Views: 14
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/3/26
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/176315375/ECE2020-Lab-021pdf/" target="_blank">ECE2020_Lab_02(1).pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/11/6
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/173980089/ece2020a-fall22-hw4pdf/" target="_blank">ece2020a_fall22_hw4.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/10/25
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12369423/su14-ho-s1/" target="_blank">su14-ho-s1</a>
+                        <br>
+                        Total Views: 12
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/10/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/19643247/Prob2-sol-practice-test/" target="_blank">Prob2_sol_practice_test</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/2/7
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/19643241/HW1/" target="_blank">HW1</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/2/7
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/14259800/TEST1SOLUTIONS/" target="_blank">TEST+1+SOLUTIONS</a>
+                        <br>
+                        Total Views: 11
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/5/8
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25021187/ECE-2020-Exam3-2016-solutionpdf/" target="_blank">ECE 2020 Exam3 2016-solution.pdf</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/9/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/168749807/Simulation-Based-Lab1pdf/" target="_blank">Simulation-Based-Lab1.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/26
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/37672335/Exam1-Solutionspdf/" target="_blank">Exam1-Solutions.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2019/2/8
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/18046793/lab-7/" target="_blank">lab 7</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2016/11/28
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/167295737/HW3pdf/" target="_blank">HW3.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/167295448/HW2pdf/" target="_blank">HW2.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/167294897/HW1pdf/" target="_blank">HW1.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/19
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/205475225/ECE-notes-pR8-pdf/" target="_blank">ECE notes pR8 .pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/6/6
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/164160186/Test4-Solutionpdf/" target="_blank">Test4 Solution.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/1
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/26838364/ECE2020Lecture8pdf/" target="_blank">ECE2020+Lecture+8.pdf</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/11/26
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/16715598/Test1-soln/" target="_blank">Test1_soln</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/10/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/39403928/Links-to-Video-Lecturespdf/" target="_blank">Links to Video Lectures.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2019/3/24
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12087886/Scan-Doc0007/" target="_blank">Scan_Doc0007</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Lab
+                        <br>
+                        Uploaded: 2015/9/10
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/29106674/Lecture7-SequentialSystemsv2pptx/" target="_blank">Lecture+7+-+Sequential+Systems+v2.pptx</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2018/3/11
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11867122/Fall-2013-Exam-2-with-Answers/" target="_blank">Fall 2013 Exam 2 with Answers</a>
+                        <br>
+                        Total Views: 10
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/8/3
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/154585316/HW1-Solutionpdf/" target="_blank">HW1-Solution.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/6/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/21469353/ECE-2020-D-Lecture8-020717/" target="_blank">ECE-2020-D_Lecture8_020717</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/3/29
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/46902135/TEST1-SOLUTIONSpdf/" target="_blank">TEST1_SOLUTIONS.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2019/9/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/26838405/ECE2020Lecture6pdf/" target="_blank">ECE2020+Lecture+6.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/11/26
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/18315715/Mock-Test-1-Solutions/" target="_blank">Mock Test 1 Solutions</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/12/10
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/25021331/Quiz-1-2020-4thpdf/" target="_blank">Quiz 1 -2020- 4th.pdf</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/9/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12369426/sp14-lw-s3/" target="_blank">sp14-lw-s3</a>
+                        <br>
+                        Total Views: 9
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/10/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/31495365/Quiz-3pdf/" target="_blank">Quiz 3.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2018/6/5
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/195297415/SLIDES-6-NUMBERSpptx/" target="_blank">SLIDES_6_NUMBERS.pptx</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/3/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/21497482/ece2020f-spr17-hw6/" target="_blank">ece2020f_spr17_hw6</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/3/30
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/37672259/Exam2-Solutionspdf/" target="_blank">Exam2-Solutions.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2019/2/8
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/193133363/Lec2-switchppt/" target="_blank">Lec2-switch.ppt</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/27
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/193131922/Q3Solnpdf/" target="_blank">Q3Soln.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/27
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/193131909/Exam2-Scanned-Solutionspdf/" target="_blank">Exam2_Scanned_Solutions.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/27
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/192857987/Digital-System-Design-Hw-7pdf/" target="_blank">Digital System Design Hw 7.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/25
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/192857811/Homework3-Solutions-correctedpdf/" target="_blank">Homework3 - Solutions_corrected.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/25
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/192857787/DSD-Lab-2pdf/" target="_blank">DSD Lab 2.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/25
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/192857690/midterm-2-review-slidespdf/" target="_blank">midterm 2 - review slides.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/25
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/192857685/Digital-System-Design-Hw-8pdf/" target="_blank">Digital System Design Hw 8.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/25
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/26565595/2020BSp16-HW4solnpdf/" target="_blank">2020BSp16_HW4soln.pdf</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/11/13
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/190466450/ECE-2020-Test-2-Solutionpdf/" target="_blank">ECE 2020 Test 2 Solution.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/7
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/34432456/Final-Cheat-Sheet/" target="_blank">Final Cheat Sheet</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2018/10/2
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/33111177/ECE-2020-Sample-Problems-Exam1-Solutions-v2pdf/" target="_blank">ECE 2020 Sample Problems Exam1_Solutions_v2.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2018/9/10
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/33011794/ECE2020-MockExam1pdf/" target="_blank">ECE+2020-Mock+Exam+1.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2018/9/10
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/11446973/Exam3-Distrib-sectionC/" target="_blank">Exam3_Distrib_sectionC</a>
+                        <br>
+                        Total Views: 8
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/5/23
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/21469458/ECE-2020D-Lecture15-030717-v2/" target="_blank">ECE-2020D_Lecture15_030717_v2</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/3/29
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12369427/su13-ho-s3/" target="_blank">su13-ho-s3</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/10/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/39355980/introduction-Spring-2019pdf/" target="_blank">introduction Spring 2019.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2019/3/24
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/39355875/Boolean-Algebra-Key-Concepts-1pdf/" target="_blank">Boolean Algebra Key Concepts-1.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2019/3/24
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11446972/Exam2-Distrib-sectionC/" target="_blank">Exam2_Distrib_sectionC</a>
+                        <br>
+                        Total Views: 7
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/5/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/25695340/ECE2020Test1Spr17-solutionpdf/" target="_blank">ECE2020+Test1+Spr17+-+solution.pdf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/10/12
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/53897852/Exam3-Distribution-2020C-Fall2019pdf/" target="_blank">Exam3_Distribution_2020C_Fall2019.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2020/1/27
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/21497484/ece2020f-sp17-hw3/" target="_blank">ece2020f_sp17_hw3</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/3/30
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12369418/su14-ho-e3/" target="_blank">su14-ho-e3</a>
+                        <br>
+                        Total Views: 6
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/10/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/170741348/Q-2png/" target="_blank">Q 2.png</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/10/8
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/170729539/Austin-Toro-Final-Exam-Cheat-Sheetpdf/" target="_blank">Austin Toro Final Exam Cheat Sheet.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/10/8
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/19643211/syllabus/" target="_blank">syllabus</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/2/7
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/51012692/Study-guide-Pers-1001-Test-2-Fall-2019pdf/" target="_blank">Study guide Pers 1001 Test 2 Fall 2019.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2019/11/23
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/51012670/sample2-p2pdf/" target="_blank">sample2-p2.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2019/11/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/31494461/Quiz-2pdf/" target="_blank">Quiz 2.pdf</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2018/6/5
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/167295801/HW5pdf/" target="_blank">HW5.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/164161152/2020Fall19-HW4pdf/" target="_blank">2020Fall19_HW4.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/1
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/164160575/2020Fall19-HW3pdf/" target="_blank">2020Fall19_HW3.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/1
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/14556430/Quiz3Solutions/" target="_blank">Quiz3Solutions</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/6/7
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12369424/su14-ho-sf/" target="_blank">su14-ho-sf</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/10/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12369417/su14-ho-ef/" target="_blank">su14-ho-ef</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/10/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12369416/sp14-lw-e1/" target="_blank">sp14-lw-e1</a>
+                        <br>
+                        Total Views: 5
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/10/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/154585315/HW4-Solutionspdf/" target="_blank">HW4 Solutions.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/6/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/154578345/sample-final-problem-solnspdf/" target="_blank">sample-final-problem-solns.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/6/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/154578238/HW2-Solutionpdf/" target="_blank">HW2-Solution.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/6/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/154577983/HW3-Solutionspdf/" target="_blank">HW3_Solutions.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/6/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/21564841/ECE-2020-D-Lecture1-011217-v1/" target="_blank">ECE-2020-D_Lecture1_011217_v1</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/4/2
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/19643185/HW2-2020/" target="_blank">HW2_2020</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2017/2/7
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/17378792/Lec4-cmosgate/" target="_blank">Lec4-cmos+gate</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2016/11/2
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/14556428/Quiz2solution/" target="_blank">Quiz2solution</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/6/7
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27936819/Lecture-1pdf/" target="_blank">Lecture 1.pdf</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2018/1/28
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/12369422/su14-ho-s2/" target="_blank">su14-ho-s2</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/10/14
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/12369421/su14-ho-s3/" target="_blank">su14-ho-s3</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/10/14
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12087885/FormLetterTemplate/" target="_blank">FormLetterTemplate</a>
+                        <br>
+                        Total Views: 4
+                        <br>
+                        Essay
+                        <br>
+                        Uploaded: 2015/9/10
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/21469416/ECE-2020-D-Lecture7-020217-v1/" target="_blank">ECE-2020-D_Lecture7_020217_v1</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2017/3/29
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/39403931/Links-to-Video-Lectures-3pdf/" target="_blank">Links to Video Lectures-3.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2019/3/24
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/39403925/Key-Concepts-on-Gate-Designpdf/" target="_blank">Key Concepts on Gate Design.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Lecture Slides
+                        <br>
+                        Uploaded: 2019/3/24
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/35056457/fa12-ds-s4pdf/" target="_blank">fa12-ds-s4.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2018/10/30
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/33111176/2020MockExamSolutionsSetTwopdf/" target="_blank">2020+Mock+Exam+Solutions+Set+Two.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2018/9/10
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12369420/su14-ho-e1/" target="_blank">su14-ho-e1</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/10/14
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/11446971/Exam1-Distrib-sectionC/" target="_blank">Exam1_Distrib_sectionC</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/5/23
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/86588098/sp21-alc-s1pdf/" target="_blank">sp21-alc-s1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Assessment
+                        <br>
+                        Uploaded: 2021/3/31
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/11053876/Practice-Questions-Q2/" target="_blank">Practice_Questions_Q2</a>
+                        <br>
+                        Total Views: 3
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2015/3/26
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/27936880/Lecture-21pdf/" target="_blank">Lecture 21.pdf</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2018/1/28
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/17840037/KeyConceptsfromModule1/" target="_blank">Key+Concepts+from+Module+1</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/11/17
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/17839990/SupplementaryMaterialforModule1/" target="_blank">Supplementary+Material+for+Module+1</a>
+                        <br>
+                        Total Views: 2
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2016/11/17
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/53897845/Exam1-Distribution-2020C-Fall2019pdf/" target="_blank">Exam1_Distribution_2020C_Fall2019.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2020/1/27
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/39403929/Links-to-Video-Lectures-1pdf/" target="_blank">Links to Video Lectures-1.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2019/3/24
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/39403923/Keywords-and-Terms-from-Module-2pdf/" target="_blank">Keywords and Terms from Module 2.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2019/3/24
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/39403788/Notes-from-Video-Lectures-Module-6Bpdf/" target="_blank">Notes from Video Lectures- Module 6B.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2019/3/24
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/35056973/Notes-for-ECE-202002-06-2018pdf/" target="_blank">Notes for ECE 2020(02-06-2018).pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2018/10/30
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/27936820/Lecture3pdf/" target="_blank">Lecture3.pdf</a>
+                        <br>
+                        Total Views: 1
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2018/1/28
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/218462755/2020C-Test2-solnpdf/" target="_blank">2020C_Test2_soln.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/11/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/218462730/2020C-Test3-solnpdf/" target="_blank">2020C_Test3_soln.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/11/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/218462696/2020C-Test1-solnpdf/" target="_blank">2020C_Test1_soln.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/11/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/218069327/Crib-Sheet-Tks-pdf/" target="_blank">Crib Sheet Tks .pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/11/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/199611740/syllabus-ECE2020-LIM-Fall-2021pdf/" target="_blank">syllabus-ECE2020-LIM-Fall-2021.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/4/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/197181054/TEST2-Fall2013pdf/" target="_blank">TEST2_Fall2013.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/3/28
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/195138746/ECE2020-Notes-2357xls/" target="_blank">ECE2020_Notes_2357.xls</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/3/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/195138269/ECE2020-Assignment-4631xls/" target="_blank">ECE2020_Assignment_4631.xls</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/3/13
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/193133479/lec1-introppt/" target="_blank">lec1-intro.ppt</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/27
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/193131920/Q4Solnpdf/" target="_blank">Q4Soln.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/27
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/193131883/HW3-assignment-spring-2013pdf/" target="_blank">HW3_assignment_spring_2013.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/27
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/192857696/Digital-System-Design-Hw-4pdf/" target="_blank">Digital System Design Hw 4.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/25
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/190466453/ECE-2020-Test-3-Solutionpdf/" target="_blank">ECE 2020 Test 3 Solution.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/2/7
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/167730315/54DFA06A-3932-45DB-9CA6-B182E46A055Fpdf/" target="_blank">54DFA06A-3932-45DB-9CA6-B182E46A055F.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/21
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/167295728/HW7pdf/" target="_blank">HW7.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/19
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/167295657/HW6pdf/" target="_blank">HW6.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/19
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/164160596/Test2-Solutionpdf/" target="_blank">Test2 Solution.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/1
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/164160506/2020Fall19-HW2pdf/" target="_blank">2020Fall19_HW2.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2022/9/1
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/214648618/2020B-Test3-solnpdf/" target="_blank">2020B_Test3_soln.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/10/13
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/213784993/Lab-2-Check-off-Sheetpdf/" target="_blank">Lab 2 Check off Sheet.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/10/4
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/213783461/Prelab-1-newpdf/" target="_blank">Prelab 1 new.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/10/4
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/213783288/HW-7pdf/" target="_blank">HW 7.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/10/4
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/213783215/HW-1-Cleanpdf/" target="_blank">HW 1 Clean.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/10/4
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/213783172/Prelab-2-2pdf/" target="_blank">Prelab 2 (2).pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/10/4
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/213783122/HW-4pdf/" target="_blank">HW 4.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/10/4
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/213783097/HW-8pdf/" target="_blank">HW 8.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/10/4
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/213783090/HW-3pdf/" target="_blank">HW 3.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/10/4
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/213783084/HW-6pdf/" target="_blank">HW 6.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/10/4
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/213644503/Quiz-1-cribpdf/" target="_blank">Quiz 1 crib.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/10/3
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/213644454/ECE-2020-IE3-Test-1-Cover-Sheetpdf/" target="_blank">ECE 2020-IE3 - Test 1 - Cover Sheet.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/10/3
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/213644267/Test-1-Solutionspdf/" target="_blank">Test_1_Solutions.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/10/3
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/213009245/2020BSpr23-HW2pdf/" target="_blank">2020BSpr23_HW2.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/26
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/213009090/2020BSpr23-HW3pdf/" target="_blank">2020BSpr23_HW3.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/26
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/213008727/Lect80-memorypdf/" target="_blank">Lect80_memory.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/26
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/213008576/Lect90-controlpdf/" target="_blank">Lect90_control.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/26
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/213005515/Lect95-architecturepdf/" target="_blank">Lect95_architecture.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/26
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/212909414/samplefinal-copypdf/" target="_blank">samplefinal copy.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/25
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/212074768/Help-With-Homework-7-Q3pdf/" target="_blank">Help With Homework 7 Q3.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/212074745/Anouncementspdf/" target="_blank">Anouncements.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/212074711/Slide-5-notespdf/" target="_blank">Slide 5 notes.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/212074665/hw7pdf/" target="_blank">hw7.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/16
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/212074612/Lecture-Notes-32x32-Registerpdf/" target="_blank">Lecture Notes 32x32 Register.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/16
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/212074557/hw6pdf/" target="_blank">hw6.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/16
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211469355/Ch-9-Slide-one-7-14-17pdf/" target="_blank">Ch 9 Slide one 7-14-17.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/9
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211469354/Mealy-Vs-Moore-Moore-FSM-7-10-17pdf/" target="_blank">Mealy Vs Moore _ Moore FSM 7-10-17.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/9
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211469352/Announcements-7-10-17pdf/" target="_blank">Announcements 7-10-17.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/9
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211468784/Slides-IX-14-16pdf/" target="_blank">Slides IX 14-16.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/9
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211468691/FSM-Pattern-Detector-State-Encoding-State-Table-Circuit-7-10-17pdf/" target="_blank">FSM Pattern Detector _ State Encoding _ State Table _ Circuit 7-10-17.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/9
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211468620/Ch-9-Slide-5-6-7-14-17pdf/" target="_blank">Ch 9 Slide 5 _ 6  7-14-17.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/9
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211468445/FSM-Moore-Pattern-Detect-w-K-map-7-12-17pdf/" target="_blank">FSM Moore Pattern Detect w K-map 7-12-17.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/9
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211468395/Mealy-FSM-7-10-17pdf/" target="_blank">Mealy FSM 7-10-17.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/9
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211468387/Announcements-Lab-2-7-14-17pdf/" target="_blank">Announcements _ Lab 2  7-14-17.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/9
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211468376/3-in-class-examples-BiDirectional-Shift-Register-7-14-17pdf/" target="_blank">3 in class examples BiDirectional Shift Register 7-14-17.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/9
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211052114/Design-4-Bit-Register-7-7-17pdf/" target="_blank">Design 4-Bit Register 7-7-17.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/3
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211052110/Recap-outline-7-7-17pdf/" target="_blank">Recap outline 7-7-17.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/3
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211051950/Flip-Flops-Timing-Diagram-7-7-17pdf/" target="_blank">Flip Flops Timing Diagram 7-7-17.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/3
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211051815/Half-Adder-Full-Adder-In-Class-Examplepdf/" target="_blank">Half Adder _ Full Adder In Class Example.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/3
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211051810/Timming-Diagram-In-Class-Examplepdf/" target="_blank">Timming Diagram In Class Example.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/3
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211051807/Anouncements-Class-cancelation-exam-review-7-7-17pdf/" target="_blank">Anouncements-Class cancelation, exam review 7-7-17.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/3
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211051799/D-Latch-In-Class-Examplepdf/" target="_blank">D-Latch In Class Example.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/3
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211051611/Demux-Design-In-Class-Examplepdf/" target="_blank">Demux Design In Class Example.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/3
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/211051499/4-Bit-Adder-In-Class-Examplepdf/" target="_blank">4-Bit Adder In Class Example.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/3
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/211050776/Fall-2017-Lect-13-Regs-Xferpdf/" target="_blank">Fall_2017_Lect_13_Regs_Xfer.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/3
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/211050745/Fall-2017-Lect-12-Memoriespdf/" target="_blank">Fall_2017_Lect_12_Memories.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/9/3
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/210889456/PRACTICE-TEST-1pdf/" target="_blank">PRACTICE_TEST (1).pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/8/31
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/210887122/Fall-2017-Lect-9-Flipflopspdf/" target="_blank">Fall_2017_Lect_9_Flipflops.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/8/31
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/210887108/Fall-2017-Lect-4-K-Mapspdf/" target="_blank">Fall_2017_Lect_4_K_Maps.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/8/31
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/210887104/Fall-2017-Lect-1-Introppt/" target="_blank">Fall_2017_Lect_1_Intro.ppt</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/8/31
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/210887087/FALL-2017-Lect-2-Switch-Designpdf/" target="_blank">FALL_2017_Lect_2_Switch_Design.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/8/31
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/210887080/Fall-2017-Lect-3-Booleanpdf/" target="_blank">Fall_2017_Lect_3_Boolean.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/8/31
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/210886972/Lab-1-Digital-Logic-revpdf/" target="_blank">Lab_1_Digital_Logic_rev.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/8/31
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/209448034/ECE2020-School-of-Electrical-and-Computer-Engineeringpdf/" target="_blank">ECE2020 _ School of Electrical and Computer Engineering.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/8/4
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/204830638/SEQ-CIRCUITpptx/" target="_blank">SEQ_CIRCUIT.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/5/30
+                    </td>
+                  </tr><tr>
+                    <td>
+                        <a href="https://www.coursehero.com/file/204830617/SLIDES-7-BBLOCKSpptx/" target="_blank">SLIDES_7_BBLOCKS.pptx</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Unknown
+                        <br>
+                        Uploaded: 2023/5/30
+                    </td>
+            
+                    <td>
+                        <a href="https://www.coursehero.com/file/12318707/final-proposal-written/" target="_blank">final proposal, written</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Essay
+                        <br>
+                        Uploaded: 2015/10/10
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.coursehero.com/file/39403727/Correction-for-K-Map-Porblem-from-Video-Lecturepdf/" target="_blank">Correction for K-Map Porblem from Video Lecture.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Notes
+                        <br>
+                        Uploaded: 2019/3/24
+                    </td>
+                  </tr><tr><td>
+                        <a href="https://www.coursehero.com/file/154578339/sample-final-problemspdf/" target="_blank">sample-final-problems.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        nan
+                        <br>
+                        Uploaded: 2022/6/16
+                    </td><td>
+                        <a href="https://www.coursehero.com/file/53897835/Exam2-Distribution-2020C-Fall2019pdf/" target="_blank">Exam2_Distribution_2020C_Fall2019.pdf</a>
+                        <br>
+                        Total Views: 0
+                        <br>
+                        Test prep
+                        <br>
+                        Uploaded: 2020/1/27
+                    </td></tr> </table></div>
+
+          </section>
+
+    
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>
