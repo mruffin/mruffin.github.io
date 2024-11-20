@@ -1,0 +1,634 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
+  <title>Margie Ruffin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  
+  <script src="js/toggle.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+
+    .togg-btn{
+      background-color:#4d9586;
+      padding: 10pt;
+      padding-left: 15pt;
+      padding-right: 15pt;
+      border-radius: 25px;
+      color:#fff;
+      font-weight: bold;
+      border-style: none;
+
+    }
+
+    .paper-title{
+      font-size: 14pt;
+    }
+
+    .collabs{
+      font-size: 12pt;
+    }
+
+    .conf{
+      font-size: 12pt;
+    }
+
+    .col-sm-4{
+      padding: 20px;
+    }
+
+    .col-sm-8{
+      padding: 20px;
+    }
+
+    .card{
+      border-style: solid;
+      border-width: thin;
+      border-color: #999;
+      border-radius: 10px;
+      padding: 20px;
+
+    }
+
+    .navbar {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#303d4e;
+      border-color: #303d4e;
+    }
+
+    .nav-item{
+      color: #e3e3e3;
+      font-size: 13pt;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    nav .navbar-nav li a{
+        color: #e3e3e3 !important;
+    }
+
+    ul.nav a:hover { 
+      color: #4d9586 !important; 
+    }
+
+    .nav-btn:hover.active {
+      background-color:#4d9586;
+      color:#4d9586;
+    }
+
+    h3{
+      color:#4d9586;
+    }
+
+    h1, h2{
+      color:#4d9586;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      /*height: 450px;*/
+      height:100%;
+      padding-top:50px;
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    #socialMedia {
+      padding-top: 10px;
+    }
+    .info{
+      margin: 10px 0px  10px;
+      display:block;
+    }
+    .contact_info{
+      padding-top:10px;
+    }
+    .contact_info_header{
+      font-family:Helvetica Neue;
+      font-weight:bold;
+    }
+
+    .artifact{
+      color:green;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: transparent;
+      color: black;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    /*@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }*/
+
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    }
+
+    @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;}
+
+    #myNavbar{
+      float: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    }
+
+    @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1140px;}
+
+    #myNavbar{
+      float: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #212529;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+    }
+
+  </style>
+  
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+      </div>
+
+      <div style="margin-top: auto; margin-bottom: auto; padding-left: 25px; font-size: 20pt; color: #e3e3e3;"><span>Margie Ruffin</span></div>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <!-- <li><a href="#about-me">About Me</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+          <!--<li class="nav-item"><a href="#education">Education</a></li>-->
+          <li class="nav-item"><a class="nav-link" href="#publications">Research Projects</a></li>
+          <!--<li class="nav-item"><a href="#experience">Research Experience</a></li>-->
+          <li class="nav-item"><a class="nav-link" href="#honors">Honors and Awards</a></li>
+          <li class="nav-item"><a class="nav-link" href="CVs/Ruffin CV-2024 Website.pdf" name="CV" target="_blank">CV</a></li>
+
+          <!--<li><a href="Projects.html">Portfolio</a></li>-->
+          <!--<li><a href="Projects.html">Projects</a></li>-->
+          <!-- <li><a href="demo.html">Demo</a></li> -->
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="container" style="margin-top: 50px; margin-bottom: 50px;" >
+    <div class="container-fluid text-center">    
+        <div class="row content text-left">
+
+          <div class="col-sm-3 sidenav" >
+                <img src="images/2WEL19-116.jpg" alt="Headshot of Margie Ruffin"  title="Headshot of Margie Ruffin" width="210" height="267" style="box-shadow: 5px 5px 5px #999;">
+                
+                <div class="info">
+                <strong>Margie Ruffin</strong>
+                <br>Ph.D. Student
+                <br>Computer Science
+                <br>UIUC
+                </div>
+        
+        
+                <div class="contact_info">
+                    <div class="contact_info_header">CONTACT INFO</div>
+                    <div style="border:1px solid #e3e3e3;"> </div>
+        
+                    <div class="contact_info_item">
+                      <p style="font-family: 'Palatino', 'URW'">Email: mruffin2@illinois.edu</p>
+        
+                      <div class="social-media">
+                                <a href="https://github.com/mruffin" target="_blank"> <img src="logos/github-icon.png" alt="github logo" width="25" height="25" ></a>
+                                <a href="https://www.linkedin.com/in/margie-ruffin/" target="_blank"> <img src="logos/linkedin-icon.png" alt="linkedin logo" width="25" height="25"></a>
+                                <a href="https://scholar.google.com/citations?hl=en&user=AfvKVL8AAAAJ" target="_blank"> <img src="logos/Google_Scholar_logo.svg.png" alt="email logo" width="25" height="25" ></a>
+                                <a href="mailto: mruffin2@illinois.edu" target="_blank"> <img src="logos/email-icon.png" alt="email logo" width="25" height="25" ></a>
+                      </div>
+                    
+                    </div>
+                  </div>
+          </div>
+
+          <div class="col-sm-9 text-left" style="margin-top: 20px"> 
+              <!-- <section id="about-me"> -->
+              <section>
+              <!--<h3>About Me</h3>-->
+      
+              <p>I am a fifth-year Ph.D. student in the <a href="https://cs.illinois.edu/" target="_blank">Department of Computer Science</a> 
+                  at the <a href="https://illinois.edu/" target="_blank"> University of Illinois at Urbana-Champaign (UIUC)</a>. I am co-advised by Professors
+                  Gang Wang and Kirill Levchenko. I graduated from Spelman College in 2020 with a Bachelors of Science in Computer Science.</p>
+          
+              <p>My research focuses on developing technical and human-centric solutions to address various types of online abuse. Through web scraping, large-scale user studies, and data analysis  
+                  I aim to enhance automated detection systems while also investigating user behaviors to inform ethical guidelines and product policies for combating manipulation and misuse in digital platforms.</p>
+              </section>
+              <hr>
+
+              <section id="news">
+              <h2>News</h2>
+              <ul>
+                <li><p>[August 29, 2024] In an effort to create entertaining, yet educational introductory CS materials for kids, I commisioned the creation of a coloring book, <b>ABCs of Computer Science!</b> This is a great way to 
+                  introduce your child to the world of S.T.E.M. with the goal being for them to learn CS concepts, connect them to real-world knowledge, and have fun while doing it. <a href="ABCComputerScience.pdf" target="_blank"><b>Click Here to Download!</b></a>
+                </p></li>
+                  <img src="images/ABCs coverbok.jpg" alt="ABCs of Computer Science"  title="ABCs of Computer Science" width="300" height="200" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; margin-bottom: 20px; display: block;" >
+
+                <!--<li><p>[February 19, 2024] On February 19 I hosted a virtual AI lab as a guest lecturer for students at <a href="https://morehouse.edu/" target="_blank">Morehouse College</a>. We talked about practical uses of AI models, their pros and cons, and inherent bias. What an amazing
+                  time to be at the forefront of technlogies like these!
+                </p></li>
+                  <img src="images/AI Lab.png" alt="AI Lab Slides Preview"  title="Virtual AI Lab" width="300" height="200" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; margin-bottom: 20px; display: block;" >-->
+
+                <!--<li><p>[February 07, 2024] Check out my latest blog post on Remote Attestation and my recent work in collabration on IBM, 
+                  <a href="https://keylime.dev/blog/2024/02/07/remote-attestation-blog-part1.html" target="_blank"> A Hitchhikers Guide to Remote Attestation</a>. You'll learn about how you may protect your systems from unauthorized behavior!
+                </p></li>-->
+
+                <li><p>[November 21, 2023] I am pleased to annouce my paper, Does It Matter Who Said It? Exploring the Impact of Deepfake Profiles on User Perception Towards Disinformation has been accepted for publication
+                  at the 2024 <a href="https://www.icwsm.org/2024/index.html/" target="_blank"> International AAAI Conference ON Web And Social Media (ICWSM)</a>. Can't wait to join other passionate researchers in Buffalo, NY next Summer!
+                </p></li>
+
+                <!--<li><p>[March 1, 2023] I am so happy to annouce the opening of my Etsy Shop <a href="https://www.etsy.com/shop/TheAdventureCenter" target="_blank">TheAdventureCenter</a> where I will be offering
+                STEM educational materials for elementary-age kids! Check out our first lisitng <strong>ABCs of Computer Science.</strong></p></li>
+                <img src="images/ABCs coverbok.jpg" alt="ABCs of Computer Science"  title="ABCs of Compter Science Coloring Book" width="300" height="200" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; margin-bottom: 20px; display: block;" >-->
+
+                <!--<li><p>[Sept 12, 2022] My very first, first-author Conference Paper has been accepted to <a href="https://group.acm.org/conferences/group22/index.php" target="_blank">GROUP 2023!</a> Sanibel Island, FL here I come!</p></li>-->
+
+                <!--<li><p>[Sept 8, 2022] I'm so grateful for the opprotunity to have been a guest speaker on a Birds of a Feather panel on
+                  <a href="https://tapiaconference.cmd-it.org/attend/presentation/?id=bof114&sess=sess164" target="_blank">Navigating Your Advisor-Advisee Relationship</a> at the 2022 Richard Tapia Conference.</p></li>-->
+                  <!--<img src="BoF.jpg" alt="Group Photo of Panel Speakers"  title="Birds of Feather Panel Speakers" width="300" height="200" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; margin-bottom: 20px; display: block;""> -->
+
+                <!--<li><p>[Sept 6, 2022] My first-author workshop paper "Casing the Vault: Security Analysis of Vault Applications" has been accepted to
+                  <a href="https://arc.encs.concordia.ca/wpes22/cfp.html" target="_blank">WPES '22!</a> </p></li>-->
+
+                <!--<li><p> [Aug 22, 2022] Increasing representation in S[T]EM fields is one of my passions and because of that I am so thrilled to be apart of the inaugural group of Grainger Engineering Graduate Student 
+                  <a href="https://grainger.illinois.edu/academics/graduate/diversity-ambassadors" target="_blank">Diversity Ambassadors (DAs)!</a> </p></li> 
+                  <img src="images/DAs.jpeg" alt="Group Photo of Diversity Ambassadors"  title="Grainger Engineering Diversity Ambassadors" width="300" height="200" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; margin-bottom: 20px; display: block;" >-->
+
+                  <li><p>[April 4, 2022] I am so excited and honored to have been awarded the <a href="https://www.nsfgrfp.org/" target="_blank">NSF GRFP!</a>  To my friends, family, advisors, and peers
+                thank you for your constant support!</p></li>
+
+              </ul>
+              </section>
+          </div>
+
+          <div>
+            <section id="publications">
+            <h1>Research Projects</h1>
+        
+            <div class="card pubcard col-sm-12 mx-auto" style="width: 100%; display: inline-flex; margin-bottom: 20pt;">
+              <div class="col-sm-4">
+
+                <img src="PaperImages/tweet.drawio.jpg" alt="Deepfake-Profile"  title="Deepfake-Profile" width="300" height="300" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; display: block;" >
+
+              </div>
+
+              <div class="col-sm-8" style="margin-left: 20px; margin-top: auto; margin-bottom: auto;">
+
+                <p class="paper-title"> <strong>Does It Matter Who Said It? Exploring the Impact of Deepfake Profiles on User Perception Towards Disinformation </strong></p>
+
+                <p class="collabs"><strong>Margie Ruffin</strong>, Haeseung Seo, Aiping Xiong, and Gang Wang</p>
+
+                <p class="conf">International AAAI Conference on Web and Social Media (ICWSM), June 2024</p>
+
+                <button class=togg-btn onclick="absFunction()">Abstract</button>
+
+                <button class=togg-btn onclick="citeFunction()">Citaton</button>
+
+                <a style="font-size: 12pt; margin-left: 10pt; text-decoration: underline;" href="Papers/Explaining Why Fake Photos are Fake.pdf" target="_blank"><strong>PDF</strong></a>
+                <a style="font-size: 12pt; margin-left: 10pt; text-decoration: underline;" href="Presentations/ICWSM-Slides.pdf" target="_blank"><strong>SLIDES</strong></a>
+                
+                <div class="info" id="abs" style="display: none;">
+                  Recently, deepfake techniques have been adopted by realworld adversaries to fabricate believable personas (posing as experts or insiders) in disinformation campaigns to promote false narratives and deceive the public. In this paper, we investigate how fake personas influence the user perception of the disinformation shared by such accounts. Using Twitter as an exemplary platform, we conduct a user study (N=417) where participants read tweets of fake news with (and without) the presence of the tweet authors’ profiles. Our study examines and compares three types of fake profiles: deepfakeenabled profiles, profiles of relevant organizations, and simple bot profiles. Our results highlight the significant impact of deepfake-enabled profiles and organization profiles on increasing the perceived information accuracy of and engagement with fake news. Moreover, deepfake-enabled profiles are rated as significantly more real than other profile types. Finally, we observe that users may like/reply/share a tweet even though they believe it was inaccurate (e.g., for fun or truth-seeking), which could further disseminate false information. We then discuss the implications of our findings and directions for future research.
+                </div>
+
+                <div class="info" id="cite" style="display: none;">
+                  Ruffin, M., Seo, H., Xiong, A. and Wang, G. 2024. Does It Matter Who Said It? Exploring the Impact of Deepfake-Enabled Profiles on User Perception towards Disinformation. Proceedings of the International AAAI Conference on Web and Social Media. 18, 1 (May 2024), 1328-1341. DOI:https://doi.org/10.1609/icwsm.v18i1.31392.
+                </div>
+              
+              </div>
+            </div>
+
+            <div class="card pubcard col-sm-12 mx-auto" style="width: 100%; display: inline-flex; margin-bottom: 20pt;">
+              <div class="col-sm-4">
+
+                <img src="PaperImages/image6.png" alt="Deepfake-Profile"  title="Deepfake-Profile" width="350" height="150" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; display: block;" >
+
+              </div>
+
+              <div class="col-sm-8" style="margin-left: 20px; margin-top: auto; margin-bottom: auto;">
+
+                <p class="paper-title"> <strong>Explaining Why Fake Photos are Fake: Does It Work?</strong></p>
+
+                <p class="collabs"><strong>Margie Ruffin</strong>, Gang Wang, and Kirill Levchenko</p>
+
+                <p class="conf">ACM International Conference on Supporting Group Work (GROUP), January 2023</p>
+
+                <button class=togg-btn onclick="absFunction1()">Abstract</button>
+
+                <button class=togg-btn onclick="citeFunction1()">Citaton</button>
+
+                <a style="font-size: 12pt; margin-left: 10pt; text-decoration: underline;" href="Papers/Explaining Why Fake Photos are Fake.pdf" target="_blank"><strong>PDF</strong></a>
+                <a style="font-size: 12pt; margin-left: 10pt; text-decoration: underline;" href="Presentations/GROUP Presentation.pdf" target="_blank"><strong>SLIDES</strong></a>
+                
+                <div class="info" id="abs1" style="display: none;">
+                  Today's disinformation campaigns may use deceptively altered photographs to promote a false narrative. In some cases, viewers may be unaware of the alteration and thus may more readily accept the promoted narrative. In this work, we consider whether this effect can be lessened by explaining to the viewer how an image has been manipulated. To explore this idea, we conduct a two-part study. We started with a survey (n=113) to examine whether users are indeed bad at identifying manipulated images. Our result validated this conjecture as participants performed barely better than random guessing (60% accuracy). Then we explored our main hypothesis in a second survey (n=543). We selected manipulated images circulated on the Internet that pictured political figures and opinion influencers. Participants were divided into three groups to view the original (unaltered) images, the manipulated images, and the manipulated images with explanations, respectively. Each image represents a single case study and is evaluated independently of the others. We find that simply highlighting and explaining the manipulation to users was not always effective. When it was effective, it did help to make users less agreeing with the intended messages behind the manipulation. However, surprisingly, the explanation also had an opposite (e.g.,negative) effect on users' feeling/sentiment toward the subjects in the images. Based on these results, we discuss open-ended questions which could serve as the basis for future research in this area.
+                </div>
+
+                <div class="info" id="cite1" style="display: none;">
+                  Margie Ruffin, Gang Wang, and Kirill Levchenko. 2022. Explaining Why Fake Photos are Fake: Does It Work? Proc. ACM Hum.-Comput. Interact. 7, GROUP, Article 8 (January 2023), 22 pages. https://doi.org/10.1145/3567558
+                </div>
+              
+              </div>
+            </div>
+
+            <div class="card pubcard col-sm-12 mx-auto" style="width: 100%; display: inline-flex; margin-bottom: 20pt;">
+              <div class="col-sm-4">
+
+                <img src="PaperImages/False Bottom.png" alt="False Bottom"  title="False Bottom" width="300" height="300" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; display: block;" >
+
+              </div>
+
+              <div class="col-sm-8" style="margin-left: 20px; margin-top: auto; margin-bottom: auto;">
+
+                <p class="paper-title"> <strong>Casing the Vault: Security Analysis of Vault Applications</strong></p>
+
+                <p class="collabs"><strong>Margie Ruffin</strong>, Israel Lopez-Toldeo, Kirill Levchenko, and Gang Wang</p>
+
+                <p class="conf">21st Workshop on Privacy in the Electronic Society (WPES ’22), November 2022</p>
+
+                <button class=togg-btn onclick="absFunction2()">Abstract</button>
+
+                <button class=togg-btn onclick="citeFunction2()">Citaton</button>
+
+                <a style="font-size: 12pt; margin-left: 10pt; text-decoration: underline;" href="Papers/Casing the Vault.pdf" target="_blank"><strong>PDF</strong></a>
+                <a style="font-size: 12pt; margin-left: 10pt; text-decoration: underline;" href="Presentations/Casing the Vault WPES.pdf" target="_blank"><strong>SLIDES</strong></a>
+                
+                <div class="info" id="abs2" style="display: none;">
+                  Vault applications are a class of mobile apps used to store and hide users' sensitive files (e.g., photos, documents, and even another app) on the phone. In this paper, we perform an empirical analysis of popular vault apps under the scenarios of unjust search and filtration of civilians by authorities (e.g., during civil unrest). By limiting the technical capability of adversaries, we explore the feasibility of inferring the presence of vault apps and uncovering the hidden files without employing sophisticated forensics analysis. Our analysis of 20 popular vault apps shows that most of them do not adequately implement/configure their disguises, which can reveal their existence without technical analysis. In addition, adversaries with rudimentary-level knowledge of the Android system can already uncover the files stored in most of the vault apps. Our results indicate the need for more secure designs for vault apps.
+                </div>
+
+                <div class="info" id="cite2" style="display: none;">
+                  Margie Ruffin, Israel Lopez-Toldeo, Kirill Levchenko, and Gang Wang. 2022. Casing the Vault: Security Analysis of Vault Applications. In Proceedings of the 21st Workshop on Privacy in the Electronic Society (WPES'22). Association for Computing Machinery, New York, NY, USA, 175–180. https://doi.org/10.1145/3559613.3563204
+                </div>
+              
+              </div>
+            </div>
+
+            <div class="card pubcard col-sm-12 mx-auto" style="width: 100%; display: inline-flex; margin-bottom: 20pt;">
+              <div class="col-sm-4">
+
+                <img src="PaperImages/Nias, Decolonizing Technologies for Preserving Cultural and Societal Diversity.jpg" alt="Decolonizing Technologies"  title="Decolonizing Technologies" width="300" height="300" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; display: block;" >
+
+              </div>
+
+              <div class="col-sm-8" style="margin-left: 20px; margin-top: auto; margin-bottom: auto;">
+
+                <p class="paper-title"> <strong>Decolonizing Technologies for Preserving Cultural and Societal Diversity</strong></p>
+
+                <p class="collabs">Jaye Nias, Lelia Hampton, Princess Sampson, and <strong>Margie Ruffin</strong></p>
+
+                <p class="conf">CHI 2020 Workshop on Engaging in Race in HCI, November 2022</p>
+
+                <button class=togg-btn onclick="absFunction3()">Abstract</button>
+
+                <button class=togg-btn onclick="citeFunction3()">Citaton</button>
+
+                <a style="font-size: 12pt; margin-left: 10pt; text-decoration: underline;" href="Papers/Nias, Decolonizing Technologies for Preserving Cultural and Societal Diversity.pdf" target="_blank"><strong>PDF</strong></a>
+
+                <div class="info" id="abs3" style="display: none;">
+                  Digital implementations of colonialism have resulted in the further marginalization of under-represented social, cultural, and racial communities in the West as well as indigenous cultures of the Global South. We propose that ethno-mathematics and ethno-computing principles can be applied to mitigate issues of systemic bias in technology development and integration by promoting social and cultural diversity that centers broader communities of impact worldwide. This paper posits guidelines for the development of “Decolonizing Technologies” to counter digital colonialism and preserve cultural diversity among marginalized and indigenous communities. This will lead to a production of technologies that better enrich our planet and mitigate the need to provide racial and cultural amendments to current technologies that perpetuate racial and cultural disparity in our world.               
+                </div>
+
+                <div class="info" id="cite3" style="display: none;">
+                  Nias, J., Hampton, L., Sampson,P. and Ruffin, M. 2020. Decolonizing Technologies for Preserving Cultural and Societal Diversity. CHI 2020 Extended Abstracts, April 25 - 30, 2020, Honolulu, HI, USA.              
+                </div>
+              
+              </div>
+            </div>
+
+            <div class="card pubcard col-sm-12 mx-auto" style="width: 100%; display: inline-flex; margin-bottom: 20pt;">
+              <div class="col-sm-4">
+
+                <img src="PaperImages/Character Development to Facilitate Retention in a Storytelling Robot.jpg" alt="Character Development"  title="Character Development" width="300" height="300" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; display: block;" >
+
+              </div>
+
+              <div class="col-sm-8" style="margin-left: 20px; margin-top: auto; margin-bottom: auto;">
+
+                <p class="paper-title"> <strong>Character Development to Facilitate Retention in a Storytelling Robot</strong></p>
+
+                <p class="collabs"><strong>Margie Ruffin</strong>, Jaye Nias, Kayla Taylor, Gabrielle Singleton,and Amber Sylvain</p>
+
+                <p class="conf">ACM Southeast Conference, April 2020</p>
+
+                <button class=togg-btn onclick="absFunction4()">Abstract</button>
+
+                <button class=togg-btn onclick="citeFunction4()">Citaton</button>
+
+                <a style="font-size: 12pt; margin-left: 10pt; text-decoration: underline;" href="Papers/Character Development to Facilitate Retention in a Storytelling Robot.pdf" target="_blank"><strong>PDF</strong></a>
+
+                <div class="info" id="abs4" style="display: none;">
+                The purpose of this research is to further the innovation of education technology and education based on technological theory mediated through robotic storytelling agents. Through the development of robotic applications, the researchers create a tool to improve the story and literacy-based retention rates of elementary level students. This investigation seeks to analyze the effects of student retention while participating in story-time with a SoftBank NAO robot that delivers the narrative of multiple characterizations through pre-programmed voice variability, LED lights, and motions. It is the ultimate goal of this research to study the impact of agent character distinctions in storytelling as compared to human storytellers.
+                </div>
+
+                <div class="info" id="cite4" style="display: none;">
+                Margie Ruffin, Jaye Nias, Kayla Taylor, Gabrielle Singleton, and Amber Sylvain. 2020. Character Development to Facilitate Retention in a Storytelling Robot. In Proceedings of the 2020 ACM Southeast Conference (ACMSE '20). Association for Computing Machinery, New York, NY, USA, 276–279. https://doi.org/10.1145/3374135.3385315
+                </div>
+              
+              </div>
+            </div>
+
+            <div class="card pubcard col-sm-12 mx-auto" style="width: 100%; display: inline-flex; margin-bottom: 20pt;">
+              <div class="col-sm-4">
+
+                <img src="PaperImages/CultureBot- A Culturally Relevant Humanoid Robotic Dialouge Agent.jpg" alt="Character Development"  title="Character Development" width="300" height="300" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; display: block;" >
+
+              </div>
+
+              <div class="col-sm-8" style="margin-left: 20px; margin-top: auto; margin-bottom: auto;">
+
+                <p class="paper-title"> <strong>CultureBot: A Culturally Relevant Humanoid Robotic Dialogue Agent</strong></p>
+
+                <p class="collabs">Jaye Nias and <strong>Margie Ruffin</strong></p>
+
+                <p class="conf">ACM Southeast Conference, April 2020</p>
+
+                <button class=togg-btn onclick="absFunction5()">Abstract</button>
+
+                <button class=togg-btn onclick="citeFunction5()">Citaton</button>
+
+                <a style="font-size: 12pt; margin-left: 10pt; text-decoration: underline;" href="Papers/CultureBot- A Culturally Relevant Humanoid Robotic Dialouge Agent.pdf" target="_blank"><strong>PDF</strong></a>
+
+                <div class="info" id="abs5" style="display: none;">
+                The use of robots as technologically-based educational tools have been shown to be an effective means of attracting students to science and technology-related academic fields. By developing relatable robotic programs, an increase in interest in the field of technology will occur. For this work, researchers focus on the social interaction capabilities of a humanoid social robot, Pepper. The research leverages the Pepper robot platform using the Softbank NAOqi framework along with the Google Cloud Speech platform to further develop speech and gesture patterns that will afford for a culturally rich engagement interactive experience. By training culturally relevant vocabulary and gestures into the system, the robot will be able to identify verbal cues that will afford decisions on which language will best serve a particular engagement activity (i.e. Social vs. formal, AAVE vs. Standard English). Lab studies will be utilized to test the functionality of the robot's skills and styles, with the expectation of a fully functioning, culturally aware Pepper robot.
+                </div>
+
+                <div class="info" id="cite5" style="display: none;">
+                Jaye Nias and Margie Ruffin. 2020. CultureBot: A Culturally Relevant Humanoid Robotic Dialogue Agent. In Proceedings of the 2020 ACM Southeast Conference (ACMSE '20). Association for Computing Machinery, New York, NY, USA, 280–283. https://doi.org/10.1145/3374135.3385306
+                </div>
+              
+              </div>
+            </div>
+            </section>
+          </div>
+
+          <div>
+            <!--<section id="education">
+                <h3>Education</h3>
+                <ul>
+                <li><p><b>University of Illinois at Urbana-Champaign</b>, 06/2020 - Present
+                <br>Ph.D. in Computer Science</p></li>
+        
+                <li><p><b>Spelman College</b>, 08/2016 - 05/2020
+                <br>B.S. Computer Science</p></li>
+              </ul>
+            </section>
+            <hr>-->
+    
+            <!--<section id="publications">
+            <h3>Research Projects</h3>
+            <ul>
+              <li>
+                <p>
+                  <strong>Margie Ruffin</strong>, Haeseung Seo, Aiping Xiong, Gang Wang. 2024. <strong>Does It Matter Who Said It? Exploring the Impact of Deepfake Profiles on User Perception Towards Disinformation.</strong> In 2024 International AAAI Conference on Web and Social Media (ICWSM).
+                  <br><a href="Papers/Disinfo_Profile_ICWSM_Revised__Camera_Ready_.pdf" target="_blank">PDF</a> | <a href="Presentations/ICWSM-Slides.pdf" target="_blank">SLIDES</a>
+                </p>
+              </li>
+
+              <li><p><strong>Margie Ruffin</strong>, Kirill Levchenko, and Gang Wang. 2023. <strong>Explaining Why Fake Photos are Fake: Does It Work?</strong> In 2023 ACM International Conference on Supporting Group Work (GROUP), 23 pages.
+              <br><a href="Papers/Explaining Why Fake Photos are Fake.pdf" target="_blank">PDF</a> | <a href="Presentations/GROUP Presentation.pdf" target="_blank">SLIDES</a>
+            </p></li>
+              
+              <li><p><strong>Margie Ruffin</strong>, Israel Lopez-Toldeo, Kirill Levchenko, and Gang Wang. 2022. <strong>Casing the Vault: Security Analysis of Vault Applications</strong>. In Proceedings of the 21st Workshop on Privacy 
+              in the Electronic Society (WPES ’22), November 7, 2022, Los Angeles, CA, USA. ACM, New York, NY, USA, 6 pages
+              <br><a href="Papers/Casing the Vault.pdf" target="_blank">PDF</a> | <a href="Presentations/Casing the Vault WPES.pdf" target="_blank">SLIDES</a>
+              </p></li>-
+
+              <li><p>Nias, J., Hampton, L., Sampson,P. and <strong>Ruffin, M.</strong> 2020. To Appear. <strong>Decolonizing Technologies for Preserving Cultural and Societal Diversity.</strong>
+              CHI 2020 Extended Abstracts, April 25 - 30, 2020, Honolulu, HI, USA.
+              <br><a href="Papers/Nias, Decolonizing Technologies for Preserving Cultural and Societal Diversity.pdf" target="_blank">PDF</a>
+              </p></li>
+
+              <li><p><strong>Margie Ruﬃn</strong>, Jaye Nias, Kayla Taylor, Gabrielle Singleton, and Amber Sylvain. 2020. <strong>Character Development 
+              to Facilitate Retention in a Storytelling Robot.</strong> In 2020 ACM Southeast Conference (ACMSE 2020), April 2–4, 
+              2020, Tampa, FL, USA. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/3374135.3385315 
+              <br> <a href="Papers/Character Development to Facilitate Retention in a Storytelling Robot.pdf" target="_blank">PDF</a>
+              </p></li>
+
+              <li><p>Jaye Nias and <strong>Margie Ruffin</strong>. 2020. <strong>CultureBot: A Culturally Relevant Humanoid Robotic Dialogue Agent</strong>. In 2020 ACM 
+              Southeast Conference (ACMSE 2020), April 2–4, 2020, Tampa, FL, USA. ACM, New York, NY, USA, 4 pages. 
+              https://doi.org/10.1145/3374135.3385306 
+              <br> <a href="Papers/CultureBot- A Culturally Relevant Humanoid Robotic Dialouge Agent.pdf" target="_blank">PDF</a>
+              </p></li>
+    
+            </ul>
+            </section>
+            <hr>-->
+    
+            <!--<section id="experience">
+            <h3>Research Experience</h3>
+            <ul>
+            
+            <li><p><strong> University of Illinois at Urbana-Champaign </strong> | <em>Advisors Gang Wang and Kirill Levchenko --  Champaign, IL – Research Assistant </em> | June 2020 – Present</p></li>
+            
+            <li><p><strong> International Business Machines (IBM) </strong> | <em>Advisors Gheorghe Almasi, Hubertus Franke, Hamid Adebayo --  Yorktown Heights, NY – Research Assistant </em> | May 2023 – August 2023</p></li>
+
+            <li><p><strong> Lawrence Livermore National Lab </strong> | <em>Advisor Brian Kelley --  Livermore, CA – Graduate Researcher </em> | June 2020 – August 2021</p></li>
+
+            <li><p><strong> Georgia Tech Research Institute </strong> | <em>Advisors Michael Brown and Brian Schultz --  Atlanta, GA – Student Researcher </em> | October 2019 – May 2020</p></li>
+
+            <li><p><strong>Spelman College</strong> | <em>Advisor Raquel Hill -- Atlanta, GA - Student Researcher</em> | September 2019 – May 2020</p></li>
+
+            <li><p><strong>Spelman College</strong> | <em>Advisor Jaye Nias -- Atlanta, GA - SpelBots Team Research Leader</em> | January 2019 – May 2020</p></li>
+
+            <li><p><strong>Spelman College</strong> | <em>Advisor Jaye Nias -- Atlanta, GA - Clair Booth Luce Research Fellow</em> | September 2018 – May 2020</p></li>
+            </ul>
+            </section>
+            <hr>-->
+    
+            <section id="honors">
+            <h1>Honors and Awards</h1>
+            <ul>
+                <li><strong>NSF Graduate Research Fellowship Program</strong> |  <i>2022 – 2025</i>  </li>
+                <li><strong>Alfred P. Sloan Scholar </strong> |  <i>2020 – 2025</i>  </li>
+                <li>Grainger College of Engineering SURGE Fellowship | <i>2020 – 2025</i></li>
+                <li>UIUC Graduate College Fellowship | <i>2020 – 2025</i></li>
+                <li>Magna Cum Laude, Spelman College | <i>2020</i></li>
+                <li>Phi Beta Kappa, Spelman College  |<i>2017 – 2020</i></li>
+            </ul>
+            </section>
+          </div>
+            
+        </div>
+
+    </div>
+
+  </div>
+        <hr>
+        <footer class="container-fluid text-center">
+        <p>Last Update: 10/30/2024</p>
+        </footer>
+</body>
+</html>
+
+
