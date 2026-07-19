@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gAnita" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#1e3156"/>
+<stop offset="100%" stop-color="#496995"/>
+</linearGradient>
+</defs>
+<rect width="400" height="300" fill="url(#gAnita)"/>
+<circle cx="200" cy="150" r="70" fill="none" stroke="#a5b5d2" stroke-width="2.5"/>
+<ellipse cx="200" cy="150" rx="70" ry="28" fill="none" stroke="#a5b5d2" stroke-width="2.5"/>
+<line x1="130" y1="150" x2="270" y2="150" stroke="#a5b5d2" stroke-width="2.5"/>
+<line x1="200" y1="80" x2="200" y2="220" stroke="#a5b5d2" stroke-width="2.5"/>
+<circle cx="200" cy="150" r="10" fill="#fdd6cd"/>
+<circle cx="150" cy="112" r="7" fill="#fdd6cd"/>
+<circle cx="250" cy="112" r="7" fill="#fdd6cd"/>
+<circle cx="150" cy="188" r="7" fill="#fdd6cd"/>
+<circle cx="250" cy="188" r="7" fill="#fdd6cd"/>
+<circle cx="200" cy="80" r="6" fill="#fdd6cd"/>
+<circle cx="200" cy="220" r="6" fill="#fdd6cd"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gTravel" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#b0cbe6"/>
+<stop offset="100%" stop-color="#a5b5d2"/>
+</linearGradient>
+</defs>
+<rect width="400" height="300" fill="url(#gTravel)"/>
+<path d="M90 190 Q200 110 320 150" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="6 8" opacity="0.8"/>
+<circle cx="90" cy="190" r="6" fill="#fdd6cd"/>
+<circle cx="320" cy="150" r="6" fill="#fdd6cd"/>
+<g transform="translate(190,120) rotate(-18)">
+<path d="M0 0 L60 8 L78 14 L60 20 L0 28 L18 16 L4 12 Z" fill="#1e3156"/>
+<path d="M20 6 L20 -14 L34 4 Z" fill="#1e3156"/>
+<path d="M20 22 L20 40 L34 24 Z" fill="#1e3156"/>
+</g>
+</svg>

@@ -1,384 +1,225 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="shortcut icon" type="image/x-icon" href="./imgs/avatar2.png" />
-  <title>Margie Ruffin</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-      background-color:#303d4e;
-      border-color: #303d4e;
-    }
-    #myNavbar{
-      float:right;
-    }
-    h3{
-      color:#4d9586;
-    }
-    
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {
-      /*height: 450px;*/
-      height:100%;
-
-      padding-top:50px;
-    }
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: transparent;
-      height: 100%;
-    }
-    #socialMedia {
-      padding-top: 10px;
-    }
-    .info{
-      margin: 10px 0px  10px;
-      display:block;
-    }
-    .contact_info{
-      padding-top:10px;
-    }
-    .contact_info_header{
-      font-family:Helvetica Neue;
-      font-weight:bold;
-    }
-
-    .artifact{
-      color:green;
-    }
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: transparent;
-      color: black;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    /*@media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height:auto;} 
-    }*/
-
-    .container,
-    .container-fluid,
-    .container-sm,
-    .container-md,
-    .container-lg,
-    .container-xl {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    }
-
-    @media (min-width: 576px) {
-    .container, .container-sm {
-        max-width: 540px;
-    }
-    }
-
-    @media (min-width: 768px) {
-    .container, .container-sm, .container-md {
-        max-width: 720px;
-    }
-    }
-
-    @media (min-width: 992px) {
-    .container, .container-sm, .container-md, .container-lg {
-        max-width: 960px;
-    }
-    }
-
-    @media (min-width: 1200px) {
-    .container, .container-sm, .container-md, .container-lg, .container-xl {
-        max-width: 1140px;
-    }
-    }
-
-    .active, .nav-btn:hover {
-      background-color:#4d9586;
-      color:#4d9586;
-    }
-
-    body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        color: #212529;
-        font-size: 1.4rem;
-        font-weight: 400;
-        line-height: 1.5;
-        background-color: #fff;
-    }
-
-  </style>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margie Ruffin | Computer Science, Spelman College</title>
+    <meta name="description" content="Margie Ruffin — Faculty in Computer Science at Spelman College, researching AI-generated content detection, data science education, and AI safety.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body data-page="home">
 
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-        <h3 style="color: #fff;">Margie Ruffin</h3>
-      </div>
-  
-  
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <!-- <li><a href="#about-me">About Me</a></li> -->
-         
-          <li><a href="#news">News</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#experience">Research Experience</a></li>
-          <li><a href="#honors">Honors and Awards</a></li>
-          <li><a href="CVs/Ruffin CV- 2025.pdf" name="CV" target="_blank">CV</a></li>
-          <!--<li><a href="Projects.html">Portfolio</a></li>-->
-          <!--<li><a href="Projects.html">Projects</a></li>-->
-          <!-- <li><a href="demo.html">Demo</a></li> -->
+<!-- NAV -->
+<nav id="nav">
+    <div class="nav-inner">
+        <a class="nav-logo" href="index.html">Margie<span>.</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html" data-page="home">Home</a></li>
+            <li><a href="about.html" data-page="about">About</a></li>
+            <li><a href="research.html" data-page="research">Research</a></li>
+            <li><a href="publications.html" data-page="publications">Publications</a></li>
+            <li><a href="teaching.html" data-page="teaching">Teaching</a></li>
+            <li><a href="service.html" data-page="service">Service</a></li>
+            <li><a href="news.html" data-page="news">News</a></li>
+            <li><a href="cv.html" data-page="cv">CV</a></li>
+            <li><a href="personal.html" data-page="personal">Personal</a></li>
         </ul>
-  
-      </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
     </div>
-  </nav>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" data-page="home">Home</a>
+    <a href="about.html" data-page="about">About</a>
+    <a href="personal.html" data-page="personal">Personal</a>
+    <a href="research.html" data-page="research">Research</a>
+    <a href="publications.html" data-page="publications">Publications</a>
+    <a href="teaching.html" data-page="teaching">Teaching</a>
+    <a href="service.html" data-page="service">Service</a>
+    <a href="news.html" data-page="news">News</a>
+    <a href="cv.html" data-page="cv">CV</a>
+</div>
 
-  <div class="container" style="margin-top: 50px; margin-bottom: 50px;" >
-    <div class="container-fluid text-center">    
-        <div class="row content text-left">
-
-            <div class="col-sm-3 sidenav"  >
-                <img src="images/2WEL19-116.jpg" alt="Headshot of Margie Ruffin"  title="Headshot of Margie Ruffin" width="210" height="267" style="box-shadow: 5px 5px 5px #999;">
-                
-                <div class="info">
-                <strong>Margie Ruffin, Ph.D.</strong>
-                <br>Assistant Professor
-                <br>Computer and Information Science
-                <br>Spelman College, Science Center 315
-                </div>
-        
-        
-                <div class="contact_info">
-                    <div class="contact_info_header">CONTACT INFO</div>
-                        <div style="border:1px solid #e3e3e3;"></div>
-        
-                            <div class="contact_info_item">
-                                <p style="font-family: 'Palatino', 'URW'">Email: margieruffin@spelman.edu</p>
-            
-                                <div class="social-media">
-                                    <a href="https://github.com/mruffin" target="_blank"> <img src="logos/github-icon.png" alt="github logo" width="25" height="25" ></a>
-                                    <a href="https://www.linkedin.com/in/margie-ruffin/" target="_blank"> <img src="logos/linkedin-icon.png" alt="linkedin logo" width="25" height="25"></a>
-                                    <a href="https://scholar.google.com/citations?hl=en&user=AfvKVL8AAAAJ" target="_blank"> <img src="logos/Google_Scholar_logo.svg.png" alt="email logo" width="25" height="25" ></a>
-                                    <a href="mailto: mruffin2@illinois.edu" target="_blank"> <img src="logos/email-icon.png" alt="email logo" width="25" height="25" ></a>
-                        
-                                </div>
-                        
-                            </div>
-
-        
-                        </div>
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-inner">
+        <div class="hero-text">
+            <h1>Hello, I'm <em><span style="color: #c06a4c;"> Margie Ruffin, Ph.D.</span></em></h1>
+            <p class="hero-subtitle">
+                I am an Assistant Professor of Computer Science at <strong>Spelman College</strong> and a Faculty Fellow
+                with the Atlanta University Center Data Science Initiative. I earned my PhD at the University of
+                Illinois Urbana-Champaign, where my research focused on <strong>deepfakes, disinformation, and
+                AI-generated content detection</strong>; and on how people perceive and are affected by manipulated
+                media. My work has appeared at various domestic and international conferences. However, I pride myself on the work I do in the
+                classroom and community just as much as I do in the lab, shown through my teaching, service, and advising of the SpelBots Robotics Team.
+            </p>
+            <div class="hero-tags">
+                <span class="tag blue">Deepfakes &amp; Disinformation</span>
+                <span class="tag teal">AI-Generated Content Detection</span>
+                <span class="tag blue">Security &amp; Privacy</span>
+                <span class="tag teal">HCI &amp; Usability</span>
             </div>
-        
-            <div class="col-sm-9 text-left" style="margin-top: 20px"> 
-                <!-- <section id="about-me"> -->
-                <section>
-                <!--<h3>About Me</h3>-->
-        
-                <p>I am proud to announce I am now a faculty member at my Alma Mater, <a href="https://www.spelman.edu" target="_blank"> Spelman College</a> in the <a href="https://www.spelman.edu/academics/computer-and-information-sciences/index.html" target="_blank">Department of Computer and Information Sciences</a>. 
-                  </p>
-            
-                    <p>My research focuses on developing technical and human-centric solutions to address various types of online abuse, now including AI abuse. Through web scraping, large-scale user studies, and data analysis  
-                      I aim to enhance automated detection systems while also investigating user behaviors to inform ethical guidelines and product policies for combating manipulation and misuse in digital platforms.</p>
-                </section>
-                <hr>
-
-                <section id="news">
-                <h3>News</h3>
-                <ul>
-
-                  <li>
-                    <p>
-                      [August 20, 2025] I am so elated to be joining the wonderful department of Computer and Information Sciences at <span style = "color: #003A70"><strong>Spelman College</strong></span>, my Alma Mater!
-                    </p>
-                  </li>
-
-                  <li>
-                    <p> [May 25, 2025] So grateful to have been the commencent spaker for the Siebel School of Computing and Data Science duing graduation this past weekend. As one of the first Black Women to earn a PhD in CS from UIUC, it means the world to me to be seen, heard, and acknowdleged!
-                      Check out this amazing write up about my journey and speech from commencent <a href="https://siebelschool.illinois.edu/news/Siebel-School-Stories-Ruffin" target="_blank"> here.</a>
-                    <img src="images/grad article.png" alt="ABCs of Computer Science"  title="ABCs of Computer Science" width="500" height="300" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; margin-bottom: 20px; display: block;" >
-
-                    </p>
-                  </li>
-
-                  <li><p>[August 29, 2024] In an effort to create entertaining, yet educational introductory CS materials for kids, I commisioned the creation of a coloring book, <b>ABCs of Computer Science!</b> This is a great way to 
-                    introduce your child to the world of S.T.E.M. with the goal being for them to learn CS concepts, connect them to real-world knowledge, and have fun while doing it. <a href="ABCComputerScience.pdf" target="_blank"><b>Click Here to Download!</b></a>
-                  </p></li>
-                    <img src="images/ABCs coverbok.jpg" alt="ABCs of Computer Science"  title="ABCs of Computer Science" width="300" height="200" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; margin-bottom: 20px; display: block;" >
-
-                  <!--<li><p>[February 19, 2024] On February 19 I hosted a virtual AI lab as a guest lecturer for students at <a href="https://morehouse.edu/" target="_blank">Morehouse College</a>. We talked about practical uses of AI models, their pros and cons, and inherent bias. What an amazing
-                    time to be at the forefront of technlogies like these!</p></li>
-                    <img src="images/AI Lab.png" alt="AI Lab Slides Preview"  title="Virtual AI Lab" width="300" height="200" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; margin-bottom: 20px; display: block;" >-->
-
-                  <!--<li><p>[February 07, 2024] Check out my latest blog post on Remote Attestation and my recent work in collabration on IBM, 
-                   <a href="https://keylime.dev/blog/2024/02/07/remote-attestation-blog-part1.html" target="_blank"> A Hitchhikers Guide to Remote Attestation</a>. You'll learn about how you may protect your systems from unauthorized behavior!
-                  </p></li>--> 
-
-                  <!--<li><p>[November 21, 2023] I am pleased to annouce my paper, Does It Matter Who Said It? Exploring the Impact of Deepfake Profiles on User Perception Towards Disinformation has been accepted for publication
-                    at the 2024 <a href="https://www.icwsm.org/2024/index.html/" target="_blank"> International AAAI Conference ON Web And Social Media (ICWSM)</a>. Can't wait to join other passionate researchers in Buffalo, NY next Summer!
-                  </p></li>-->
-
-                  <!--<li><p>[March 1, 2023] I am so happy to annouce the opening of my Etsy Shop <a href="https://www.etsy.com/shop/TheAdventureCenter" target="_blank">TheAdventureCenter</a> where I will be offering
-                  STEM educational materials for elementary-age kids! Check out our first lisitng <strong>ABCs of Computer Science.</strong></p></li>
-                  <img src="images/ABCs coverbok.jpg" alt="ABCs of Computer Science"  title="ABCs of Compter Science Coloring Book" width="300" height="200" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; margin-bottom: 20px; display: block;" >-->
-
-                  <!--<li><p>[Sept 12, 2022] My very first, first-author Conference Paper has been accepted to <a href="https://group.acm.org/conferences/group22/index.php" target="_blank">GROUP 2023!</a> Sanibel Island, FL here I come!</p></li>-->
-
-                  <!--<li><p>[Sept 8, 2022] I'm so grateful for the opprotunity to have been a guest speaker on a Birds of a Feather panel on
-                    <a href="https://tapiaconference.cmd-it.org/attend/presentation/?id=bof114&sess=sess164" target="_blank">Navigating Your Advisor-Advisee Relationship</a> at the 2022 Richard Tapia Conference.</p></li>-->
-                    <!--<img src="BoF.jpg" alt="Group Photo of Panel Speakers"  title="Birds of Feather Panel Speakers" width="300" height="200" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; margin-bottom: 20px; display: block;""> -->
-
-                  <!--<li><p>[Sept 6, 2022] My first-author workshop paper "Casing the Vault: Security Analysis of Vault Applications" has been accepted to
-                    <a href="https://arc.encs.concordia.ca/wpes22/cfp.html" target="_blank">WPES '22!</a> </p></li>-->
-
-                  <!--<li><p> [Aug 22, 2022] Increasing representation in S[T]EM fields is one of my passions and because of that I am so thrilled to be apart of the inaugural group of Grainger Engineering Graduate Student 
-                    <a href="https://grainger.illinois.edu/academics/graduate/diversity-ambassadors" target="_blank">Diversity Ambassadors (DAs)!</a> </p></li> 
-                    <img src="images/DAs.jpeg" alt="Group Photo of Diversity Ambassadors"  title="Grainger Engineering Diversity Ambassadors" width="300" height="200" style="box-shadow: 5px 5px 5px #999; margin-left: auto; margin-right: auto; margin-bottom: 20px; display: block;" >-->
-
-                    <li><p>[April 4, 2022] I am so excited and honored to have been awarded the <a href="https://www.nsfgrfp.org/" target="_blank">NSF GRFP!</a>  To my friends, family, advisors, and peers
-                  thank you for your constant support!</p></li>
-
-                </ul>
-                </section>
-                <hr>
-
-                <section id="education">
-                    <h3>Education</h3>
-                    <ul>
-                    <li><p><b>University of Illinois at Urbana-Champaign</b>, 06/2020 - 05/2025
-                    <br>Ph.D. in Computer Science</p></li>
-            
-                    <li><p><b>Spelman College</b>, 08/2016 - 05/2020
-                    <br>B.S. Computer Science</p></li>
-                  </ul>
-                </section>
-                <hr>
-        
-                <section id="publications">
-                <h3>Publications</h3>
-                <ul>
-                  <li><p><strong>Margie Ruffin</strong>, Tzu-Bin Yan, Mutmaina Adebayo, Gang Wang, Kirill Levchenko. 2025. Pay to Win: Copyright Infringement and Academic Integrity Violation in Document Sharing Ecosystems. In 2026 International AAAI Conference on Web and Social Media (ICWSM).</p></li>
-                  
-                  <li><p><strong>Margie Ruffin</strong>, Chenkai Wang, Gheorghe Almasi, Abdulhamid Adebayo, Hubertus Franke, Gang Wang. 2025. Towards Continuous Integrity Attestation and Its Challenges in Practice: A Case Study of Keylime. <em>To Appear in The 55th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN).
-                  </em></p></li>
-
-                  <li><p>
-                    Aiping Xiong, Haeseung Seo, Ester Chen, <strong>Margie Ruffin</strong>, Gang Wang, and Dongwon Lee. 2025. <strong>A Study of Training Strategies on Enhancing Human Detection of Deepfake Image.</strong> In 2025 International AAAI Conference on Web and Social Media (ICWSM).
-                  </p></li>
-
-                  <li><p>
-                      <strong>Margie Ruffin</strong>, Haeseung Seo, Aiping Xiong, Gang Wang. 2024. <strong>Does It Matter Who Said It? Exploring the Impact of Deepfake Profiles on User Perception Towards Disinformation.</strong> In 2024 International AAAI Conference on Web and Social Media (ICWSM).
-                      <br><a href="Papers/Disinfo_Profile_ICWSM_Revised__Camera_Ready_.pdf" target="_blank">PDF</a> | <a href="Presentations/ICWSM-Slides.pdf" target="_blank">SLIDES</a>
-                    </p></li>
-
-                  <li><p>Ashita Bawankule, David Hopping, Mike Tissenbaum, Howard Weatherspoon, and <strong>Margie Ruffin</strong>. 2023. <strong>Fostering Maker Identity and Collaboration: Affordances of the Connected Spaces Dashboard in Two Afterschool Makerspaces</strong> In Proceedings of Constructionism / FabLearn 2023, 8 pages.
-                  <br><a href="https://par.nsf.gov/biblio/10536497" target="_blank">PDF</a> 
-                  </p></li>
-
-                	<li><p><strong>Margie Ruffin</strong>, Kirill Levchenko, and Gang Wang. 2023. <strong>Explaining Why Fake Photos are Fake: Does It Work?</strong> In 2023 ACM International Conference on Supporting Group Work (GROUP), 23 pages.
-                  <br><a href="Papers/Explaining Why Fake Photos are Fake.pdf" target="_blank">PDF</a> | <a href="Presentations/GROUP Presentation.pdf" target="_blank">SLIDES</a>
-                  </p></li>
-                	
-                	<li><p><strong>Margie Ruffin</strong>, Israel Lopez-Toldeo, Kirill Levchenko, and Gang Wang. 2022. <strong>Casing the Vault: Security Analysis of Vault Applications</strong>. In Proceedings of the 21st Workshop on Privacy 
-                	in the Electronic Society (WPES ’22), November 7, 2022, Los Angeles, CA, USA. ACM, New York, NY, USA, 6 pages
-                	<br><a href="Papers/Casing the Vault.pdf" target="_blank">PDF</a> | <a href="Presentations/Casing the Vault WPES.pdf" target="_blank">SLIDES</a>
-                	</p></li>
-
-                  <li><p>Nias, J., Hampton, L., Sampson,P. and <strong>Ruffin, M.</strong> 2020. To Appear. <strong>Decolonizing Technologies for Preserving Cultural and Societal Diversity.</strong>
-                  CHI 2020 Extended Abstracts, April 25 - 30, 2020, Honolulu, HI, USA.
-                  <br><a href="Papers/Nias, Decolonizing Technologies for Preserving Cultural and Societal Diversity.pdf" target="_blank">PDF</a>
-                  </p></li>
-
-                  <li><p><strong>Margie Ruﬃn</strong>, Jaye Nias, Kayla Taylor, Gabrielle Singleton, and Amber Sylvain. 2020. <strong>Character Development 
-                  to Facilitate Retention in a Storytelling Robot.</strong> In 2020 ACM Southeast Conference (ACMSE 2020), April 2–4, 
-                  2020, Tampa, FL, USA. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/3374135.3385315 
-                  <br> <a href="Papers/Character Development to Facilitate Retention in a Storytelling Robot.pdf" target="_blank">PDF</a>
-                  </p></li>
-
-                  <li><p>Jaye Nias and <strong>Margie Ruffin</strong>. 2020. <strong>CultureBot: A Culturally Relevant Humanoid Robotic Dialogue Agent</strong>. In 2020 ACM 
-                  Southeast Conference (ACMSE 2020), April 2–4, 2020, Tampa, FL, USA. ACM, New York, NY, USA, 4 pages. 
-                  https://doi.org/10.1145/3374135.3385306 
-                  <br> <a href="Papers/CultureBot- A Culturally Relevant Humanoid Robotic Dialouge Agent.pdf" target="_blank">PDF</a>
-                  </p></li>
-        
-                </ul>
-
-                </section>
-                <hr>
-        
-                <section id="experience">
-                <h3>Research Experience</h3>
-                <ul>
-                
-                <li><p><strong> University of Illinois at Urbana-Champaign </strong> | <em>Advisors Gang Wang and Kirill Levchenko --  Champaign, IL – Research Assistant </em> | June 2020 – May 2025</p></li>
-                
-                <li><p><strong> International Business Machines (IBM) </strong> | <em>Advisors Gheorghe Almasi, Hubertus Franke, Hamid Adebayo --  Yorktown Heights, NY – Research Assistant </em> | May 2023 – August 2023</p></li>
-    
-                <li><p><strong> Lawrence Livermore National Lab </strong> | <em>Advisor Brian Kelley --  Livermore, CA – Graduate Researcher </em> | June 2020 – August 2021</p></li>
-    
-                <li><p><strong> Georgia Tech Research Institute </strong> | <em>Advisors Michael Brown and Brian Schultz --  Atlanta, GA – Student Researcher </em> | October 2019 – May 2020</p></li>
-    
-                <li><p><strong>Spelman College</strong> | <em>Advisor Raquel Hill -- Atlanta, GA - Student Researcher</em> | September 2019 – May 2020</p></li>
-    
-                <li><p><strong>Spelman College</strong> | <em>Advisor Jaye Nias -- Atlanta, GA - SpelBots Team Research Leader</em> | January 2019 – May 2020</p></li>
-    
-                <li><p><strong>Spelman College</strong> | <em>Advisor Jaye Nias -- Atlanta, GA - Clair Booth Luce Research Fellow</em> | September 2018 – May 2020</p></li>
-                </ul>
-                </section>
-                <hr>
-        
-                <section id="honors">
-                <h3>Honors and Awards</h3>
-                <ul>
-                    <li><strong>NSF Graduate Research Fellowship Program</strong> |  <i>2022 – 2025</i>  </li>
-                    <li><strong>Alfred P. Sloan Scholar </strong> |  <i>2020 – 2025</i>  </li>
-                    <li>Grainger College of Engineering SURGE Fellowship | <i>2020 – 2025</i></li>
-                    <li>UIUC Graduate College Fellowship | <i>2020 – 2025</i></li>
-                    <li>Magna Cum Laude, Spelman College | <i>2020</i></li>
-                    <li>Phi Beta Kappa, Spelman College  |<i>2017 – 2020</i></li>
-
-                    
-                </ul>
-                </section>
+            <div class="social-row">
+                <a class="social-pill primary" href="mailto:margieruffin@spelman.edu">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    Email
+                </a>
+                <a class="social-pill" href="https://scholar.google.com/citations?hl=en&user=AfvKVL8AAAAJ" target="_blank">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+                    Google Scholar
+                </a>
+                <a class="social-pill" href="https://github.com/mruffin" target="_blank">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                    GitHub
+                </a>
+                <a class="social-pill" href="https://www.linkedin.com/in/margie-ruffin/" target="_blank">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    LinkedIn
+                </a>
+                <a class="social-pill" href="cv.html">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                    CV</a>
             </div>
-    
         </div>
-        <hr>
-        <footer class="container-fluid text-center">
-        <p>Last Update: 08/22/2025</p>
-        </footer>
+        <div class="hero-photo">
+            <div class="photo-frame">
+                <!--<div class="photo-placeholder">M</div>-->
+                <img src="assets/img/2WEL19-116.jpg" alt="Margie Ruffin">
+                <!-- Replace the div above with: <img src="assets/img/headshot.jpg" alt="Margie Ruffin"> -->
+            </div>
+            <div class="decor-1"></div>
+            <div class="decor-2"></div>
+        </div>
     </div>
-  </div>
+</section>
 
+<!-- RESEARCH HIGHLIGHTS -->
+<section class="alt">
+    <div class="section-inner">
+        <p class="section-label">Research</p>
+        <h2 class="section-title">What I work on</h2>
+        <p class="section-desc">A quick look at my active research threads — see the <a href="/research.html" target="_blank" style="text-decoration: underline;">Research</a> page for the full picture.</p>
+        <div class="work-grid">
+            <div class="work-card fade-in">
+                <div class="work-thumb"><img src="assets/img/research-security-privacy.svg" alt="Security &amp; Privacy in AI-Generated Media"></div>
+                <div class="work-body">
+                    <p class="work-tag">Research · Ongoing</p>
+                    <h3>Security &amp; Privacy in AI-Gen Media</h3>
+                    <p>Two current threads: building better detectors for AI-generated video, and analyzing the
+                        real-world harm that video causes once it spreads — looking past "is it fake" to "what damage
+                        does it do."</p>
+                </div>
+            </div>
+            <div class="work-card fade-in">
+                <div class="work-thumb"><img src="assets/img/research-human-detection.svg" alt="Training Humans to Spot Fake Media"></div>
+                <div class="work-body">
+                    <p class="work-tag">Research · ICWSM 2025</p>
+                    <h3>Training Humans to Spot Fake Media</h3>
+                    <p>Security and trust aren't just an algorithm problem — evaluating training strategies that
+                        measurably improve people's own ability to detect deepfake images, not just a model's.</p>
+            </div>
+            </div>
+            <div class="work-card fade-in">
+                <div class="work-thumb"><img src="assets/img/research-deepfakes.svg" alt="Deepfakes & Disinformation"></div>
+                <div class="work-body">
+                    <p class="work-tag">Research · ICWSM 2024–2026</p>
+                    <h3>Deepfakes &amp; Disinformation</h3>
+                    <p>Studying how deepfake-enabled profiles and manipulated images shape perceptions of disinformation,
+                        and how to train people to better detect them — published at ICWSM 2024, 2025, and 2026.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SELECTED WORKS -->
+<section>
+    <div class="section-inner">
+        <p class="section-label">Selected Works</p>
+        <h2 class="section-title">Highlighted projects</h2>
+        <p class="section-desc">Three projects that best represent the range of what I work on.</p>
+        <div class="work-grid">
+            <div class="work-card fade-in">
+                <div class="work-thumb"><img src="assets/img/highlight-research.svg" alt="Detecting and understanding harm in AI-generated video"></div>
+                <div class="work-body">
+                    <p class="work-tag">Research · Current Focus</p>
+                    <h3>Detecting &amp; Understanding Harm in AI-Generated Video</h3>
+                    <p>My current research centers on two connected threads: building stronger detectors for
+                        AI-generated video, and studying the real-world harm that video causes once it spreads —
+                        moving past whether content is fake to what damage it actually does.</p>
+                    <a class="section-foot-link" href="research.html">Read more →</a>
+                </div>
+            </div>
+            <div class="work-card fade-in">
+                <div class="work-thumb"><img src="assets/img/highlight-teaching.svg" alt="Teaching and course development"></div>
+                <div class="work-body">
+                    <p class="work-tag">Teaching · Spelman College</p>
+                    <h3>Teaching &amp; Course Development</h3>
+                    <p>I am focused on building and evolving the CS and data science curriculum at Spelman. I have developed original courses (e.g.,The Art of Data
+                        Collection) and implemented widely known ones (e.g., Berkeley's Data8 -Foundations of Data Science). This work is done support college's 
+                        Data Science for HBCUs initiative.</p>
+                    <a class="section-foot-link" href="teaching.html">Read more →</a>
+                </div>
+            </div>
+            <div class="work-card fade-in">
+                <div class="work-thumb"><img src="assets/img/highlight-spelbots.svg" alt="SpelBots faculty advising"></div>
+                <div class="work-body">
+                    <p class="work-tag">Outreach · SpelBots</p>
+                    <h3>SpelBots Faculty Advising</h3>
+                    <p>The SpelBots are Spelman College’s all-Black-women robotics team in Atlanta, Georgia. As a former member and captain, it brings me great
+                        joy to now serve as their faculty advisor. This postion involves advising the SpelBots team through competitions, hackathons, and community service.</p>
+                    <div class="work-links">
+                        <a class="section-foot-link" href="service.html">Read more →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- RECENT NEWS PREVIEW -->
+<section>
+    <div class="section-inner">
+        <p class="section-label">Recent</p>
+        <h2 class="section-title">News</h2>
+        <div class="news-list">
+            <div class="news-item fade-in">
+                <div class="news-date">May 2026</div>
+                <div class="news-headline">Two new papers accepted: <strong>"Improving Detection and Understanding the Effects..."</strong> at ConPro 2026, and <strong>"Pay to Win: Copyright Infringement..."</strong> at ICWSM 2026.</div>
+            </div>
+            <div class="news-item fade-in">
+                <div class="news-date">Nov 2025</div>
+                <div class="news-headline">Joined the <strong>AUC Data Science Initiative</strong> as a Faculty Fellow.</div>
+            </div>
+            <div class="news-item fade-in">
+                <div class="news-date">Aug 2025</div>
+                <div class="news-headline">Started as <strong>Assistant Professor, Tenure-Track</strong>, in Computer Science at Spelman College.</div>
+            </div>
+        </div>
+        <p class="section-foot-link"><a href="news.html">See all news →</a></p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-inner">
+        <div>
+            <p class="footer-name">Margie Ruffin</p>
+            <p style="font-size:0.85rem;">Computer Science, Spelman College</p>
+        </div>
+        <div class="footer-social">
+            <a href="https://github.com/mruffin" target="_blank" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg></a>
+            <a href="https://scholar.google.com/citations?hl=en&user=AfvKVL8AAAAJ" target="_blank" aria-label="Scholar"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg></a>
+            <a href="mailto:margieruffin@spelman.edu" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+        </div>
+        <p class="footer-note">Margie Ruffin © 2026</p>
+    </div>
+</footer>
+
+<script src="assets/js/site.js"></script>
 </body>
 </html>
-

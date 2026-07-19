@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gDog" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#a5b5d2"/>
+<stop offset="100%" stop-color="#496995"/>
+</linearGradient>
+</defs>
+<rect width="400" height="300" fill="url(#gDog)"/>
+<ellipse cx="200" cy="205" rx="70" ry="42" fill="#1e3156"/>
+<circle cx="200" cy="140" r="50" fill="#1e3156"/>
+<path d="M160 105 L140 65 L175 95 Z" fill="#1e3156"/>
+<path d="M240 105 L260 65 L225 95 Z" fill="#1e3156"/>
+<circle cx="182" cy="135" r="6" fill="#fdd6cd"/>
+<circle cx="218" cy="135" r="6" fill="#fdd6cd"/>
+<ellipse cx="200" cy="158" rx="10" ry="7" fill="#fdd6cd"/>
+<path d="M190 165 Q200 175 210 165" fill="none" stroke="#fdd6cd" stroke-width="3" stroke-linecap="round"/>
+<path d="M262 195 Q285 180 280 155" fill="none" stroke="#1e3156" stroke-width="10" stroke-linecap="round"/>
+</svg>

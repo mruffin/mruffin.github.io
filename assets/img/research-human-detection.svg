@@ -1,0 +1,24 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bgGrad3" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#a5b5d2"/>
+<stop offset="100%" stop-color="#b0cbe6"/>
+</linearGradient>
+</defs>
+<rect width="680" height="320" fill="url(#bgGrad3)"/>
+<g>
+<rect x="180" y="70" width="90" height="70" rx="6" fill="#496995"/>
+<rect x="280" y="70" width="90" height="70" rx="6" fill="#1e3156"/>
+<rect x="380" y="70" width="90" height="70" rx="6" fill="#fdd6cd" stroke="#1e3156" stroke-width="4"/>
+<rect x="180" y="150" width="90" height="70" rx="6" fill="#1e3156"/>
+<rect x="280" y="150" width="90" height="70" rx="6" fill="#496995"/>
+<rect x="380" y="150" width="90" height="70" rx="6" fill="#496995"/>
+</g>
+<g>
+<path d="M120 250 C240 130 440 130 560 250 C440 300 240 300 120 250 Z" fill="#ffffff"/>
+<circle cx="340" cy="240" r="46" fill="#1e3156"/>
+<circle cx="340" cy="240" r="24" fill="#496995"/>
+<circle cx="352" cy="228" r="8" fill="#ffffff"/>
+</g>
+<path d="M120 250 C240 130 440 130 560 250" fill="none" stroke="#1e3156" stroke-width="3" opacity="0.5"/>
+</svg>
